@@ -6,12 +6,13 @@ on:
       - master
 
 jobs:
-  build:
+  deploy:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Setup Java
       uses: actions/setup-java@v1
       with:
@@ -19,12 +20,14 @@ jobs:
         server-id: tcgone-deploy # Value of the distributionManagement/repository/id field of the pom.xml
         server-username: REPO_USERNAME # env var name
         server-password: REPO_PASSWORD # env var name
+
     - name: Cache Maven
       uses: actions/cache@v2
       with:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
+
     - name: Deploy Project
       run: mvn --batch-mode --update-snapshots deploy
       env:
