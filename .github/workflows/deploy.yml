@@ -17,9 +17,9 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-        server-id: tcgone-deploy # Value of the distributionManagement/repository/id field of the pom.xml
-        server-username: REPO_USERNAME # env var name
-        server-password: REPO_PASSWORD # env var name
+        server-id: tcgone-deploy
+        server-username: MAVEN_USERNAME
+        server-password: MAVEN_PASSWORD
 
     - name: Cache Maven
       uses: actions/cache@v2
@@ -31,5 +31,5 @@ jobs:
     - name: Deploy Project
       run: mvn --batch-mode --update-snapshots deploy
       env:
-        REPO_USERNAME: ${{ secrets.REPO_USERNAME }}
-        REPO_PASSWORD: ${{ secrets.REPO_PASSWORD }}
+        MAVEN_USERNAME: myMavenRepo
+        MAVEN_PASSWORD: ${{ secrets.TCGONE_REPO_PASSWORD }}
