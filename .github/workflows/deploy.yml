@@ -29,7 +29,7 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
 
     - name: Deploy Project
-      run: mvn --batch-mode --update-snapshots deploy
+      run: mvn --batch-mode deploy
       env:
         MAVEN_USERNAME: myMavenRepo
         MAVEN_PASSWORD: ${{ secrets.TCGONE_REPO_PASSWORD }}
