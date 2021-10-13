@@ -1710,3 +1710,29 @@ cards:
   - type: R
     value: x2
   rarity: Promo
+- id: 429-SWSH135
+  pioId: swsh-SWSH135 
+  enumId: ZACIAN_SWSH135 
+  name: Zacian 
+  number: 'SWSH135' 
+  types: [ M ] 
+  superType: POKEMON 
+  subTypes: [EVOLUTION, LVL_X] 
+  hp: 160 
+  retreatCost: 2 
+  abilities:
+  - type: Poké-Body 
+    name: Bladed Armament 
+    text: Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon 
+  moves: 
+  - cost: [ M , M , C ] 
+    name: Brave Blade   
+    damage: "240"
+    text: During your next turn, this Pokémon can't attack. 
+  weaknesses: 
+  - type: F 
+    value: x2 
+  resistance:
+  - type: G 
+    value: -30
+  rarity: Promo
