@@ -1,0 +1,1224 @@
+schema: E3
+expansion:
+  orderId: '425'
+  name: Hidden Fates
+  enumId: HIDDEN_FATES
+  shortName: HIF
+  pioId: hif
+cards:
+- enumId: CATERPIE_1:HIDDEN_FATES
+  name: Caterpie
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-1
+- enumId: METAPOD_2:HIDDEN_FATES
+  name: Metapod
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Caterpie]
+  hp: 90
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Tackle
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: hif-2
+- enumId: BUTTERFREE_3:HIDDEN_FATES
+  name: Butterfree
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Metapod]
+  hp: 130
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Gust
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: hif-3
+- enumId: PARAS_4:HIDDEN_FATES
+  variantOf: PARAS_6:TEAM_UP
+  variantType: Reprint
+  name: Paras
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Slash
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-4
+- enumId: SCYTHER_5:HIDDEN_FATES
+  name: Scyther
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 100
+  moves:
+  - cost: [GRASS]
+    name: Slash
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Sharp Scythe
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: hif-5
+- enumId: PINSIR_GX_6:HIDDEN_FATES
+  name: Pinsir-GX
+  number: '6'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 180
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Superpowered Horns
+    damage: '110'
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Guillotine GX
+    damage: '160'
+    text: (You can’t use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: hif-6
+- enumId: CHARMANDER_7:HIDDEN_FATES
+  name: Charmander
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [FIRE]
+    name: Gnaw
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Flare
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-7
+- enumId: CHARMELEON_8:HIDDEN_FATES
+  name: Charmeleon
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Charmander]
+  hp: 100
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Slash
+    damage: '30'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '80'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: hif-8
+- enumId: CHARIZARD_GX_9:HIDDEN_FATES
+  name: Charizard-GX
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Charmeleon]
+  hp: 250
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '140'
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Flare Blitz GX
+    damage: '300'
+    text: (You can’t use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: hif-9
+- enumId: MAGMAR_10:HIDDEN_FATES
+  name: Magmar
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [FIRE, FIRE]
+    name: Fire Punch
+    damage: '50'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: hif-10
+- enumId: PSYDUCK_11:HIDDEN_FATES
+  name: Psyduck
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Headache
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-11
+- enumId: SLOWPOKE_12:HIDDEN_FATES
+  variantOf: SLOWPOKE_54:LOST_THUNDER
+  variantType: Reprint
+  name: Slowpoke
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: hif-12
+- enumId: STARYU_13:HIDDEN_FATES
+  variantOf: STARYU_28:TEAM_UP
+  variantType: Reprint
+  name: Staryu
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Numbing Water
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-13
+- enumId: STARMIE_GX_14:HIDDEN_FATES
+  name: Starmie-GX
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Staryu]
+  hp: 190
+  moves:
+  - cost: [WATER]
+    name: Star Stream
+    damage: '40'
+    text: Attach 2 [W] Energy cards from your discard pile to 1 of your Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Spinning Attack
+    damage: '100'
+  - cost: [COLORLESS]
+    name: Hydro Pump GX
+    damage: 40+
+    text: This attack does 40 more damage times the amount of [W] Energy attached
+      to this Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 0
+  rarity: Ultra Rare
+  pioId: hif-14
+- enumId: MAGIKARP_15:HIDDEN_FATES
+  variantOf: MAGIKARP_72:HEARTGOLD_SOULSILVER
+  variantType: Reprint
+  name: Magikarp
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Splash
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-15
+- enumId: GYARADOS_GX_16:HIDDEN_FATES
+  name: Gyarados-GX
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 230
+  moves:
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Dragon Rage
+    damage: '130'
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Hyper Beam GX
+    damage: '240'
+    text: (You can’t use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: hif-16
+- enumId: LAPRAS_17:HIDDEN_FATES
+  name: Lapras
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Wave
+    damage: '80'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: hif-17
+- enumId: VAPOREON_18:HIDDEN_FATES
+  name: Vaporeon
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 120
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Water Gun
+    damage: '30'
+  - cost: [WATER, WATER, COLORLESS]
+    name: Bubble Drain
+    damage: '80'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: hif-18
+- enumId: PIKACHU_19:HIDDEN_FATES
+  name: Pikachu
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Quick Attack
+    damage: '10'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-19
+- enumId: RAICHU_GX_20:HIDDEN_FATES
+  name: Raichu-GX
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Pikachu]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Thunderbolt
+    damage: '120'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Spark Ball GX
+    damage: '200'
+    text: (You can’t use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  pioId: hif-20
+- enumId: VOLTORB_21:HIDDEN_FATES
+  name: Voltorb
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING]
+    name: Lightning Ball
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-21
+- enumId: ELECTRODE_22:HIDDEN_FATES
+  name: Electrode
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Voltorb]
+  hp: 100
+  moves:
+  - cost: [LIGHTNING]
+    name: Lightning Ball
+    damage: '30'
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Electroblast
+    damage: 60+
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  pioId: hif-22
+- enumId: JOLTEON_23:HIDDEN_FATES
+  name: Jolteon
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Electromagnetic Wall
+    text: As long as this Pokémon is your Active Pokémon, whenever your opponent attaches
+      an Energy from his or her hand to 1 of his or her Pokémon, put 3 damage counters
+      on that Pokémon.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunderbolt
+    damage: '90'
+    text: Discard all Energy from this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  pioId: hif-23
+- enumId: ZAPDOS_24:HIDDEN_FATES
+  name: Zapdos
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hurricane Call
+    text: Flip 4 coins. For each heads, search your deck for a [L] Energy card and
+      attach it to 1 of your Pokémon-GX or Pokémon-EX. Then, shuffle your deck.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Sky-High Claws
+    damage: '100'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: hif-24
+- enumId: EKANS_25:HIDDEN_FATES
+  name: Ekans
+  number: '25'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Wrap
+    damage: '10'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-25
+- enumId: EKANS_26:HIDDEN_FATES
+  name: Ekans
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tail Whap
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-26
+- enumId: ARBOK_27:HIDDEN_FATES
+  name: Arbok
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Ekans]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Last Pattern
+    text: If this Pokémon is Knocked Out by damage from an opponent's attack, discard
+      2 random cards from your opponent's hand.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Rocket Tail
+    damage: 50+
+    text: If Jessie & James is in your discard pile, this attack does 80 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: hif-27
+- enumId: KOFFING_28:HIDDEN_FATES
+  name: Koffing
+  number: '28'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-28
+- enumId: WEEZING_29:HIDDEN_FATES
+  name: Weezing
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Koffing]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Surrender Now
+    text: Once during your turn, if this Pokémon is discarded with the effect of Jessie
+      & James, you may have your opponent discard a card from their hand. (They discard
+      that card after the effect of Jessie & James.)
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '40'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: hif-29
+- enumId: JYNX_30:HIDDEN_FATES
+  name: Jynx
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 100
+  moves:
+  - cost: [PSYCHIC]
+    name: Slap
+    damage: '10'
+  - cost: [PSYCHIC, COLORLESS]
+    name: Lovely Kiss
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: hif-30
+- enumId: MEWTWO_GX_31:HIDDEN_FATES
+  name: Mewtwo-GX
+  number: '31'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 180
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Super Psy Bolt
+    damage: '110'
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Psycrush GX
+    damage: '120'
+    text: Discard all Energy from your opponent's Active Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: hif-31
+- enumId: MEW_32:HIDDEN_FATES
+  name: Mew
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Psyshot
+    damage: '50'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: hif-32
+- enumId: GEODUDE_33:HIDDEN_FATES
+  name: Geodude
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: hif-33
+- enumId: GRAVELER_34:HIDDEN_FATES
+  name: Graveler
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Geodude]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '30'
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Mudslide
+    text: Discard 2 [F] Energy from this Pokémon. This attack does 80 damage to 1
+      of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: hif-34
+- enumId: GOLEM_35:HIDDEN_FATES
+  name: Golem
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Graveler]
+  hp: 170
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Rock Slide
+    damage: '60'
+    text: This attack does 20 damage to 3 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Land Crush
+    damage: '140'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  pioId: hif-35
+- enumId: ONIX_GX_36:HIDDEN_FATES
+  name: Onix-GX
+  number: '36'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIGHTING]
+  hp: 200
+  moves:
+  - cost: [FIGHTING]
+    name: Bind
+    damage: '30'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Heavy Impact
+    damage: '150'
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Rocky Avalanche GX
+    damage: '200'
+    text: During your opponent's next turn, this Pokémon takes 100 less damage from
+      attacks (after applying Weakness and Resistance). (You can’t use more than 1
+      GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  pioId: hif-36
+- enumId: CUBONE_37:HIDDEN_FATES
+  name: Cubone
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharpshooting
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: hif-37
+- enumId: CLEFAIRY_38:HIDDEN_FATES
+  name: Clefairy
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Lead
+    text: Flip a coin. If heads, search your deck for a Supporter card, reveal it,
+      and put it into your hand. Then, shuffle your deck.
+  - cost: [FAIRY]
+    name: Pound
+    damage: '10'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-38
+- enumId: CLEFAIRY_39:HIDDEN_FATES
+  name: Clefairy
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [FAIRY]
+    name: Pound
+    damage: '10'
+  - cost: [FAIRY, COLORLESS]
+    name: Moon Dance
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-39
+- enumId: CLEFABLE_40:HIDDEN_FATES
+  name: Clefable
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Clefairy]
+  hp: 120
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Pound
+    damage: '40'
+  - cost: [FAIRY, FAIRY, COLORLESS]
+    name: Moon Impact
+    damage: '90'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  pioId: hif-40
+- enumId: JIGGLYPUFF_41:HIDDEN_FATES
+  name: Jigglypuff
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY]
+    name: Singing Voice
+    damage: '10'
+  - cost: [FAIRY, COLORLESS]
+    name: Rollout
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-41
+- enumId: WIGGLYTUFF_GX_42:HIDDEN_FATES
+  name: Wigglytuff-GX
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Jigglypuff]
+  hp: 210
+  moves:
+  - cost: [FAIRY, FAIRY, COLORLESS]
+    name: Rolling Rush
+    damage: 100+
+    text: Flip a coin until you get tails. This attack does 30 more damage for each
+      heads.
+  - cost: [FAIRY, FAIRY, COLORLESS]
+    name: Lovely Star GX
+    damage: '130'
+    text: Heal all damage from this Pokémon. (You can't use more than 1 GX attack
+      in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: hif-42
+- enumId: MR_MIME_43:HIDDEN_FATES
+  name: Mr. Mime
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 90
+  moves:
+  - cost: [FAIRY]
+    name: Happy Mime
+    text: Each player draws a card.
+  - cost: [FAIRY, FAIRY]
+    name: Double Slap
+    damage: 40x
+    text: Flip 2 coins. This attack does 40 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  pioId: hif-43
+- enumId: MOLTRES_ZAPDOS_ARTICUNO_GX_44:HIDDEN_FATES
+  variantOf: MOLTRES_ZAPDOS_ARTICUNO_GX_SM210:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Moltres & Zapdos & Articuno-GX
+  number: '44'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, TAG_TEAM]
+  types: [COLORLESS]
+  hp: 300
+  moves:
+  - cost: [FIRE, WATER, LIGHTNING, COLORLESS]
+    name: Trinity Burn
+    damage: '210'
+  - cost: [COLORLESS]
+    name: Sky Legends GX
+    text: Shuffle this Pokémon and all cards attached to it into your deck. If this
+      Pokémon has at least 1 extra [R], [W], and [L] Energy attached to it (in addition
+      to this attack's cost), this attack does 110 damage to 3 of your opponent's
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: hif-44
+- enumId: FARFETCH_D_45:HIDDEN_FATES
+  name: Farfetch'd
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Leek Slap
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: hif-45
+- enumId: CHANSEY_46:HIDDEN_FATES
+  name: Chansey
+  number: '46'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Double-Edge
+    damage: '80'
+    text: This Pokémon does 20 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: hif-46
+- enumId: KANGASKHAN_47:HIDDEN_FATES
+  name: Kangaskhan
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Parental Fury
+    damage: 40x
+    text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: hif-47
+- enumId: EEVEE_48:HIDDEN_FATES
+  name: Eevee
+  number: '48'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Curiosity
+    text: Your opponent reveals their hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Spin Tackle
+    damage: '30'
+    text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: hif-48
+- enumId: EEVEE_49:HIDDEN_FATES
+  variantOf: EEVEE_104:ULTRA_PRISM
+  variantType: Reprint
+  name: Eevee
+  number: '49'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Gnaw
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: hif-49
+- enumId: SNORLAX_50:HIDDEN_FATES
+  name: Snorlax
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 150
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Incredible Snore
+    damage: '100'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: hif-50
+- enumId: BILL_S_ANALYSIS_51:HIDDEN_FATES
+  name: Bill's Analysis
+  number: '51'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare
+  text: Look at the top 7 cards of your deck. You may reveal up to 2 Trainer cards
+    you find there and put them into your hand. Shuffle the other cards back into
+    your deck.
+  pioId: hif-51
+- enumId: BLAINE_S_LAST_STAND_52:HIDDEN_FATES
+  variantOf: BLAINE_S_LAST_STAND_58:DRAGON_MAJESTY
+  variantType: Reprint
+  name: Blaine's Last Stand
+  number: '52'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare
+  text: |-
+    You can play this card only when it is the last card in your hand.
+    Draw 2 cards for each [R] Pokémon you have in play.
+  pioId: hif-52
+- enumId: BROCK_S_GRIT_53:HIDDEN_FATES
+  variantOf: BROCK_S_GRIT_74:EVOLUTIONS
+  variantType: Reprint
+  name: Brock's Grit
+  number: '53'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Shuffle 6 in any combination of Pokémon and basic Energy cards from your discard
+    pile into your deck.
+  pioId: hif-53
+- enumId: BROCK_S_PEWTER_CITY_GYM_54:HIDDEN_FATES
+  name: Brock's Pewter City Gym
+  number: '54'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Onix-GX (both yours and your opponent's) take 40 less damage from the opponent's
+    attacks (after applying Weakness and Resistance).
+  pioId: hif-54
+- enumId: BROCK_S_TRAINING_55:HIDDEN_FATES
+  name: Brock's Training
+  number: '55'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare Holo
+  text: Attach an Energy card from your hand to 1 of your Geodude, Graveler, Golem,
+    Onix-GX, Cubone, Rhyhorn, Rhydon, or Sudowoodo.
+  pioId: hif-55
+- enumId: ERIKA_S_HOSPITALITY_56:HIDDEN_FATES
+  name: Erika's Hospitality
+  number: '56'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare
+  text: |-
+    You can play this card only if you have 4 or fewer other cards in your hand.
+    Draw a card for each of your opponent's Pokémon in play.
+  pioId: hif-56
+- enumId: GIOVANNI_S_EXILE_57:HIDDEN_FATES
+  variantOf: GIOVANNI_S_EXILE_174:UNBROKEN_BONDS
+  variantType: Reprint
+  name: Giovanni's Exile
+  number: '57'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Discard up to 2 of your Benched Pokémon that have no damage counters on them
+    and all cards attached to them.
+  pioId: hif-57
+- enumId: JESSIE_JAMES_58:HIDDEN_FATES
+  name: Jessie & James
+  number: '58'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare Holo
+  text: Each player discards 2 cards from their hand. Your opponent discards first.
+  pioId: hif-58
+- enumId: KOGA_S_TRAP_59:HIDDEN_FATES
+  name: Koga's Trap
+  number: '59'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Your opponent's Active Pokémon is now Confused and Poisoned.
+  pioId: hif-59
+- enumId: LT_SURGE_S_STRATEGY_60:HIDDEN_FATES
+  name: Lt. Surge's Strategy
+  number: '60'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you have more Prize cards remaining than your opponent.
+    During this turn, you can play 3 Supporter cards (including this card).
+  pioId: hif-60
+- enumId: MISTY_S_CERULEAN_CITY_GYM_61:HIDDEN_FATES
+  name: Misty's Cerulean City Gym
+  number: '61'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: The attacks of Starmie-GX (both yours and your opponent's) do 40 more damage
+    to the opponent's Active Pokémon (before applying Weakness and Resistance).
+  pioId: hif-61
+- enumId: MISTY_S_DETERMINATION_62:HIDDEN_FATES
+  variantOf: MISTY_S_DETERMINATION_104:BREAKPOINT
+  variantType: Reprint
+  name: Misty's Determination
+  number: '62'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Discard a card from your hand. If you do, look at the top 8 cards of your
+    deck and put 1 of them into your hand. Shuffle the other cards back into your
+    deck.
+  pioId: hif-62
+- enumId: MISTY_S_WATER_COMMAND_63:HIDDEN_FATES
+  name: Misty's Water Command
+  number: '63'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare Holo
+  text: Move any number of [W] Energy from your Pokémon to your Psyduck, Horsea, Staryu,
+    Starmie-GX, Magikarp, Gyarados, or Lapras in any way you like.
+  pioId: hif-63
+- enumId: POKEMON_CENTER_LADY_64:HIDDEN_FATES
+  variantOf: POKEMON_CENTER_LADY_93:FLASHFIRE
+  variantType: Reprint
+  name: Pokémon Center Lady
+  number: '64'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Heal 60 damage and remove all Special Conditions from 1 of your Pokémon.
+  pioId: hif-64
+- enumId: SABRINA_S_SUGGESTION_65:HIDDEN_FATES
+  name: Sabrina's Suggestion
+  number: '65'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Your opponent reveals their hand. You may choose a Supporter card you find
+    there and use the effect of that card as the effect of this card.
+  pioId: hif-65
+- enumId: MOLTRES_ZAPDOS_ARTICUNO_GX_66:HIDDEN_FATES
+  variantOf: MOLTRES_ZAPDOS_ARTICUNO_GX_SM210:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Moltres & Zapdos & Articuno-GX
+  number: '66'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, TAG_TEAM]
+  types: [COLORLESS]
+  hp: 300
+  moves:
+  - cost: [FIRE, WATER, LIGHTNING, COLORLESS]
+    name: Trinity Burn
+    damage: '210'
+  - cost: [COLORLESS]
+    name: Sky Legends GX
+    text: Shuffle this Pokémon and all cards attached to it into your deck. If this
+      Pokémon has at least 1 extra [R], [W], and [L] Energy attached to it (in addition
+      to this attack's cost), this attack does 110 damage to 3 of your opponent's
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: hif-66
+- enumId: GIOVANNI_S_EXILE_67:HIDDEN_FATES
+  variantOf: GIOVANNI_S_EXILE_174:UNBROKEN_BONDS
+  variantType: Reprint
+  name: Giovanni's Exile
+  number: '67'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Discard up to 2 of your Benched Pokémon that have no damage counters on them
+    and all cards attached to them.
+  pioId: hif-67
+- enumId: JESSIE_JAMES_68:HIDDEN_FATES
+  variantOf: JESSIE_JAMES_58:HIDDEN_FATES
+  variantType: Full Art
+  name: Jessie & James
+  number: '68'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Each player discards 2 cards from their hand. Your opponent discards first.
+  pioId: hif-68
+- enumId: MOLTRES_ZAPDOS_ARTICUNO_GX_69:HIDDEN_FATES
+  variantOf: MOLTRES_ZAPDOS_ARTICUNO_GX_SM210:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Moltres & Zapdos & Articuno-GX
+  number: '69'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, TAG_TEAM]
+  types: [COLORLESS]
+  hp: 300
+  moves:
+  - cost: [FIRE, WATER, LIGHTNING, COLORLESS]
+    name: Trinity Burn
+    damage: '210'
+  - cost: [COLORLESS]
+    name: Sky Legends GX
+    text: Shuffle this Pokémon and all cards attached to it into your deck. If this
+      Pokémon has at least 1 extra [R], [W], and [L] Energy attached to it (in addition
+      to this attack's cost), this attack does 110 damage to 3 of your opponent's
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Secret
+  pioId: hif-69

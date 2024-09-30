@@ -1,0 +1,5366 @@
+schema: E3
+expansion:
+  orderId: '420'
+  name: Lost Thunder
+  enumId: LOST_THUNDER
+  shortName: LOT
+cards:
+- enumId: TANGELA_1:LOST_THUNDER
+  name: Tangela
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gentle Slap
+    damage: '20'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Bind
+    damage: '40'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-1
+  nationalPokedexNumber: 114
+- enumId: TANGROWTH_2:LOST_THUNDER
+  name: Tangrowth
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Tangela]
+  hp: 140
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Hefty Whip
+    damage: 30+
+    text: If this Pokémon was healed during this turn, this attack does 130 more damage.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Whip Smash
+    damage: '110'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Atsuko Nishida
+  pioId: sm8-2
+  nationalPokedexNumber: 465
+- enumId: SCYTHER_3:LOST_THUNDER
+  name: Scyther
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Fury Cutter
+    damage: 10+
+    text: Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If
+      2 of them are heads, this attack does 50 more damage. If all of them are heads,
+      this attack does 70 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm8-3
+  nationalPokedexNumber: 123
+- enumId: PINSIR_4:LOST_THUNDER
+  name: Pinsir
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 110
+  moves:
+  - cost: [GRASS]
+    name: Grip and Squeeze
+    damage: '20'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: sm8-4
+  nationalPokedexNumber: 127
+- enumId: CHIKORITA_5:LOST_THUNDER
+  name: Chikorita
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Synthesis
+    text: Search your deck for a [G] Energy card and attach it to 1 of your Pokémon.
+      Then, shuffle your deck.
+  - cost: [GRASS, COLORLESS]
+    name: Razor Leaf
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Aya Kusube
+  pioId: sm8-5
+  nationalPokedexNumber: 152
+- enumId: CHIKORITA_6:LOST_THUNDER
+  name: Chikorita
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Mini Drain
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: sowsow
+  pioId: sm8-6
+  nationalPokedexNumber: 152
+- enumId: BAYLEEF_7:LOST_THUNDER
+  name: Bayleef
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Chikorita]
+  hp: 100
+  moves:
+  - cost: [GRASS]
+    name: Soothing Scent
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: sm8-7
+  nationalPokedexNumber: 153
+- enumId: MEGANIUM_8:LOST_THUNDER
+  name: Meganium
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Bayleef]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Quick-Ripening Herb
+    text: Once during your turn (before your attack), you may use this Ability. Choose
+      1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that
+      evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it.
+      You can use this Ability during your first turn or on a Pokémon that was put
+      into play this turn.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Solar Beam
+    damage: '110'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: nagimiso
+  pioId: sm8-8
+  nationalPokedexNumber: 154
+- enumId: SPINARAK_9:LOST_THUNDER
+  name: Spinarak
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Spider Scram
+    text: Your opponent's Active Pokémon is now Paralyzed and Poisoned. Put this Pokémon
+      and all cards attached to it in the Lost Zone.
+  - cost: [COLORLESS]
+    name: Sting
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Misa Tsutsui
+  pioId: sm8-9
+  nationalPokedexNumber: 167
+- enumId: ARIADOS_10:LOST_THUNDER
+  name: Ariados
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Spinarak]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Trapping Thread
+    damage: '30'
+    text: Whenever your opponent plays an Item or Supporter card from their hand during
+      their next turn, prevent all effects of that card done to the Defending Pokémon.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Poison Jab
+    damage: '70'
+    text: Your opponent's Active Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: sm8-10
+  nationalPokedexNumber: 168
+- enumId: HOPPIP_11:LOST_THUNDER
+  name: Hoppip
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Multiply
+    text: Search your deck for Hoppip and put it onto your Bench. Then, shuffle your
+      deck.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: sm8-11
+  nationalPokedexNumber: 187
+- enumId: HOPPIP_12:LOST_THUNDER
+  name: Hoppip
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: kawayoo
+  pioId: sm8-12
+  nationalPokedexNumber: 187
+- enumId: SKIPLOOM_13:LOST_THUNDER
+  name: Skiploom
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Hoppip]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Floral Path to the Sky
+    text: Once during your turn (before your attack), you may search your deck for
+      Jumpluff, put this Pokémon and all cards attached to it in the Lost Zone, and
+      put that Jumpluff in its place. Then, shuffle your deck.
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Hitoshi Ariga
+  pioId: sm8-13
+  nationalPokedexNumber: 188
+- enumId: JUMPLUFF_14:LOST_THUNDER
+  name: Jumpluff
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Skiploom]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Lost March
+    damage: 20x
+    text: This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star)
+      Pokémon, in the Lost Zone.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: sm8-14
+  nationalPokedexNumber: 189
+- enumId: PINECO_15:LOST_THUNDER
+  name: Pineco
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Continuous Headbutt
+    damage: 20x
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Misa Tsutsui
+  pioId: sm8-15
+  nationalPokedexNumber: 204
+- enumId: SHUCKLE_16:LOST_THUNDER
+  name: Shuckle
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Fresh Squeezed
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for up to 3 basic Energy cards and discard them. Then,
+      shuffle your deck.
+  moves:
+  - cost: [GRASS]
+    name: Energy Drink
+    text: Attach 2 basic Energy cards from your discard pile to your Pokémon in any
+      way you like.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: sm8-16
+  nationalPokedexNumber: 213
+- enumId: SHUCKLE_GX_17:LOST_THUNDER
+  name: Shuckle-GX
+  number: '17'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Protective Shell
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have 2 or fewer Energy attached to them.
+  moves:
+  - cost: [COLORLESS]
+    name: Triple Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [COLORLESS]
+    name: Wrap-GX
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Paralyzed. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-17
+  nationalPokedexNumber: 213
+- enumId: HERACROSS_18:LOST_THUNDER
+  name: Heracross
+  number: '18'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [GRASS, COLORLESS]
+    name: Powerful Friends
+    damage: 30+
+    text: If you have any Stage 2 Pokémon on your Bench, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm8-18
+  nationalPokedexNumber: 214
+- enumId: CELEBI_PRISM_STAR_19:LOST_THUNDER
+  name: Celebi ◇
+  number: '19'
+  cardTypes: [POKEMON, BASIC, PRISM_STAR]
+  types: [GRASS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Time Distortion
+    text: Devolve any number of your Benched Pokémon as many times as you like. Put
+      each Evolution card removed this way into your hand.
+  - cost: [GRASS]
+    name: Leech Seed
+    damage: '20'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: You can't have more than 1 ◇ card with the same name in your deck. If a ◇
+    card would go to the discard pile, put it in the Lost Zone instead.
+  artist: Masakazu Fukuda
+  pioId: sm8-19
+  nationalPokedexNumber: 251
+- enumId: TREECKO_20:LOST_THUNDER
+  name: Treecko
+  number: '20'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Find a Friend
+    text: Search your deck for a [G] Pokémon, reveal it, and put it into your hand.
+      Then, shuffle your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: sm8-20
+  nationalPokedexNumber: 252
+- enumId: GROVYLE_21:LOST_THUNDER
+  name: Grovyle
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Treecko]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Sunshine Grace
+    text: Once during your turn (before your attack), you may search your deck for
+      a [G] Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Slicing Blade
+    damage: '40'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ayaka Yoshida
+  pioId: sm8-21
+  nationalPokedexNumber: 253
+- enumId: SCEPTILE_GX_22:LOST_THUNDER
+  name: Sceptile-GX
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Grovyle]
+  hp: 230
+  moves:
+  - cost: [GRASS]
+    name: Mach Cut
+    damage: '60'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [GRASS, GRASS]
+    name: Leaf Cyclone
+    damage: '130'
+    text: Move a [G] Energy from this Pokémon to 1 of your Benched Pokémon.
+  - cost: [GRASS]
+    name: Jungle Heal-GX
+    text: Heal all damage from each of your Pokémon that has any [G] Energy attached
+      to it. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-22
+  nationalPokedexNumber: 254
+- enumId: WURMPLE_23:LOST_THUNDER
+  name: Wurmple
+  number: '23'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: kirisAki
+  pioId: sm8-23
+  nationalPokedexNumber: 265
+- enumId: WURMPLE_24:LOST_THUNDER
+  name: Wurmple
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mina Nakai
+  pioId: sm8-24
+  nationalPokedexNumber: 265
+- enumId: SILCOON_25:LOST_THUNDER
+  name: Silcoon
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Wurmple]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Cocoon Collector
+    text: Search your deck for up to 4 in any combination of Silcoon and Cascoon and
+      put them onto your Bench. Then, shuffle your deck.
+  - cost: [GRASS]
+    name: Rolling Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Satoshi Shirai
+  pioId: sm8-25
+  nationalPokedexNumber: 266
+- enumId: BEAUTIFLY_26:LOST_THUNDER
+  name: Beautifly
+  number: '26'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Silcoon]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Skill Dive
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [GRASS]
+    name: Butterfly Edge
+    damage: '30'
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, prevent
+      all effects of attacks, including damage, done to this Pokémon during your opponent's
+      next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: '0313'
+  pioId: sm8-26
+  nationalPokedexNumber: 267
+- enumId: CASCOON_27:LOST_THUNDER
+  name: Cascoon
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Wurmple]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Cocoon Collector
+    text: Search your deck for up to 4 in any combination of Silcoon and Cascoon and
+      put them onto your Bench. Then, shuffle your deck.
+  - cost: [GRASS, COLORLESS]
+    name: Ram
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Aya Kusube
+  pioId: sm8-27
+  nationalPokedexNumber: 268
+- enumId: DUSTOX_28:LOST_THUNDER
+  name: Dustox
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Cascoon]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Hazardous Evolution
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may leave your opponent's Active Pokémon Paralyzed and Poisoned.
+      If you do, put 3 damage counters instead of 1 on that Pokémon between turns.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Gust
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Midori Harada
+  pioId: sm8-28
+  nationalPokedexNumber: 269
+- enumId: NINCADA_29:LOST_THUNDER
+  name: Nincada
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: SATOSHI NAKAI
+  pioId: sm8-29
+  nationalPokedexNumber: 290
+- enumId: NINJASK_30:LOST_THUNDER
+  name: Ninjask
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Nincada]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Molting
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may put a Shedinja from your discard pile onto your Bench.
+  moves:
+  - cost: [GRASS]
+    name: X-Scissor
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 40 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: kirisAki
+  pioId: sm8-30
+  nationalPokedexNumber: 291
+- enumId: COMBEE_31:LOST_THUNDER
+  name: Combee
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Bee March
+    text: Search your deck for up to 3 Combee and put them onto your Bench. Then,
+      shuffle your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: sm8-31
+  nationalPokedexNumber: 415
+- enumId: VESPIQUEN_32:LOST_THUNDER
+  name: Vespiquen
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Combee]
+  hp: 120
+  moves:
+  - cost: [GRASS]
+    name: Commanding Queen
+    damage: '120'
+    text: If you have 4 or fewer [G] Pokémon on your Bench, this attack does nothing.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: chibi
+  pioId: sm8-32
+  nationalPokedexNumber: 416
+- enumId: SHAYMIN_33:LOST_THUNDER
+  name: Shaymin
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Floral Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from
+      your Active [G] Pokémon.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Ram
+    damage: '30'
+    text: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Sekio
+  pioId: sm8-33
+  nationalPokedexNumber: 492
+- enumId: VIRIZION_GX_34:LOST_THUNDER
+  name: Virizion-GX
+  number: '34'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Double Draw
+    text: Draw 2 cards.
+  - cost: [GRASS, GRASS]
+    name: Sensitive Blade
+    damage: 50+
+    text: If you played a Supporter card from your hand during this turn, this attack
+      does 80 more damage.
+  - cost: [COLORLESS]
+    name: Breeze Away-GX
+    text: Put any number of your Pokémon in play and all cards attached to them into
+      your hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-34
+  nationalPokedexNumber: 640
+- enumId: SKIDDO_35:LOST_THUNDER
+  name: Skiddo
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [GRASS, COLORLESS]
+    name: Vine Whip
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-35
+  nationalPokedexNumber: 672
+- enumId: GOGOAT_36:LOST_THUNDER
+  name: Gogoat
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Skiddo]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Leaf Wallop
+    damage: '40'
+    text: During your next turn, this Pokémon's Leaf Wallop attack does 50 more damage
+      (before applying Weakness and Resistance).
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Solar Beam
+    damage: '100'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: sowsow
+  pioId: sm8-36
+  nationalPokedexNumber: 673
+- enumId: TAPU_BULU_37:LOST_THUNDER
+  name: Tapu Bulu
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 130
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Heavy Punch
+    damage: 20x
+    text: This attack does 20 damage for each of your opponent's Benched Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Wild Tackle
+    damage: '120'
+    text: Flip a coin. If tails, this Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Satoshi Shirai
+  pioId: sm8-37
+- enumId: MOLTRES_38:LOST_THUNDER
+  name: Moltres
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 120
+  moves:
+  - cost: [FIRE]
+    name: Assisting Heater
+    damage: '30'
+    text: You may attach a [R] Energy card from your hand to 1 of your Benched Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Wing
+    damage: '90'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Misa Tsutsui
+  pioId: sm8-38
+  nationalPokedexNumber: 146
+- enumId: CYNDAQUIL_39:LOST_THUNDER
+  name: Cyndaquil
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Smokescreen
+    damage: '10'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack doesn't happen.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mina Nakai
+  pioId: sm8-39
+  nationalPokedexNumber: 155
+- enumId: CYNDAQUIL_40:LOST_THUNDER
+  name: Cyndaquil
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '30'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: kirisAki
+  pioId: sm8-40
+  nationalPokedexNumber: 155
+- enumId: QUILAVA_41:LOST_THUNDER
+  name: Quilava
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Cyndaquil]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '30'
+  - cost: [FIRE, FIRE, FIRE]
+    name: Super Singe
+    damage: '60'
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: sm8-41
+  nationalPokedexNumber: 156
+- enumId: TYPHLOSION_42:LOST_THUNDER
+  name: Typhlosion
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Quilava]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Blazing Energy
+    text: Once during your turn (before your attack), you may use this Ability. All
+      Energy attached to your Pokémon are [R] Energy instead of their usual type until
+      the end of your turn. (This includes cards that come into play on this turn.)
+  moves:
+  - cost: [FIRE, FIRE, FIRE, FIRE]
+    name: Lost Flame
+    damage: '120'
+    text: Put 2 Energy attached to your opponent's Active Pokémon in the Lost Zone.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm8-42
+  nationalPokedexNumber: 157
+- enumId: SLUGMA_43:LOST_THUNDER
+  name: Slugma
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Stampede
+    damage: '20'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '60'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: SATOSHI NAKAI
+  pioId: sm8-43
+  nationalPokedexNumber: 218
+- enumId: MAGCARGO_GX_44:LOST_THUNDER
+  name: Magcargo-GX
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Slugma]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Crushing Charge
+    text: Once during your turn (before your attack), you may discard the top card
+      of your deck. If it's a basic Energy card, attach it to 1 of your Pokémon.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Lava Flow
+    damage: 50+
+    text: Discard any amount of basic Energy from this Pokémon. This attack does 50
+      more damage for each card you discarded in this way.
+  - cost: [FIRE]
+    name: Burning Magma-GX
+    text: Discard the top 5 cards of your opponent's deck. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-44
+  nationalPokedexNumber: 219
+- enumId: HOUNDOUR_45:LOST_THUNDER
+  name: Houndour
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Team Hunt
+    text: Draw a card for each of your Houndour in play.
+  - cost: [FIRE]
+    name: Flare
+    damage: '10'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-45
+  nationalPokedexNumber: 228
+- enumId: HOUNDOOM_46:LOST_THUNDER
+  name: Houndoom
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Houndour]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Nasty Plot
+    text: Search your deck for a card and put it into your hand. Then, shuffle your
+      deck.
+  - cost: [FIRE, FIRE]
+    name: Attack Operation
+    damage: 50+
+    text: If you have more cards in your hand than your opponent, this attack does
+      80 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Sekio
+  pioId: sm8-46
+  nationalPokedexNumber: 229
+- enumId: ENTEI_47:LOST_THUNDER
+  name: Entei
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 130
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Fang
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Eruption
+    damage: 80+
+    text: Each player discards the top card of their deck. This attack does 60 more
+      damage for each Energy card discarded in this way.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: kawayoo
+  pioId: sm8-47
+  nationalPokedexNumber: 244
+- enumId: HEATRAN_48:LOST_THUNDER
+  name: Heatran
+  number: '48'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 140
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Lava Burn
+    damage: '60'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Heat Bazooka
+    damage: '150'
+    text: Discard the top 5 cards of your deck.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: sm8-48
+  nationalPokedexNumber: 485
+- enumId: VICTINI_49:LOST_THUNDER
+  name: Victini
+  number: '49'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: V-Beatdown
+    damage: 20x
+    text: This attack does 20 damage for each of your Basic Pokémon in play.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: sowsow
+  pioId: sm8-49
+  nationalPokedexNumber: 494
+- enumId: LITLEO_50:LOST_THUNDER
+  name: Litleo
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Wild Dash
+    text: If your opponent has any Pokémon-GX or Pokémon-EX in play, this Pokémon
+      has no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Take Down
+    damage: '30'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Akira Komayama
+  pioId: sm8-50
+  nationalPokedexNumber: 667
+- enumId: PYROAR_51:LOST_THUNDER
+  name: Pyroar
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Litleo]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Crunch
+    damage: '30'
+    text: Discard an Energy from your opponent's Active Pokémon.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Heat Blast
+    damage: '90'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Hasuno
+  pioId: sm8-51
+  nationalPokedexNumber: 668
+- enumId: BLACEPHALON_GX_52:LOST_THUNDER
+  name: Blacephalon-GX
+  number: '52'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [FIRE]
+    name: Bursting Burn
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+  - cost: [FIRE, FIRE]
+    name: Mind Blown
+    damage: 50x
+    text: Put any amount of [R] Energy attached to your Pokémon in the Lost Zone.
+      This attack does 50 damage for each card put in the Lost Zone in this way.
+  - cost: [FIRE]
+    name: Burst-GX
+    text: Discard 1 of your Prize cards. If it's an Energy card, attach it to 1 of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-52
+- enumId: ALOLAN_VULPIX_53:LOST_THUNDER
+  name: Alolan Vulpix
+  number: '53'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Secret Alleyway
+    text: If you have any [Y] Pokémon in play, this Pokémon has no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gnaw
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: sm8-53
+  nationalPokedexNumber: 37
+- enumId: SLOWPOKE_54:LOST_THUNDER
+  name: Slowpoke
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Yawn
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: sm8-54
+  nationalPokedexNumber: 79
+- enumId: SLOWKING_55:LOST_THUNDER
+  name: Slowking
+  number: '55'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Slowpoke]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: Memory Melt
+    text: Look at your opponent's hand and put a card you find there in the Lost Zone.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 60+
+    text: This attack does 20 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: sowsow
+  pioId: sm8-55
+  nationalPokedexNumber: 199
+- enumId: LAPRAS_56:LOST_THUNDER
+  name: Lapras
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Go for a Swim
+    text: Once during your turn (before your attack), you may look at the top 2 cards
+      of your deck and put them back in any order.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Ice Beam
+    damage: '50'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Sekio
+  pioId: sm8-56
+  nationalPokedexNumber: 131
+- enumId: DELIBIRD_57:LOST_THUNDER
+  name: Delibird
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Happy Delivery
+    text: Choose any number of your Benched Pokémon that don't already have a Pokémon
+      Tool attached to them. For each of those Pokémon, search your deck for a Pokémon
+      Tool card and attach it to that Pokémon. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Flap
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm8-57
+  nationalPokedexNumber: 225
+- enumId: MANTINE_58:LOST_THUNDER
+  name: Mantine
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Mantine Surf
+    text: If this Pokémon has any Energy attached to it, it has no Retreat Cost.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Surf
+    damage: '100'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Sanosuke Sakuma
+  pioId: sm8-58
+  nationalPokedexNumber: 226
+- enumId: SUICUNE_59:LOST_THUNDER
+  variantOf: SUICUNE_SM149:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Suicune
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Frozen Flow
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, you may have your opponent switch their Active Pokémon with 1 of their
+      Benched Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Aurora Gain
+    damage: '70'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Anesaki Dynamic
+  pioId: sm8-59
+  nationalPokedexNumber: 245
+- enumId: SUICUNE_GX_60:LOST_THUNDER
+  name: Suicune-GX
+  number: '60'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Phantom Winds
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench,
+      you may shuffle it and all cards attached to it into your deck.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Cure Stream
+    damage: '120'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  - cost: [WATER, WATER, COLORLESS]
+    name: Brinicles-GX
+    damage: '150'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-60
+  nationalPokedexNumber: 245
+- enumId: CUBCHOO_61:LOST_THUNDER
+  name: Cubchoo
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Secondary Chills
+    text: You can use this attack only if you go second, and only on your first turn.
+      Your opponent's Active Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS]
+    name: Beat
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: '0313'
+  pioId: sm8-61
+  nationalPokedexNumber: 613
+- enumId: BEARTIC_62:LOST_THUNDER
+  name: Beartic
+  number: '62'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Cubchoo]
+  hp: 140
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Resolute Claws
+    damage: 60+
+    text: If your opponent's Active Pokémon is a Pokémon-GX or a Pokémon-EX, this
+      attack does 60 more damage (before applying Weakness and Resistance).
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Blizzard Burn
+    damage: '150'
+    text: This Pokémon can't attack during your next turn.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Mina Nakai
+  pioId: sm8-62
+  nationalPokedexNumber: 614
+- enumId: WHITE_KYUREM_63:LOST_THUNDER
+  name: White Kyurem
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Field Crush
+    damage: '30'
+    text: If your opponent has a Stadium card in play, discard it.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Freezing Flames
+    damage: 80+
+    text: If this Pokémon has any [R] Energy attached to it, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Hitoshi Ariga
+  pioId: sm8-63
+  nationalPokedexNumber: 646
+- enumId: POPPLIO_64:LOST_THUNDER
+  name: Popplio
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Disarming Voice
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hitoshi Ariga
+  pioId: sm8-64
+  nationalPokedexNumber: 728
+- enumId: POPPLIO_65:LOST_THUNDER
+  name: Popplio
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Blot
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yusuke Ohmura
+  pioId: sm8-65
+  nationalPokedexNumber: 728
+- enumId: BRIONNE_66:LOST_THUNDER
+  name: Brionne
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Popplio]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Captivate
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - cost: [WATER]
+    name: Water Gun
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: sm8-66
+  nationalPokedexNumber: 729
+- enumId: PRIMARINA_67:LOST_THUNDER
+  name: Primarina
+  number: '67'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Brionne]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Harmonics
+    text: Whenever you attach an Energy card from your hand to 1 of your Pokémon,
+      except with an attack, Ability, or Trainer card, attach up to 2 Energy cards
+      to that Pokémon instead of 1.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hypno Splash
+    damage: '80'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm8-67
+  nationalPokedexNumber: 730
+- enumId: MAREANIE_68:LOST_THUNDER
+  name: Mareanie
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Spike Cannon
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Aya Kusube
+  pioId: sm8-68
+  nationalPokedexNumber: 747
+- enumId: TOXAPEX_69:LOST_THUNDER
+  name: Toxapex
+  number: '69'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Mareanie]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - cost: [WATER, WATER]
+    name: Venom Fever
+    damage: 50x
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 50 damage
+      for each damage counter on that Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: kirisAki
+  pioId: sm8-69
+  nationalPokedexNumber: 748
+- enumId: BRUXISH_70:LOST_THUNDER
+  name: Bruxish
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Mind Bend
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [WATER, COLORLESS]
+    name: Follow the Wound
+    text: This attack does 60 damage to 1 of your opponent's Benched Pokémon that
+      has any damage counters on it. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: tetsuya koizumi
+  pioId: sm8-70
+  nationalPokedexNumber: 779
+- enumId: ELECTABUZZ_71:LOST_THUNDER
+  name: Electabuzz
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Shock
+    damage: '30'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: sm8-71
+  nationalPokedexNumber: 125
+- enumId: ELECTIVIRE_72:LOST_THUNDER
+  name: Electivire
+  number: '72'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Electabuzz]
+  hp: 140
+  moves:
+  - cost: [COLORLESS]
+    name: Electrocharge
+    text: Search your deck for up to 2 [L] Energy cards and attach them to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING, COLORLESS]
+    name: High-Voltage Knuckle
+    damage: '190'
+    text: Discard 3 Energy from this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: Akira Komayama
+  pioId: sm8-72
+  nationalPokedexNumber: 466
+- enumId: CHINCHOU_73:LOST_THUNDER
+  name: Chinchou
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Thunder Wave
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Lightning Ball
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: sm8-73
+  nationalPokedexNumber: 170
+- enumId: LANTURN_74:LOST_THUNDER
+  name: Lanturn
+  number: '74'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Chinchou]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Salvage
+    text: Shuffle 4 Item cards from your discard pile into your deck.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Signal Beam
+    damage: '50'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: sm8-74
+  nationalPokedexNumber: 171
+- enumId: MAREEP_75:LOST_THUNDER
+  name: Mareep
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  abilities:
+  - type: Ability
+    name: Fluffy Pillow
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, you may leave your opponent's Active Pokémon Asleep.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: sm8-75
+  nationalPokedexNumber: 179
+- enumId: MAREEP_76:LOST_THUNDER
+  name: Mareep
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Shock
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: '0313'
+  pioId: sm8-76
+  nationalPokedexNumber: 179
+- enumId: FLAAFFY_77:LOST_THUNDER
+  name: Flaaffy
+  number: '77'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Mareep]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Signal Beam
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mizue
+  pioId: sm8-77
+  nationalPokedexNumber: 180
+- enumId: AMPHAROS_78:LOST_THUNDER
+  name: Ampharos
+  number: '78'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Flaaffy]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Unseen Flash
+    text: Once during your turn (before your attack), you may put 2 [L] Energy cards
+      from your hand in the Lost Zone. If you do, your opponent's Active Pokémon is
+      now Paralyzed.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Split Bomb
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Satoshi Shirai
+  pioId: sm8-78
+  nationalPokedexNumber: 181
+- enumId: RAIKOU_79:LOST_THUNDER
+  variantOf: RAIKOU_SM150:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Raikou
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 120
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Lost Voltage
+    damage: 30+
+    text: If you have any [L] Energy cards in the Lost Zone, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: sm8-79
+  nationalPokedexNumber: 243
+- enumId: PACHIRISU_80:LOST_THUNDER
+  name: Pachirisu
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Overshort
+    damage: 20+
+    text: Before doing damage, discard all Pokémon Tool cards from your opponent's
+      Active Pokémon. If you discarded a Pokémon Tool card in this way, this attack
+      does 40 more damage, and your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: sm8-80
+  nationalPokedexNumber: 417
+- enumId: BLITZLE_81:LOST_THUNDER
+  name: Blitzle
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Flop
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS]
+    name: Zap Kick
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: sm8-81
+  nationalPokedexNumber: 522
+- enumId: ZEBSTRIKA_82:LOST_THUNDER
+  name: Zebstrika
+  number: '82'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Blitzle]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Sprint
+    text: Once during your turn (before your attack), you may discard your hand and
+      draw 4 cards.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Head Bolt
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Misa Tsutsui
+  pioId: sm8-82
+  nationalPokedexNumber: 523
+- enumId: STUNFISK_83:LOST_THUNDER
+  name: Stunfisk
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Flail
+    damage: 10x
+    text: This attack does 10 damage for each damage counter on this Pokémon.
+  - cost: [LIGHTNING]
+    name: Thunder Blast
+    damage: '50'
+    text: Discard a [L] Energy from this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 3
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-83
+  nationalPokedexNumber: 618
+- enumId: DEDENNE_84:LOST_THUNDER
+  name: Dedenne
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Nuzzle
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [LIGHTNING]
+    name: Nuzzle Shot
+    text: This attack does 10 damage for each of your Pokémon in play that has the
+      Nuzzle attack to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: sm8-84
+  nationalPokedexNumber: 702
+- enumId: TAPU_KOKO_85:LOST_THUNDER
+  name: Tapu Koko
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Strafe
+    damage: '30'
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Flashing Bolt
+    damage: '120'
+    text: This Pokémon can't use Flashing Bolt during your next turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: kawayoo
+  pioId: sm8-85
+- enumId: ZERAORA_GX_86:LOST_THUNDER
+  name: Zeraora-GX
+  number: '86'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 190
+  abilities:
+  - type: Ability
+    name: Thunderclap Zone
+    text: Each of your Pokémon that has any [L] Energy attached to it has no Retreat
+      Cost.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Plasma Fists
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [LIGHTNING]
+    name: Full Voltage-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm8-86
+- enumId: NATU_87:LOST_THUNDER
+  name: Natu
+  number: '87'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 40
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Lost March
+    damage: 20x
+    text: This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star)
+      Pokémon, in the Lost Zone.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Anesaki Dynamic
+  pioId: sm8-87
+  nationalPokedexNumber: 177
+- enumId: XATU_88:LOST_THUNDER
+  name: Xatu
+  number: '88'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Natu]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Energy Gaze
+    damage: 30+
+    text: Your opponent reveals their hand. If you find any Energy cards there, this
+      attack does 60 more damage.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Psychic Sphere
+    damage: '80'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm8-88
+  nationalPokedexNumber: 178
+- enumId: ESPEON_89:LOST_THUNDER
+  name: Espeon
+  number: '89'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Eevee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Allure
+    text: Draw 3 cards.
+  - cost: [PSYCHIC]
+    name: Energy Crush
+    damage: 20+
+    text: This attack does 20 more damage times the amount of Energy attached to all
+      of your opponent's Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Ryota Murayama
+  pioId: sm8-89
+  nationalPokedexNumber: 196
+- enumId: UNOWN_90:LOST_THUNDER
+  name: Unown
+  number: '90'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: DAMAGE
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, and if there are 66 or more damage counters on your Benched Pokémon,
+      you may use this Ability. If you do, you win this game.
+  moves:
+  - cost: [PSYCHIC]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: sm8-90
+  nationalPokedexNumber: 201
+- enumId: UNOWN_91:LOST_THUNDER
+  name: Unown
+  number: '91'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: HAND
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, and if you have 35 or more cards in your hand, you may use this Ability.
+      If you do, you win this game.
+  moves:
+  - cost: [PSYCHIC]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Hasuno
+  pioId: sm8-91
+  nationalPokedexNumber: 201
+- enumId: UNOWN_92:LOST_THUNDER
+  name: Unown
+  number: '92'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: MISSING
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, and if your opponent has 12 or more Supporter cards in the Lost Zone,
+      you may use this Ability. If you do, you win this game.
+  moves:
+  - cost: [PSYCHIC]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: sm8-92
+  nationalPokedexNumber: 201
+- enumId: WOBBUFFET_93:LOST_THUNDER
+  name: Wobbuffet
+  number: '93'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Shady Tail
+    text: As long as this Pokémon is on your Bench, (Prism Star) Pokémon in play (both
+      yours and your opponent's) can't attack and have no Abilities.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Knock Away
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Megumi Mizutani
+  pioId: sm8-93
+  nationalPokedexNumber: 202
+- enumId: GIRAFARIG_94:LOST_THUNDER
+  name: Girafarig
+  number: '94'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Get Lost
+    text: Put 2 cards from your opponent's discard pile in the Lost Zone.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Mind Shock
+    damage: '70'
+    text: This attack's damage isn't affected by Weakness or Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ayaka Yoshida
+  pioId: sm8-94
+  nationalPokedexNumber: 203
+- enumId: SHEDINJA_95:LOST_THUNDER
+  name: Shedinja
+  number: '95'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Nincada]
+  hp: 40
+  abilities:
+  - type: Ability
+    name: Vessel of Life
+    text: Once during your turn (before your attack), you may discard all cards attached
+      to this Pokémon and attach it to 1 of your Pokémon as a Pokémon Tool card. When
+      the Pokémon this card is attached to is Knocked Out, your opponent takes 1 fewer
+      Prize card.
+  moves:
+  - cost: [COLORLESS]
+    name: Haunt
+    text: Put 3 damage counters on your opponent's Active Pokémon.
+  retreatCost: 1
+  rarity: Rare
+  artist: kawayoo
+  pioId: sm8-95
+  nationalPokedexNumber: 292
+- enumId: SABLEYE_96:LOST_THUNDER
+  name: Sableye
+  number: '96'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Hunt
+    text: If you go first, you can use this attack on your first turn. Search your
+      deck for a card and put it into your hand. Then, shuffle your deck.
+  - cost: [PSYCHIC]
+    name: Cursed Drop
+    text: Put 3 damage counters on your opponent's Pokémon in any way you like.
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: sm8-96
+  nationalPokedexNumber: 302
+- enumId: GIRATINA_97:LOST_THUNDER
+  variantOf: GIRATINA_SM151:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Giratina
+  number: '97'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Distortion Door
+    text: Once during your turn (before your attack), if this Pokémon is in your discard
+      pile, you may put it onto your Bench. If you do, put 1 damage counter on 2 of
+      your opponent's Benched Pokémon.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Shadow Impact
+    damage: '130'
+    text: Put 4 damage counters on 1 of your Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Hasuno
+  pioId: sm8-97
+  nationalPokedexNumber: 487
+- enumId: SIGILYPH_GX_98:LOST_THUNDER
+  name: Sigilyph-GX
+  number: '98'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Mirror Counter
+    text: If this Pokémon is your Active Pokémon and is damaged by an attack from
+      your opponent's Pokémon-GX or Pokémon-EX (even if this Pokémon is Knocked Out),
+      put damage counters on the Attacking Pokémon equal to the damage done to this
+      Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Sonic Wing
+    damage: '80'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Intercept-GX
+    damage: 60x
+    text: This attack does 60 damage times the amount of Energy attached to your opponent's
+      Active Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm8-98
+  nationalPokedexNumber: 561
+- enumId: YAMASK_99:LOST_THUNDER
+  name: Yamask
+  number: '99'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Haunt
+    text: Put 1 damage counter on your opponent's Active Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-99
+  nationalPokedexNumber: 562
+- enumId: COFAGRIGUS_100:LOST_THUNDER
+  name: Cofagrigus
+  number: '100'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Yamask]
+  hp: 120
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Spirit Juggling
+    damage: 10+
+    text: Discard any number of your Benched Pokémon. This attack does 30 more damage
+      for each Benched Pokémon you discarded in this way.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: tetsuya koizumi
+  pioId: sm8-100
+  nationalPokedexNumber: 563
+- enumId: LITWICK_101:LOST_THUNDER
+  name: Litwick
+  number: '101'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Haunt
+    text: Put 1 damage counter on your opponent's Active Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Asako Ito
+  pioId: sm8-101
+  nationalPokedexNumber: 607
+- enumId: LAMPENT_102:LOST_THUNDER
+  name: Lampent
+  number: '102'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Litwick]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Haunt
+    text: Put 3 damage counters on your opponent's Active Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Anesaki Dynamic
+  pioId: sm8-102
+  nationalPokedexNumber: 608
+- enumId: CHANDELURE_103:LOST_THUNDER
+  name: Chandelure
+  number: '103'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Lampent]
+  hp: 140
+  moves:
+  - cost: [PSYCHIC]
+    name: Cursed Drop
+    text: Put 4 damage counters on your opponent's Pokémon in any way you like.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Vortex of Pain
+    damage: 20x
+    text: This attack does 20 damage for each damage counter on all of your opponent's
+      Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: so-taro
+  pioId: sm8-103
+  nationalPokedexNumber: 609
+- enumId: MELOETTA_104:LOST_THUNDER
+  name: Meloetta
+  number: '104'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Miracle Harmony
+    text: Flip a coin for each of your Pokémon in play that has the Sing attack. This
+      attack does 10 damage for each heads to each of your opponent's Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: nagimiso
+  pioId: sm8-104
+  nationalPokedexNumber: 648
+- enumId: MAREANIE_105:LOST_THUNDER
+  name: Mareanie
+  number: '105'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Peck
+    damage: '10'
+  - cost: [PSYCHIC, COLORLESS]
+    name: Pin Missile
+    damage: 10x
+    text: Flip 4 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sanosuke Sakuma
+  pioId: sm8-105
+  nationalPokedexNumber: 747
+- enumId: NIHILEGO_106:LOST_THUNDER
+  name: Nihilego
+  number: '106'
+  cardTypes: [POKEMON, BASIC, ULTRA_BEAST]
+  types: [PSYCHIC]
+  hp: 110
+  moves:
+  - cost: [PSYCHIC]
+    name: Nightcap
+    text: You can use this attack only if your opponent has exactly 2 Prize cards
+      remaining. Choose 1 of your opponent's Pokémon's attacks and use it as this
+      attack.
+  - cost: [PSYCHIC]
+    name: Void Tentacles
+    text: Your opponent's Active Pokémon is now Confused and Poisoned.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Megumi Mizutani
+  pioId: sm8-106
+  nationalPokedexNumber: 793
+- enumId: POIPOLE_107:LOST_THUNDER
+  name: Poipole
+  number: '107'
+  cardTypes: [POKEMON, BASIC, ULTRA_BEAST]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Eye Opener
+    text: Look at your face-down Prize cards.
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hitoshi Ariga
+  pioId: sm8-107
+- enumId: NAGANADEL_108:LOST_THUNDER
+  name: Naganadel
+  number: '108'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, ULTRA_BEAST]
+  types: [PSYCHIC]
+  evolvesFrom: [Poipole]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Charging Up
+    text: Once during your turn (before your attack), you may attach a basic Energy
+      card from your discard pile to this Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Turning Point
+    damage: 80+
+    text: If you have exactly 3 Prize cards remaining, this attack does 80 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: sm8-108
+- enumId: ONIX_109:LOST_THUNDER
+  name: Onix
+  number: '109'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Land Crush
+    damage: '120'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: sm8-109
+  nationalPokedexNumber: 95
+- enumId: SUDOWOODO_110:LOST_THUNDER
+  name: Sudowoodo
+  number: '110'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 110
+  moves:
+  - cost: [FIGHTING]
+    name: Reply Strongly
+    damage: 20+
+    text: If this Pokémon was damaged by an attack during your opponent's last turn
+      while it was your Active Pokémon, this attack does 80 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm8-110
+  nationalPokedexNumber: 185
+- enumId: PHANPY_111:LOST_THUNDER
+  name: Phanpy
+  number: '111'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Last Resort
+    damage: '50'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Asako Ito
+  pioId: sm8-111
+  nationalPokedexNumber: 231
+- enumId: DONPHAN_112:LOST_THUNDER
+  name: Donphan
+  number: '112'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Sturdy
+    text: If this Pokémon has full HP and would be Knocked Out by damage from an attack,
+      this Pokémon is not Knocked Out, and its remaining HP becomes 10.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Rolling Spin
+    damage: '70'
+    text: During your next turn, this Pokémon's Rolling Spin attack does 70 more damage
+      (before applying Weakness and Resistance).
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Naoyo Kimura
+  pioId: sm8-112
+  nationalPokedexNumber: 232
+- enumId: HITMONTOP_113:LOST_THUNDER
+  name: Hitmontop
+  number: '113'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING]
+    name: Rapid Spin
+    damage: '30'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent
+      switches their Active Pokémon with 1 of their Benched Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Triple Kick
+    damage: 40x
+    text: Flip 3 coins. This attack does 40 damage for each heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: sowsow
+  pioId: sm8-113
+  nationalPokedexNumber: 237
+- enumId: LARVITAR_114:LOST_THUNDER
+  name: Larvitar
+  number: '114'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 50
+  abilities:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this
+      Pokémon by attacks (both yours and your opponent's).
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Misa Tsutsui
+  pioId: sm8-114
+  nationalPokedexNumber: 246
+- enumId: LARVITAR_115:LOST_THUNDER
+  name: Larvitar
+  number: '115'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Second Strike
+    damage: 10+
+    text: If your opponent's Active Pokémon already has 3 or more damage counters
+      on it, this attack does 70 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: SATOSHI NAKAI
+  pioId: sm8-115
+  nationalPokedexNumber: 246
+- enumId: PUPITAR_116:LOST_THUNDER
+  name: Pupitar
+  number: '116'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Larvitar]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Hard Shell Evolution
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may prevent all damage done to this Pokémon by your opponent's
+      attacks until the end of your opponent's next turn.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: sm8-116
+  nationalPokedexNumber: 247
+- enumId: CARBINK_117:LOST_THUNDER
+  name: Carbink
+  number: '117'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 90
+  moves:
+  - cost: [FIGHTING]
+    name: Diamond Gate
+    text: Search your deck for a Supporter card and a Stadium card, reveal them, and
+      put them into your hand. Then, shuffle your deck.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Guard Press
+    damage: '60'
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sanosuke Sakuma
+  pioId: sm8-117
+  nationalPokedexNumber: 703
+- enumId: ALOLAN_MEOWTH_118:LOST_THUNDER
+  name: Alolan Meowth
+  number: '118'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: []
+    name: Spoil the Fun
+    damage: 10+
+    text: If you go second, this attack does 60 more damage during your first turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: sm8-118
+  nationalPokedexNumber: 52
+- enumId: ALOLAN_PERSIAN_119:LOST_THUNDER
+  name: Alolan Persian
+  number: '119'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Alolan Meowth]
+  hp: 90
+  moves:
+  - cost: []
+    name: Empty Threat
+    damage: 90-
+    text: This attack does 30 less damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Tomokazu Komiya
+  pioId: sm8-119
+  nationalPokedexNumber: 53
+- enumId: UMBREON_120:LOST_THUNDER
+  name: Umbreon
+  number: '120'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Eevee]
+  hp: 110
+  moves:
+  - cost: [DARKNESS]
+    name: Retaliate
+    damage: 30+
+    text: If any of your Pokémon were Knocked Out by damage from an opponent's attack
+      during their last turn, this attack does 90 more damage.
+  - cost: [DARKNESS, COLORLESS]
+    name: Dark Cutter
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Ryota Murayama
+  pioId: sm8-120
+  nationalPokedexNumber: 197
+- enumId: TYRANITAR_GX_121:LOST_THUNDER
+  name: Tyranitar-GX
+  number: '121'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Pupitar]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Lost Out
+    text: If your opponent's Pokémon is Knocked Out by damage from this Pokémon's
+      attacks, put that Pokémon and all cards attached to it in the Lost Zone instead
+      of the discard pile.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Dusty Ruckus
+    damage: '130'
+    text: This attack does 30 damage to each of your opponent's Benched Basic Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Lay the Smackdown-GX
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-121
+  nationalPokedexNumber: 248
+- enumId: ALOLAN_DIGLETT_122:LOST_THUNDER
+  name: Alolan Diglett
+  number: '122'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 50
+  moves:
+  - cost: []
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle
+      your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: sm8-122
+  nationalPokedexNumber: 50
+- enumId: ALOLAN_DUGTRIO_123:LOST_THUNDER
+  name: Alolan Dugtrio
+  number: '123'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Alolan Diglett]
+  hp: 90
+  moves:
+  - cost: []
+    name: Digging Dash
+    damage: '60'
+    text: This attack's damage isn't affected by Weakness or Resistance.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: sm8-123
+  nationalPokedexNumber: 51
+- enumId: FORRETRESS_124:LOST_THUNDER
+  name: Forretress
+  number: '124'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Pineco]
+  hp: 110
+  moves:
+  - cost: [METAL]
+    name: Thorny Eruption
+    text: Flip 3 coins. This attack does 10 damage for each heads to each of your
+      opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [METAL, METAL, COLORLESS]
+    name: Lost Blast
+    damage: '190'
+    text: Put this Pokémon and all cards attached to it in the Lost Zone.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: tetsuya koizumi
+  pioId: sm8-124
+  nationalPokedexNumber: 205
+- enumId: STEELIX_125:LOST_THUNDER
+  name: Steelix
+  number: '125'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Onix]
+  hp: 180
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '90'
+  - cost: [METAL, COLORLESS, COLORLESS, COLORLESS]
+    name: Iron Tackle
+    damage: '170'
+    text: This Pokémon does 50 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm8-125
+  nationalPokedexNumber: 208
+- enumId: SCIZOR_126:LOST_THUNDER
+  name: Scizor
+  number: '126'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Scyther]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Exoskeleton
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Special Blow
+    damage: 60+
+    text: If your opponent's Active Pokémon has any Special Energy attached to it,
+      this attack does 70 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Anesaki Dynamic
+  pioId: sm8-126
+  nationalPokedexNumber: 212
+- enumId: DIALGA_127:LOST_THUNDER
+  name: Dialga
+  number: '127'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Turn Back Time
+    damage: '60'
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting
+      the highest Stage Evolution card on it into your opponent's hand.
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Power Blast
+    damage: '130'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: nagimiso
+  pioId: sm8-127
+  nationalPokedexNumber: 483
+- enumId: DURANT_128:LOST_THUNDER
+  name: Durant
+  number: '128'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Knock Over
+    damage: '20'
+    text: You may discard any Stadium card in play.
+  - cost: [COLORLESS, COLORLESS]
+    name: Mountain Munch
+    text: Discard the top 2 cards of your opponent's deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-128
+  nationalPokedexNumber: 632
+- enumId: COBALION_129:LOST_THUNDER
+  name: Cobalion
+  number: '129'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 120
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Guard Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [METAL, METAL, COLORLESS]
+    name: Metal Arms
+    damage: 80+
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does
+      40 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm8-129
+  nationalPokedexNumber: 638
+- enumId: GENESECT_GX_130:LOST_THUNDER
+  name: Genesect-GX
+  number: '130'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [METAL]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Double Drive
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it. If it loses
+      this Ability, discard Pokémon Tool cards from it until only 1 remains.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Burst Shot
+    damage: '130'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Break Buster-GX
+    damage: '190'
+    text: This attack's damage isn't affected by Resistance. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-130
+  nationalPokedexNumber: 649
+- enumId: MAGEARNA_131:LOST_THUNDER
+  name: Magearna
+  number: '131'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Minor Errand-Running
+    text: Search your deck for up to 2 basic Energy cards, reveal them, and put them
+      into your hand. Then, shuffle your deck.
+  - cost: [METAL, COLORLESS]
+    name: Energy Press
+    damage: 30+
+    text: This attack does 20 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: sm8-131
+  nationalPokedexNumber: 801
+- enumId: ALOLAN_NINETALES_GX_132:LOST_THUNDER
+  name: Alolan Ninetales-GX
+  number: '132'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Mysterious Guidance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may search your deck for up to 2 Item cards, reveal them, and
+      put them into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Snowy Wind
+    damage: '70'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FAIRY, COLORLESS]
+    name: Sublimation-GX
+    text: If your opponent's Active Pokémon is an Ultra Beast, it is Knocked Out.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-132
+  nationalPokedexNumber: 38
+- enumId: JIGGLYPUFF_133:LOST_THUNDER
+  name: Jigglypuff
+  number: '133'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY]
+    name: Pound
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-133
+  nationalPokedexNumber: 39
+- enumId: WIGGLYTUFF_134:LOST_THUNDER
+  name: Wigglytuff
+  number: '134'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Jigglypuff]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Expand
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Charmed Slap
+    damage: 70+
+    text: If this Pokémon has a Pokémon Tool card that has "Fairy Charm" in its name
+      attached to it, this attack does 70 more damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: nagimiso
+  pioId: sm8-134
+  nationalPokedexNumber: 40
+- enumId: MARILL_135:LOST_THUNDER
+  name: Marill
+  number: '135'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Magical Shot
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm8-135
+  nationalPokedexNumber: 183
+- enumId: AZUMARILL_136:LOST_THUNDER
+  name: Azumarill
+  number: '136'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Marill]
+  hp: 100
+  moves:
+  - cost: [FAIRY]
+    name: Polka-Dot Search
+    text: Look at the top 8 cards of your deck and attach any number of Energy cards
+      you find there to your Pokémon in any way you like. Shuffle the other cards
+      back into your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Play Rough
+    damage: 60+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Naoyo Kimura
+  pioId: sm8-136
+  nationalPokedexNumber: 184
+- enumId: SNUBBULL_137:LOST_THUNDER
+  name: Snubbull
+  number: '137'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY]
+    name: Make a Mess
+    damage: 20x
+    text: Discard up to 2 Trainer cards from your hand. This attack does 20 damage
+      for each card you discarded in this way.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Akira Komayama
+  pioId: sm8-137
+  nationalPokedexNumber: 209
+- enumId: GRANBULL_138:LOST_THUNDER
+  name: Granbull
+  number: '138'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Snubbull]
+  hp: 130
+  moves:
+  - cost: [FAIRY]
+    name: All Out
+    damage: 30+
+    text: If you have no cards in your hand, this attack does 130 more damage.
+  - cost: [FAIRY, FAIRY, FAIRY]
+    name: Giant Fangs
+    damage: '110'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm8-138
+  nationalPokedexNumber: 210
+- enumId: RALTS_139:LOST_THUNDER
+  name: Ralts
+  number: '139'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 50
+  moves:
+  - cost: [FAIRY]
+    name: Beckon
+    text: Put a Supporter card from your discard pile into your hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Beat
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: sm8-139
+  nationalPokedexNumber: 280
+- enumId: KIRLIA_140:LOST_THUNDER
+  name: Kirlia
+  number: '140'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Ralts]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Beat
+    damage: '20'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Disarming Voice
+    damage: '50'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: sm8-140
+  nationalPokedexNumber: 281
+- enumId: GARDEVOIR_141:LOST_THUNDER
+  name: Gardevoir
+  number: '141'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FAIRY]
+  evolvesFrom: [Kirlia]
+  hp: 130
+  moves:
+  - cost: [FAIRY]
+    name: Brilliant Search
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Sensitive Ray
+    damage: 70+
+    text: If you played a Supporter card from your hand during this turn, this attack
+      does 90 more damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ryota Murayama
+  pioId: sm8-141
+  nationalPokedexNumber: 282
+- enumId: DEDENNE_142:LOST_THUNDER
+  name: Dedenne
+  number: '142'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY]
+    name: Zzzap Touch
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Confused. If
+      tails, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Megumi Mizutani
+  pioId: sm8-142
+  nationalPokedexNumber: 702
+- enumId: CARBINK_143:LOST_THUNDER
+  name: Carbink
+  number: '143'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Wonder Ray
+    damage: '30'
+    text: During your opponent's next turn, prevent all effects of attacks, including
+      damage, done to this Pokémon by any Pokémon that has an Ability.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Power Gem
+    damage: '60'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm8-143
+  nationalPokedexNumber: 703
+- enumId: XERNEAS_PRISM_STAR_144:LOST_THUNDER
+  name: Xerneas ◇
+  number: '144'
+  cardTypes: [POKEMON, BASIC, PRISM_STAR]
+  types: [FAIRY]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Path of Life
+    text: Once during your turn, when this Pokémon moves from your Bench to become
+      your Active Pokémon, you may move any number of Energy from your other Pokémon
+      to it.
+  moves:
+  - cost: [FAIRY, FAIRY, FAIRY]
+    name: Bright Horns
+    damage: '160'
+    text: This Pokémon can't use Bright Horns during your next turn.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  text: You can't have more than 1 ◇ card with the same name in your deck. If a ◇
+    card would go to the discard pile, put it in the Lost Zone instead.
+  artist: Shin Nagasawa
+  pioId: sm8-144
+  nationalPokedexNumber: 716
+- enumId: CUTIEFLY_145:LOST_THUNDER
+  name: Cutiefly
+  number: '145'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Sweet Scent
+    text: Heal 30 damage from 1 of your Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 0
+  rarity: Common
+  artist: Midori Harada
+  pioId: sm8-145
+  nationalPokedexNumber: 742
+- enumId: RIBOMBEE_146:LOST_THUNDER
+  name: Ribombee
+  number: '146'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Cutiefly]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Mysterious Buzz
+    text: As long as this Pokémon is on your Bench, whenever your opponent plays a
+      Supporter card from their hand, prevent all effects of that card done to your
+      [Y] Pokémon in play.
+  moves:
+  - cost: [FAIRY]
+    name: Stampede
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Hasuno
+  pioId: sm8-146
+  nationalPokedexNumber: 743
+- enumId: MORELULL_147:LOST_THUNDER
+  name: Morelull
+  number: '147'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [FAIRY]
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: You Iribi
+  pioId: sm8-147
+  nationalPokedexNumber: 755
+- enumId: SHIINOTIC_148:LOST_THUNDER
+  name: Shiinotic
+  number: '148'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Morelull]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Effect Spore
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
+      (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Asleep.
+  moves:
+  - cost: [FAIRY, FAIRY]
+    name: Dream's Touch
+    damage: '50'
+    text: If your opponent's Active Pokémon is Asleep, your opponent shuffles all
+      Energy from it into their deck.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: sm8-148
+  nationalPokedexNumber: 756
+- enumId: MIMIKYU_GX_149:LOST_THUNDER
+  name: Mimikyu-GX
+  number: '149'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FAIRY]
+  hp: 170
+  moves:
+  - cost: [FAIRY]
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [FAIRY, COLORLESS]
+    name: Let's Snuggle & Fall
+    damage: 10+
+    text: This attack does 30 more damage for each damage counter on your opponent's
+      Active Pokémon.
+  - cost: [FAIRY]
+    name: Dream Fear-GX
+    text: Choose 1 of your opponent's Benched Pokémon. Your opponent shuffles that
+      Pokémon and all cards attached to it into their deck. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-149
+  nationalPokedexNumber: 778
+- enumId: TAPU_LELE_150:LOST_THUNDER
+  variantOf: TAPU_LELE_SM152:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Tapu Lele
+  number: '150'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Charmed Charm
+    text: Whenever you attach a Pokémon Tool card that has "Fairy Charm" in its name
+      from your hand to this Pokémon during your turn, you may leave your opponent's
+      Active Pokémon Confused.
+  moves:
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Magical Shot
+    damage: '70'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Mizue
+  pioId: sm8-150
+- enumId: TAPU_FINI_151:LOST_THUNDER
+  name: Tapu Fini
+  number: '151'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 120
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Dream Away
+    text: Flip a coin. If heads, your opponent shuffles their Active Pokémon and all
+      cards attached to it into their deck.
+  - cost: [FAIRY, FAIRY, COLORLESS]
+    name: Wonder Shine
+    damage: '100'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: sm8-151
+- enumId: CHANSEY_152:LOST_THUNDER
+  name: Chansey
+  number: '152'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Healing Pirouette
+    text: Heal 20 damage from each of your Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Sympathetic Slap
+    damage: '100'
+    text: If your opponent's Active Pokémon already has any damage counters on it
+      before this attack does damage, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: MAHOU
+  pioId: sm8-152
+  nationalPokedexNumber: 113
+- enumId: BLISSEY_153:LOST_THUNDER
+  name: Blissey
+  number: '153'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Chansey]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Happiness Supplement
+    text: Once during your turn (before your attack), you may remove a Special Condition
+      from your Active Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Powerful Slap
+    damage: 80x
+    text: Flip a coin for each Energy attached to this Pokémon. This attack does 80
+      damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: MAHOU
+  pioId: sm8-153
+  nationalPokedexNumber: 242
+- enumId: DITTO_PRISM_STAR_154:LOST_THUNDER
+  name: Ditto ◇
+  number: '154'
+  cardTypes: [POKEMON, BASIC, PRISM_STAR]
+  types: [COLORLESS]
+  hp: 40
+  abilities:
+  - type: Ability
+    name: Almighty Evolution
+    text: Once during your turn (before your attack), you may put any Stage 1 card
+      from your hand onto this Pokémon to evolve it. You can't use this Ability during
+      your first turn or the turn this Pokémon was put into play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: You can't have more than 1 ◇ card with the same name in your deck. If a ◇
+    card would go to the discard pile, put it in the Lost Zone instead.
+  artist: kirisAki
+  pioId: sm8-154
+  nationalPokedexNumber: 132
+- enumId: EEVEE_155:LOST_THUNDER
+  variantOf: EEVEE_104:ULTRA_PRISM
+  variantType: Reprint
+  name: Eevee
+  number: '155'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Gnaw
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sekio
+  pioId: sm8-155
+  nationalPokedexNumber: 133
+- enumId: STANTLER_156:LOST_THUNDER
+  name: Stantler
+  number: '156'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Mystifying Horns
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS]
+    name: Enhanced Horns
+    damage: 20+
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does
+      60 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: sm8-156
+  nationalPokedexNumber: 234
+- enumId: SMEARGLE_157:LOST_THUNDER
+  name: Smeargle
+  number: '157'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Stunning Likeness
+    text: Your opponent reveals their hand. You may use the effect of a Supporter
+      card you find there as the effect of this attack.
+  - cost: [COLORLESS]
+    name: Tail Smash
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: sm8-157
+  nationalPokedexNumber: 235
+- enumId: MILTANK_158:LOST_THUNDER
+  name: Miltank
+  number: '158'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Milk Cannon
+    damage: 60x
+    text: Reveal any number of Moomoo Milk cards in your hand. This attack does 60
+      damage for each card you revealed in this way.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: sm8-158
+  nationalPokedexNumber: 241
+- enumId: LUGIA_GX_159:LOST_THUNDER
+  name: Lugia-GX
+  number: '159'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 30+
+    text: This attack does 30 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Pelagic Blade
+    damage: '170'
+    text: This Pokémon can't use Pelagic Blade during your next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Lost Purge-GX
+    text: Put your opponent's Active Pokémon and all cards attached to it in the Lost
+      Zone. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm8-159
+  nationalPokedexNumber: 249
+- enumId: HO_OH_160:LOST_THUNDER
+  name: Ho-Oh
+  number: '160'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rainbow Burn
+    damage: 30+
+    text: This attack does 30 more damage for each type of basic Energy attached to
+      this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Aya Kusube
+  pioId: sm8-160
+  nationalPokedexNumber: 250
+- enumId: KECLEON_161:LOST_THUNDER
+  name: Kecleon
+  number: '161'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Unit Color 1
+    text: As long as this Pokémon has Unit Energy [G][R][W] attached to it, it is
+      a [G], [R], and [W] Pokémon.
+  moves:
+  - cost: [COLORLESS]
+    name: Tongue Smack
+    damage: 10+
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does
+      50 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: OOYAMA
+  pioId: sm8-161
+  nationalPokedexNumber: 352
+- enumId: KECLEON_162:LOST_THUNDER
+  name: Kecleon
+  number: '162'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Unit Color 3
+    text: As long as this Pokémon has Unit Energy [F][D][Y] attached to it, it is
+      a [F], [D], and [Y] Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gentle Slap
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: OOYAMA
+  pioId: sm8-162
+  nationalPokedexNumber: 352
+- enumId: PIKIPEK_163:LOST_THUNDER
+  name: Pikipek
+  number: '163'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Peck Off
+    damage: '10'
+    text: Before doing damage, discard all Pokémon Tool cards from your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: sm8-163
+  nationalPokedexNumber: 731
+- enumId: PIKIPEK_164:LOST_THUNDER
+  name: Pikipek
+  number: '164'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Send Back
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Suwama Chiaki
+  pioId: sm8-164
+  nationalPokedexNumber: 731
+- enumId: TRUMBEAK_165:LOST_THUNDER
+  name: Trumbeak
+  number: '165'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Pikipek]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Mountain Pass
+    text: Once during your turn (before your attack), if this Pokémon is in your hand,
+      you may reveal it. If you do, look at the top card of your opponent's deck and
+      put this Pokémon in the Lost Zone. If that card is a Supporter card, you may
+      put it in the Lost Zone. If your opponent has no cards in their deck, you can't
+      use this Ability.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: sm8-165
+  nationalPokedexNumber: 732
+- enumId: TOUCANNON_166:LOST_THUNDER
+  name: Toucannon
+  number: '166'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Trumbeak]
+  hp: 140
+  moves:
+  - cost: [COLORLESS]
+    name: Heat Beak
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Giganticannon
+    damage: '160'
+    text: If this Pokémon evolved during this turn, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: sm8-166
+  nationalPokedexNumber: 733
+- enumId: ADVENTURE_BAG_167:LOST_THUNDER
+  name: Adventure Bag
+  number: '167'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Search your deck for up to 2 Pokémon Tool cards, reveal them, and put them
+    into your hand. Then, shuffle your deck.
+  artist: Yoshinobu Saito
+  pioId: sm8-167
+- enumId: AETHER_FOUNDATION_EMPLOYEE_168:LOST_THUNDER
+  name: Aether Foundation Employee
+  number: '168'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Put 3 Pokémon that have "Alolan" in their names from your discard pile into
+    your hand.
+  artist: take
+  pioId: sm8-168
+- enumId: CHOICE_HELMET_169:LOST_THUNDER
+  name: Choice Helmet
+  number: '169'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: The Pokémon this card is attached to takes 30 less damage from the attacks
+    of your opponent's Pokémon-GX and Pokémon-EX (after applying Weakness and Resistance).
+  artist: Eske Yoshinob
+  pioId: sm8-169
+- enumId: COUNTER_GAIN_170:LOST_THUNDER
+  name: Counter Gain
+  number: '170'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If you have more Prize cards remaining than your opponent, the attacks of
+    the Pokémon this card is attached to cost [C] less.
+  artist: Toyste Beach
+  pioId: sm8-170
+- enumId: CUSTOM_CATCHER_171:LOST_THUNDER
+  name: Custom Catcher
+  number: '171'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: You may play 2 Custom Catcher cards at once. • If you played 1 card, draw
+    cards until you have 3 cards in your hand. • If you played 2 cards, switch 1 of
+    your opponent's Benched Pokémon with their Active Pokémon. (This effect works
+    one time for 2 cards.)
+  artist: Toyste Beach
+  pioId: sm8-171
+- enumId: ELECTROPOWER_172:LOST_THUNDER
+  name: Electropower
+  number: '172'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: During this turn, your [L] Pokémon's attacks do 30 more damage to your opponent's
+    Active Pokémon (before applying Weakness and Resistance).
+  artist: Eske Yoshinob
+  pioId: sm8-172
+- enumId: ELECTROPOWER_172A:LOST_THUNDER
+  variantOf: ELECTROPOWER_172:LOST_THUNDER
+  variantType: Alternate Art
+  name: Electropower
+  number: 172a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: During this turn, your [L] Pokémon's attacks do 30 more damage to your opponent's
+    Active Pokémon (before applying Weakness and Resistance).
+  artist: Ayaka Yoshida
+  pioId: sm8-172a
+- enumId: FABA_173:LOST_THUNDER
+  name: Faba
+  number: '173'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Choose a Pokémon Tool or Special Energy card attached to 1 of your opponent's
+    Pokémon, or any Stadium card in play, and put it in the Lost Zone.
+  artist: take
+  pioId: sm8-173
+- enumId: FAIRY_CHARM_G_174:LOST_THUNDER
+  name: Fairy Charm [G]
+  number: '174'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Prevent all damage done to the [Y] Pokémon this card is attached to by attacks
+    from your opponent's [G] Pokémon-GX and [G] Pokémon-EX.
+  artist: Toyste Beach
+  pioId: sm8-174
+- enumId: FAIRY_CHARM_P_175:LOST_THUNDER
+  name: Fairy Charm [P]
+  number: '175'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Prevent all damage done to the [Y] Pokémon this card is attached to by attacks
+    from your opponent's [P] Pokémon-GX and [P] Pokémon-EX.
+  artist: Toyste Beach
+  pioId: sm8-175
+- enumId: FAIRY_CHARM_F_176:LOST_THUNDER
+  name: Fairy Charm [F]
+  number: '176'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Prevent all damage done to the [Y] Pokémon this card is attached to by attacks
+    from your opponent's [F] Pokémon-GX and [F] Pokémon-EX.
+  artist: Toyste Beach
+  pioId: sm8-176
+- enumId: FAIRY_CHARM_N_177:LOST_THUNDER
+  name: Fairy Charm [N]
+  number: '177'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Prevent all damage done to the [Y] Pokémon this card is attached to by attacks
+    from your opponent's [N] Pokémon-GX and [N] Pokémon-EX.
+  artist: Toyste Beach
+  pioId: sm8-177
+- enumId: HEAT_FACTORY_PRISM_STAR_178:LOST_THUNDER
+  name: Heat Factory ◇
+  number: '178'
+  cardTypes: [TRAINER, PRISM_STAR, STADIUM]
+  rarity: Rare Holo
+  text: |-
+    You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead.
+    Once during each player's turn, that player may discard a [R] Energy card from their hand. If they do, they draw 3 cards. Whenever any player plays an Item or Supporter card from their hand, prevent all effects of that card done to this Stadium card.
+  artist: 5ban Graphics
+  pioId: sm8-178
+- enumId: KAHILI_179:LOST_THUNDER
+  name: Kahili
+  number: '179'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Draw 2 cards. Then, flip a coin. If heads, if you played this Kahili from
+    your hand, put this card into your hand instead of the discard pile. If you have
+    no cards in your deck, you can't play this card.
+  artist: Ken Sugimori
+  pioId: sm8-179
+- enumId: LIFE_FOREST_PRISM_STAR_180:LOST_THUNDER
+  name: Life Forest ◇
+  number: '180'
+  cardTypes: [TRAINER, PRISM_STAR, STADIUM]
+  rarity: Rare Holo
+  text: |-
+    You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead.
+    Once during each player's turn, that player may heal 60 damage and remove all Special Conditions from 1 of their [G] Pokémon. Whenever any player plays an Item or Supporter card from their hand, prevent all effects of that card done to this Stadium card.
+  artist: 5ban Graphics
+  pioId: sm8-180
+- enumId: LOST_BLENDER_181:LOST_THUNDER
+  name: Lost Blender
+  number: '181'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Put 2 cards from your hand in the Lost Zone. If you do, draw a card.
+  artist: 5ban Graphics
+  pioId: sm8-181
+- enumId: LUSAMINE_PRISM_STAR_182:LOST_THUNDER
+  name: Lusamine ◇
+  number: '182'
+  cardTypes: [TRAINER, PRISM_STAR, SUPPORTER]
+  rarity: Rare Holo
+  text: 'You can play this card only if your opponent has exactly 3 Prize cards remaining.
+
+    Prevent all damage done to your Ultra Beasts by attacks during your opponent''s
+    next turn.
+
+    Prism Star Rule: You can''t have more than 1 Prism Star card with the same name
+    in your deck. If a Prism Star card would go to the discard pile, put it in the
+    Lost Zone instead.'
+  artist: nagimiso
+  pioId: sm8-182
+- enumId: MINA_183:LOST_THUNDER
+  name: Mina
+  number: '183'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for a [Y] Energy card and attach it to 1 of your Pokémon.
+    Then, shuffle your deck.
+  artist: Ken Sugimori
+  pioId: sm8-183
+- enumId: MIXED_HERBS_184:LOST_THUNDER
+  name: Mixed Herbs
+  number: '184'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: You may play 2 Mixed Herbs cards at once. • If you played 1 card, remove a
+    Special Condition from your Active Pokémon. • If you played 2 cards, heal 90 damage
+    and remove all Special Conditions from your Active Pokémon. (This effect works
+    one time for 2 cards.)
+  artist: Toyste Beach
+  pioId: sm8-184
+- enumId: MOOMOO_MILK_185:LOST_THUNDER
+  name: Moomoo Milk
+  number: '185'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose 1 of your Pokémon, and then flip 2 coins. For each heads, heal 30 damage
+    from that Pokémon.
+  artist: Ayaka Yoshida
+  pioId: sm8-185
+- enumId: MORTY_186:LOST_THUNDER
+  name: Morty
+  number: '186'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if 1 of your [P] Pokémon was Knocked Out during your opponent's last turn.
+    Your opponent reveals their hand. Choose 2 cards you find there. Your opponent shuffles those cards into their deck.
+  artist: Ken Sugimori
+  pioId: sm8-186
+- enumId: NET_BALL_187:LOST_THUNDER
+  name: Net Ball
+  number: '187'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Search your deck for a Basic [G] Pokémon or a [G] Energy card, reveal it,
+    and put it into your hand. Then, shuffle your deck.
+  artist: Ryo Ueda
+  pioId: sm8-187
+- enumId: NET_BALL_187A:LOST_THUNDER
+  variantOf: NET_BALL_187:LOST_THUNDER
+  variantType: Alternate Art
+  name: Net Ball
+  number: 187a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Search your deck for a Basic [G] Pokémon or a [G] Energy card, reveal it,
+    and put it into your hand. Then, shuffle your deck.
+  artist: Ryo Ueda
+  pioId: sm8-187a
+- enumId: PROFESSOR_ELM_S_LECTURE_188:LOST_THUNDER
+  name: Professor Elm's Lecture
+  number: '188'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for up to 3 Pokémon with 60 HP or less, reveal them, and
+    put them into your hand. Then, shuffle your deck.
+  artist: Hideki Ishikawa
+  pioId: sm8-188
+- enumId: PROFESSOR_ELM_S_LECTURE_188A:LOST_THUNDER
+  variantOf: PROFESSOR_ELM_S_LECTURE_188:LOST_THUNDER
+  variantType: Alternate Art
+  name: Professor Elm's Lecture
+  number: 188a
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for up to 3 Pokémon with 60 HP or less, reveal them, and
+    put them into your hand. Then, shuffle your deck.
+  artist: nagimiso
+  pioId: sm8-188a
+- enumId: SIGHTSEER_189:LOST_THUNDER
+  name: Sightseer
+  number: '189'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: You may discard any number of cards from your hand. Then, draw cards until
+    you have 5 cards in your hand. If you can't draw any cards in this way, you can't
+    play this card.
+  artist: Naoki Saito
+  pioId: sm8-189
+- enumId: SIGHTSEER_189A:LOST_THUNDER
+  variantOf: SIGHTSEER_189:LOST_THUNDER
+  variantType: Alternate Art
+  name: Sightseer
+  number: 189a
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: You may discard any number of cards from your hand. Then, draw cards until
+    you have 5 cards in your hand. If you can't draw any cards in this way, you can't
+    play this card.
+  artist: Naoki Saito
+  pioId: sm8-189a
+- enumId: SPELL_TAG_190:LOST_THUNDER
+  name: Spell Tag
+  number: '190'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: When the [P] Pokémon this card is attached to is Knocked Out by damage from
+    an opponent's attack, put 4 damage counters on your opponent's Pokémon in any
+    way you like.
+  artist: Ayaka Yoshida
+  pioId: sm8-190
+- enumId: THUNDER_MOUNTAIN_PRISM_STAR_191:LOST_THUNDER
+  name: Thunder Mountain ◇
+  number: '191'
+  cardTypes: [TRAINER, PRISM_STAR, STADIUM]
+  rarity: Rare Holo
+  text: 'The attacks of [L] Pokémon (both yours and your opponent''s) cost [L] less.
+
+    Whenever any player plays an Item or Supporter card from their hand, prevent all
+    effects of that card done to this Stadium card.
+
+    Prism Star Rule: You can''t have more than 1 Prism Star card with the same name
+    in your deck. If a Prism Star card would go to the discard pile, put it in the
+    Lost Zone instead.'
+  artist: 5ban Graphics
+  pioId: sm8-191
+- enumId: WAIT_AND_SEE_HAMMER_192:LOST_THUNDER
+  name: Wait and See Hammer
+  number: '192'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: |-
+    You can use this card only if you go second, and only on your first turn.
+    Discard an Energy from 1 of your opponent's Pokémon.
+  artist: Yoshinobu Saito
+  pioId: sm8-192
+- enumId: WHITNEY_193:LOST_THUNDER
+  name: Whitney
+  number: '193'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Draw a card. Then, draw 2 cards for each other Whitney in your discard pile.
+  artist: Ken Sugimori
+  pioId: sm8-193
+- enumId: MEMORY_ENERGY_194:LOST_THUNDER
+  name: Memory Energy
+  number: '194'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: This card provides [C] Energy. The Pokémon this card is attached to can use
+    any attack from its previous Evolutions. (You still need the necessary Energy
+    to use each attack.)
+  energy: [[COLORLESS]]
+  artist: ''
+  pioId: sm8-194
+- enumId: SHUCKLE_GX_195:LOST_THUNDER
+  variantOf: SHUCKLE_GX_17:LOST_THUNDER
+  variantType: Full Art
+  name: Shuckle-GX
+  number: '195'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Protective Shell
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have 2 or fewer Energy attached to them.
+  moves:
+  - cost: [COLORLESS]
+    name: Triple Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [COLORLESS]
+    name: Wrap-GX
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Paralyzed. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-195
+  nationalPokedexNumber: 213
+- enumId: SCEPTILE_GX_196:LOST_THUNDER
+  variantOf: SCEPTILE_GX_22:LOST_THUNDER
+  variantType: Full Art
+  name: Sceptile-GX
+  number: '196'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Grovyle]
+  hp: 230
+  moves:
+  - cost: [GRASS]
+    name: Mach Cut
+    damage: '60'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [GRASS, GRASS]
+    name: Leaf Cyclone
+    damage: '130'
+    text: Move a [G] Energy from this Pokémon to 1 of your Benched Pokémon.
+  - cost: [GRASS]
+    name: Jungle Heal-GX
+    text: Heal all damage from each of your Pokémon that has any [G] Energy attached
+      to it. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-196
+  nationalPokedexNumber: 254
+- enumId: VIRIZION_GX_197:LOST_THUNDER
+  variantOf: VIRIZION_GX_34:LOST_THUNDER
+  variantType: Full Art
+  name: Virizion-GX
+  number: '197'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Double Draw
+    text: Draw 2 cards.
+  - cost: [GRASS, GRASS]
+    name: Sensitive Blade
+    damage: 50+
+    text: If you played a Supporter card from your hand during this turn, this attack
+      does 80 more damage.
+  - cost: [COLORLESS]
+    name: Breeze Away-GX
+    text: Put any number of your Pokémon in play and all cards attached to them into
+      your hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-197
+  nationalPokedexNumber: 640
+- enumId: MAGCARGO_GX_198:LOST_THUNDER
+  variantOf: MAGCARGO_GX_44:LOST_THUNDER
+  variantType: Full Art
+  name: Magcargo-GX
+  number: '198'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Slugma]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Crushing Charge
+    text: Once during your turn (before your attack), you may discard the top card
+      of your deck. If it's a basic Energy card, attach it to 1 of your Pokémon.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Lava Flow
+    damage: 50+
+    text: Discard any amount of basic Energy from this Pokémon. This attack does 50
+      more damage for each card you discarded in this way.
+  - cost: [FIRE]
+    name: Burning Magma-GX
+    text: Discard the top 5 cards of your opponent's deck. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-198
+  nationalPokedexNumber: 219
+- enumId: BLACEPHALON_GX_199:LOST_THUNDER
+  variantOf: BLACEPHALON_GX_52:LOST_THUNDER
+  variantType: Full Art
+  name: Blacephalon-GX
+  number: '199'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [FIRE]
+    name: Bursting Burn
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+  - cost: [FIRE, FIRE]
+    name: Mind Blown
+    damage: 50x
+    text: Put any amount of [R] Energy attached to your Pokémon in the Lost Zone.
+      This attack does 50 damage for each card put in the Lost Zone in this way.
+  - cost: [FIRE]
+    name: Burst-GX
+    text: Discard 1 of your Prize cards. If it's an Energy card, attach it to 1 of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-199
+- enumId: SUICUNE_GX_200:LOST_THUNDER
+  variantOf: SUICUNE_GX_60:LOST_THUNDER
+  variantType: Full Art
+  name: Suicune-GX
+  number: '200'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Phantom Winds
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench,
+      you may shuffle it and all cards attached to it into your deck.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Cure Stream
+    damage: '120'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  - cost: [WATER, WATER, COLORLESS]
+    name: Brinicles-GX
+    damage: '150'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-200
+  nationalPokedexNumber: 245
+- enumId: ZERAORA_GX_201:LOST_THUNDER
+  variantOf: ZERAORA_GX_86:LOST_THUNDER
+  variantType: Full Art
+  name: Zeraora-GX
+  number: '201'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 190
+  abilities:
+  - type: Ability
+    name: Thunderclap Zone
+    text: Each of your Pokémon that has any [L] Energy attached to it has no Retreat
+      Cost.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Plasma Fists
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [LIGHTNING]
+    name: Full Voltage-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm8-201
+- enumId: SIGILYPH_GX_202:LOST_THUNDER
+  variantOf: SIGILYPH_GX_98:LOST_THUNDER
+  variantType: Full Art
+  name: Sigilyph-GX
+  number: '202'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Mirror Counter
+    text: If this Pokémon is your Active Pokémon and is damaged by an attack from
+      your opponent's Pokémon-GX or Pokémon-EX (even if this Pokémon is Knocked Out),
+      put damage counters on the Attacking Pokémon equal to the damage done to this
+      Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Sonic Wing
+    damage: '80'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Intercept-GX
+    damage: 60x
+    text: This attack does 60 damage times the amount of Energy attached to your opponent's
+      Active Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm8-202
+  nationalPokedexNumber: 561
+- enumId: TYRANITAR_GX_203:LOST_THUNDER
+  variantOf: TYRANITAR_GX_121:LOST_THUNDER
+  variantType: Full Art
+  name: Tyranitar-GX
+  number: '203'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Pupitar]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Lost Out
+    text: If your opponent's Pokémon is Knocked Out by damage from this Pokémon's
+      attacks, put that Pokémon and all cards attached to it in the Lost Zone instead
+      of the discard pile.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Dusty Ruckus
+    damage: '130'
+    text: This attack does 30 damage to each of your opponent's Benched Basic Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Lay the Smackdown-GX
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-203
+  nationalPokedexNumber: 248
+- enumId: GENESECT_GX_204:LOST_THUNDER
+  variantOf: GENESECT_GX_130:LOST_THUNDER
+  variantType: Full Art
+  name: Genesect-GX
+  number: '204'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [METAL]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Double Drive
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it. If it loses
+      this Ability, discard Pokémon Tool cards from it until only 1 remains.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Burst Shot
+    damage: '130'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Break Buster-GX
+    damage: '190'
+    text: This attack's damage isn't affected by Resistance. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-204
+  nationalPokedexNumber: 649
+- enumId: ALOLAN_NINETALES_GX_205:LOST_THUNDER
+  variantOf: ALOLAN_NINETALES_GX_132:LOST_THUNDER
+  variantType: Full Art
+  name: Alolan Ninetales-GX
+  number: '205'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Mysterious Guidance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may search your deck for up to 2 Item cards, reveal them, and
+      put them into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Snowy Wind
+    damage: '70'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FAIRY, COLORLESS]
+    name: Sublimation-GX
+    text: If your opponent's Active Pokémon is an Ultra Beast, it is Knocked Out.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-205
+  nationalPokedexNumber: 38
+- enumId: MIMIKYU_GX_206:LOST_THUNDER
+  variantOf: MIMIKYU_GX_149:LOST_THUNDER
+  variantType: Full Art
+  name: Mimikyu-GX
+  number: '206'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FAIRY]
+  hp: 170
+  moves:
+  - cost: [FAIRY]
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [FAIRY, COLORLESS]
+    name: Let's Snuggle & Fall
+    damage: 10+
+    text: This attack does 30 more damage for each damage counter on your opponent's
+      Active Pokémon.
+  - cost: [FAIRY]
+    name: Dream Fear-GX
+    text: Choose 1 of your opponent's Benched Pokémon. Your opponent shuffles that
+      Pokémon and all cards attached to it into their deck. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-206
+  nationalPokedexNumber: 778
+- enumId: LUGIA_GX_207:LOST_THUNDER
+  variantOf: LUGIA_GX_159:LOST_THUNDER
+  variantType: Full Art
+  name: Lugia-GX
+  number: '207'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 30+
+    text: This attack does 30 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Pelagic Blade
+    damage: '170'
+    text: This Pokémon can't use Pelagic Blade during your next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Lost Purge-GX
+    text: Put your opponent's Active Pokémon and all cards attached to it in the Lost
+      Zone. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm8-207
+  nationalPokedexNumber: 249
+- enumId: FABA_208:LOST_THUNDER
+  variantOf: FABA_173:LOST_THUNDER
+  variantType: Full Art
+  name: Faba
+  number: '208'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Choose a Pokémon Tool or Special Energy card attached to 1 of your opponent's
+    Pokémon, or any Stadium card in play, and put it in the Lost Zone.
+  artist: take
+  pioId: sm8-208
+- enumId: JUDGE_209:LOST_THUNDER
+  variantOf: JUDGE_108:FORBIDDEN_LIGHT
+  variantType: Reprint
+  name: Judge
+  number: '209'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Each player shuffles their hand into their deck and draws 4 cards.
+  artist: Sanosuke Sakuma
+  pioId: sm8-209
+- enumId: KAHILI_210:LOST_THUNDER
+  variantOf: KAHILI_179:LOST_THUNDER
+  variantType: Full Art
+  name: Kahili
+  number: '210'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Draw 2 cards. Then, flip a coin. If heads, if you played this Kahili from
+    your hand, put this card into your hand instead of the discard pile. If you have
+    no cards in your deck, you can't play this card.
+  artist: Megumi Mizutani
+  pioId: sm8-210
+- enumId: MINA_211:LOST_THUNDER
+  variantOf: MINA_183:LOST_THUNDER
+  variantType: Full Art
+  name: Mina
+  number: '211'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for a [Y] Energy card and attach it to 1 of your Pokémon.
+    Then, shuffle your deck.
+  artist: You Iribi
+  pioId: sm8-211
+- enumId: MORTY_212:LOST_THUNDER
+  variantOf: MORTY_186:LOST_THUNDER
+  variantType: Full Art
+  name: Morty
+  number: '212'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: |-
+    You can play this card only if 1 of your [P] Pokémon was Knocked Out during your opponent's last turn.
+    Your opponent reveals their hand. Choose 2 cards you find there. Your opponent shuffles those cards into their deck.
+  artist: Sanosuke Sakuma
+  pioId: sm8-212
+- enumId: PROFESSOR_ELM_S_LECTURE_213:LOST_THUNDER
+  variantOf: PROFESSOR_ELM_S_LECTURE_188:LOST_THUNDER
+  variantType: Full Art
+  name: Professor Elm's Lecture
+  number: '213'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for up to 3 Pokémon with 60 HP or less, reveal them, and
+    put them into your hand. Then, shuffle your deck.
+  artist: Hideki Ishikawa
+  pioId: sm8-213
+- enumId: WHITNEY_214:LOST_THUNDER
+  variantOf: WHITNEY_193:LOST_THUNDER
+  variantType: Full Art
+  name: Whitney
+  number: '214'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Draw a card. Then, draw 2 cards for each other Whitney in your discard pile.
+  artist: Sanosuke Sakuma
+  pioId: sm8-214
+- enumId: SHUCKLE_GX_215:LOST_THUNDER
+  variantOf: SHUCKLE_GX_17:LOST_THUNDER
+  variantType: Secret Art
+  name: Shuckle-GX
+  number: '215'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Protective Shell
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have 2 or fewer Energy attached to them.
+  moves:
+  - cost: [COLORLESS]
+    name: Triple Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [COLORLESS]
+    name: Wrap-GX
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Paralyzed. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-215
+  nationalPokedexNumber: 213
+- enumId: SCEPTILE_GX_216:LOST_THUNDER
+  variantOf: SCEPTILE_GX_22:LOST_THUNDER
+  variantType: Secret Art
+  name: Sceptile-GX
+  number: '216'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Grovyle]
+  hp: 230
+  moves:
+  - cost: [GRASS]
+    name: Mach Cut
+    damage: '60'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [GRASS, GRASS]
+    name: Leaf Cyclone
+    damage: '130'
+    text: Move a [G] Energy from this Pokémon to 1 of your Benched Pokémon.
+  - cost: [GRASS]
+    name: Jungle Heal-GX
+    text: Heal all damage from each of your Pokémon that has any [G] Energy attached
+      to it. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-216
+  nationalPokedexNumber: 254
+- enumId: VIRIZION_GX_217:LOST_THUNDER
+  variantOf: VIRIZION_GX_34:LOST_THUNDER
+  variantType: Secret Art
+  name: Virizion-GX
+  number: '217'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [GRASS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Double Draw
+    text: Draw 2 cards.
+  - cost: [GRASS, GRASS]
+    name: Sensitive Blade
+    damage: 50+
+    text: If you played a Supporter card from your hand during this turn, this attack
+      does 80 more damage.
+  - cost: [COLORLESS]
+    name: Breeze Away-GX
+    text: Put any number of your Pokémon in play and all cards attached to them into
+      your hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-217
+  nationalPokedexNumber: 640
+- enumId: MAGCARGO_GX_218:LOST_THUNDER
+  variantOf: MAGCARGO_GX_44:LOST_THUNDER
+  variantType: Secret Art
+  name: Magcargo-GX
+  number: '218'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Slugma]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Crushing Charge
+    text: Once during your turn (before your attack), you may discard the top card
+      of your deck. If it's a basic Energy card, attach it to 1 of your Pokémon.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Lava Flow
+    damage: 50+
+    text: Discard any amount of basic Energy from this Pokémon. This attack does 50
+      more damage for each card you discarded in this way.
+  - cost: [FIRE]
+    name: Burning Magma-GX
+    text: Discard the top 5 cards of your opponent's deck. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-218
+  nationalPokedexNumber: 219
+- enumId: BLACEPHALON_GX_219:LOST_THUNDER
+  variantOf: BLACEPHALON_GX_52:LOST_THUNDER
+  variantType: Secret Art
+  name: Blacephalon-GX
+  number: '219'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [FIRE]
+    name: Bursting Burn
+    text: Your opponent's Active Pokémon is now Burned and Confused.
+  - cost: [FIRE, FIRE]
+    name: Mind Blown
+    damage: 50x
+    text: Put any amount of [R] Energy attached to your Pokémon in the Lost Zone.
+      This attack does 50 damage for each card put in the Lost Zone in this way.
+  - cost: [FIRE]
+    name: Burst-GX
+    text: Discard 1 of your Prize cards. If it's an Energy card, attach it to 1 of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-219
+  nationalPokedexNumber: 806
+- enumId: SUICUNE_GX_220:LOST_THUNDER
+  variantOf: SUICUNE_GX_60:LOST_THUNDER
+  variantType: Secret Art
+  name: Suicune-GX
+  number: '220'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Phantom Winds
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench,
+      you may shuffle it and all cards attached to it into your deck.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Cure Stream
+    damage: '120'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  - cost: [WATER, WATER, COLORLESS]
+    name: Brinicles-GX
+    damage: '150'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-220
+  nationalPokedexNumber: 245
+- enumId: ZERAORA_GX_221:LOST_THUNDER
+  variantOf: ZERAORA_GX_86:LOST_THUNDER
+  variantType: Secret Art
+  name: Zeraora-GX
+  number: '221'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 190
+  abilities:
+  - type: Ability
+    name: Thunderclap Zone
+    text: Each of your Pokémon that has any [L] Energy attached to it has no Retreat
+      Cost.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Plasma Fists
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [LIGHTNING]
+    name: Full Voltage-GX
+    text: Attach 5 basic Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm8-221
+  nationalPokedexNumber: 807
+- enumId: SIGILYPH_GX_222:LOST_THUNDER
+  variantOf: SIGILYPH_GX_98:LOST_THUNDER
+  variantType: Secret Art
+  name: Sigilyph-GX
+  number: '222'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Mirror Counter
+    text: If this Pokémon is your Active Pokémon and is damaged by an attack from
+      your opponent's Pokémon-GX or Pokémon-EX (even if this Pokémon is Knocked Out),
+      put damage counters on the Attacking Pokémon equal to the damage done to this
+      Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Sonic Wing
+    damage: '80'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Intercept-GX
+    damage: 60x
+    text: This attack does 60 damage times the amount of Energy attached to your opponent's
+      Active Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm8-222
+  nationalPokedexNumber: 561
+- enumId: TYRANITAR_GX_223:LOST_THUNDER
+  variantOf: TYRANITAR_GX_121:LOST_THUNDER
+  variantType: Secret Art
+  name: Tyranitar-GX
+  number: '223'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Pupitar]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Lost Out
+    text: If your opponent's Pokémon is Knocked Out by damage from this Pokémon's
+      attacks, put that Pokémon and all cards attached to it in the Lost Zone instead
+      of the discard pile.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Dusty Ruckus
+    damage: '130'
+    text: This attack does 30 damage to each of your opponent's Benched Basic Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Lay the Smackdown-GX
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-223
+  nationalPokedexNumber: 248
+- enumId: GENESECT_GX_224:LOST_THUNDER
+  variantOf: GENESECT_GX_130:LOST_THUNDER
+  variantType: Secret Art
+  name: Genesect-GX
+  number: '224'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [METAL]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Double Drive
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it. If it loses
+      this Ability, discard Pokémon Tool cards from it until only 1 remains.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Burst Shot
+    damage: '130'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Break Buster-GX
+    damage: '190'
+    text: This attack's damage isn't affected by Resistance. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: Yoshinobu Saito
+  pioId: sm8-224
+  nationalPokedexNumber: 649
+- enumId: ALOLAN_NINETALES_GX_225:LOST_THUNDER
+  variantOf: ALOLAN_NINETALES_GX_132:LOST_THUNDER
+  variantType: Secret Art
+  name: Alolan Ninetales-GX
+  number: '225'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Mysterious Guidance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may search your deck for up to 2 Item cards, reveal them, and
+      put them into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Snowy Wind
+    damage: '70'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FAIRY, COLORLESS]
+    name: Sublimation-GX
+    text: If your opponent's Active Pokémon is an Ultra Beast, it is Knocked Out.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-225
+  nationalPokedexNumber: 38
+- enumId: MIMIKYU_GX_226:LOST_THUNDER
+  variantOf: MIMIKYU_GX_149:LOST_THUNDER
+  variantType: Secret Art
+  name: Mimikyu-GX
+  number: '226'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FAIRY]
+  hp: 170
+  moves:
+  - cost: [FAIRY]
+    name: Perplex
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [FAIRY, COLORLESS]
+    name: Let's Snuggle & Fall
+    damage: 10+
+    text: This attack does 30 more damage for each damage counter on your opponent's
+      Active Pokémon.
+  - cost: [FAIRY]
+    name: Dream Fear-GX
+    text: Choose 1 of your opponent's Benched Pokémon. Your opponent shuffles that
+      Pokémon and all cards attached to it into their deck. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm8-226
+  nationalPokedexNumber: 778
+- enumId: LUGIA_GX_227:LOST_THUNDER
+  variantOf: LUGIA_GX_159:LOST_THUNDER
+  variantType: Secret Art
+  name: Lugia-GX
+  number: '227'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 30+
+    text: This attack does 30 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Pelagic Blade
+    damage: '170'
+    text: This Pokémon can't use Pelagic Blade during your next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Lost Purge-GX
+    text: Put your opponent's Active Pokémon and all cards attached to it in the Lost
+      Zone. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm8-227
+  nationalPokedexNumber: 249
+- enumId: ADVENTURE_BAG_228:LOST_THUNDER
+  variantOf: ADVENTURE_BAG_167:LOST_THUNDER
+  variantType: Secret Art
+  name: Adventure Bag
+  number: '228'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Search your deck for up to 2 Pokémon Tool cards, reveal them, and put them
+    into your hand. Then, shuffle your deck.
+  artist: Yoshinobu Saito
+  pioId: sm8-228
+- enumId: CHOICE_HELMET_229:LOST_THUNDER
+  variantOf: CHOICE_HELMET_169:LOST_THUNDER
+  variantType: Secret Art
+  name: Choice Helmet
+  number: '229'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: The Pokémon this card is attached to takes 30 less damage from the attacks
+    of your opponent's Pokémon-GX and Pokémon-EX (after applying Weakness and Resistance).
+  artist: Eske Yoshinob
+  pioId: sm8-229
+- enumId: COUNTER_GAIN_230:LOST_THUNDER
+  variantOf: COUNTER_GAIN_170:LOST_THUNDER
+  variantType: Secret Art
+  name: Counter Gain
+  number: '230'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: If you have more Prize cards remaining than your opponent, the attacks of
+    the Pokémon this card is attached to cost [C] less.
+  artist: Toyste Beach
+  pioId: sm8-230
+- enumId: CUSTOM_CATCHER_231:LOST_THUNDER
+  variantOf: CUSTOM_CATCHER_171:LOST_THUNDER
+  variantType: Secret Art
+  name: Custom Catcher
+  number: '231'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: You may play 2 Custom Catcher cards at once. • If you played 1 card, draw
+    cards until you have 3 cards in your hand. • If you played 2 cards, switch 1 of
+    your opponent's Benched Pokémon with their Active Pokémon. (This effect works
+    one time for 2 cards.)
+  artist: Toyste Beach
+  pioId: sm8-231
+- enumId: ELECTROPOWER_232:LOST_THUNDER
+  variantOf: ELECTROPOWER_172:LOST_THUNDER
+  variantType: Secret Art
+  name: Electropower
+  number: '232'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: During this turn, your [L] Pokémon's attacks do 30 more damage to your opponent's
+    Active Pokémon (before applying Weakness and Resistance).
+  artist: Eske Yoshinob
+  pioId: sm8-232
+- enumId: LOST_BLENDER_233:LOST_THUNDER
+  variantOf: LOST_BLENDER_181:LOST_THUNDER
+  variantType: Secret Art
+  name: Lost Blender
+  number: '233'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Put 2 cards from your hand in the Lost Zone. If you do, draw a card.
+  artist: 5ban Graphics
+  pioId: sm8-233
+- enumId: NET_BALL_234:LOST_THUNDER
+  variantOf: NET_BALL_187:LOST_THUNDER
+  variantType: Secret Art
+  name: Net Ball
+  number: '234'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Search your deck for a Basic [G] Pokémon or a [G] Energy card, reveal it,
+    and put it into your hand. Then, shuffle your deck.
+  artist: Ryo Ueda
+  pioId: sm8-234
+- enumId: SPELL_TAG_235:LOST_THUNDER
+  variantOf: SPELL_TAG_190:LOST_THUNDER
+  variantType: Secret Art
+  name: Spell Tag
+  number: '235'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: When the [P] Pokémon this card is attached to is Knocked Out by damage from
+    an opponent's attack, put 4 damage counters on your opponent's Pokémon in any
+    way you like.
+  artist: Ayaka Yoshida
+  pioId: sm8-235
+- enumId: WAIT_AND_SEE_HAMMER_236:LOST_THUNDER
+  name: Wait and See Hammer
+  number: '236'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: You can use this card only if you go second, and only on your first turn.
+    Discard an Energy from 1 of your opponent's Pokémon.
+  artist: Yoshinobu Saito
+  pioId: sm8-236

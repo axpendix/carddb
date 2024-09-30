@@ -13,6 +13,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Cache Maven
+      uses: actions/cache@v2
+      with:
+        path: ~/.m2
+        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2
+
+    # for deployment, cache step must come BEFORE setup-java else settings.xml gets rewritten by cache
+
     - name: Setup Java
       uses: actions/setup-java@v1
       with:
@@ -21,16 +30,24 @@ jobs:
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
 
-
-    - name: Cache Maven
-      uses: actions/cache@v2
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
-
     - name: Deploy Project
       run: mvn --batch-mode deploy
       env:
         MAVEN_USERNAME: myMavenRepo
-        MAVEN_PASSWORD: ${{ secrets.TCGONE_REPO_PASSWORD }}
+        MAVEN_PASSWORD: ${{ secrets.REPO_PASSWORD }}
+
+# disabled for token security reasons
+# for now, front deployments should be done manually via triggering deploy.yml workflow
+# this can be re-enabled after creating a constrained token via a github app
+# https://docs.github.com/en/actions/learn-github-actions/security-hardening-for-github-actions
+#
+#    - uses: octokit/request-action@v2.x
+#      id: trigger_front
+#      with:
+#        route: POST /repos/{owner}/{repo}/actions/workflows/{workflow}/dispatches
+#        owner: tcgone
+#        repo: front
+#        workflow: deploy.yml
+#        ref: master
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GH_PAT }}

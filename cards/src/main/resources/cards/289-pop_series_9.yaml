@@ -1,0 +1,436 @@
+schema: E3
+expansion:
+  orderId: '289'
+  name: POP Series 9
+  enumId: POP_SERIES_9
+  shortName: POP9
+cards:
+- enumId: GARCHOMP_1:POP_SERIES_9
+  name: Garchomp
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  evolvesFrom: [Gabite]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Dragon Rage
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Jet Sword
+    damage: '100'
+    text: Discard 2 Energy attached to Garchomp and this attack does 10 damage to
+      each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance
+      for Benched Pokémon.)
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: pop9-1
+  nationalPokedexNumber: 445
+- enumId: MANAPHY_2:POP_SERIES_9
+  name: Manaphy
+  number: '2'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Dive
+    text: Look at the top 7 cards of your deck, choose 1 of them, and put it into
+      your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+  - cost: [WATER]
+    name: Water Glow
+    damage: '20'
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, remove
+      from Manaphy the number of damage counters equal to the damage you did to that
+      Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: pop9-2
+  nationalPokedexNumber: 490
+- enumId: RAICHU_3:POP_SERIES_9
+  name: Raichu
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  evolvesFrom: [Pikachu]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Slam
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING]
+    name: High Volt
+    text: If Raichu evolved from Pikachu during this turn, this attack's base damage
+      is 100 instead of 60.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Midori Harada
+  pioId: pop9-3
+  nationalPokedexNumber: 26
+- enumId: REGIGIGAS_4:POP_SERIES_9
+  name: Regigigas
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Double Stomp
+    damage: 50+
+    text: Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: Kent Kanetsuna
+  pioId: pop9-4
+  nationalPokedexNumber: 486
+- enumId: ROTOM_5:POP_SERIES_9
+  name: Rotom
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Type Shift
+    text: Once during your turn (before your attack), you may use this power. Rotom's
+      type is [P] until the end of your turn
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Poltergeist
+    damage: 30+
+    text: Look at your opponent's hand. This attack does 30 damage plus 10 more damage
+      for each Trainer, Supporter, and Stadium card in your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: COLORLESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: pop9-5
+  nationalPokedexNumber: 479
+- enumId: BUIZEL_6:POP_SERIES_9
+  name: Buizel
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Whirlpool
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  - cost: [WATER, WATER]
+    name: Super Fast
+    damage: '30'
+    text: If you have Pachirisu in play, flip a coin. If heads, prevent all effects
+      of an attack, including damage, done to Buizel during your opponent's next turn.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: pop9-6
+  nationalPokedexNumber: 418
+- enumId: CROAGUNK_7:POP_SERIES_9
+  name: Croagunk
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Knock Off
+    text: Flip a coin. If heads, choose 1 card from your opponent's hand without looking
+      and discard it.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Nimble
+    damage: '30'
+    text: If you have Turtwig in play, remove from Croagunk the number of damage counters
+      equal to the damage you did to the Defending Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: pop9-7
+  nationalPokedexNumber: 453
+- enumId: GABITE_8:POP_SERIES_9
+  name: Gabite
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  evolvesFrom: [Gible]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Burrow
+    text: Flip a coin. If heads, prevent all damage done to Gabite by attacks during
+      your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Distorted Wave
+    damage: '60'
+    text: Before doing damage, remove 2 damage counters from the Defending Pokémon.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: pop9-8
+  nationalPokedexNumber: 444
+- enumId: LOPUNNY_9:POP_SERIES_9
+  name: Lopunny
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  evolvesFrom: [Buneary]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Jump Kick
+    damage: '20'
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Jazzed
+    damage: '50'
+    text: If Lopunny evolved from Buneary during this turn, remove all damage counters
+      from Lopunny.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: pop9-9
+  nationalPokedexNumber: 428
+- enumId: PACHIRISU_10:POP_SERIES_9
+  name: Pachirisu
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Wave
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Poison Gulp
+    damage: 20+
+    text: If you have Croagunk in play, this attack does 20 damage plus 20 more damage
+      and the Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: pop9-10
+  nationalPokedexNumber: 417
+- enumId: PICHU_11:POP_SERIES_9
+  name: Pichu
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  abilities:
+  - type: Poké-Power
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Pikachu from your
+      hand onto Pichu (this counts as evolving Pichu) and remove all damage counters
+      from Pichu.
+  moves:
+  - cost: []
+    name: Find a Friend
+    text: Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent,
+      and put it into your hand. Shuffle your deck afterward.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: pop9-11
+  nationalPokedexNumber: 172
+- enumId: BUNEARY_12:POP_SERIES_9
+  name: Buneary
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Dizzy Punch
+    damage: 10x
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  - cost: [COLORLESS, COLORLESS]
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Buneary by attacks during
+      your opponent's next turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: pop9-12
+  nationalPokedexNumber: 427
+- enumId: CHIMCHAR_13:POP_SERIES_9
+  name: Chimchar
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 40
+  moves:
+  - cost: [FIRE]
+    name: Serial Swipes
+    damage: 10x
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Sleepy
+    damage: 40+
+    text: If you have Piplup in play, this attack does 40 damage plus 20 more damage
+      and the Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: pop9-13
+  nationalPokedexNumber: 390
+- enumId: GIBLE_14:POP_SERIES_9
+  variantOf: GIBLE_85:MYSTERIOUS_TREASURES
+  variantType: Reprint
+  name: Gible
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Push Down
+    damage: '10'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: COLORLESS
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Hiroki Fuchino
+  pioId: pop9-14
+  nationalPokedexNumber: 443
+- enumId: PIKACHU_15:POP_SERIES_9
+  name: Pikachu
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Growl
+    text: During your opponent's next turn, any damage done by attacks from the Defending
+      Pokémon is reduced by 20 (before applying Weakness and Resistance).
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Numb
+    damage: '30'
+    text: If Pikachu evolved from Pichu during this turn, the Defending Pokémon is
+      now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: pop9-15
+  nationalPokedexNumber: 25
+- enumId: PIPLUP_16:POP_SERIES_9
+  name: Piplup
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Water Sport
+    damage: 10+
+    text: If Piplup has less Energy attached to it than the Defending Pokémon, this
+      attack does 10 damage plus 10 more damage.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Wavelet
+    damage: '40'
+    text: If you have Buizel in play, this attack does 10 damage to each of your opponent's
+      Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: pop9-16
+  nationalPokedexNumber: 393
+- enumId: TURTWIG_17:POP_SERIES_9
+  name: Turtwig
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Absorb
+    damage: '10'
+    text: Remove 1 damage counter from Turtwig.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Parboil
+    damage: 40+
+    text: If you have Chimchar in play, this attack does 40 damage plus 20 more damage
+      and the Defending Pokémon is now Burned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Midori Harada
+  pioId: pop9-17
+  nationalPokedexNumber: 387

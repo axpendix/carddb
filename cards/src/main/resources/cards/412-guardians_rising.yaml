@@ -1,0 +1,4136 @@
+schema: E3
+expansion:
+  orderId: '412'
+  name: Guardians Rising
+  enumId: GUARDIANS_RISING
+  shortName: GRI
+cards:
+- enumId: BELLSPROUT_1:GUARDIANS_RISING
+  name: Bellsprout
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Vine Whip
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Aya Kusube
+  pioId: sm2-1
+  nationalPokedexNumber: 69
+- enumId: WEEPINBELL_2:GUARDIANS_RISING
+  name: Weepinbell
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Bellsprout]
+  hp: 80
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Muddy Acid
+    damage: '40'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mina Nakai
+  pioId: sm2-2
+  nationalPokedexNumber: 70
+- enumId: VICTREEBEL_3:GUARDIANS_RISING
+  name: Victreebel
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Weepinbell]
+  hp: 140
+  moves:
+  - cost: [GRASS]
+    name: Pollen Hazard
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Stick and Absorb
+    damage: '80'
+    text: Heal 20 damage from this Pokémon. The Defending Pokémon can't retreat during
+      your opponent's next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: TOKIYA
+  pioId: sm2-3
+  nationalPokedexNumber: 71
+- enumId: PETILIL_4:GUARDIANS_RISING
+  name: Petilil
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Blot
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: sm2-4
+  nationalPokedexNumber: 548
+- enumId: LILLIGANT_5:GUARDIANS_RISING
+  name: Lilligant
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Petilil]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Petal Blizzard
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [GRASS, COLORLESS]
+    name: Petal Dance
+    damage: 40x
+    text: Flip 3 coins. This attack does 40 damage for each heads. This Pokémon is
+      now Confused.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: You Iribi
+  pioId: sm2-5
+  nationalPokedexNumber: 549
+- enumId: PHANTUMP_6:GUARDIANS_RISING
+  name: Phantump
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Sanosuke Sakuma
+  pioId: sm2-6
+  nationalPokedexNumber: 708
+- enumId: TREVENANT_7:GUARDIANS_RISING
+  name: Trevenant
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Phantump]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Poltergeist
+    damage: 30x
+    text: Your opponent reveals their hand. This attack does 30 damage for each Trainer
+      card you find there.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Horn Leech
+    damage: '90'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Hiroyuki Yamamoto
+  pioId: sm2-7
+  nationalPokedexNumber: 709
+- enumId: WIMPOD_8:GUARDIANS_RISING
+  name: Wimpod
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Scamper Away
+    text: Shuffle this Pokémon and all cards attached to it into your deck.
+  - cost: [GRASS]
+    name: Ram
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: match
+  pioId: sm2-8
+  nationalPokedexNumber: 767
+- enumId: GOLISOPOD_9:GUARDIANS_RISING
+  variantOf: GOLISOPOD_SM52:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Golisopod
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Wimpod]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Armor
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Resolute Claws
+    damage: 80+
+    text: If your opponent's Active Pokémon is a Pokémon-GX or a Pokémon-EX, this
+      attack does 70 more damage (before applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm2-9
+  nationalPokedexNumber: 768
+- enumId: VICTINI_10:GUARDIANS_RISING
+  name: Victini
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Victory Star
+    text: Once during your turn, after you flip any coins for an attack, you may ignore
+      all results of those coin flips and begin flipping those coins again. You can't
+      use more than 1 Victory Star Ability each turn.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: V-Flame
+    damage: '50'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: kodama
+  pioId: sm2-10
+  nationalPokedexNumber: 494
+- enumId: LITWICK_11:GUARDIANS_RISING
+  name: Litwick
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE]
+    name: Flickering Flames
+    damage: '10'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: sm2-11
+  nationalPokedexNumber: 607
+- enumId: LAMPENT_12:GUARDIANS_RISING
+  name: Lampent
+  number: '12'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Litwick]
+  hp: 80
+  moves:
+  - cost: [FIRE]
+    name: Will-O-Wisp
+    damage: '30'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: '0313'
+  pioId: sm2-12
+  nationalPokedexNumber: 608
+- enumId: CHANDELURE_13:GUARDIANS_RISING
+  name: Chandelure
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Lampent]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Shady Move
+    text: Once during your turn (before your attack), you may move 1 damage counter
+      from 1 Pokémon to another Pokémon.
+  moves:
+  - cost: [FIRE]
+    name: Super Singe
+    damage: '50'
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm2-13
+  nationalPokedexNumber: 609
+- enumId: ORICORIO_14:GUARDIANS_RISING
+  name: Oricorio
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [FIRE]
+    name: Passionate Dance
+    text: Search your deck for up to 3 Basic [R] Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [FIRE, FIRE]
+    name: Kindle
+    damage: '30'
+    text: Discard an Energy from this Pokémon. If you do, discard an Energy from your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm2-14
+  nationalPokedexNumber: 741
+- enumId: SALANDIT_15:GUARDIANS_RISING
+  name: Salandit
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [FIRE]
+    name: Scratch
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Venoshock
+    damage: 20+
+    text: If your opponent's Active Pokémon is Poisoned, this attack does 40 more
+      damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: TOKIYA
+  pioId: sm2-15
+  nationalPokedexNumber: 757
+- enumId: SALAZZLE_16:GUARDIANS_RISING
+  name: Salazzle
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Salandit]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Hot Poison
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may leave your opponent's Active Pokémon Burned and Poisoned.
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '90'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: sm2-16
+  nationalPokedexNumber: 758
+- enumId: TURTONATOR_17:GUARDIANS_RISING
+  name: Turtonator
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '30'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Heat Blast
+    damage: '90'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm2-17
+  nationalPokedexNumber: 776
+- enumId: TURTONATOR_GX_18:GUARDIANS_RISING
+  name: Turtonator-GX
+  number: '18'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shell Trap
+    damage: '20'
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack
+      (even if this Pokémon is Knocked Out), put 8 damage counters on the Attacking
+      Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Bright Flame
+    damage: '160'
+    text: Discard 2 [R] Energy from this Pokémon.
+  - cost: [FIRE]
+    name: Nitro Tank-GX
+    text: Attach 5 [R] Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-18
+  nationalPokedexNumber: 776
+- enumId: ALOLAN_SANDSHREW_19:GUARDIANS_RISING
+  name: Alolan Sandshrew
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks
+      during your opponent's next turn.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Ice Ball
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: sm2-19
+  nationalPokedexNumber: 27
+- enumId: ALOLAN_SANDSHREW_19A:GUARDIANS_RISING
+  variantOf: ALOLAN_SANDSHREW_19:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Alolan Sandshrew
+  number: 19a
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks
+      during your opponent's next turn.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Ice Ball
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hideki Ishikawa
+  pioId: sm2-19a
+  nationalPokedexNumber: 27
+- enumId: ALOLAN_SANDSLASH_20:GUARDIANS_RISING
+  variantOf: ALOLAN_SANDSLASH_SM18:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Alolan Sandslash
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Alolan Sandshrew]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Slush Rush
+    text: Once during your turn (before your attack), you may draw a card.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Smash Turn
+    damage: '50'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: TOKIYA
+  pioId: sm2-20
+  nationalPokedexNumber: 28
+- enumId: ALOLAN_VULPIX_21:GUARDIANS_RISING
+  name: Alolan Vulpix
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Beacon
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your
+      hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Icy Snow
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: You Iribi
+  pioId: sm2-21
+  nationalPokedexNumber: 37
+- enumId: ALOLAN_VULPIX_21A:GUARDIANS_RISING
+  variantOf: ALOLAN_VULPIX_21:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Alolan Vulpix
+  number: 21a
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Beacon
+    text: Search your deck for up to 2 Pokémon, reveal them, and put them into your
+      hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Icy Snow
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: kirisAki
+  pioId: sm2-21a
+  nationalPokedexNumber: 37
+- enumId: ALOLAN_NINETALES_GX_22:GUARDIANS_RISING
+  name: Alolan Ninetales-GX
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Blade
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Blizzard Edge
+    damage: '160'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Path-GX
+    text: Move all damage counters from this Pokémon to your opponent's Active Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-22
+  nationalPokedexNumber: 38
+- enumId: TENTACOOL_23:GUARDIANS_RISING
+  name: Tentacool
+  number: '23'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Sludge Shock
+    damage: '10'
+    text: The Defending Pokémon can't be healed during your opponent's next turn.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shibuzoh.
+  pioId: sm2-23
+  nationalPokedexNumber: 72
+- enumId: TENTACRUEL_24:GUARDIANS_RISING
+  name: Tentacruel
+  number: '24'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Tentacool]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Poison Sting
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Poisoned.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Seething Tentacles
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent's
+      Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: sm2-24
+  nationalPokedexNumber: 73
+- enumId: POLITOED_25:GUARDIANS_RISING
+  name: Politoed
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Poliwhirl]
+  hp: 130
+  moves:
+  - cost: [WATER]
+    name: Roll Call
+    text: Search your deck for a Poliwag, a Poliwhirl, and a Poliwrath, and put them
+      onto your Bench. Then, shuffle your deck.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hyper Jump
+    damage: '100'
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Saya Tsuruta
+  pioId: sm2-25
+  nationalPokedexNumber: 186
+- enumId: DELIBIRD_26:GUARDIANS_RISING
+  name: Delibird
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: All the Presents
+    text: Flip a coin until you get tails. For each heads, you may search your deck
+      for a card and put it into your hand. Then, shuffle your deck.
+  - cost: [WATER]
+    name: Surprise Attack
+    damage: '40'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: sm2-26
+  nationalPokedexNumber: 225
+- enumId: CARVANHA_27:GUARDIANS_RISING
+  name: Carvanha
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Bite
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hideki Ishikawa
+  pioId: sm2-27
+  nationalPokedexNumber: 318
+- enumId: SHARPEDO_28:GUARDIANS_RISING
+  name: Sharpedo
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Carvanha]
+  hp: 90
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Jet Headbutt
+    damage: '70'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: sm2-28
+  nationalPokedexNumber: 319
+- enumId: WAILMER_29:GUARDIANS_RISING
+  name: Wailmer
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Splash
+    damage: '20'
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Surf
+    damage: '70'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: sm2-29
+  nationalPokedexNumber: 320
+- enumId: WAILORD_30:GUARDIANS_RISING
+  name: Wailord
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Wailmer]
+  hp: 200
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Dive
+    damage: '40'
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage,
+      done to this Pokémon during your opponent's next turn.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Open Sea
+    damage: '80'
+    text: Heal 30 damage from each of your [W] Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: OOYAMA
+  pioId: sm2-30
+  nationalPokedexNumber: 321
+- enumId: SNORUNT_31:GUARDIANS_RISING
+  name: Snorunt
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Chilly
+    damage: '10'
+  - cost: [WATER, WATER]
+    name: Frost Breath
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: sm2-31
+  nationalPokedexNumber: 361
+- enumId: GLALIE_32:GUARDIANS_RISING
+  name: Glalie
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Snorunt]
+  hp: 120
+  moves:
+  - cost: [WATER, WATER]
+    name: Crunch
+    damage: '40'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER]
+    name: Raging Floe
+    damage: 70+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: so-taro
+  pioId: sm2-32
+  nationalPokedexNumber: 362
+- enumId: VANILLITE_33:GUARDIANS_RISING
+  name: Vanillite
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Triple Spin
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: OOYAMA
+  pioId: sm2-33
+  nationalPokedexNumber: 582
+- enumId: VANILLISH_34:GUARDIANS_RISING
+  name: Vanillish
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Vanillite]
+  hp: 80
+  moves:
+  - cost: [WATER]
+    name: Ice Shard
+    damage: 30+
+    text: If your opponent's Active Pokémon is a [F] Pokémon, this attack does 30
+      more damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Naoki Saito
+  pioId: sm2-34
+  nationalPokedexNumber: 583
+- enumId: VANILLUXE_35:GUARDIANS_RISING
+  name: Vanilluxe
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Vanillish]
+  hp: 140
+  moves:
+  - cost: [WATER]
+    name: Hail
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, WATER]
+    name: Frozen Breath
+    damage: '80'
+    text: You may discard 2 [W] Energy from this Pokémon. If you do, your opponent's
+      Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: kawayoo
+  pioId: sm2-35
+  nationalPokedexNumber: 584
+- enumId: ALOMOMOLA_36:GUARDIANS_RISING
+  name: Alomomola
+  number: '36'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Borne Ashore
+    text: Put a Basic Pokémon from either player's discard pile onto its owner's Bench.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hydro Splash
+    damage: '60'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Aya Kusube
+  pioId: sm2-36
+  nationalPokedexNumber: 594
+- enumId: WISHIWASHI_37:GUARDIANS_RISING
+  name: Wishiwashi
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  abilities:
+  - type: Ability
+    name: Schooling
+    text: Once during your turn (before your attack), you may switch this Pokémon
+      with a Wishiwashi-GX in your hand. Any attached cards, damage counters, Special
+      Conditions, turns in play, and any other effects remain on the new Pokémon.
+  moves:
+  - cost: [WATER]
+    name: Sharpshooting
+    text: This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Sanosuke Sakuma
+  pioId: sm2-37
+  nationalPokedexNumber: 746
+- enumId: WISHIWASHI_GX_38:GUARDIANS_RISING
+  name: Wishiwashi-GX
+  number: '38'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Water Gun
+    damage: '20'
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Torrential Vortex
+    damage: '120'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Blue Surge-GX
+    damage: '220'
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you
+      like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-38
+  nationalPokedexNumber: 746
+- enumId: MAREANIE_39:GUARDIANS_RISING
+  name: Mareanie
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Bail Out
+    text: Put a Pokémon from your discard pile into your hand.
+  - cost: [WATER]
+    name: Rain Splash
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: sm2-39
+  nationalPokedexNumber: 747
+- enumId: ALOLAN_GEODUDE_40:GUARDIANS_RISING
+  name: Alolan Geodude
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: []
+    name: Rock Polish
+    text: During your next turn, this Pokémon has no Retreat Cost.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Rollout
+    damage: '40'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Hitoshi Ariga
+  pioId: sm2-40
+  nationalPokedexNumber: 74
+- enumId: ALOLAN_GRAVELER_41:GUARDIANS_RISING
+  name: Alolan Graveler
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Geodude]
+  hp: 110
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder Punch
+    damage: 50+
+    text: Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon
+      does 20 damage to itself.
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electrobullet
+    damage: '80'
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Uncommon
+  artist: match
+  pioId: sm2-41
+  nationalPokedexNumber: 75
+- enumId: ALOLAN_GOLEM_42:GUARDIANS_RISING
+  name: Alolan Golem
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Graveler]
+  hp: 160
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Electromagnetic Rock Wrecker
+    damage: 80x
+    text: Flip a coin for each [L] Energy attached to this Pokémon. This attack does
+      80 damage for each heads.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Heavy Slam
+    damage: 200-
+    text: This attack does 30 less damage for each [C] in your opponent's Active Pokémon's
+      Retreat Cost.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: sm2-42
+  nationalPokedexNumber: 76
+- enumId: HELIOPTILE_43:GUARDIANS_RISING
+  name: Helioptile
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Shock
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: sm2-43
+  nationalPokedexNumber: 694
+- enumId: HELIOLISK_44:GUARDIANS_RISING
+  name: Heliolisk
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Helioptile]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Raging Thunder
+    damage: '120'
+    text: This attack does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm2-44
+  nationalPokedexNumber: 695
+- enumId: VIKAVOLT_GX_45:GUARDIANS_RISING
+  name: Vikavolt-GX
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Charjabug]
+  hp: 240
+  moves:
+  - cost: [LIGHTNING]
+    name: Charge Beam
+    damage: '50'
+    text: Attach an Energy card from your discard pile to this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Super Zap Cannon
+    damage: '180'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Gigatron-GX
+    text: This attack does 60 damage to each of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.) (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-45
+  nationalPokedexNumber: 738
+- enumId: ORICORIO_46:GUARDIANS_RISING
+  name: Oricorio
+  number: '46'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 90
+  moves:
+  - cost: [LIGHTNING]
+    name: Feather Dance
+    text: During your next turn, this Pokémon's Pom-Pom Punch attack's base damage
+      is 100.
+  - cost: [LIGHTNING]
+    name: Pom-Pom Punch
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: sm2-46
+  nationalPokedexNumber: 741
+- enumId: TAPU_KOKO_GX_47:GUARDIANS_RISING
+  variantOf: TAPU_KOKO_GX_SM33:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Tapu Koko-GX
+  number: '47'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Aero Trail
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may move any number of [L] Energy from your other Pokémon to this Pokémon.
+      If you do, switch this Pokémon with your Active Pokémon.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Sky-High Claws
+    damage: '130'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Tapu Thunder-GX
+    damage: 50x
+    text: This attack does 50 damage times the amount of Energy attached to all of
+      your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-47
+- enumId: SLOWPOKE_48:GUARDIANS_RISING
+  name: Slowpoke
+  number: '48'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Headbutt
+    damage: '10'
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Whimsy Tackle
+    damage: '60'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Mina Nakai
+  pioId: sm2-48
+  nationalPokedexNumber: 79
+- enumId: SLOWBRO_49:GUARDIANS_RISING
+  name: Slowbro
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Slowpoke]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Amnesia
+    damage: '20'
+    text: Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't
+      use that attack during your opponent's next turn.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Facade
+    damage: 50+
+    text: If this Pokémon is Burned or Poisoned, this attack does 80 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Shibuzoh.
+  pioId: sm2-49
+  nationalPokedexNumber: 80
+- enumId: TRUBBISH_50:GUARDIANS_RISING
+  name: Trubbish
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Stomp Off
+    text: Discard the top card of your opponent's deck.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Drool
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Yuka Morii
+  pioId: sm2-50
+  nationalPokedexNumber: 568
+- enumId: GARBODOR_51:GUARDIANS_RISING
+  name: Garbodor
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Trubbish]
+  hp: 120
+  moves:
+  - cost: [PSYCHIC]
+    name: Trashalanche
+    damage: 20x
+    text: This attack does 20 damage for each Item card in your opponent's discard
+      pile.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Acid Spray
+    damage: '70'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: sm2-51
+  nationalPokedexNumber: 569
+- enumId: GARBODOR_51A:GUARDIANS_RISING
+  variantOf: GARBODOR_51:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Garbodor
+  number: 51a
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Trubbish]
+  hp: 120
+  moves:
+  - cost: [PSYCHIC]
+    name: Trashalanche
+    damage: 20x
+    text: This attack does 20 damage for each Item card in your opponent's discard
+      pile.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Acid Spray
+    damage: '70'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: nagimiso
+  pioId: sm2-51a
+  nationalPokedexNumber: 569
+- enumId: GOTHITA_52:GUARDIANS_RISING
+  name: Gothita
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Blown Kiss
+    text: Put 1 damage counter on 1 of your opponent's Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: sm2-52
+  nationalPokedexNumber: 574
+- enumId: GOTHORITA_53:GUARDIANS_RISING
+  name: Gothorita
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Gothita]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Slap
+    damage: '20'
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psybeam
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: sm2-53
+  nationalPokedexNumber: 575
+- enumId: GOTHITELLE_54:GUARDIANS_RISING
+  name: Gothitelle
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Gothorita]
+  hp: 140
+  moves:
+  - cost: [PSYCHIC]
+    name: Tractorbeam
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This
+      attack does 30 damage to the new Active Pokémon.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Link Blast
+    damage: 50+
+    text: If this Pokémon and your opponent's Active Pokémon have the same amount
+      of Energy attached to them, this attack does 80 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: sm2-54
+  nationalPokedexNumber: 576
+- enumId: ORICORIO_55:GUARDIANS_RISING
+  name: Oricorio
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Vital Dance
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for up to 2 basic Energy cards, reveal them, and put
+      them into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Casual Slap
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: sm2-55
+  nationalPokedexNumber: 741
+- enumId: ORICORIO_56:GUARDIANS_RISING
+  variantOf: ORICORIO_SM19:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Oricorio
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Supernatural Dance
+    text: For each Pokémon in your opponent's discard pile, put 1 damage counter on
+      your opponent's Pokémon in any way you like.
+  - cost: [COLORLESS]
+    name: Revelation Dance
+    damage: '30'
+    text: If there is no Stadium card in play, this attack does nothing.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: TOKIYA
+  pioId: sm2-56
+  nationalPokedexNumber: 741
+- enumId: TOXAPEX_GX_57:GUARDIANS_RISING
+  name: Toxapex-GX
+  number: '57'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Mareanie]
+  hp: 210
+  moves:
+  - cost: [PSYCHIC]
+    name: Spike Cannon
+    damage: 30x
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Super Intense Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 10 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Total Shelter-GX
+    damage: '150'
+    text: Prevent all effects of attacks, including damage, done to this Pokémon during
+      your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-57
+  nationalPokedexNumber: 748
+- enumId: MIMIKYU_58:GUARDIANS_RISING
+  variantOf: MIMIKYU_SM99:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Mimikyu
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Filch
+    text: Draw 2 cards.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Copycat
+    text: If your opponent's Pokémon used an attack that isn't a GX attack during
+      their last turn, use it as this attack.
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Megumi Mizutani
+  pioId: sm2-58
+  nationalPokedexNumber: 778
+- enumId: DHELMISE_59:GUARDIANS_RISING
+  variantOf: DHELMISE_SM53:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Dhelmise
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Steelworker
+    text: Your [M] Pokémon's attacks do 10 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Anchor Shot
+    damage: '70'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Hasuno
+  pioId: sm2-59
+  nationalPokedexNumber: 781
+- enumId: TAPU_LELE_GX_60:GUARDIANS_RISING
+  name: Tapu Lele-GX
+  number: '60'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Wonder Tag
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for a Supporter card, reveal it, and put it into your
+      hand. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Energy Drive
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon. This damage isn't affected by Weakness or Resistance.
+  - cost: [PSYCHIC]
+    name: Tapu Cure-GX
+    text: Heal all damage from 2 of your Benched Pokémon. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-60
+- enumId: TAPU_LELE_GX_60A:GUARDIANS_RISING
+  variantOf: TAPU_LELE_GX_60:GUARDIANS_RISING
+  variantType: Full Art
+  name: Tapu Lele-GX
+  number: 60a
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Wonder Tag
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for a Supporter card, reveal it, and put it into your
+      hand. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Energy Drive
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon. This damage isn't affected by Weakness or Resistance.
+  - cost: [PSYCHIC]
+    name: Tapu Cure-GX
+    text: Heal all damage from 2 of your Benched Pokémon. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-60a
+- enumId: LUNALA_61:GUARDIANS_RISING
+  name: Lunala
+  number: '61'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Cosmoem]
+  hp: 160
+  moves:
+  - cost: [PSYCHIC]
+    name: Shatter Shot
+    damage: 40x
+    text: This attack does 40 damage times the amount of [P] Energy attached to this
+      Pokémon.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Wings of the Moone
+    damage: '130'
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you
+      like.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: sm2-61
+  nationalPokedexNumber: 792
+- enumId: MACHOP_62:GUARDIANS_RISING
+  name: Machop
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Dual Chop
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kyoko Umemoto
+  pioId: sm2-62
+  nationalPokedexNumber: 66
+- enumId: MACHOP_63:GUARDIANS_RISING
+  name: Machop
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Dynamic Chop
+    damage: '50'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: sm2-63
+  nationalPokedexNumber: 66
+- enumId: MACHOKE_64:GUARDIANS_RISING
+  name: Machoke
+  number: '64'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Machop]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Daunting Pose
+    text: Prevent all damage done to your Benched Pokémon by your opponent's attacks.
+      Your opponent's attacks and Abilities can't put damage counters on your Benched
+      Pokémon.
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Cross Chop
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: sm2-64
+  nationalPokedexNumber: 67
+- enumId: MACHAMP_65:GUARDIANS_RISING
+  name: Machamp
+  number: '65'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Machoke]
+  hp: 160
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Settle the Score
+    damage: 20+
+    text: This attack does 80 more damage for each Prize card your opponent took on
+      their last turn.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Submission
+    damage: '150'
+    text: This Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Hitoshi Ariga
+  pioId: sm2-65
+  nationalPokedexNumber: 68
+- enumId: SUDOWOODO_66:GUARDIANS_RISING
+  name: Sudowoodo
+  number: '66'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Roadblock
+    text: Your opponent can't have more than 4 Benched Pokémon. If they have 5 or
+      more Benched Pokémon, they discard Benched Pokémon until they have 4 Pokémon
+      on the Bench. If more than one effect changes the number of Benched Pokémon
+      allowed, use the smaller number.
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Throw
+    damage: '40'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Hajime Kusajima
+  pioId: sm2-66
+  nationalPokedexNumber: 185
+- enumId: GLIGAR_67:GUARDIANS_RISING
+  name: Gligar
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING]
+    name: Double Shot
+    text: This attack does 10 damage to 2 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mina Nakai
+  pioId: sm2-67
+  nationalPokedexNumber: 207
+- enumId: GLISCOR_68:GUARDIANS_RISING
+  name: Gliscor
+  number: '68'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Gligar]
+  hp: 110
+  moves:
+  - cost: [FIGHTING]
+    name: Finishing Stinger
+    damage: '70'
+    text: If your opponent's Active Pokémon has no damage counters on it before this
+      attack does damage, this attack does nothing.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Guillotine
+    damage: '90'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yoshinobu Saito
+  pioId: sm2-68
+  nationalPokedexNumber: 472
+- enumId: NOSEPASS_69:GUARDIANS_RISING
+  name: Nosepass
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '20'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Rising Lunge
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: sm2-69
+  nationalPokedexNumber: 299
+- enumId: BARBOACH_70:GUARDIANS_RISING
+  name: Barboach
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Hook
+    damage: '10'
+  - cost: [FIGHTING, COLORLESS]
+    name: Mud-Slap
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: sui
+  pioId: sm2-70
+  nationalPokedexNumber: 339
+- enumId: WHISCASH_71:GUARDIANS_RISING
+  name: Whiscash
+  number: '71'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Barboach]
+  hp: 130
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Water Pulse
+    damage: '60'
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Landslip
+    damage: 100x
+    text: Discard the top 3 cards of your deck. This attack does 100 damage for each
+      Energy card you discarded in this way.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: sm2-71
+  nationalPokedexNumber: 340
+- enumId: PANCHAM_72:GUARDIANS_RISING
+  name: Pancham
+  number: '72'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Karate Chop
+    damage: 60-
+    text: This attack does 10 less damage for each damage counter on this Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: TOKIYA
+  pioId: sm2-72
+  nationalPokedexNumber: 674
+- enumId: ROCKRUFF_73:GUARDIANS_RISING
+  name: Rockruff
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Corner
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS]
+    name: Wild Kick
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: sm2-73
+  nationalPokedexNumber: 744
+- enumId: LYCANROC_GX_74:GUARDIANS_RISING
+  name: Lycanroc-GX
+  number: '74'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Rockruff]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Bloodthirsty Eyes
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Claw Slash
+    damage: '110'
+  - cost: [FIGHTING, COLORLESS]
+    name: Dangerous Rogue-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-74
+  nationalPokedexNumber: 745
+- enumId: MUDBRAY_75:GUARDIANS_RISING
+  name: Mudbray
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Double Kick
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm2-75
+  nationalPokedexNumber: 749
+- enumId: MUDSDALE_76:GUARDIANS_RISING
+  variantOf: MUDSDALE_SM20:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Mudsdale
+  number: '76'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Mudbray]
+  hp: 140
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Enhanced Stomp
+    damage: 60+
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does
+      60 more damage.
+  - cost: [FIGHTING, FIGHTING, FIGHTING, COLORLESS]
+    name: High Horsepower
+    damage: '180'
+    text: This Pokémon does 40 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: sm2-76
+  nationalPokedexNumber: 750
+- enumId: MINIOR_77:GUARDIANS_RISING
+  name: Minior
+  number: '77'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Swift
+    damage: '20'
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other
+      effects on your opponent's Active Pokémon.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Cosmicsplosion
+    damage: '190'
+    text: This Pokémon is Knocked Out.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Naoki Saito
+  pioId: sm2-77
+  nationalPokedexNumber: 774
+- enumId: MURKROW_78:GUARDIANS_RISING
+  name: Murkrow
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS]
+    name: Whirlwind
+    damage: '10'
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Sekio
+  pioId: sm2-78
+  nationalPokedexNumber: 198
+- enumId: HONCHKROW_79:GUARDIANS_RISING
+  name: Honchkrow
+  number: '79'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Murkrow]
+  hp: 110
+  moves:
+  - cost: [DARKNESS]
+    name: Feint Attack
+    text: This attack does 30 damage to 1 of your opponent's Pokémon. This damage
+      isn't affected by Weakness, Resistance, or any other effects on that Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Raven's Claw
+    damage: 10+
+    text: This attack does 10 more damage for each damage counter on all of your opponent's
+      Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Hideki Ishikawa
+  pioId: sm2-79
+  nationalPokedexNumber: 430
+- enumId: SABLEYE_80:GUARDIANS_RISING
+  name: Sableye
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Limitation
+    text: Your opponent can't play any Supporter cards from their hand during their
+      next turn.
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Aya Kusube
+  pioId: sm2-80
+  nationalPokedexNumber: 302
+- enumId: ABSOL_81:GUARDIANS_RISING
+  name: Absol
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 100
+  moves:
+  - cost: [DARKNESS]
+    name: Future Sight
+    text: Look at the top 4 cards of either player's deck and put them back in any
+      order.
+  - cost: [DARKNESS, COLORLESS]
+    name: Doom News
+    text: Put all Energy attached to this Pokémon into your hand. At the end of your
+      opponent's next turn, the Defending Pokémon will be Knocked Out.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Anesaki Dynamic
+  pioId: sm2-81
+  nationalPokedexNumber: 359
+- enumId: PANGORO_82:GUARDIANS_RISING
+  name: Pangoro
+  number: '82'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Pancham]
+  hp: 130
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Sky Uppercut
+    damage: '70'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [DARKNESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Magnum Punch
+    damage: '130'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: kodama
+  pioId: sm2-82
+  nationalPokedexNumber: 675
+- enumId: BELDUM_83:GUARDIANS_RISING
+  name: Beldum
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL]
+    name: Core Beam
+    damage: '20'
+    text: Discard a [M] Energy from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kyoko Umemoto
+  pioId: sm2-83
+  nationalPokedexNumber: 374
+- enumId: METANG_84:GUARDIANS_RISING
+  name: Metang
+  number: '84'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Beldum]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '20'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Core Beam
+    damage: '80'
+    text: Discard a [M] Energy from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: sm2-84
+  nationalPokedexNumber: 375
+- enumId: METAGROSS_GX_85:GUARDIANS_RISING
+  name: Metagross-GX
+  number: '85'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Geotech System
+    text: Once during your turn (before your attack), you may attach a [P] or [M]
+      Energy card from your discard pile to your Active Pokémon.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Giga Hammer
+    damage: '150'
+    text: This Pokémon can't use Giga Hammer during your next turn.
+  - cost: [COLORLESS]
+    name: Algorithm-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle
+      your deck. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-85
+  nationalPokedexNumber: 376
+- enumId: PROBOPASS_86:GUARDIANS_RISING
+  name: Probopass
+  number: '86'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Nosepass]
+  hp: 130
+  moves:
+  - cost: [METAL]
+    name: Energy Link
+    damage: '30'
+    text: Attach an Energy card from your discard pile to this Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Power Gem
+    damage: '120'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: Yoshinobu Saito
+  pioId: sm2-86
+  nationalPokedexNumber: 476
+- enumId: SOLGALEO_87:GUARDIANS_RISING
+  name: Solgaleo
+  number: '87'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Cosmoem]
+  hp: 160
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Shining Arrow
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [METAL, METAL, COLORLESS]
+    name: Fangs of the Sunne
+    damage: '170'
+    text: This Pokémon can't use Fangs of the Sunne during your next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: sm2-87
+  nationalPokedexNumber: 791
+- enumId: CLEFAIRY_88:GUARDIANS_RISING
+  name: Clefairy
+  number: '88'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [FAIRY]
+    name: Slap
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Follow Me
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: sm2-88
+  nationalPokedexNumber: 35
+- enumId: CLEFABLE_89:GUARDIANS_RISING
+  name: Clefable
+  number: '89'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Clefairy]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Lullaby
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Meteor Mash
+    damage: '60'
+    text: During your next turn, this Pokémon's Meteor Mash attack does 60 more damage
+      (before applying Weakness and Resistance).
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: sm2-89
+  nationalPokedexNumber: 36
+- enumId: COTTONEE_90:GUARDIANS_RISING
+  name: Cottonee
+  number: '90'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Continuous Tumble
+    damage: 10x
+    text: Flip a coin until you get tails. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Megumi Mizutani
+  pioId: sm2-90
+  nationalPokedexNumber: 546
+- enumId: WHIMSICOTT_91:GUARDIANS_RISING
+  name: Whimsicott
+  number: '91'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Cottonee]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: The Wages of Fluff
+    text: If the Defending Pokémon is Knocked Out during your next turn, take 2 more
+      Prize cards.
+  - cost: [FAIRY]
+    name: Fairy Wind
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: sm2-91
+  nationalPokedexNumber: 547
+- enumId: SYLVEON_GX_92:GUARDIANS_RISING
+  name: Sylveon-GX
+  number: '92'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Eevee]
+  hp: 200
+  moves:
+  - cost: [FAIRY]
+    name: Magical Ribbon
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Fairy Wind
+    damage: '110'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Plea-GX
+    text: Put 2 of your opponent's Benched Pokémon and all cards attached to them
+      into your opponent's hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-92
+  nationalPokedexNumber: 700
+- enumId: SYLVEON_GX_92A:GUARDIANS_RISING
+  variantOf: SYLVEON_GX_92:GUARDIANS_RISING
+  variantType: Full Art
+  name: Sylveon-GX
+  number: 92a
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Eevee]
+  hp: 200
+  moves:
+  - cost: [FAIRY]
+    name: Magical Ribbon
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Fairy Wind
+    damage: '110'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Plea-GX
+    text: Put 2 of your opponent's Benched Pokémon and all cards attached to them
+      into your opponent's hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-92a
+  nationalPokedexNumber: 700
+- enumId: COMFEY_93:GUARDIANS_RISING
+  name: Comfey
+  number: '93'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Flower Shield
+    text: Each of your Pokémon that has any [Y] Energy attached to it can't be affected
+      by any Special Conditions. Remove any Special Conditions affecting those Pokémon.
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Sweet Kiss
+    damage: '30'
+    text: Your opponent draws a card.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Sanosuke Sakuma
+  pioId: sm2-93
+  nationalPokedexNumber: 764
+- enumId: GOOMY_94:GUARDIANS_RISING
+  name: Goomy
+  number: '94'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [WATER, FAIRY]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Asako Ito
+  pioId: sm2-94
+  nationalPokedexNumber: 704
+- enumId: SLIGGOO_95:GUARDIANS_RISING
+  name: Sliggoo
+  number: '95'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Goomy]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Division
+    text: Search your deck for up to 2 Sliggoo and put them onto your Bench. Then,
+      shuffle your deck.
+  - cost: [WATER, FAIRY]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Tomokazu Komiya
+  pioId: sm2-95
+  nationalPokedexNumber: 705
+- enumId: GOODRA_96:GUARDIANS_RISING
+  name: Goodra
+  number: '96'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Sliggoo]
+  hp: 160
+  moves:
+  - cost: [COLORLESS]
+    name: Power Whip
+    text: This attack does 20 damage times the amount of Energy attached to this Pokémon
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  - cost: [WATER, FAIRY, COLORLESS]
+    name: Beat Slider
+    damage: '130'
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Naoki Saito
+  pioId: sm2-96
+  nationalPokedexNumber: 706
+- enumId: DRAMPA_97:GUARDIANS_RISING
+  variantOf: DRAMPA_SM21:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Drampa
+  number: '97'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Amass
+    text: Search your deck for a basic Energy card and attach it to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Power Cyclone
+    damage: '80'
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: match
+  pioId: sm2-97
+  nationalPokedexNumber: 780
+- enumId: JANGMO_O_98:GUARDIANS_RISING
+  name: Jangmo-o
+  number: '98'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Bulletproof
+    text: This Pokémon takes 10 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [LIGHTNING, FIGHTING]
+    name: Dragon Claw
+    damage: '30'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: match
+  pioId: sm2-98
+  nationalPokedexNumber: 782
+- enumId: HAKAMO_O_99:GUARDIANS_RISING
+  name: Hakamo-o
+  number: '99'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Jangmo-o]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Headbutt
+    damage: '30'
+  - cost: [LIGHTNING, FIGHTING, COLORLESS]
+    name: Dragon Claw
+    damage: '80'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: sm2-99
+  nationalPokedexNumber: 783
+- enumId: KOMMO_O_GX_100:GUARDIANS_RISING
+  name: Kommo-o-GX
+  number: '100'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Hakamo-o]
+  hp: 240
+  moves:
+  - cost: [COLORLESS]
+    name: Adamantine Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Shred
+    damage: '130'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Ultra Uppercut-GX
+    damage: '240'
+    text: (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-100
+  nationalPokedexNumber: 784
+- enumId: CHANSEY_101:GUARDIANS_RISING
+  name: Chansey
+  number: '101'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Bind Wound
+    text: Flip a coin. If heads, heal 30 damage from 1 of your Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Megumi Mizutani
+  pioId: sm2-101
+  nationalPokedexNumber: 113
+- enumId: BLISSEY_102:GUARDIANS_RISING
+  name: Blissey
+  number: '102'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Chansey]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Fresh Egg
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may heal 80 damage from your Active Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Double-Edge
+    damage: '160'
+    text: This Pokémon does 80 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Hideki Ishikawa
+  pioId: sm2-102
+  nationalPokedexNumber: 242
+- enumId: TAILLOW_103:GUARDIANS_RISING
+  name: Taillow
+  number: '103'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Reckless Charge
+    damage: '20'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Ayaka Yoshida
+  pioId: sm2-103
+  nationalPokedexNumber: 276
+- enumId: SWELLOW_104:GUARDIANS_RISING
+  name: Swellow
+  number: '104'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Taillow]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Agility
+    damage: '20'
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage,
+      done to this Pokémon during your opponent's next turn.
+  - cost: [COLORLESS]
+    name: Swallow Dive
+    damage: 40+
+    text: If this Pokémon used Agility during your last turn, this attack does 80
+      more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: sm2-104
+  nationalPokedexNumber: 277
+- enumId: CASTFORM_105:GUARDIANS_RISING
+  name: Castform
+  number: '105'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Weather Teller
+    text: Search your deck for up to 2 Stadium cards, reveal them, and put them into
+      your hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Water Pulse
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: sm2-105
+  nationalPokedexNumber: 351
+- enumId: RAYQUAZA_106:GUARDIANS_RISING
+  name: Rayquaza
+  number: '106'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Turbo Storm
+    damage: '30'
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Benched
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dragon Claw
+    damage: '80'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Yoshinobu Saito
+  pioId: sm2-106
+  nationalPokedexNumber: 384
+- enumId: PATRAT_107:GUARDIANS_RISING
+  name: Patrat
+  number: '107'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Glance
+    text: Look at the top card of your opponent's deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ayaka Yoshida
+  pioId: sm2-107
+  nationalPokedexNumber: 504
+- enumId: WATCHOG_108:GUARDIANS_RISING
+  name: Watchog
+  number: '108'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Patrat]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Scrutinize
+    text: Look at the top 2 cards of your opponent's deck, discard 1 of them, and
+      put the other card back.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slam
+    damage: 60x
+    text: Flip 2 coins. This attack does 60 damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: sm2-108
+  nationalPokedexNumber: 505
+- enumId: FLETCHLING_109:GUARDIANS_RISING
+  name: Fletchling
+  number: '109'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 20
+      less damage (before applying Weakness and Resistance).
+  - cost: [COLORLESS, COLORLESS]
+    name: Flap
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: You Iribi
+  pioId: sm2-109
+  nationalPokedexNumber: 661
+- enumId: FLETCHINDER_110:GUARDIANS_RISING
+  name: Fletchinder
+  number: '110'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Fletchling]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Flap
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS]
+    name: Razor Wind
+    damage: '40'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: sm2-110
+  nationalPokedexNumber: 662
+- enumId: TALONFLAME_111:GUARDIANS_RISING
+  name: Talonflame
+  number: '111'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Fletchinder]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Flame Charge
+    damage: '30'
+    text: Search your deck for a [R] Energy card and attach it to this Pokémon. Then,
+      shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Loop-the-Loop
+    damage: '90'
+    text: Put all Energy attached to this Pokémon into your hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm2-111
+  nationalPokedexNumber: 663
+- enumId: STUFFUL_112:GUARDIANS_RISING
+  name: Stufful
+  number: '112'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm2-112
+  nationalPokedexNumber: 759
+- enumId: BEWEAR_113:GUARDIANS_RISING
+  name: Bewear
+  number: '113'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Stufful]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Rake It In
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may draw 3 cards.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dangerous Blow
+    damage: 60+
+    text: If your opponent's Active Pokémon is a Basic Pokémon, this attack does 60
+      more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: sm2-113
+  nationalPokedexNumber: 760
+- enumId: KOMALA_114:GUARDIANS_RISING
+  variantOf: KOMALA_SM41:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Komala
+  number: '114'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Comatose
+    text: As long as this Pokémon is your Active Pokémon, whenever you attach an Energy
+      from your hand to it, it is now Asleep.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hypno Roll
+    damage: '100'
+    text: This attack can be used if this Pokémon is Asleep. If it is not Asleep,
+      this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: sm2-114
+  nationalPokedexNumber: 775
+- enumId: DRAMPA_GX_115:GUARDIANS_RISING
+  name: Drampa-GX
+  number: '115'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Righteous Edge
+    damage: '20'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Berserk
+    damage: 80+
+    text: If your Benched Pokémon have any damage counters on them, this attack does
+      70 more damage.
+  - cost: [COLORLESS]
+    name: Big Wheel-GX
+    text: Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-115
+  nationalPokedexNumber: 780
+- enumId: AETHER_PARADISE_CONSERVATION_AREA_116:GUARDIANS_RISING
+  name: Aether Paradise Conservation Area
+  number: '116'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Basic [G] Pokémon and Basic [L] Pokémon (both yours and your opponent's) take
+    30 less damage from the opponent's attacks (after applying Weakness and Resistance).
+  artist: 5ban Graphics
+  pioId: sm2-116
+- enumId: ALTAR_OF_THE_MOONE_117:GUARDIANS_RISING
+  name: Altar of the Moone
+  number: '117'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: The Retreat Cost of each Pokémon (both yours and your opponent's) that has
+    any [P] or [D] Energy attached to it is [C][C] less.
+  artist: 5ban Graphics
+  pioId: sm2-117
+- enumId: ALTAR_OF_THE_SUNNE_118:GUARDIANS_RISING
+  name: Altar of the Sunne
+  number: '118'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: '[R] Pokémon and [M] Pokémon (both yours and your opponent''s) have no Weakness.'
+  artist: 5ban Graphics
+  pioId: sm2-118
+- enumId: AQUA_PATCH_119:GUARDIANS_RISING
+  name: Aqua Patch
+  number: '119'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Attach a [W] Energy card from your discard pile to 1 of your Benched [W] Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-119
+- enumId: BROOKLET_HILL_120:GUARDIANS_RISING
+  name: Brooklet Hill
+  number: '120'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player's turn, that player may search their deck for a Basic
+    [W] Pokémon or Basic [F] Pokémon, put it onto their Bench, and shuffle their deck.
+  artist: 5ban Graphics
+  pioId: sm2-120
+- enumId: CHOICE_BAND_121:GUARDIANS_RISING
+  name: Choice Band
+  number: '121'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: The attacks of the Pokémon this card is attached to do 30 more damage to your
+    opponent's Active Pokémon-GX or Active Pokémon-EX (before applying Weakness and
+    Resistance).
+  artist: Eske Yoshinob
+  pioId: sm2-121
+- enumId: CHOICE_BAND_121A:GUARDIANS_RISING
+  variantOf: CHOICE_BAND_121:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Choice Band
+  number: 121a
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: The attacks of the Pokémon this card is attached to do 30 more damage to your
+    opponent's Active Pokémon-GX or Active Pokémon-EX (before applying Weakness and
+    Resistance).
+  artist: Eske Yoshinob
+  pioId: sm2-121a
+- enumId: ENERGY_LOTO_122:GUARDIANS_RISING
+  name: Energy Loto
+  number: '122'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Look at the top 7 cards of your deck. You may reveal an Energy card you find
+    there and put it into your hand. Shuffle the other cards back into your deck.
+  artist: Yoshinobu Saito
+  pioId: sm2-122
+- enumId: ENERGY_RECYCLER_123:GUARDIANS_RISING
+  variantOf: ENERGY_RECYCLER_72:ANCIENT_ORIGINS
+  variantType: Reprint
+  name: Energy Recycler
+  number: '123'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Shuffle 5 basic Energy cards from your discard pile into your deck.
+  artist: Toyste Beach
+  pioId: sm2-123
+- enumId: ENHANCED_HAMMER_124:GUARDIANS_RISING
+  name: Enhanced Hammer
+  number: '124'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Discard a Special Energy from 1 of your opponent's Pokémon.
+  artist: Yoshinobu Saito
+  pioId: sm2-124
+- enumId: ENHANCED_HAMMER_124A:GUARDIANS_RISING
+  variantOf: ENHANCED_HAMMER_124:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Enhanced Hammer
+  number: 124a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Discard a Special Energy from 1 of your opponent's Pokémon.
+  artist: Yoshinobu Saito
+  pioId: sm2-124a
+- enumId: FIELD_BLOWER_125:GUARDIANS_RISING
+  name: Field Blower
+  number: '125'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards
+    in play (yours or your opponent's) and discard them.
+  artist: Toyste Beach
+  pioId: sm2-125
+- enumId: FIELD_BLOWER_125A:GUARDIANS_RISING
+  variantOf: FIELD_BLOWER_125:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Field Blower
+  number: 125a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards
+    in play (yours or your opponent's) and discard them.
+  artist: Toyste Beach
+  pioId: sm2-125a
+- enumId: HALA_126:GUARDIANS_RISING
+  name: Hala
+  number: '126'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Shuffle your hand into your deck. If you have used your GX attack, draw 7
+    cards. If not, draw 4 cards.
+  artist: Ken Sugimori
+  pioId: sm2-126
+- enumId: MALLOW_127:GUARDIANS_RISING
+  name: Mallow
+  number: '127'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for 2 cards, shuffle your deck, then put those cards on top
+    of it in any order.
+  artist: Ken Sugimori
+  pioId: sm2-127
+- enumId: MAX_POTION_128:GUARDIANS_RISING
+  name: Max Potion
+  number: '128'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Heal all damage from 1 of your Pokémon. If you do, discard all Energy from
+    that Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-128
+- enumId: MAX_POTION_128A:GUARDIANS_RISING
+  variantOf: MAX_POTION_128:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Max Potion
+  number: 128a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Heal all damage from 1 of your Pokémon. If you do, discard all Energy from
+    that Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-128a
+- enumId: MULTI_SWITCH_129:GUARDIANS_RISING
+  name: Multi Switch
+  number: '129'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-129
+- enumId: RESCUE_STRETCHER_130:GUARDIANS_RISING
+  name: Rescue Stretcher
+  number: '130'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Choose 1: •Put a Pokémon from your discard pile into your hand. •Shuffle
+    3 Pokémon from your discard pile into your deck.'
+  artist: Yoshinobu Saito
+  pioId: sm2-130
+- enumId: RESCUE_STRETCHER_130A:GUARDIANS_RISING
+  variantOf: RESCUE_STRETCHER_130:GUARDIANS_RISING
+  variantType: Alternate Art
+  name: Rescue Stretcher
+  number: 130a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Choose 1: •Put a Pokémon from your discard pile into your hand. •Shuffle
+    3 Pokémon from your discard pile into your deck.'
+  artist: Yoshinobu Saito
+  pioId: sm2-130a
+- enumId: TURTONATOR_GX_131:GUARDIANS_RISING
+  variantOf: TURTONATOR_GX_18:GUARDIANS_RISING
+  variantType: Full Art
+  name: Turtonator-GX
+  number: '131'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shell Trap
+    damage: '20'
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack
+      (even if this Pokémon is Knocked Out), put 8 damage counters on the Attacking
+      Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Bright Flame
+    damage: '160'
+    text: Discard 2 [R] Energy from this Pokémon.
+  - cost: [FIRE]
+    name: Nitro Tank-GX
+    text: Attach 5 [R] Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-131
+  nationalPokedexNumber: 776
+- enumId: ALOLAN_NINETALES_GX_132:GUARDIANS_RISING
+  variantOf: ALOLAN_NINETALES_GX_22:GUARDIANS_RISING
+  variantType: Full Art
+  name: Alolan Ninetales-GX
+  number: '132'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Blade
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Blizzard Edge
+    damage: '160'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Path-GX
+    text: Move all damage counters from this Pokémon to your opponent's Active Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-132
+  nationalPokedexNumber: 38
+- enumId: WISHIWASHI_GX_133:GUARDIANS_RISING
+  variantOf: WISHIWASHI_GX_38:GUARDIANS_RISING
+  variantType: Full Art
+  name: Wishiwashi-GX
+  number: '133'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Water Gun
+    damage: '20'
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Torrential Vortex
+    damage: '120'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Blue Surge-GX
+    damage: '220'
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you
+      like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-133
+  nationalPokedexNumber: 746
+- enumId: VIKAVOLT_GX_134:GUARDIANS_RISING
+  variantOf: VIKAVOLT_GX_45:GUARDIANS_RISING
+  variantType: Full Art
+  name: Vikavolt-GX
+  number: '134'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Charjabug]
+  hp: 240
+  moves:
+  - cost: [LIGHTNING]
+    name: Charge Beam
+    damage: '50'
+    text: Attach an Energy card from your discard pile to this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Super Zap Cannon
+    damage: '180'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Gigatron-GX
+    text: This attack does 60 damage to each of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.) (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-134
+  nationalPokedexNumber: 738
+- enumId: TAPU_KOKO_GX_135:GUARDIANS_RISING
+  variantOf: TAPU_KOKO_GX_SM33:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Tapu Koko-GX
+  number: '135'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Aero Trail
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may move any number of [L] Energy from your other Pokémon to this Pokémon.
+      If you do, switch this Pokémon with your Active Pokémon.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Sky-High Claws
+    damage: '130'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Tapu Thunder-GX
+    damage: 50x
+    text: This attack does 50 damage times the amount of Energy attached to all of
+      your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-135
+- enumId: TOXAPEX_GX_136:GUARDIANS_RISING
+  variantOf: TOXAPEX_GX_57:GUARDIANS_RISING
+  variantType: Full Art
+  name: Toxapex-GX
+  number: '136'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Mareanie]
+  hp: 210
+  moves:
+  - cost: [PSYCHIC]
+    name: Spike Cannon
+    damage: 30x
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Super Intense Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 10 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Total Shelter-GX
+    damage: '150'
+    text: Prevent all effects of attacks, including damage, done to this Pokémon during
+      your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-136
+  nationalPokedexNumber: 748
+- enumId: TAPU_LELE_GX_137:GUARDIANS_RISING
+  variantOf: TAPU_LELE_GX_60:GUARDIANS_RISING
+  variantType: Full Art
+  name: Tapu Lele-GX
+  number: '137'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Wonder Tag
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for a Supporter card, reveal it, and put it into your
+      hand. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Energy Drive
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon. This damage isn't affected by Weakness or Resistance.
+  - cost: [PSYCHIC]
+    name: Tapu Cure-GX
+    text: Heal all damage from 2 of your Benched Pokémon. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-137
+- enumId: LYCANROC_GX_138:GUARDIANS_RISING
+  variantOf: LYCANROC_GX_74:GUARDIANS_RISING
+  variantType: Full Art
+  name: Lycanroc-GX
+  number: '138'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Rockruff]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Bloodthirsty Eyes
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Claw Slash
+    damage: '110'
+  - cost: [FIGHTING, COLORLESS]
+    name: Dangerous Rogue-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-138
+  nationalPokedexNumber: 745
+- enumId: METAGROSS_GX_139:GUARDIANS_RISING
+  variantOf: METAGROSS_GX_85:GUARDIANS_RISING
+  variantType: Full Art
+  name: Metagross-GX
+  number: '139'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Geotech System
+    text: Once during your turn (before your attack), you may attach a [P] or [M]
+      Energy card from your discard pile to your Active Pokémon.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Giga Hammer
+    damage: '150'
+    text: This Pokémon can't use Giga Hammer during your next turn.
+  - cost: [COLORLESS]
+    name: Algorithm-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle
+      your deck. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-139
+  nationalPokedexNumber: 376
+- enumId: SYLVEON_GX_140:GUARDIANS_RISING
+  variantOf: SYLVEON_GX_92:GUARDIANS_RISING
+  variantType: Full Art
+  name: Sylveon-GX
+  number: '140'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Eevee]
+  hp: 200
+  moves:
+  - cost: [FAIRY]
+    name: Magical Ribbon
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Fairy Wind
+    damage: '110'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Plea-GX
+    text: Put 2 of your opponent's Benched Pokémon and all cards attached to them
+      into your opponent's hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-140
+  nationalPokedexNumber: 700
+- enumId: KOMMO_O_GX_141:GUARDIANS_RISING
+  variantOf: KOMMO_O_GX_100:GUARDIANS_RISING
+  variantType: Full Art
+  name: Kommo-o-GX
+  number: '141'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Hakamo-o]
+  hp: 240
+  moves:
+  - cost: [COLORLESS]
+    name: Adamantine Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Shred
+    damage: '130'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Ultra Uppercut-GX
+    damage: '240'
+    text: (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-141
+  nationalPokedexNumber: 784
+- enumId: DRAMPA_GX_142:GUARDIANS_RISING
+  variantOf: DRAMPA_GX_115:GUARDIANS_RISING
+  variantType: Full Art
+  name: Drampa-GX
+  number: '142'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Righteous Edge
+    damage: '20'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Berserk
+    damage: 80+
+    text: If your Benched Pokémon have any damage counters on them, this attack does
+      70 more damage.
+  - cost: [COLORLESS]
+    name: Big Wheel-GX
+    text: Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-142
+  nationalPokedexNumber: 780
+- enumId: HALA_143:GUARDIANS_RISING
+  variantOf: HALA_126:GUARDIANS_RISING
+  variantType: Full Art
+  name: Hala
+  number: '143'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Shuffle your hand into your deck. If you have used your GX attack, draw 7
+    cards. If not, draw 4 cards.
+  artist: Naoki Saito
+  pioId: sm2-143
+- enumId: HAU_144:GUARDIANS_RISING
+  variantOf: HAU_120:SUN_MOON
+  variantType: Reprint
+  name: Hau
+  number: '144'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Draw 3 cards.
+  artist: Sanosuke Sakuma
+  pioId: sm2-144
+- enumId: MALLOW_145:GUARDIANS_RISING
+  variantOf: MALLOW_127:GUARDIANS_RISING
+  variantType: Full Art
+  name: Mallow
+  number: '145'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for 2 cards, shuffle your deck, then put those cards on top
+    of it in any order.
+  artist: Megumi Mizutani
+  pioId: sm2-145
+- enumId: DECIDUEYE_GX_146:GUARDIANS_RISING
+  variantOf: DECIDUEYE_GX_12:SUN_MOON
+  variantType: Reprint
+  name: Decidueye-GX
+  number: '146'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Dartrix]
+  hp: 240
+  abilities:
+  - type: Ability
+    name: Feather Arrow
+    text: Once during your turn (before your attack), you may put 2 damage counters
+      on 1 of your opponent's Pokémon.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '90'
+  - cost: [GRASS]
+    name: Hollow Hunt-GX
+    text: Put 3 cards from your discard pile into your hand. (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-146
+  nationalPokedexNumber: 724
+- enumId: INCINEROAR_GX_147:GUARDIANS_RISING
+  variantOf: INCINEROAR_GX_27:SUN_MOON
+  variantType: Reprint
+  name: Incineroar-GX
+  number: '147'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Torracat]
+  hp: 250
+  moves:
+  - cost: [FIRE]
+    name: Hustling Strike
+    damage: 10+
+    text: This attack does 20 more damage for each of your Benched [R] Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Tiger Swing
+    damage: 80+
+    text: Flip 2 coins. This attack does 50 more damage for each heads.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Burning Slam-GX
+    damage: '200'
+    text: Your opponent's Active Pokémon is now Burned. (You can't use more than 1
+      GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-147
+  nationalPokedexNumber: 727
+- enumId: TURTONATOR_GX_148:GUARDIANS_RISING
+  variantOf: TURTONATOR_GX_18:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Turtonator-GX
+  number: '148'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 190
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shell Trap
+    damage: '20'
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack
+      (even if this Pokémon is Knocked Out), put 8 damage counters on the Attacking
+      Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Bright Flame
+    damage: '160'
+    text: Discard 2 [R] Energy from this Pokémon.
+  - cost: [FIRE]
+    name: Nitro Tank-GX
+    text: Attach 5 [R] Energy cards from your discard pile to your Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-148
+  nationalPokedexNumber: 776
+- enumId: PRIMARINA_GX_149:GUARDIANS_RISING
+  variantOf: PRIMARINA_GX_42:SUN_MOON
+  variantType: Reprint
+  name: Primarina-GX
+  number: '149'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Brionne]
+  hp: 250
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Bubble Beat
+    damage: 10+
+    text: This attack does 20 more damage times the amount of [W] Energy attached
+      to your Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Roaring Seas
+    damage: '120'
+    text: Discard an Energy from your opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Grand Echo-GX
+    text: Heal all damage from all of your Pokémon. (You can't use more than 1 GX
+      attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-149
+  nationalPokedexNumber: 730
+- enumId: ALOLAN_NINETALES_GX_150:GUARDIANS_RISING
+  variantOf: ALOLAN_NINETALES_GX_22:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Alolan Ninetales-GX
+  number: '150'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Alolan Vulpix]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Blade
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Blizzard Edge
+    damage: '160'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Path-GX
+    text: Move all damage counters from this Pokémon to your opponent's Active Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-150
+  nationalPokedexNumber: 38
+- enumId: WISHIWASHI_GX_151:GUARDIANS_RISING
+  variantOf: WISHIWASHI_GX_38:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Wishiwashi-GX
+  number: '151'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Water Gun
+    damage: '20'
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Torrential Vortex
+    damage: '120'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Blue Surge-GX
+    damage: '220'
+    text: Move all Energy from this Pokémon to your Benched Pokémon in any way you
+      like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-151
+  nationalPokedexNumber: 746
+- enumId: VIKAVOLT_GX_152:GUARDIANS_RISING
+  variantOf: VIKAVOLT_GX_45:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Vikavolt-GX
+  number: '152'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Charjabug]
+  hp: 240
+  moves:
+  - cost: [LIGHTNING]
+    name: Charge Beam
+    damage: '50'
+    text: Attach an Energy card from your discard pile to this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Super Zap Cannon
+    damage: '180'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Gigatron-GX
+    text: This attack does 60 damage to each of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.) (You can't use more than
+      1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-152
+  nationalPokedexNumber: 738
+- enumId: TAPU_KOKO_GX_153:GUARDIANS_RISING
+  variantOf: TAPU_KOKO_GX_SM33:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Tapu Koko-GX
+  number: '153'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [LIGHTNING]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Aero Trail
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may move any number of [L] Energy from your other Pokémon to this Pokémon.
+      If you do, switch this Pokémon with your Active Pokémon.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Sky-High Claws
+    damage: '130'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Tapu Thunder-GX
+    damage: 50x
+    text: This attack does 50 damage times the amount of Energy attached to all of
+      your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-153
+- enumId: TOXAPEX_GX_154:GUARDIANS_RISING
+  variantOf: TOXAPEX_GX_57:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Toxapex-GX
+  number: '154'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Mareanie]
+  hp: 210
+  moves:
+  - cost: [PSYCHIC]
+    name: Spike Cannon
+    damage: 30x
+    text: Flip 4 coins. This attack does 30 damage for each heads.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Super Intense Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 10 damage counters instead
+      of 1 on that Pokémon between turns.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Total Shelter-GX
+    damage: '150'
+    text: Prevent all effects of attacks, including damage, done to this Pokémon during
+      your opponent's next turn. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-154
+  nationalPokedexNumber: 748
+- enumId: TAPU_LELE_GX_155:GUARDIANS_RISING
+  variantOf: TAPU_LELE_GX_60:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Tapu Lele-GX
+  number: '155'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Wonder Tag
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may search your deck for a Supporter card, reveal it, and put it into your
+      hand. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Energy Drive
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon. This damage isn't affected by Weakness or Resistance.
+  - cost: [PSYCHIC]
+    name: Tapu Cure-GX
+    text: Heal all damage from 2 of your Benched Pokémon. (You can't use more than
+      1 GX attack in a game.)
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-155
+- enumId: LYCANROC_GX_156:GUARDIANS_RISING
+  variantOf: LYCANROC_GX_74:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Lycanroc-GX
+  number: '156'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Rockruff]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Bloodthirsty Eyes
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Claw Slash
+    damage: '110'
+  - cost: [FIGHTING, COLORLESS]
+    name: Dangerous Rogue-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-156
+  nationalPokedexNumber: 745
+- enumId: METAGROSS_GX_157:GUARDIANS_RISING
+  variantOf: METAGROSS_GX_85:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Metagross-GX
+  number: '157'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Geotech System
+    text: Once during your turn (before your attack), you may attach a [P] or [M]
+      Energy card from your discard pile to your Active Pokémon.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Giga Hammer
+    damage: '150'
+    text: This Pokémon can't use Giga Hammer during your next turn.
+  - cost: [COLORLESS]
+    name: Algorithm-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle
+      your deck. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-157
+  nationalPokedexNumber: 376
+- enumId: METAGROSS_GX_157A:GUARDIANS_RISING
+  variantOf: METAGROSS_GX_85:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Metagross-GX
+  number: 157a
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Geotech System
+    text: Once during your turn (before your attack), you may attach a [P] or [M]
+      Energy card from your discard pile to your Active Pokémon.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Giga Hammer
+    damage: '150'
+    text: This Pokémon can't use Giga Hammer during your next turn.
+  - cost: [COLORLESS]
+    name: Algorithm-GX
+    text: Search your deck for up to 5 cards and put them into your hand. Then, shuffle
+      your deck. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-157a
+  nationalPokedexNumber: 376
+- enumId: SYLVEON_GX_158:GUARDIANS_RISING
+  variantOf: SYLVEON_GX_92:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Sylveon-GX
+  number: '158'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Eevee]
+  hp: 200
+  moves:
+  - cost: [FAIRY]
+    name: Magical Ribbon
+    text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Fairy Wind
+    damage: '110'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Plea-GX
+    text: Put 2 of your opponent's Benched Pokémon and all cards attached to them
+      into your opponent's hand. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-158
+  nationalPokedexNumber: 700
+- enumId: KOMMO_O_GX_159:GUARDIANS_RISING
+  variantOf: KOMMO_O_GX_100:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Kommo-o-GX
+  number: '159'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Hakamo-o]
+  hp: 240
+  moves:
+  - cost: [COLORLESS]
+    name: Adamantine Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Shred
+    damage: '130'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [LIGHTNING, FIGHTING, COLORLESS, COLORLESS]
+    name: Ultra Uppercut-GX
+    damage: '240'
+    text: (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-159
+  nationalPokedexNumber: 784
+- enumId: DRAMPA_GX_160:GUARDIANS_RISING
+  variantOf: DRAMPA_GX_115:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Drampa-GX
+  number: '160'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [COLORLESS]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Righteous Edge
+    damage: '20'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Berserk
+    damage: 80+
+    text: If your Benched Pokémon have any damage counters on them, this attack does
+      70 more damage.
+  - cost: [COLORLESS]
+    name: Big Wheel-GX
+    text: Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm2-160
+  nationalPokedexNumber: 780
+- enumId: AQUA_PATCH_161:GUARDIANS_RISING
+  variantOf: AQUA_PATCH_119:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Aqua Patch
+  number: '161'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Attach a [W] Energy card from your discard pile to 1 of your Benched [W] Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-161
+- enumId: ENHANCED_HAMMER_162:GUARDIANS_RISING
+  variantOf: ENHANCED_HAMMER_124:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Enhanced Hammer
+  number: '162'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Discard a Special Energy from 1 of your opponent's Pokémon.
+  artist: Yoshinobu Saito
+  pioId: sm2-162
+- enumId: FIELD_BLOWER_163:GUARDIANS_RISING
+  variantOf: FIELD_BLOWER_125:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Field Blower
+  number: '163'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards
+    in play (yours or your opponent's) and discard them.
+  artist: Toyste Beach
+  pioId: sm2-163
+- enumId: MAX_POTION_164:GUARDIANS_RISING
+  variantOf: MAX_POTION_128:GUARDIANS_RISING
+  variantType: Secret Art
+  name: Max Potion
+  number: '164'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Heal all damage from 1 of your Pokémon. If you do, discard all Energy from
+    that Pokémon.
+  artist: Toyste Beach
+  pioId: sm2-164
+- enumId: RARE_CANDY_165:GUARDIANS_RISING
+  variantOf: RARE_CANDY_129:SUN_MOON
+  variantType: Reprint
+  name: Rare Candy
+  number: '165'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your
+    hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve
+    it. You can't use this card during your first turn or on a Basic Pokémon that
+    was put into play this turn.
+  artist: Toyste Beach
+  pioId: sm2-165
+- enumId: DOUBLE_COLORLESS_ENERGY_166:GUARDIANS_RISING
+  variantOf: DOUBLE_COLORLESS_ENERGY_92:NEXT_DESTINIES
+  variantType: Reprint
+  name: Double Colorless Energy
+  number: '166'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Secret
+  text: Double Colorless Energy provides [C][C] Energy.
+  energy: [[COLORLESS], [COLORLESS]]
+  artist: 5ban Graphics
+  pioId: sm2-166
+- enumId: GRASS_ENERGY_167:GUARDIANS_RISING
+  variantOf: GRASS_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Grass Energy
+  number: '167'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[GRASS]]
+  artist: ''
+  pioId: sm2-167
+- enumId: LIGHTNING_ENERGY_168:GUARDIANS_RISING
+  variantOf: LIGHTNING_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Lightning Energy
+  number: '168'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[LIGHTNING]]
+  artist: ''
+  pioId: sm2-168
+- enumId: FIGHTING_ENERGY_169:GUARDIANS_RISING
+  variantOf: FIGHTING_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Fighting Energy
+  number: '169'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[FIGHTING]]
+  artist: ''
+  pioId: sm2-169

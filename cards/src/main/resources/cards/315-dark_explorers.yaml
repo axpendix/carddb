@@ -1,0 +1,2505 @@
+schema: E3
+expansion:
+  orderId: '315'
+  name: Dark Explorers
+  enumId: DARK_EXPLORERS
+  shortName: DEX
+cards:
+- enumId: BULBASAUR_1:DARK_EXPLORERS
+  name: Bulbasaur
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '10'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: bw5-1
+  nationalPokedexNumber: 1
+- enumId: IVYSAUR_2:DARK_EXPLORERS
+  name: Ivysaur
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Bulbasaur]
+  hp: 90
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Sleep Powder
+    damage: '20'
+    text: The Defending Pokémon is now Asleep.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Poison Powder
+    damage: '50'
+    text: The Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: sui
+  pioId: bw5-2
+  nationalPokedexNumber: 2
+- enumId: VENUSAUR_3:DARK_EXPLORERS
+  name: Venusaur
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Ivysaur]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Floral Scent
+    text: Once during your turn (before your attack), you may search your deck for
+      a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Poison Powder
+    damage: '70'
+    text: The Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: bw5-3
+  nationalPokedexNumber: 3
+- enumId: SCYTHER_4:DARK_EXPLORERS
+  name: Scyther
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Air Slash
+    damage: '60'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Naoki Saito
+  pioId: bw5-4
+  nationalPokedexNumber: 123
+- enumId: CARNIVINE_5:DARK_EXPLORERS
+  name: Carnivine
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Lure Poison
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+      The new Defending Pokémon is now Poisoned.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Spit Squall
+    text: Your opponent puts the Defending Pokémon and all cards attached to it into
+      his or her hand.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Yukiko Baba
+  pioId: bw5-5
+  nationalPokedexNumber: 455
+- enumId: LEAFEON_6:DARK_EXPLORERS
+  variantOf: LEAFEON_BW87:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Leafeon
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Eevee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  - cost: [GRASS, COLORLESS]
+    name: Energy Assist
+    damage: '40'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Ryo Ueda
+  pioId: bw5-6
+  nationalPokedexNumber: 470
+- enumId: DWEBBLE_7:DARK_EXPLORERS
+  name: Dwebble
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Beat
+    damage: '10'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Cut
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw5-7
+  nationalPokedexNumber: 557
+- enumId: CRUSTLE_8:DARK_EXPLORERS
+  name: Crustle
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Dwebble]
+  hp: 110
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Cut
+    damage: '30'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Heavy Bullet
+    damage: '70'
+    text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's
+      Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Ryo Ueda
+  pioId: bw5-8
+  nationalPokedexNumber: 558
+- enumId: KARRABLAST_9:DARK_EXPLORERS
+  name: Karrablast
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Beat
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Reckless Charge
+    damage: '40'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw5-9
+  nationalPokedexNumber: 588
+- enumId: SHELMET_10:DARK_EXPLORERS
+  name: Shelmet
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Body Slam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Shigenori Negishi
+  pioId: bw5-10
+  nationalPokedexNumber: 616
+- enumId: ACCELGOR_11:DARK_EXPLORERS
+  name: Accelgor
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Shelmet]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Hammer In
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS]
+    name: Deck and Cover
+    damage: '50'
+    text: The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon
+      and all cards attached to it into your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: bw5-11
+  nationalPokedexNumber: 617
+- enumId: FLAREON_12:DARK_EXPLORERS
+  variantOf: FLAREON_BW88:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Flareon
+  number: '12'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Sand-Attack
+    damage: '20'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Fire Slash
+    damage: 60+
+    text: You may discard a [R] Energy attached to this Pokémon. If you do, this attack
+      does 30 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: bw5-12
+  nationalPokedexNumber: 136
+- enumId: ENTEI_EX_13:DARK_EXPLORERS
+  name: Entei-EX
+  number: '13'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Fang
+    damage: '30'
+    text: The Defending Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Grand Flame
+    damage: '90'
+    text: Attach a [R] Energy card from your discard pile to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-13
+  nationalPokedexNumber: 244
+- enumId: TORCHIC_14:DARK_EXPLORERS
+  name: Torchic
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Reckless Charge
+    damage: '30'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: bw5-14
+  nationalPokedexNumber: 255
+- enumId: TORCHIC_15:DARK_EXPLORERS
+  name: Torchic
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Peck
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Live Coal
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: bw5-15
+  nationalPokedexNumber: 255
+- enumId: COMBUSKEN_16:DARK_EXPLORERS
+  name: Combusken
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Torchic]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Double Kick
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '70'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: bw5-16
+  nationalPokedexNumber: 256
+- enumId: BLAZIKEN_17:DARK_EXPLORERS
+  name: Blaziken
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Combusken]
+  hp: 140
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Blaze Kick
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending
+      Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '130'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: TOKIYA
+  pioId: bw5-17
+  nationalPokedexNumber: 257
+- enumId: TORKOAL_18:DARK_EXPLORERS
+  name: Torkoal
+  number: '18'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Flame Cloak
+    damage: '10'
+    text: Flip a coin. If heads, attach a [R] Energy card from your discard pile to
+      this Pokémon.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Heat Blast
+    damage: '60'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: bw5-18
+  nationalPokedexNumber: 324
+- enumId: HEATMOR_19:DARK_EXPLORERS
+  name: Heatmor
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Hot Lick
+    damage: 10+
+    text: If the Defending Pokémon is Durant, this attack does 50 more damage.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Firebreathing
+    damage: 50+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: bw5-19
+  nationalPokedexNumber: 631
+- enumId: LARVESTA_20:DARK_EXPLORERS
+  name: Larvesta
+  number: '20'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '20'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flare
+    damage: '40'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: match
+  pioId: bw5-20
+  nationalPokedexNumber: 636
+- enumId: LARVESTA_21:DARK_EXPLORERS
+  name: Larvesta
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Super Singe
+    damage: '10'
+    text: The Defending Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw5-21
+  nationalPokedexNumber: 636
+- enumId: VOLCARONA_22:DARK_EXPLORERS
+  variantOf: VOLCARONA_BW40:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Volcarona
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Larvesta]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Scorching Scales
+    text: Put 4 damage counters instead of 2 on your opponent's Burned Pokémon between
+      turns.
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Burning Wind
+    damage: '70'
+    text: You may discard an Energy attached to this Pokémon. If you do, the Defending
+      Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: bw5-22
+  nationalPokedexNumber: 637
+- enumId: SLOWPOKE_23:DARK_EXPLORERS
+  name: Slowpoke
+  number: '23'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Big Yawn
+    text: Both this Pokémon and the Defending Pokémon are now Asleep.
+  - cost: [WATER, COLORLESS]
+    name: Shot in the Dark
+    damage: '20'
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: MAHOU
+  pioId: bw5-23
+  nationalPokedexNumber: 79
+- enumId: SLOWBRO_24:DARK_EXPLORERS
+  name: Slowbro
+  number: '24'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Slowpoke]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Airhead
+    text: If you have 2, 4, or 6 Prize cards left, this Pokémon can't attack.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Lazy Headbutt
+    damage: '80'
+    text: This Pokémon is now Asleep.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: bw5-24
+  nationalPokedexNumber: 80
+- enumId: VAPOREON_25:DARK_EXPLORERS
+  variantOf: VAPOREON_BW89:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Vaporeon
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Muddy Water
+    damage: '20'
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Spiral Drain
+    damage: '60'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Akira Komayama
+  pioId: bw5-25
+  nationalPokedexNumber: 134
+- enumId: KYOGRE_EX_26:DARK_EXPLORERS
+  name: Kyogre-EX
+  number: '26'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [WATER]
+  hp: 170
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Smash Turn
+    damage: '30'
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Dual Splash
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-26
+  nationalPokedexNumber: 382
+- enumId: PIPLUP_27:DARK_EXPLORERS
+  name: Piplup
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Fury Attack
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw5-27
+  nationalPokedexNumber: 393
+- enumId: PRINPLUP_28:DARK_EXPLORERS
+  name: Prinplup
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Piplup]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Razor Wing
+    damage: '20'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Fury Attack
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: bw5-28
+  nationalPokedexNumber: 394
+- enumId: EMPOLEON_29:DARK_EXPLORERS
+  name: Empoleon
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Prinplup]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Diving Draw
+    text: Once during your turn (before your attack), you may discard a card from
+      your hand. If you do, draw 2 cards.
+  moves:
+  - cost: [WATER]
+    name: Attack Command
+    damage: 10x
+    text: Does 10 damage times the number of Pokémon in play (both yours and your
+      opponent's).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Naoki Saito
+  pioId: bw5-29
+  nationalPokedexNumber: 395
+- enumId: GLACEON_30:DARK_EXPLORERS
+  variantOf: GLACEON_BW90:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Glaceon
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  - cost: [WATER, COLORLESS]
+    name: Reflect Energy
+    damage: '40'
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Ryo Ueda
+  pioId: bw5-30
+  nationalPokedexNumber: 471
+- enumId: TYMPOLE_31:DARK_EXPLORERS
+  name: Tympole
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Spiral Drain
+    damage: '20'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw5-31
+  nationalPokedexNumber: 535
+- enumId: PALPITOAD_32:DARK_EXPLORERS
+  name: Palpitoad
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Tympole]
+  hp: 80
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Bubble Beam
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: bw5-32
+  nationalPokedexNumber: 536
+- enumId: VANILLITE_33:DARK_EXPLORERS
+  name: Vanillite
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Double Spin
+    damage: 10x
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw5-33
+  nationalPokedexNumber: 582
+- enumId: VANILLISH_34:DARK_EXPLORERS
+  name: Vanillish
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Vanillite]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Triple Spin
+    damage: 20x
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Frost Breath
+    damage: '50'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: bw5-34
+  nationalPokedexNumber: 583
+- enumId: DUCKLETT_35:DARK_EXPLORERS
+  name: Ducklett
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Water Pulse
+    damage: '20'
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: bw5-35
+  nationalPokedexNumber: 580
+- enumId: SWANNA_36:DARK_EXPLORERS
+  name: Swanna
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Ducklett]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Healing Pirouette
+    text: Heal 30 damage from each of your Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Incessant Peck
+    damage: 60+
+    text: Flip a coin until you get tails. This attack does 20 more damage for each
+      heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Mizue
+  pioId: bw5-36
+  nationalPokedexNumber: 581
+- enumId: JOLTEON_37:DARK_EXPLORERS
+  variantOf: JOLTEON_BW91:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Jolteon
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Electrigun
+    damage: 20+
+    text: You may discard a [L] Energy attached to this Pokémon. If you do, this attack
+      does 40 more damage.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Pin Missile
+    damage: 40x
+    text: Flip 4 coins. This attack does 40 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: bw5-37
+  nationalPokedexNumber: 135
+- enumId: RAIKOU_EX_38:DARK_EXPLORERS
+  name: Raikou-EX
+  number: '38'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Fang
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Volt Bolt
+    text: Discard all [L] Energy attached to this Pokémon. This attack does 100 damage
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-38
+  nationalPokedexNumber: 243
+- enumId: PLUSLE_39:DARK_EXPLORERS
+  name: Plusle
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tag Draw
+    text: Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your
+      Bench, draw 4 more cards.
+  - cost: [LIGHTNING]
+    name: Positive Ion
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: bw5-39
+  nationalPokedexNumber: 311
+- enumId: MINUN_40:DARK_EXPLORERS
+  name: Minun
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Negative Ion
+    text: During your opponent's next turn, any damage done by attacks from the Defending
+      Pokémon is reduced by 30 (before applying Weakness and Resistance).
+  - cost: [LIGHTNING]
+    name: Electrishower
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: bw5-40
+  nationalPokedexNumber: 312
+- enumId: JOLTIK_41:DARK_EXPLORERS
+  name: Joltik
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Bug Bite
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: bw5-41
+  nationalPokedexNumber: 595
+- enumId: JOLTIK_42:DARK_EXPLORERS
+  name: Joltik
+  number: '42'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 30
+  moves:
+  - cost: [LIGHTNING]
+    name: Static Shock
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: bw5-42
+  nationalPokedexNumber: 595
+- enumId: GALVANTULA_43:DARK_EXPLORERS
+  name: Galvantula
+  number: '43'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Joltik]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING]
+    name: Quick Turn
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electrisilk
+    damage: 30+
+    text: If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Akira Komayama
+  pioId: bw5-43
+  nationalPokedexNumber: 596
+- enumId: TYNAMO_44:DARK_EXPLORERS
+  name: Tynamo
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Charge Beam
+    damage: '10'
+    text: Flip a coin. If heads, attach an Energy card from your discard pile to this
+      Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: bw5-44
+  nationalPokedexNumber: 602
+- enumId: TYNAMO_45:DARK_EXPLORERS
+  name: Tynamo
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [LIGHTNING]
+    name: Spark
+    damage: '10'
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw5-45
+  nationalPokedexNumber: 602
+- enumId: EELEKTRIK_46:DARK_EXPLORERS
+  name: Eelektrik
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Tynamo]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Headbutt
+    damage: '20'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Shock Bolt
+    damage: '80'
+    text: Discard all [L] Energy attached to this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: bw5-46
+  nationalPokedexNumber: 603
+- enumId: EELEKTROSS_47:DARK_EXPLORERS
+  name: Eelektross
+  number: '47'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Eelektrik]
+  hp: 140
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Suction Heal
+    damage: '40'
+    text: Heal from this Pokémon the same amount of damage you did to the Defending
+      Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Slurp Shakedown
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+      This attack does 60 damage to the new Defending Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: kawayoo
+  pioId: bw5-47
+  nationalPokedexNumber: 604
+- enumId: ESPEON_48:DARK_EXPLORERS
+  variantOf: ESPEON_BW92:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Espeon
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Eevee]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Solar Revelation
+    text: Prevent all effects of your opponent's attacks, except damage, done to each
+      of your Pokémon that has any Energy attached to it.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Psy Report
+    damage: '60'
+    text: Your opponent reveals his or her hand.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Mizue
+  pioId: bw5-48
+  nationalPokedexNumber: 196
+- enumId: SLOWKING_49:DARK_EXPLORERS
+  name: Slowking
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Slowpoke]
+  hp: 90
+  moves:
+  - cost: [PSYCHIC]
+    name: Psy Bolt
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Hand Press
+    damage: 50+
+    text: If you have more cards in your hand than your opponent, this attack does
+      30 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: bw5-49
+  nationalPokedexNumber: 199
+- enumId: WOOBAT_50:DARK_EXPLORERS
+  name: Woobat
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [PSYCHIC]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Heart Stamp
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw5-50
+  nationalPokedexNumber: 527
+- enumId: YAMASK_51:DARK_EXPLORERS
+  name: Yamask
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Astonish
+    damage: '10'
+    text: Flip a coin. If heads, choose a card at random from your opponent's hand.
+      Your opponent reveals that card and shuffles it into his or her deck.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Aya Kusube
+  pioId: bw5-51
+  nationalPokedexNumber: 562
+- enumId: COFAGRIGUS_52:DARK_EXPLORERS
+  name: Cofagrigus
+  number: '52'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Yamask]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Chuck
+    damage: 40x
+    text: Discard as many Pokémon Tool cards as you like from your hand. This attack
+      does 40 damage times the number of cards you discarded.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Lock Up
+    damage: '40'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: kawayoo
+  pioId: bw5-52
+  nationalPokedexNumber: 563
+- enumId: AERODACTYL_53:DARK_EXPLORERS
+  name: Aerodactyl
+  number: '53'
+  cardTypes: [POKEMON, RESTORED]
+  types: [FIGHTING]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Ancient Scream
+    text: Your Pokémon's attacks do 10 more damage to the Active Pokémon (before applying
+      Weakness and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '40'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  text: Put this card onto your Bench only with the effect of Old Amber Aerodactyl
+  artist: Naoyo Kimura
+  pioId: bw5-53
+  nationalPokedexNumber: 142
+- enumId: GROUDON_EX_54:DARK_EXPLORERS
+  name: Groudon-EX
+  number: '54'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIGHTING]
+  hp: 180
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Tromp
+    damage: '20'
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Giant Claw
+    damage: 80+
+    text: If the Defending Pokémon already has 2 or more damage counters on it, this
+      attack does 40 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-54
+  nationalPokedexNumber: 383
+- enumId: DRILBUR_55:DARK_EXPLORERS
+  name: Drilbur
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Scratch
+    damage: '30'
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: bw5-55
+  nationalPokedexNumber: 529
+- enumId: EXCADRILL_56:DARK_EXPLORERS
+  name: Excadrill
+  number: '56'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Drilbur]
+  hp: 120
+  moves:
+  - cost: [FIGHTING]
+    name: Tunnel Strike
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING]
+    name: Dig Uppercut
+    damage: '50'
+    text: Put a card from your discard pile into your hand.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: bw5-56
+  nationalPokedexNumber: 530
+- enumId: EXCADRILL_57:DARK_EXPLORERS
+  name: Excadrill
+  number: '57'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Drilbur]
+  hp: 120
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Reinforced Drill
+    damage: 50+
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does
+      30 more damage.
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Mach Claw
+    damage: '70'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: bw5-57
+  nationalPokedexNumber: 530
+- enumId: TIMBURR_58:DARK_EXPLORERS
+  name: Timburr
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Low Kick
+    damage: '10'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: bw5-58
+  nationalPokedexNumber: 532
+- enumId: GURDURR_59:DARK_EXPLORERS
+  name: Gurdurr
+  number: '59'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Timburr]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Low Kick
+    damage: '20'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Steel Swing
+    damage: 60x
+    text: Flip 2 coins. This attack does 60 damage times the number of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mizue
+  pioId: bw5-59
+  nationalPokedexNumber: 533
+- enumId: UMBREON_60:DARK_EXPLORERS
+  variantOf: UMBREON_BW93:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Umbreon
+  number: '60'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Eevee]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shadow Drain
+    damage: '30'
+    text: Heal from this Pokémon the same amount of damage you did to the Defending
+      Pokémon.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Slashing Strike
+    damage: '80'
+    text: This Pokémon can't use Slashing Strike during your next turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: TOKIYA
+  pioId: bw5-60
+  nationalPokedexNumber: 197
+- enumId: UMBREON_61:DARK_EXPLORERS
+  name: Umbreon
+  number: '61'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Eevee]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Confuse Ray
+    damage: '20'
+    text: The Defending Pokémon is now Confused.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Shadow Shutdown
+    damage: '60'
+    text: Flip 2 coins. If both of them are heads, discard all Energy attached to
+      the Defending Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: bw5-61
+  nationalPokedexNumber: 197
+- enumId: SABLEYE_62:DARK_EXPLORERS
+  name: Sableye
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Confuse Ray
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [DARKNESS]
+    name: Junk Hunt
+    text: Put 2 Item cards from your discard pile into your hand.
+  retreatCost: 1
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: bw5-62
+  nationalPokedexNumber: 302
+- enumId: DARKRAI_EX_63:DARK_EXPLORERS
+  variantOf: DARKRAI_EX_BW46:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Darkrai-EX
+  number: '63'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DARKNESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Dark Cloak
+    text: Each of your Pokémon that has any [D] Energy attached to it has no Retreat
+      Cost.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Night Spear
+    damage: '90'
+    text: Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-63
+  nationalPokedexNumber: 491
+- enumId: SANDILE_64:DARK_EXPLORERS
+  name: Sandile
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Sand Dive
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks
+      during your opponent's next turn.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Corkscrew Punch
+    damage: '40'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: bw5-64
+  nationalPokedexNumber: 551
+- enumId: KROKOROK_65:DARK_EXPLORERS
+  name: Krokorok
+  number: '65'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Sandile]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Mud-Slap
+    damage: '30'
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Corkscrew Punch
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: bw5-65
+  nationalPokedexNumber: 552
+- enumId: KROOKODILE_66:DARK_EXPLORERS
+  name: Krookodile
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Krokorok]
+  hp: 150
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Dark Clamp
+    damage: '60'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Bombast
+    damage: 40x
+    text: Does 40 damage times the number of Prize cards you have taken.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw5-66
+  nationalPokedexNumber: 553
+- enumId: SCRAGGY_67:DARK_EXPLORERS
+  name: Scraggy
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Rising Lunge
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw5-67
+  nationalPokedexNumber: 559
+- enumId: SCRAFTY_68:DARK_EXPLORERS
+  name: Scrafty
+  number: '68'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Scraggy]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '30'
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Crushing Blow
+    damage: '70'
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: bw5-68
+  nationalPokedexNumber: 560
+- enumId: ZORUA_69:DARK_EXPLORERS
+  name: Zorua
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [DARKNESS]
+    name: Ascension
+    text: Search your deck for a card that evolves from this Pokémon and put it onto
+      this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: bw5-69
+  nationalPokedexNumber: 570
+- enumId: ZORUA_70:DARK_EXPLORERS
+  name: Zorua
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [DARKNESS, COLORLESS]
+    name: Shadow Bind
+    damage: '20'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw5-70
+  nationalPokedexNumber: 570
+- enumId: ZOROARK_71:DARK_EXPLORERS
+  name: Zoroark
+  number: '71'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Zorua]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Brutal Bash
+    damage: 20x
+    text: Does 20 damage times the number of [D] Pokémon you have in play.
+  - cost: [DARKNESS, DARKNESS]
+    name: Dark Rush
+    damage: 20x
+    text: Does 20 damage times the number of damage counters on this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw5-71
+  nationalPokedexNumber: 571
+- enumId: BISHARP_72:DARK_EXPLORERS
+  name: Bisharp
+  number: '72'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Pawniard]
+  hp: 90
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Slash
+    damage: '30'
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Fury Cutter
+    damage: 30+
+    text: Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If
+      2 of them are heads, this attack does 30 more damage. If all of them are heads,
+      this attack does 60 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: bw5-72
+  nationalPokedexNumber: 625
+- enumId: VULLABY_73:DARK_EXPLORERS
+  name: Vullaby
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Whirlwind
+    damage: '10'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: match
+  pioId: bw5-73
+  nationalPokedexNumber: 629
+- enumId: ESCAVALIER_74:DARK_EXPLORERS
+  name: Escavalier
+  number: '74'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Karrablast]
+  hp: 90
+  moves:
+  - cost: [METAL]
+    name: Joust
+    damage: '30'
+    text: Before doing damage, discard a Pokémon Tool card attached to the Defending
+      Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Cavalry Lance
+    damage: '70'
+    text: During your opponent's next turn, this Pokémon has no Weakness.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: bw5-74
+  nationalPokedexNumber: 589
+- enumId: KLINK_75:DARK_EXPLORERS
+  name: Klink
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Smash Turn
+    damage: '20'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Common
+  artist: Midori Harada
+  pioId: bw5-75
+  nationalPokedexNumber: 599
+- enumId: KLANG_76:DARK_EXPLORERS
+  name: Klang
+  number: '76'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Klink]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Charge Beam
+    damage: '20'
+    text: Flip a coin. If heads, attach an Energy card from your discard pile to this
+      Pokémon.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Vice Grip
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: bw5-76
+  nationalPokedexNumber: 600
+- enumId: KLINKLANG_77:DARK_EXPLORERS
+  name: Klinklang
+  number: '77'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Klang]
+  hp: 140
+  moves:
+  - cost: [COLORLESS]
+    name: Metal Blast
+    damage: 20+
+    text: Does 20 more damage for each [M] Energy attached to this Pokémon.
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Lock Gear
+    damage: '60'
+    text: Draw cards until you have 6 cards in your hand.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Hajime Kusajima
+  pioId: bw5-77
+  nationalPokedexNumber: 601
+- enumId: PAWNIARD_78:DARK_EXPLORERS
+  name: Pawniard
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Metal Claw
+    damage: '40'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: bw5-78
+  nationalPokedexNumber: 624
+- enumId: BISHARP_79:DARK_EXPLORERS
+  name: Bisharp
+  number: '79'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Pawniard]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Aerial Ace
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Metal Claw
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: bw5-79
+  nationalPokedexNumber: 625
+- enumId: CHANSEY_80:DARK_EXPLORERS
+  name: Chansey
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Sing
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Double-Edge
+    damage: '60'
+    text: This Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw5-80
+  nationalPokedexNumber: 113
+- enumId: CHANSEY_81:DARK_EXPLORERS
+  name: Chansey
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Continuous Tumble
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage times the number
+      of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mizue
+  pioId: bw5-81
+  nationalPokedexNumber: 113
+- enumId: BLISSEY_82:DARK_EXPLORERS
+  name: Blissey
+  number: '82'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Chansey]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Softboiled
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      heal 30 damage from your Active Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Double-Edge
+    damage: '90'
+    text: This Pokémon does 60 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: bw5-82
+  nationalPokedexNumber: 242
+- enumId: EEVEE_83:DARK_EXPLORERS
+  name: Eevee
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Surprise Attack
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: bw5-83
+  nationalPokedexNumber: 133
+- enumId: EEVEE_84:DARK_EXPLORERS
+  name: Eevee
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Smash Kick
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Tail Whap
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: bw5-84
+  nationalPokedexNumber: 133
+- enumId: CHATOT_85:DARK_EXPLORERS
+  name: Chatot
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tone-Deaf
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: MAHOU
+  pioId: bw5-85
+  nationalPokedexNumber: 441
+- enumId: LILLIPUP_86:DARK_EXPLORERS
+  name: Lillipup
+  number: '86'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Take Down
+    damage: '30'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kyoko Umemoto
+  pioId: bw5-86
+  nationalPokedexNumber: 506
+- enumId: HERDIER_87:DARK_EXPLORERS
+  name: Herdier
+  number: '87'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Lillipup]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: bw5-87
+  nationalPokedexNumber: 507
+- enumId: STOUTLAND_88:DARK_EXPLORERS
+  name: Stoutland
+  number: '88'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Herdier]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Special Fang
+    damage: 40+
+    text: If this Pokémon has any Special Energy attached to it, this attack does
+      40 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Ferocious Bellow
+    damage: '60'
+    text: During your opponent's next turn, any damage done by attacks from the Defending
+      Pokémon is reduced by 30 (before applying Weakness and Resistance).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Atsuko Nishida
+  pioId: bw5-88
+  nationalPokedexNumber: 508
+- enumId: HAXORUS_89:DARK_EXPLORERS
+  name: Haxorus
+  number: '89'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Fraxure]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Guillotine
+    damage: '60'
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Stunning Uppercut
+    damage: '80'
+    text: Flip 2 coins. If both of them are heads, the Defending Pokémon is now Paralyzed.
+      If both of them are tails, this attack does nothing.
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Akira Komayama
+  pioId: bw5-89
+  nationalPokedexNumber: 612
+- enumId: TORNADUS_EX_90:DARK_EXPLORERS
+  name: Tornadus-EX
+  number: '90'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [COLORLESS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Blow Through
+    damage: 30+
+    text: If there is any Stadium card in play, this attack does 30 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Power Blast
+    damage: '100'
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw5-90
+  nationalPokedexNumber: 641
+- enumId: CHEREN_91:DARK_EXPLORERS
+  variantOf: CHEREN_91:EMERGING_POWERS
+  variantType: Reprint
+  name: Cheren
+  number: '91'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Draw 3 cards.
+  artist: Kanako Eo
+  pioId: bw5-91
+- enumId: DARK_CLAW_92:DARK_EXPLORERS
+  name: Dark Claw
+  number: '92'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If this card is attached to a [D] Pokémon, each of the attacks of that Pokémon
+    does 20 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  artist: 5ban Graphics
+  pioId: bw5-92
+- enumId: DARK_PATCH_93:DARK_EXPLORERS
+  name: Dark Patch
+  number: '93'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Attach a basic [D] Energy card from your discard pile to 1 of your Benched
+    [D] Pokémon.
+  artist: 5ban Graphics
+  pioId: bw5-93
+- enumId: ENHANCED_HAMMER_94:DARK_EXPLORERS
+  name: Enhanced Hammer
+  number: '94'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Discard a Special Energy attached to 1 of your opponent's Pokémon.
+  artist: Ryo Ueda
+  pioId: bw5-94
+- enumId: HOOLIGANS_JIM___CAS_95:DARK_EXPLORERS
+  name: Hooligans Jim & Cas
+  number: '95'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Flip a coin. If heads, choose 3 random cards from your opponent's hand. Your
+    opponent reveals those cards and shuffles them into his or her deck.
+  artist: Masakazu Fukuda
+  pioId: bw5-95
+- enumId: N_96:DARK_EXPLORERS
+  variantOf: N_BW100:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: N
+  number: '96'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Each player shuffles his or her hand into his or her deck. Then, each player
+    draws a card for each of his or her remaining Prize cards.
+  artist: Megumi Mizutani
+  pioId: bw5-96
+- enumId: OLD_AMBER_AERODACTYL_97:DARK_EXPLORERS
+  name: Old Amber Aerodactyl
+  number: '97'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Look at the bottom 7 cards of your deck. You may reveal an Aerodactyl you
+    find there and put it onto your Bench. Shuffle the other cards back into your
+    deck.
+  artist: Ryo Ueda
+  pioId: bw5-97
+- enumId: PROFESSOR_JUNIPER_98:DARK_EXPLORERS
+  variantOf: PROFESSOR_JUNIPER_101:BLACK_WHITE
+  variantType: Reprint
+  name: Professor Juniper
+  number: '98'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Discard your hand and draw 7 cards.
+  artist: Kanako Eo
+  pioId: bw5-98
+- enumId: RANDOM_RECEIVER_99:DARK_EXPLORERS
+  name: Random Receiver
+  number: '99'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Reveal cards from the top of your deck until you reveal a Supporter card.
+    Put it into your hand. Shuffle the other cards back into your deck.
+  artist: 5ban Graphics
+  pioId: bw5-99
+- enumId: RARE_CANDY_100:DARK_EXPLORERS
+  name: Rare Candy
+  number: '100'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your
+    hand that evolves from that Pokémon, put that card on the Basic Pokémon. (This
+    counts as evolving that Pokémon.) You can't use this card during your first turn
+    or on a Basic Pokémon that was put into play this turn.
+  artist: Ryo Ueda
+  pioId: bw5-100
+- enumId: TWIST_MOUNTAIN_101:DARK_EXPLORERS
+  name: Twist Mountain
+  number: '101'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player's turn, that player may flip a coin. If heads, the
+    player puts a Restored Pokémon from his or her hand onto his or her Bench.
+  artist: Ryo Ueda
+  pioId: bw5-101
+- enumId: ULTRA_BALL_102:DARK_EXPLORERS
+  name: Ultra Ball
+  number: '102'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Discard 2 cards from your hand. (If you can't discard 2 cards, you can't play
+    this card.) Search your deck for a Pokémon, reveal it, and put it into your hand.
+    Shuffle your deck afterward.
+  artist: 5ban Graphics
+  pioId: bw5-102
+- enumId: ENTEI_EX_103:DARK_EXPLORERS
+  variantOf: ENTEI_EX_13:DARK_EXPLORERS
+  variantType: Full Art
+  name: Entei-EX
+  number: '103'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Fang
+    damage: '30'
+    text: The Defending Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Grand Flame
+    damage: '90'
+    text: Attach a [R] Energy card from your discard pile to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-103
+  nationalPokedexNumber: 244
+- enumId: KYOGRE_EX_104:DARK_EXPLORERS
+  variantOf: KYOGRE_EX_26:DARK_EXPLORERS
+  variantType: Full Art
+  name: Kyogre-EX
+  number: '104'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [WATER]
+  hp: 170
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Smash Turn
+    damage: '30'
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Dual Splash
+    text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-104
+  nationalPokedexNumber: 382
+- enumId: RAIKOU_EX_105:DARK_EXPLORERS
+  variantOf: RAIKOU_EX_38:DARK_EXPLORERS
+  variantType: Full Art
+  name: Raikou-EX
+  number: '105'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Fang
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Volt Bolt
+    text: Discard all [L] Energy attached to this Pokémon. This attack does 100 damage
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-105
+  nationalPokedexNumber: 243
+- enumId: GROUDON_EX_106:DARK_EXPLORERS
+  variantOf: GROUDON_EX_54:DARK_EXPLORERS
+  variantType: Full Art
+  name: Groudon-EX
+  number: '106'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIGHTING]
+  hp: 180
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Tromp
+    damage: '20'
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Giant Claw
+    damage: 80+
+    text: If the Defending Pokémon already has 2 or more damage counters on it, this
+      attack does 40 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-106
+  nationalPokedexNumber: 383
+- enumId: DARKRAI_EX_107:DARK_EXPLORERS
+  variantOf: DARKRAI_EX_BW46:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Darkrai-EX
+  number: '107'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DARKNESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Dark Cloak
+    text: Each of your Pokémon that has any [D] Energy attached to it has no Retreat
+      Cost.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Night Spear
+    damage: '90'
+    text: Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-107
+  nationalPokedexNumber: 491
+- enumId: TORNADUS_EX_108:DARK_EXPLORERS
+  variantOf: TORNADUS_EX_90:DARK_EXPLORERS
+  variantType: Full Art
+  name: Tornadus-EX
+  number: '108'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [COLORLESS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Blow Through
+    damage: 30+
+    text: If there is any Stadium card in play, this attack does 30 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Power Blast
+    damage: '100'
+    text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: bw5-108
+  nationalPokedexNumber: 641
+- enumId: GARDEVOIR_109:DARK_EXPLORERS
+  variantOf: GARDEVOIR_57:NEXT_DESTINIES
+  variantType: Reprint
+  name: Gardevoir
+  number: '109'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Kirlia]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Psychic Mirage
+    text: Each basic [P] Energy attached to your [P] Pokémon provides [P][P] Energy.
+      You can't apply more than 1 Psychic Mirage Ability at a time.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS, COLORLESS]
+    name: Mind Shock
+    damage: '60'
+    text: This attack's damage isn't affected by Weakness or Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  artist: 5ban Graphics
+  pioId: bw5-109
+  nationalPokedexNumber: 282
+- enumId: ARCHEOPS_110:DARK_EXPLORERS
+  variantOf: ARCHEOPS_67:NOBLE_VICTORIES
+  variantType: Reprint
+  name: Archeops
+  number: '110'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Archen]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Ancient Power
+    text: Each player can't play any Pokémon from his or her hand to evolve his or
+      her Pokémon.
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Rock Slide
+    damage: '60'
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  artist: 5ban Graphics
+  pioId: bw5-110
+  nationalPokedexNumber: 567
+- enumId: POKEMON_CATCHER_111:DARK_EXPLORERS
+  variantOf: POKEMON_CATCHER_95:EMERGING_POWERS
+  variantType: Reprint
+  name: Pokémon Catcher
+  number: '111'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Switch your opponent's Active Pokémon with 1 of his or her Benched Pokémon.
+  artist: 5ban Graphics
+  pioId: bw5-111

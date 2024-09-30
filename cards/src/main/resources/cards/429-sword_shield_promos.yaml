@@ -1,0 +1,1595 @@
+schema: E3
+expansion:
+  orderId: '429'
+  name: Sword & Shield Promos
+  enumId: SWORD_SHIELD_PROMOS
+  shortName: SWSHP
+  pioId: swsh
+cards:
+- enumId: GROOKEY_SWSH01:SWORD_SHIELD_PROMOS
+  name: Grookey
+  number: SWSH001
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Branch Poke
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH001
+- enumId: SCORBUNNY_SWSH02:SWORD_SHIELD_PROMOS
+  name: Scorbunny
+  number: SWSH002
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Super Singe
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH002
+- enumId: SOBBLE_SWSH03:SWORD_SHIELD_PROMOS
+  name: Sobble
+  number: SWSH003
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Bind
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH003
+- enumId: MEOWTH_V_SWSH04:SWORD_SHIELD_PROMOS
+  name: Meowth V
+  number: SWSH004
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [COLORLESS]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Pay Day
+    damage: '30'
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slashing Claw
+    damage: '130'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH004
+- enumId: MEOWTH_VMAX_SWSH05:SWORD_SHIELD_PROMOS
+  name: Meowth VMAX
+  number: SWSH005
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [COLORLESS]
+  hp: 300
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: G-Max Gold Rush
+    damage: '200'
+    text: Draw 3 cards.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH005
+- enumId: RILLABOOM_SWSH06:SWORD_SHIELD_PROMOS
+  name: Rillaboom
+  number: SWSH006
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Thwackey]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Voltage Beat
+    text: Once during your turn, you may search your deck for up to 2 [G] Energy cards
+      and attach them to 1 of your Pokémon. Then, shuffle your deck.
+  moves:
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Hammer In
+    damage: '140'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH006
+- enumId: FROSMOTH_SWSH07:SWORD_SHIELD_PROMOS
+  name: Frosmoth
+  number: SWSH007
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Snom]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Ice Dance
+    text: As often as you like during your turn, you may attach a [W] Energy card
+      from your hand to 1 of your Benched [W] Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Aurora Beam
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH007
+- enumId: GALARIAN_PERRSERKER_SWSH08:SWORD_SHIELD_PROMOS
+  name: Galarian Perrserker
+  number: SWSH008
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Galarian Meowth]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Steely Spirit
+    text: Your [M] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Metal Claw
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH008
+- enumId: CINCCINO_SWSH09:SWORD_SHIELD_PROMOS
+  name: Cinccino
+  number: SWSH009
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Minccino]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Make Do
+    text: You must discard a card from your hand in order to use this Ability. Once
+      during your turn, you may draw 2 cards.
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Assist
+    damage: '40'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH009
+- enumId: GOSSIFLEUR_SWSH10:SWORD_SHIELD_PROMOS
+  name: Gossifleur
+  number: SWSH010
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH010
+- enumId: WOOLOO_SWSH11:SWORD_SHIELD_PROMOS
+  name: Wooloo
+  number: SWSH011
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks
+      during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH011
+- enumId: MORPEKO_SWSH12:SWORD_SHIELD_PROMOS
+  name: Morpeko
+  number: SWSH012
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder Shock
+    damage: '60'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH012
+- enumId: GALARIAN_PONYTA_SWSH13:SWORD_SHIELD_PROMOS
+  name: Galarian Ponyta
+  number: SWSH013
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Heal Pulse
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Flop
+    damage: '20'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH013
+- enumId: RILLABOOM_V_SWSH14:SWORD_SHIELD_PROMOS
+  name: Rillaboom V
+  number: SWSH014
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Forest Feast
+    text: Search your deck for up to 2 Basic [G] Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Wood Hammer
+    damage: '220'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH014
+- enumId: CINDERACE_V_SWSH15:SWORD_SHIELD_PROMOS
+  name: Cinderace V
+  number: SWSH015
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Field Runner
+    text: If a Stadium is in play, this Pokémon has no Retreat Cost.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Crimson Legs
+    damage: '140'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH015
+- enumId: INTELEON_V_SWSH16:SWORD_SHIELD_PROMOS
+  name: Inteleon V
+  number: SWSH016
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 200
+  moves:
+  - cost: [WATER]
+    name: Snipe Shot
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Report
+    damage: '130'
+    text: Your opponent reveals their hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH016
+- enumId: TOXTRICITY_V_SWSH17:SWORD_SHIELD_PROMOS
+  name: Toxtricity V
+  number: SWSH017
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 210
+  moves:
+  - cost: [COLORLESS]
+    name: Energize
+    text: Attach a [L] Energy card from your discard pile to this Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Venom Slap
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH017
+- enumId: ZACIAN_V_SWSH18:SWORD_SHIELD_PROMOS
+  name: Zacian V
+  number: SWSH018
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 220
+  abilities:
+  - type: Ability
+    name: Intrepid Sword
+    text: Once during your turn, you may look at the top 3 cards of your deck and
+      attach any number of [M] Energy cards you find there to this Pokémon. Put the
+      other cards into your hand. If you use this Ability, your turn ends.
+  moves:
+  - cost: [METAL, METAL, METAL]
+    name: Brave Blade
+    damage: '230'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH018
+- enumId: ZAMAZENTA_V_SWSH19:SWORD_SHIELD_PROMOS
+  name: Zamazenta V
+  number: SWSH019
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 230
+  abilities:
+  - type: Ability
+    name: Dauntless Shield
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon VMAX.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Assault Tackle
+    damage: '130'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH019
+- enumId: PIKACHU_SWSH20:SWORD_SHIELD_PROMOS
+  name: Pikachu
+  number: SWSH020
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Iron Tail
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH020
+- enumId: POLTEAGEIST_V_SWSH21:SWORD_SHIELD_PROMOS
+  name: Polteageist V
+  number: SWSH021
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Teapot of Surprises
+    text: If this Pokémon is in the Active Spot and is damaged by an opponent's attack
+      (even if it is Knocked Out), choose a random card from your opponent's hand.
+      Your opponent reveals that card and puts it on the bottom of their deck.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Mind Bend
+    damage: '100'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH021
+- enumId: FLAPPLE_SWSH22:SWORD_SHIELD_PROMOS
+  name: Flapple
+  number: SWSH022
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Applin]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Apple Drop
+    text: Once during your turn, you may put 2 damage counters on 1 of your opponent's
+      Pokémon. If you placed any damage counters in this way, shuffle this Pokémon
+      and all attached cards into your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Acid Spray
+    damage: '60'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH022
+- enumId: LUXRAY_SWSH23:SWORD_SHIELD_PROMOS
+  name: Luxray
+  number: SWSH023
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Luxio]
+  hp: 160
+  moves:
+  - cost: [LIGHTNING]
+    name: Raid
+    damage: 60+
+    text: If this Pokémon evolved from Luxio during this turn, this attack does 100
+      more damage.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Head Bolt
+    damage: '120'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH023
+- enumId: COALOSSAL_SWSH24:SWORD_SHIELD_PROMOS
+  name: Coalossal
+  number: SWSH024
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Carkol]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Tar Generator
+    text: Once during your turn, you may attach a [R] Energy card, a [F] Energy card,
+      or 1 of each from your discard pile to your Pokémon in any way you like.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Flaming Avalanche
+    damage: '130'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Promo
+  pioId: swsh-SWSH024
+- enumId: GARBODOR_SWSH25:SWORD_SHIELD_PROMOS
+  name: Garbodor
+  number: SWSH025
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Trubbish]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Poisonous Puddle
+    text: Once during your turn, if a Stadium is in play, you may make your opponent's
+      Active Pokémon Poisoned.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Sludge Bomb
+    damage: '80'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH025
+- enumId: MANTINE_SWSH26:SWORD_SHIELD_PROMOS
+  name: Mantine
+  number: SWSH026
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 110
+  moves:
+  - cost: [WATER]
+    name: Water Reserve
+    text: Search your deck for up to 3 [W] Energy cards, reveal them, and put them
+      into your hand. Then, shuffle your deck.
+  - cost: [WATER, WATER]
+    name: Wave Splash
+    damage: '60'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH026
+- enumId: NOCTOWL_SWSH27:SWORD_SHIELD_PROMOS
+  name: Noctowl
+  number: SWSH027
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Hoothoot]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '40'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Carry Off
+    text: Choose 1 of your opponent's Benched Pokémon. They shuffle that Pokémon and
+      all attached cards into their deck. Then, shuffle this Pokémon and all attached
+      cards into your deck.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH027
+- enumId: DURALUDON_SWSH28:SWORD_SHIELD_PROMOS
+  name: Duraludon
+  number: SWSH028
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Metal Claw
+    damage: '70'
+  - cost: [METAL, COLORLESS, COLORLESS, COLORLESS]
+    name: Steel Beam
+    text: This Pokémon also does 40 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH028
+- enumId: RAYQUAZA_SWSH29:SWORD_SHIELD_PROMOS
+  name: Rayquaza
+  number: SWSH029
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Jaw Lock
+    damage: '30'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Power Blast
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH029
+- enumId: COPPERAJAH_V_SWSH30:SWORD_SHIELD_PROMOS
+  name: Copperajah V
+  number: SWSH030
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 220
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Adamantine Press
+    damage: '90'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: Wrack Down
+    damage: '180'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Promo
+  pioId: swsh-SWSH030
+- enumId: MORPEKO_SWSH31:SWORD_SHIELD_PROMOS
+  name: Morpeko
+  number: SWSH031
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Famished
+    text: Draw a card.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Shock
+    damage: '40'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH031
+- enumId: SNORLAX_SWSH32:SWORD_SHIELD_PROMOS
+  name: Snorlax
+  number: SWSH032
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 150
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rolling Tackle
+    damage: '80'
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Heavy Impact
+    damage: '130'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Promo
+  pioId: swsh-SWSH032
+- enumId: ZACIAN_SWSH33:SWORD_SHIELD_PROMOS
+  name: Zacian
+  number: SWSH033
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Crunch
+    damage: '60'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: Metal Blade
+    damage: '190'
+    text: Discard 3 Energy from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH033
+- enumId: ZAMAZENTA_SWSH34:SWORD_SHIELD_PROMOS
+  name: Zamazenta
+  number: SWSH034
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Sturdy Shield
+    text: This Pokémon takes 20 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: Headbang
+    damage: '130'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH034
+- enumId: DECIDUEYE_SWSH35:SWORD_SHIELD_PROMOS
+  name: Decidueye
+  number: SWSH035
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Dartrix]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Deep Forest Camo
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon V and Pokémon-GX.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Splitting Arrow
+    damage: '90'
+    text: This attack also does 20 damage to 2 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH035
+- enumId: ARCTOZOLT_SWSH36:SWORD_SHIELD_PROMOS
+  name: Arctozolt
+  number: SWSH036
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Rare Fossil]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Biting Whirlpool
+    text: Whenever your opponent attaches an Energy card from their hand to 1 of their
+      Pokémon, put 2 damage counters on that Pokémon.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH036
+- enumId: HYDREIGON_SWSH37:SWORD_SHIELD_PROMOS
+  name: Hydreigon
+  number: SWSH037
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Zweilous]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Dark Squall
+    text: As often as you like during your turn, you may attach a [D] Energy from
+      your hand to one of your Pokémon in play.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Pitch-Black Fangs
+    damage: '130'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH037
+- enumId: KANGASKHAN_SWSH38:SWORD_SHIELD_PROMOS
+  name: Kangaskhan
+  number: SWSH038
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Rally Back
+    damage: 30+
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your
+      opponent's Pokémon during their last turn, this attack does 90 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '100'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH038
+- enumId: PIKACHU_SWSH39:SWORD_SHIELD_PROMOS
+  name: Pikachu
+  number: SWSH039
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tail Whip
+    text: Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon
+      can't attack.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Pika Bolt
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH039
+- enumId: HATENNA_SWSH40:SWORD_SHIELD_PROMOS
+  name: Hatenna
+  number: SWSH040
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then,
+      shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Psyshot
+    damage: '20'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH040
+- enumId: FLAREON_SWSH41:SWORD_SHIELD_PROMOS
+  name: Flareon
+  number: SWSH041
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 110
+  moves:
+  - cost: [FIRE]
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Kindle
+    damage: '120'
+    text: Discard an Energy from this Pokémon. If you do, discard an Energy from your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH041
+- enumId: EEVEE_SWSH42:SWORD_SHIELD_PROMOS
+  name: Eevee
+  number: SWSH042
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Signs of Evolution
+    text: Search your deck for a card that evolves from Eevee, reveal it, and put
+      it into your hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Wild Kick
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH042
+- enumId: GALARIAN_SIRFETCH_D_V_SWSH43:SWORD_SHIELD_PROMOS
+  name: Galarian Sirfetch'd V
+  number: SWSH043
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Resolute Spear
+    text: Once during your turn, when this Pokémon moves from your Bench to the Active
+      Spot, you may move any amount of [F] Energy from your other Pokémon to it.
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Meteor Smash
+    damage: '200'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH043
+- enumId: ETERNATUS_V_SWSH44:SWORD_SHIELD_PROMOS
+  name: Eternatus V
+  number: SWSH044
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 220
+  moves:
+  - cost: [COLORLESS]
+    name: Power Accelerator
+    damage: '30'
+    text: You may attach a [D] Energy card from your hand to 1 of your Benched Pokémon.
+  - cost: [DARKNESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Dynamax Cannon
+    damage: 120+
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 120
+      more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH044
+- enumId: ETERNATUS_VMAX_SWSH45:SWORD_SHIELD_PROMOS
+  name: Eternatus VMAX
+  number: SWSH045
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [DARKNESS]
+  evolvesFrom: [Eternatus V]
+  hp: 340
+  abilities:
+  - type: Ability
+    name: Eternal Zone
+    text: If all of your Pokémon in play are [D] type, you can have up to 8 Pokémon
+      on your Bench, and can't put non-[D] Pokémon into play. (If this Ability stops
+      working, discard Pokémon from your Bench until you have 5.)
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Dread End
+    damage: 30x
+    text: This attack does 30 damage for each of your [D] Pokémon in play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH045
+- enumId: ELDEGOSS_SWSH46:SWORD_SHIELD_PROMOS
+  name: Eldegoss
+  number: SWSH046
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Gossifleur]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Blessing of Fluff
+    text: Search your deck for up to 3 [G] Energy cards and attach them to your Benched
+      Pokémon in any way you like. Then, shuffle your deck.
+  - cost: [GRASS]
+    name: Leafage
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH046
+- enumId: DREDNAW_SWSH47:SWORD_SHIELD_PROMOS
+  name: Drednaw
+  number: SWSH047
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Chewtle]
+  hp: 130
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Vise Bite
+    damage: 60+
+    text: This attack does 30 more damage for each [C] in your opponent's Active Pokémon's
+      Retreat Cost.
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Jaw Lock
+    damage: '130'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH047
+- enumId: CENTISKORCH_SWSH48:SWORD_SHIELD_PROMOS
+  name: Centiskorch
+  number: SWSH048
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Sizzlipede]
+  hp: 130
+  moves:
+  - cost: [FIRE]
+    name: Hundred Foot Flames
+    text: For each [R] Energy attached to this Pokémon, discard the top card of your
+      opponent’s deck.
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS]
+    name: Searing Flame
+    damage: '110'
+    text: Your opponent’s Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH048
+- enumId: DUBWOOL_V_SWSH49:SWORD_SHIELD_PROMOS
+  name: Dubwool V
+  number: SWSH049
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [COLORLESS]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Soft Wool
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Revenge Blast
+    damage: 120+
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH049
+- enumId: CHARIZARD_V_SWSH50:SWORD_SHIELD_PROMOS
+  name: Charizard V
+  number: SWSH050
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 220
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Claw Slash
+    damage: '80'
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Fire Spin
+    damage: '220'
+    text: Discard 2 Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH050
+- enumId: LAPRAS_SWSH51:SWORD_SHIELD_PROMOS
+  name: Lapras
+  number: SWSH051
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 130
+  moves:
+  - cost: [WATER, WATER, WATER, WATER]
+    name: Aqua Wash
+    damage: '70'
+    text: You may put 2 Energy attached to your opponent’s Active Pokémon into their
+      hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH051
+- enumId: GENGAR_SWSH52:SWORD_SHIELD_PROMOS
+  name: Gengar
+  number: SWSH052
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Haunter]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Life Shaker
+    text: As often as you like during your turn, you may move 1 damage counter from
+      1 of your [P] Pokémon to another of your [P] Pokémon.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Hypnoblast
+    damage: '90'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH052
+- enumId: MACHAMP_SWSH53:SWORD_SHIELD_PROMOS
+  name: Machamp
+  number: SWSH053
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Machoke]
+  hp: 170
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Macho Revenge
+    damage: 20x
+    text: This attack does 20 damage for each [F] Pokémon in your discard pile.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Dynamite Punch
+    damage: '200'
+    text: This Pokémon also does 50 damage to itself.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH053
+- enumId: COALOSSAL_SWSH54:SWORD_SHIELD_PROMOS
+  variantOf: COALOSSAL_SWSH24:SWORD_SHIELD_PROMOS
+  variantType: Alternate Art
+  name: Coalossal
+  number: SWSH054
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Carkol]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Tar Generator
+    text: Once during your turn, you may attach a [R] Energy card, a [F] Energy card,
+      or 1 of each from your discard pile to your Pokémon in any way you like.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Flaming Avalanche
+    damage: '130'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Promo
+  pioId: swsh-SWSH054
+- enumId: HATTERENE_V_SWSH55:SWORD_SHIELD_PROMOS
+  name: Hatterene V
+  number: SWSH055
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Confounding Impulse
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The
+      new Active Pokémon is now Confused.
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Mental Crush
+    damage: 90+
+    text: If your opponent's Active Pokémon is Confused, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH055
+- enumId: MORPEKO_V_SWSH56:SWORD_SHIELD_PROMOS
+  name: Morpeko V
+  number: SWSH056
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Spark
+    damage: '20'
+    text: This attack also does 20 damage to 1 of your opponent’s Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electro Wheel
+    damage: '150'
+    text: Discard an Energy from this Pokémon. If you do, switch it with 1 of your
+      Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH056
+- enumId: GRIMMSNARL_V_SWSH57:SWORD_SHIELD_PROMOS
+  name: Grimmsnarl V
+  number: SWSH057
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 220
+  moves:
+  - cost: [DARKNESS]
+    name: Bite
+    damage: '40'
+  - cost: [DARKNESS, DARKNESS, DARKNESS]
+    name: Spiky Knuckle
+    damage: '200'
+    text: Put 2 [D] Energy attached to this Pokémon into your hand.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH057
+- enumId: PIKACHU_V_SWSH63:SWORD_SHIELD_PROMOS
+  name: Pikachu V
+  number: SWSH063
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 190
+  moves:
+  - cost: [LIGHTNING]
+    name: Pika Ball
+    damage: '30'
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Circle Circuit
+    damage: 30x
+    text: This attack does 30 damage for each of your Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH063
+- enumId: ETERNATUS_V_SWSH64:SWORD_SHIELD_PROMOS
+  variantOf: ETERNATUS_V_SWSH44:SWORD_SHIELD_PROMOS
+  variantType: Alternate Art
+  name: Eternatus V
+  number: SWSH064
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 220
+  moves:
+  - cost: [COLORLESS]
+    name: Power Accelerator
+    damage: '30'
+    text: You may attach a [D] Energy card from your hand to 1 of your Benched Pokémon.
+  - cost: [DARKNESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Dynamax Cannon
+    damage: 120+
+    text: If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 120
+      more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH064
+- enumId: EEVEE_V_SWSH65:SWORD_SHIELD_PROMOS
+  name: Eevee V
+  number: SWSH065
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [COLORLESS]
+  hp: 190
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw 3 cards.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Brave Buddies
+    damage: 80+
+    text: If you played a Supporter card from your hand during this turn, this attack
+      does 80 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH065
+- enumId: CHARIZARD_SWSH66:SWORD_SHIELD_PROMOS
+  name: Charizard
+  number: SWSH066
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Charmeleon]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Battle Sense
+    text: Once during your turn, you may look at the top 3 cards of your deck and
+      put 1 of them into your hand. Discard the other cards.
+  moves:
+  - cost: [FIRE, FIRE]
+    name: Royal Blaze
+    damage: 100+
+    text: This attack does 50 more damage for each Leon card in your discard pile.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH066
+- enumId: DONPHAN_SWSH67:SWORD_SHIELD_PROMOS
+  name: Donphan
+  number: SWSH067
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 150
+  moves:
+  - cost: [FIGHTING]
+    name: Earthquake
+    damage: '120'
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Heavy Impact
+    damage: '90'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Promo
+  pioId: swsh-SWSH067
+- enumId: SNORLAX_SWSH68:SWORD_SHIELD_PROMOS
+  name: Snorlax
+  number: SWSH068
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Gormandize
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may draw
+      cards until you have 7 cards in your hand. If you use this Ability, your turn
+      ends.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '100'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed .
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH068
+- enumId: LUGIA_SWSH69:SWORD_SHIELD_PROMOS
+  name: Lugia
+  number: SWSH069
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gust
+    damage: '40'
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Wind Pressure
+    damage: '250'
+    text: If your opponent has 5 or fewer cards in their hand, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH069
+- enumId: GROOKEY_SWSH70:SWORD_SHIELD_PROMOS
+  name: Grookey
+  number: SWSH070
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Full On
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH070
+- enumId: SCORBUNNY_SWSH71:SWORD_SHIELD_PROMOS
+  name: Scorbunny
+  number: SWSH071
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Me First
+    text: Draw a card.
+  - cost: [FIRE, FIRE]
+    name: Live Coal
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH071
+- enumId: VAPOREON_SWSH72:SWORD_SHIELD_PROMOS
+  name: Vaporeon
+  number: SWSH072
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Watery Shroud
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this
+      Pokémon by attacks (both yours and your opponent's).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hydro Pump
+    damage: 60+
+    text: This attack does 20 more damage for each [W] Energy attached to this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH072
+- enumId: SOBBLE_SWSH73:SWORD_SHIELD_PROMOS
+  name: Sobble
+  number: SWSH073
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Growl
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 20
+      less damage (before applying Weakness and Resistance).
+  - cost: [WATER]
+    name: Rain Splash
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH073
+- enumId: SPECIAL_DELIVERY_PIKACHU_SWSH74:SWORD_SHIELD_PROMOS
+  name: Special Delivery Pikachu
+  number: SWSH074
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Happy Delivery
+    text: Search your deck for an Item card, reveal it, and put it into your hand.
+      Then, shuffle your deck.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH074
+- enumId: SPECIAL_DELIVERY_CHARIZARD_SWSH75:SWORD_SHIELD_PROMOS
+  name: Special Delivery Charizard
+  number: SWSH075
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Charmeleon]
+  hp: 160
+  moves:
+  - cost: [COLORLESS]
+    name: Happy Delivery
+    text: Search your deck for up to 2 Item cards, reveal them, and put them into
+      your hand. Then, shuffle your deck.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '160'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Promo
+  pioId: swsh-SWSH075
+- enumId: ZACIAN_V_SWSH76:SWORD_SHIELD_PROMOS
+  variantOf: ZACIAN_V_SWSH18:SWORD_SHIELD_PROMOS
+  variantType: Alternate Art
+  name: Zacian V
+  number: SWSH076
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 220
+  abilities:
+  - type: Ability
+    name: Intrepid Sword
+    text: Once during your turn, you may look at the top 3 cards of your deck and
+      attach any number of [M] Energy cards you find there to this Pokémon. Put the
+      other cards into your hand. If you use this Ability, your turn ends.
+  moves:
+  - cost: [METAL, METAL, METAL]
+    name: Brave Blade
+    damage: '230'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH076
+- enumId: ZAMAZENTA_V_SWSH77:SWORD_SHIELD_PROMOS
+  variantOf: ZAMAZENTA_V_SWSH19:SWORD_SHIELD_PROMOS
+  variantType: Alternate Art
+  name: Zamazenta V
+  number: SWSH077
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 230
+  abilities:
+  - type: Ability
+    name: Dauntless Shield
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon VMAX.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Assault Tackle
+    damage: '130'
+    text: Discard a Special Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Promo
+  pioId: swsh-SWSH077
+- enumId: ORBEETLE_V_SWSH78:SWORD_SHIELD_PROMOS
+  name: Orbeetle V
+  number: SWSH078
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 180
+  moves:
+  - cost: [GRASS]
+    name: Strafe
+    damage: '20'
+    text: You may switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [GRASS, COLORLESS]
+    name: Mysterious Wave
+    damage: 50+
+    text: This attack does 30 more damage for each Energy attached to your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Promo
+  pioId: swsh-SWSH078

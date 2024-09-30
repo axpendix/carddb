@@ -1,0 +1,2330 @@
+schema: E3
+expansion:
+  orderId: '161'
+  name: Neo Genesis
+  enumId: NEO_GENESIS
+  shortName: N1
+cards:
+- enumId: AMPHAROS_1:NEO_GENESIS
+  name: Ampharos
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Flaaffy]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING]
+    name: Gigaspark
+    damage: '40'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack
+      does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-1
+  nationalPokedexNumber: 181
+- enumId: AZUMARILL_2:NEO_GENESIS
+  name: Azumarill
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Marill]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [WATER, WATER, WATER]
+    name: Bubble Shower
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack
+      does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-2
+  nationalPokedexNumber: 184
+- enumId: BELLOSSOM_3:NEO_GENESIS
+  name: Bellossom
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Gloom]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Sweet Nectar
+    text: Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Flower Dance
+    damage: 30x
+    text: Does 30 damage times the number of cards with Bellossom in their names that
+      you have in play (including this one).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Atsuko Nishida
+  pioId: neo1-3
+  nationalPokedexNumber: 182
+- enumId: FERALIGATR_4:NEO_GENESIS
+  name: Feraligatr
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Croconaw]
+  hp: 100
+  abilities:
+  - type: Pokémon Power
+    name: Berserk
+    text: When you play Feraligatr from your hand, flip a coin. If heads, discard
+      the top 5 cards from your opponent's deck. If tails, discard the top 5 cards
+      from your deck.
+  moves:
+  - cost: [WATER, WATER, WATER, WATER]
+    name: Chomp
+    damage: 50+
+    text: Flip a number of coins equal to the number of damage counters on Feraligatr.
+      This attack does 50 damage plus 10 more damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-4
+  nationalPokedexNumber: 160
+- enumId: FERALIGATR_5:NEO_GENESIS
+  name: Feraligatr
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Croconaw]
+  hp: 120
+  abilities:
+  - type: Pokémon Power
+    name: Downpour
+    text: As often as you like during your turn (before your attack), you may discard
+      a [W] Energy card from your hand. This power can't be used if Feraligatr is
+      Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [WATER, WATER, WATER]
+    name: Riptide
+    damage: 10+
+    text: Does 10 damage plus 10 damage times the number of [W] Energy cards in your
+      discard pile. Then, shuffle all [W] Energy cards from your discard pile into
+      your deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-5
+  nationalPokedexNumber: 160
+- enumId: HERACROSS_6:NEO_GENESIS
+  name: Heracross
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Pokémon Power
+    name: Final Blow
+    text: If Heracross's remaining HP are 20 or less, you may make its Megahorn attack's
+      base damage 120 instead of 60. This power can't be used if Heracross is Asleep,
+      Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS, GRASS]
+    name: Megahorn
+    damage: '60'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-6
+  nationalPokedexNumber: 214
+- enumId: JUMPLUFF_7:NEO_GENESIS
+  name: Jumpluff
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Skiploom]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Sleep Powder
+    damage: '20'
+    text: The Defending Pokémon is now Asleep.
+  - cost: [GRASS]
+    name: Leech Seed
+    damage: '20'
+    text: If this attack damages the Defending Pokémon (after applying Weakness and
+      Resistance), remove 1 damage counter from Jumpluff, if it has any.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Atsuko Nishida
+  pioId: neo1-7
+  nationalPokedexNumber: 189
+- enumId: KINGDRA_8:NEO_GENESIS
+  name: Kingdra
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Seadra]
+  hp: 90
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Agility
+    damage: '30'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Kingdra.
+  - cost: [WATER, WATER, WATER, WATER]
+    name: Dragon Tornado
+    damage: '50'
+    text: If this attack doesn't Knock Out the Defending Pokémon, and if there are
+      any Pokémon on your opponent's Bench, choose 1 of them and switch it with the
+      Defending Pokémon.
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-8
+  nationalPokedexNumber: 230
+- enumId: LUGIA_9:NEO_GENESIS
+  name: Lugia
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [FIRE, WATER, LIGHTNING]
+    name: Elemental Blast
+    damage: '90'
+    text: Discard a [R] Energy card, a [W] Energy card, and a [L] Energy card attached
+      to Lugia in order to use this attack.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Hironobu Yoshida
+  pioId: neo1-9
+  nationalPokedexNumber: 249
+- enumId: MEGANIUM_10:NEO_GENESIS
+  name: Meganium
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Bayleef]
+  hp: 100
+  abilities:
+  - type: Pokémon Power
+    name: Herbal Scent
+    text: When you play Meganium from your hand, you may flip a coin. If heads, remove
+      all damage counters from all [G] Pokémon in play.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '40'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-10
+  nationalPokedexNumber: 154
+- enumId: MEGANIUM_11:NEO_GENESIS
+  name: Meganium
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Bayleef]
+  hp: 100
+  abilities:
+  - type: Pokémon Power
+    name: Wild Growth
+    text: As long as Meganium is in play each [G] Energy card attached to your [G]
+      Pokémon instead provides [G][G]. This power stops working while Meganium is
+      Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS, GRASS, GRASS]
+    name: Soothing Scent
+    damage: '40'
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-11
+  nationalPokedexNumber: 154
+- enumId: PICHU_12:NEO_GENESIS
+  name: Pichu
+  number: '12'
+  cardTypes: [POKEMON, BABY, BASIC]
+  types: [LIGHTNING]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Zzzap
+    text: Does 20 damage to each Pokémon in play that has a Pokémon Power. Don't apply
+      Weakness and Resistance.
+  retreatCost: 0
+  rarity: Rare Holo
+  text: If this Baby Pokémon is your Active Pokémon and your opponent tries to attack,
+    your opponent flips a coin (before doing anything else required in order to use
+    that attack). If tails, your opponent's turn ends without an attack.
+  artist: Ken Sugimori
+  pioId: neo1-12
+  nationalPokedexNumber: 172
+- enumId: SKARMORY_13:NEO_GENESIS
+  name: Skarmory
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Claw
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Steel Wing
+    damage: '30'
+    text: Flip a coin. If heads, all damage done by attacks to Skarmory during your
+      opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-13
+  nationalPokedexNumber: 227
+- enumId: SLOWKING_14:NEO_GENESIS
+  name: Slowking
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Slowpoke]
+  hp: 80
+  abilities:
+  - type: Pokémon Power
+    name: Mind Games
+    text: Whenever your opponent plays a Trainer card, you may flip a coin. If heads,
+      that card does nothing. Put it on top of your opponent's deck. This power can't
+      be used if Slowking is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Mind Blast
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage and
+      the Defending Pokémon is now Confused. If tails, this attack does 20 damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-14
+  nationalPokedexNumber: 199
+- enumId: STEELIX_15:NEO_GENESIS
+  name: Steelix
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Onix]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Tail Crush
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if
+      tails, this attack does 30 damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-15
+  nationalPokedexNumber: 208
+- enumId: TOGETIC_16:NEO_GENESIS
+  name: Togetic
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Togepi]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Super Metronome
+    text: Flip a coin. If heads, choose an attack of 1 of your opponent's Pokémon.
+      Super Metronome copies that attack except for its Energy cost. (You must still
+      do anything else in order to use that attack.) (No matter what type the Defending
+      Pokémon is, Togetic's type is still [C].) Togetic performs that attack. (Togetic
+      can make that attack even if it does not have the appropriate number or type
+      of Energy attached to it necessary to make the attack.)
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Fly
+    damage: '30'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Togetic; if tails, this attack does nothing
+      (not even damage).
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-16
+  nationalPokedexNumber: 176
+- enumId: TYPHLOSION_17:NEO_GENESIS
+  name: Typhlosion
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Quilava]
+  hp: 100
+  abilities:
+  - type: Pokémon Power
+    name: Fire Recharge
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      attach a [R] Energy card from your discard pile to 1 of your [R] Pokémon. This
+      power can't be used if Typhlosion is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [FIRE, FIRE, FIRE, FIRE]
+    name: Flame Burst
+    damage: 60+
+    text: Flip a coin. If heads, this attack does 60 damage plus 20 more damage and
+      does 20 damage to Typhlosion. If tails, this attack does 60 damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Shin-ichi Yoshida
+  pioId: neo1-17
+  nationalPokedexNumber: 157
+- enumId: TYPHLOSION_18:NEO_GENESIS
+  name: Typhlosion
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Quilava]
+  hp: 100
+  abilities:
+  - type: Pokémon Power
+    name: Fire Boost
+    text: When you play Typhlosion from your hand, you may flip a coin. If heads,
+      search your deck for up to 4 [R] Energy cards and attach them to Typhlosion.
+      Shuffle your deck afterward.
+  moves:
+  - cost: [FIRE, FIRE, FIRE, FIRE]
+    name: Flame Wheel
+    damage: '80'
+    text: Discard 3 [R] Energy cards attached to Typhlosion in order to use this attack.
+      Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: neo1-18
+  nationalPokedexNumber: 157
+- enumId: METAL_ENERGY_19:NEO_GENESIS
+  name: Metal Energy
+  number: '19'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare Holo
+  text: Damage done to Pokémon [M] Energy is attached to is reduced by 10 (after applying
+    Weakness and Resistance). If the Pokémon [M] Energy is attached to isn't , whenever
+    it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance).
+    [M] Energy provides Energy. (Doesn't count as a basic Energy card.)
+  energy: [[METAL]]
+  artist: Milky Isobe
+  pioId: neo1-19
+  erratas:
+  - Metal Energy reduces damage only from attacks. This means Pokémon Powers like
+    Dark Crobat’s Surprise Bite and Elekid’s Playful Punch should not have their damage
+    reduced by a Pokémon with Metal Energy attached to them.
+  - Double damage reduction (2x10=20) for self-damage from non-Metal Pokémon is legit.
+- enumId: CLEFFA_20:NEO_GENESIS
+  name: Cleffa
+  number: '20'
+  cardTypes: [POKEMON, BABY, BASIC]
+  types: [COLORLESS]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Eeeeeeek
+    text: Shuffle your hand into your deck, then draw 7 cards.
+  retreatCost: 0
+  rarity: Rare
+  text: If this Baby Pokémon is your Active Pokémon and your opponent tries to attack,
+    your opponent flips a coin (before doing anything else required in order to use
+    that attack). If tails, your opponent's turn ends without an attack.
+  artist: Kagemaru Himeno
+  pioId: neo1-20
+  nationalPokedexNumber: 173
+- enumId: DONPHAN_21:NEO_GENESIS
+  name: Donphan
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 70
+  moves:
+  - cost: [FIGHTING]
+    name: Flail
+    damage: 10x
+    text: Does 10 damage times the number of damage counters on Donphan.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Rapid Spin
+    damage: '50'
+    text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and
+      switches it with his or her Active Pokémon, then, if you have any Benched Pokémon,
+      you switch 1 of them with your Active Pokémon. (Do the damage before switching
+      the Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: neo1-21
+  nationalPokedexNumber: 232
+- enumId: ELEKID_22:NEO_GENESIS
+  name: Elekid
+  number: '22'
+  cardTypes: [POKEMON, BABY, BASIC]
+  types: [LIGHTNING]
+  hp: 30
+  abilities:
+  - type: Pokémon Power
+    name: Playful Punch
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      do 20 damage to your opponent's Active Pokémon. (Apply Weakness and Resistance.)
+      Either way, this ends your turn. This power can't be used if Elekid is Asleep,
+      Confused, or Paralyzed.
+  retreatCost: 0
+  rarity: Rare
+  text: If this Baby Pokémon is your Active Pokémon and your opponent tries to attack,
+    your opponent flips a coin (before doing anything else required in order to use
+    that attack). If tails, your opponent's turn ends without an attack.
+  artist: Miki Tanaka
+  pioId: neo1-22
+  nationalPokedexNumber: 239
+- enumId: MAGBY_23:NEO_GENESIS
+  name: Magby
+  number: '23'
+  cardTypes: [POKEMON, BABY, BASIC]
+  types: [FIRE]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Sputter
+    damage: '10'
+    text: All Pokémon Powers stop working until the end of your next turn.
+  retreatCost: 0
+  rarity: Rare
+  text: If this Baby Pokémon is your Active Pokémon and your opponent tries to attack,
+    your opponent flips a coin (before doing anything else required in order to use
+    that attack). If tails, your opponent's turn ends without an attack.
+  artist: Ken Sugimori
+  pioId: neo1-23
+  nationalPokedexNumber: 240
+- enumId: MURKROW_24:NEO_GENESIS
+  name: Murkrow
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [DARKNESS]
+    name: Mean Look
+    text: The Defending Pokémon can't retreat as long as Murkrow remains your Active
+      Pokémon. (Benching or evolving either Pokémon ends this effect.)
+  - cost: [DARKNESS, COLORLESS]
+    name: Feint Attack
+    damage: '20'
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon
+      Powers, or any other effects on the Defending Pokémon.
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Shin-ichi Yoshida
+  pioId: neo1-24
+  nationalPokedexNumber: 198
+- enumId: SNEASEL_25:NEO_GENESIS
+  name: Sneasel
+  number: '25'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  - cost: [DARKNESS, DARKNESS]
+    name: Beat Up
+    damage: 20x
+    text: Flip a coin for each of your Pokémon in play (including this one). This
+      attack does 20 damage times the number of heads.
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: neo1-25
+  nationalPokedexNumber: 215
+- enumId: AIPOM_26:NEO_GENESIS
+  name: Aipom
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Pilfer
+    text: Shuffle Aipom and all cards attached to it into your deck. Flip a coin.
+      If heads, shuffle a card from your discard pile into your deck.
+  - cost: [COLORLESS]
+    name: Tail Rap
+    damage: 10x
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Hironobu Yoshida
+  pioId: neo1-26
+  nationalPokedexNumber: 190
+- enumId: ARIADOS_27:NEO_GENESIS
+  name: Ariados
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Spinarak]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Spider Web
+    text: Flip a coin. If heads, the Defending Pokémon can't retreat. (Benching or
+      evolving that Pokémon ends this effect.)
+  - cost: [GRASS, GRASS, GRASS]
+    name: Poison Bite
+    damage: '20'
+    text: If this attack damages the Defending Pokémon, the Defending Pokémon is now
+      Poisoned and you remove a number of damage counters from Ariados equal to half
+      that damage (rounded up to the nearest 10). If Ariados has fewer damage counters
+      than that, remove all of them.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-27
+  nationalPokedexNumber: 168
+- enumId: BAYLEEF_28:NEO_GENESIS
+  name: Bayleef
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Chikorita]
+  hp: 70
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Poisonpowder
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Pollen Shield
+    damage: '30'
+    text: During your opponent's next turn, Bayleef can't become Asleep, Confused,
+      Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer
+      cards still happen.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-28
+  nationalPokedexNumber: 153
+- enumId: BAYLEEF_29:NEO_GENESIS
+  name: Bayleef
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Chikorita]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Sweet Scent
+    text: Flip a coin. If heads and if any of your Pokémon have any damage counters
+      on them, then remove 2 damage counters from 1 of them (or 1 if it only has 1).
+      If tails and if any of your opponent's Pokémon have any damage counters on them,
+      choose 1 of them and remove 2 damage counters from it (or 1 if it only has 1).
+  - cost: [GRASS, GRASS, GRASS]
+    name: Double Razor Leaf
+    damage: 40x
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-29
+  nationalPokedexNumber: 153
+- enumId: CLEFAIRY_30:NEO_GENESIS
+  name: Clefairy
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Doubleslap
+    damage: 10x
+    text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Squaredance
+    text: Flip a number of coins equal to the total number of Pokémon in play. For
+      each heads, you may search your deck for a basic Energy card, show it to your
+      opponent, and put it into your hand. Shuffle your deck afterward.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: neo1-30
+  nationalPokedexNumber: 35
+- enumId: CROCONAW_31:NEO_GENESIS
+  name: Croconaw
+  number: '31'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Totodile]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Screech
+    text: Until the end of your next turn, if an attack damages the Defending Pokémon
+      (after applying Weakness and Resistance), that attack does 20 more damage to
+      the Defending Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Jaw Clamp
+    damage: '30'
+    text: Until the end of your opponent's next turn, as long as Croconaw is your
+      Active Pokémon, the Defending Pokémon can't retreat, and if the effect of an
+      attack, Pokémon Power, or Trainer card would change that player's Active Pokémon,
+      that part of the effect does nothing.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-31
+  nationalPokedexNumber: 159
+- enumId: CROCONAW_32:NEO_GENESIS
+  name: Croconaw
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Totodile]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [WATER, WATER, COLORLESS]
+    name: Sweep Away
+    damage: '50'
+    text: Discard the top 3 cards from your deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-32
+  nationalPokedexNumber: 159
+- enumId: ELECTABUZZ_33:NEO_GENESIS
+  name: Electabuzz
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Punch
+    damage: '20'
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING]
+    name: Swift
+    damage: '30'
+    text: This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers,
+      or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shin-ichi Yoshida
+  pioId: neo1-33
+  nationalPokedexNumber: 125
+- enumId: FLAAFFY_34:NEO_GENESIS
+  name: Flaaffy
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Mareep]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Discharge
+    damage: 30x
+    text: Discard all [L] Energy cards attached to Flaaffy in order to use this attack.
+      Flip a number of coins equal to the number of [L] Energy cards you discarded.
+      This attack does 30 damage times then number of heads.
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Electric Current
+    damage: '20'
+    text: Take 1 [L] Energy cards attached to Flaaffy and attach it to 1 of your Benched
+      Pokémon. If you have no Benched Pokémon, discard that Energy card.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-34
+  nationalPokedexNumber: 180
+- enumId: FURRET_35:NEO_GENESIS
+  name: Furret
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Sentret]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if
+      tails, this attack does 20 damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slam
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-35
+  nationalPokedexNumber: 162
+- enumId: GLOOM_36:NEO_GENESIS
+  name: Gloom
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Oddish]
+  hp: 60
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Strange Powder
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused; if tails,
+      the Defending Pokémon is now Asleep.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Sticky Nectar
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage and,
+      until the end of your opponent's next turn, as long as Gloom is your Active
+      Pokémon, the Defending Pokémon can't retreat, and if the effect of an attack,
+      Pokémon Power, or Trainer card would change that player's Active Pokémon, that
+      part of the effect does nothing. If tails, this attack does 20 damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: neo1-36
+  nationalPokedexNumber: 44
+- enumId: GRANBULL_37:NEO_GENESIS
+  name: Granbull
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Snubbull]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Raging Charge
+    damage: 10+
+    text: This attack does 10 damage plus 10 damage for each damage counter on Granbull.
+      Then, Granbull does 20 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-37
+  nationalPokedexNumber: 210
+- enumId: LANTURN_38:NEO_GENESIS
+  name: Lanturn
+  number: '38'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Chinchou]
+  hp: 70
+  abilities:
+  - type: Pokémon Power
+    name: Hydroelectric Power
+    text: You may make Floodlight do 10 more damage for each [W] Energy attached to
+      Lanturn but not used to pay for Floodlight's Energy cost. This power can't be
+      used if Lanturn is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Floodlight
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-38
+  nationalPokedexNumber: 171
+- enumId: LEDIAN_39:NEO_GENESIS
+  name: Ledian
+  number: '39'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Ledyba]
+  hp: 60
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Baton Pass
+    damage: '30'
+    text: If you have any [G] Pokémon on your Bench, remove all [G] Energy cards from
+      Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-39
+  nationalPokedexNumber: 166
+- enumId: MAGMAR_40:NEO_GENESIS
+  name: Magmar
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tail Slap
+    damage: '20'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Magma Punch
+    damage: '40'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: neo1-40
+  nationalPokedexNumber: 126
+- enumId: MILTANK_41:NEO_GENESIS
+  name: Miltank
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Milk Drink
+    text: Flip 2 coins. Remove 2 damage counters times the number of heads from Miltank.
+      If it has fewer damage counters than that, remove all of them.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-41
+  nationalPokedexNumber: 241
+- enumId: NOCTOWL_42:NEO_GENESIS
+  name: Noctowl
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Hoothoot]
+  hp: 60
+  abilities:
+  - type: Pokémon Power
+    name: Glaring Gaze
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      look at your opponent's hand. If your opponent has any Trainer cards there,
+      choose 1 of them. Your opponent shuffles that card into his or her deck. This
+      power can't be used if Noctowl is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-42
+  nationalPokedexNumber: 164
+- enumId: PHANPY_43:NEO_GENESIS
+  name: Phanpy
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [FIGHTING]
+    name: Endure
+    text: Flip a coin. If heads, then if, during your opponent's next turn, Phanpy
+      would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining
+      HP become 10 instead.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-43
+  nationalPokedexNumber: 231
+- enumId: PILOSWINE_44:NEO_GENESIS
+  name: Piloswine
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Swinub]
+  hp: 80
+  moves:
+  - cost: [WATER, WATER]
+    name: Freeze
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon can't attack. (Benching or
+      evolving the Defending Pokémon ends this effect.)
+  - cost: [WATER, WATER, WATER]
+    name: Blizzard
+    damage: '30'
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's
+      Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-44
+  nationalPokedexNumber: 221
+- enumId: QUAGSIRE_45:NEO_GENESIS
+  name: Quagsire
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Wooper]
+  hp: 70
+  moves:
+  - cost: [WATER, WATER]
+    name: Surf
+    damage: '30'
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Earthquake
+    damage: '60'
+    text: Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: neo1-45
+  nationalPokedexNumber: 195
+- enumId: QUILAVA_46:NEO_GENESIS
+  name: Quilava
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Cyndaquil]
+  hp: 60
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Ember
+    damage: '30'
+    text: Discard 1 [R] Energy card attached to Quilava in order to use this attack.
+  - cost: [FIRE, FIRE]
+    name: Fire Wind
+    damage: '20'
+    text: If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins.
+      For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness
+      and Resistance.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-46
+  nationalPokedexNumber: 156
+- enumId: QUILAVA_47:NEO_GENESIS
+  name: Quilava
+  number: '47'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Cyndaquil]
+  hp: 70
+  moves:
+  - cost: [FIRE, FIRE]
+    name: Smokescreen
+    damage: '20'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  - cost: [FIRE, FIRE, FIRE]
+    name: Char
+    damage: '30'
+    text: If the Defending Pokémon doesn't have a Char counter on it, flip a coin.
+      If heads, put a Char counter on it. A Char counter requires your opponent to
+      flip a coin after every turn. If tails, put 2 damage counters on the Pokémon
+      with that Char counter. (Char counters stay on the Pokémon as long as it's in
+      play.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-47
+  nationalPokedexNumber: 156
+- enumId: SEADRA_48:NEO_GENESIS
+  name: Seadra
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Horsea]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Bubble
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER, WATER]
+    name: Mud Splash
+    damage: '30'
+    text: If your opponent has any Benched Pokémon, choose 1 of them and flip a coin.
+      If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shin-ichi Yoshida
+  pioId: neo1-48
+  nationalPokedexNumber: 117
+- enumId: SKIPLOOM_49:NEO_GENESIS
+  name: Skiploom
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Hoppip]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Poisonpowder
+    damage: '10'
+    text: The Defending Pokémon is now Poisoned.
+  - cost: [GRASS]
+    name: Stun Spore
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: neo1-49
+  nationalPokedexNumber: 188
+- enumId: SUNFLORA_50:NEO_GENESIS
+  name: Sunflora
+  number: '50'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Sunkern]
+  hp: 70
+  moves:
+  - cost: [GRASS, GRASS, GRASS]
+    name: Petal Dance
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora
+      is now Confused (after doing damage).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: neo1-50
+  nationalPokedexNumber: 192
+- enumId: TOGEPI_51:NEO_GENESIS
+  name: Togepi
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Poison Barb
+    damage: '10'
+    text: The Defending Pokémon is now Poisoned.
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: neo1-51
+  nationalPokedexNumber: 175
+- enumId: XATU_52:NEO_GENESIS
+  name: Xatu
+  number: '52'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Natu]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Prophecy
+    text: Look at the top 3 cards of either player's deck and rearrange them as you
+      like.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Confuse Ray
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: neo1-52
+  nationalPokedexNumber: 178
+- enumId: CHIKORITA_53:NEO_GENESIS
+  name: Chikorita
+  number: '53'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [GRASS]
+    name: Deflector
+    text: During your opponent's next turn, whenever Chikorita takes damage, divide
+      that damage in half (rounded down to the nearest 10). (Any other effects still
+      happen.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: neo1-53
+  nationalPokedexNumber: 152
+- enumId: CHIKORITA_54:NEO_GENESIS
+  name: Chikorita
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Growl
+    text: If the Defending Pokémon attacks Chikorita during your opponent's next turn,
+      any damage done to Chikorita is reduced by 10 (before applying Weakness and
+      Resistance). (Benching or evolving either Pokémon ends this effect.)
+  - cost: [GRASS, COLORLESS]
+    name: Razor Leaf
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-54
+  nationalPokedexNumber: 152
+- enumId: CHINCHOU_55:NEO_GENESIS
+  name: Chinchou
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [WATER]
+    name: Flail
+    damage: 10x
+    text: Does 10 damage times the number of damage counters on Chinchou.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-55
+  nationalPokedexNumber: 170
+- enumId: CYNDAQUIL_56:NEO_GENESIS
+  name: Cyndaquil
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Leer
+    text: Flip a coin. If heads, the Defending Pokémon can't attack Cyndaquil during
+      your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)
+  - cost: [FIRE, COLORLESS]
+    name: Swift
+    damage: '20'
+    text: This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers,
+      or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-56
+  nationalPokedexNumber: 155
+- enumId: CYNDAQUIL_57:NEO_GENESIS
+  name: Cyndaquil
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE]
+    name: Fireworks
+    damage: '20'
+    text: Flip a coin. If tails, discard 1 Energy card attached to Cyndaquil.
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin-ichi Yoshida
+  pioId: neo1-57
+  nationalPokedexNumber: 155
+- enumId: GIRAFARIG_58:NEO_GENESIS
+  name: Girafarig
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Agility
+    damage: '10'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Girafarig.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Psybeam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-58
+  nationalPokedexNumber: 203
+- enumId: GLIGAR_59:NEO_GENESIS
+  name: Gligar
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Poison Sting
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - cost: [COLORLESS, COLORLESS]
+    name: Slash
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Hironobu Yoshida
+  pioId: neo1-59
+  nationalPokedexNumber: 207
+- enumId: HOOTHOOT_60:NEO_GENESIS
+  name: Hoothoot
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: neo1-60
+  nationalPokedexNumber: 163
+- enumId: HOPPIP_61:NEO_GENESIS
+  name: Hoppip
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hop
+    damage: '10'
+  - cost: [GRASS]
+    name: Sprout
+    text: Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench.
+      Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: neo1-61
+  nationalPokedexNumber: 187
+- enumId: HORSEA_62:NEO_GENESIS
+  name: Horsea
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER, WATER]
+    name: Fin Slap
+    damage: 20+
+    text: If an attack damaged Horsea during your opponent's last turn, this attack
+      does 20 damage plus 10 more damage. If not, this attack does 20 damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: neo1-62
+  nationalPokedexNumber: 116
+- enumId: LEDYBA_63:NEO_GENESIS
+  name: Ledyba
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [GRASS, GRASS]
+    name: Comet Punch
+    damage: 10x
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: neo1-63
+  nationalPokedexNumber: 165
+- enumId: MANTINE_64:NEO_GENESIS
+  name: Mantine
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, WATER]
+    name: Undulate
+    damage: '20'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Mantine.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-64
+  nationalPokedexNumber: 226
+- enumId: MAREEP_65:NEO_GENESIS
+  name: Mareep
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [LIGHTNING]
+    name: Static Electricity
+    text: For each Mareep in play, you may search your deck for a [L] Energy card
+      and attach it to Mareep. Shuffle your deck afterward.
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Thundershock
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-65
+  nationalPokedexNumber: 179
+- enumId: MARILL_66:NEO_GENESIS
+  name: Marill
+  number: '66'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Marill during your opponent's
+      next turn. (Any other effects of attacks still happen.)
+  - cost: [WATER, WATER]
+    name: Bubble Bomb
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails,
+      Marill does 10 damage to itself.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: neo1-66
+  nationalPokedexNumber: 183
+- enumId: NATU_67:NEO_GENESIS
+  name: Natu
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Peck
+    damage: '10'
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Telekinesis
+    damage: '20'
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects
+      that would happen after applying Weakness and Resistance still happen.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-67
+  nationalPokedexNumber: 177
+- enumId: ODDISH_68:NEO_GENESIS
+  name: Oddish
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Hide
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Oddish.
+  - cost: [GRASS, GRASS]
+    name: Absorb
+    damage: '20'
+    text: Remove a number of damage counters from Oddish equal to half the damage
+      done to the Defending Pokémon (after applying Weakness and Resistance) (rounded
+      up to the nearest 10). If Oddish has fewer damage counters than that, remove
+      all of them.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: neo1-68
+  nationalPokedexNumber: 43
+- enumId: ONIX_69:NEO_GENESIS
+  name: Onix
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Screech
+    text: Until the end of your next turn, if an attack damages the Defending Pokémon
+      (after applying Weakness and Resistance), that attack does 20 more damage to
+      the Defending Pokémon.
+  - cost: [FIGHTING, FIGHTING]
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Onix.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: neo1-69
+  nationalPokedexNumber: 95
+- enumId: PIKACHU_70:NEO_GENESIS
+  name: Pikachu
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Agility
+    damage: '20'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Pikachu.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: neo1-70
+  nationalPokedexNumber: 25
+- enumId: SENTRET_71:NEO_GENESIS
+  name: Sentret
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-71
+  nationalPokedexNumber: 161
+- enumId: SHUCKLE_72:NEO_GENESIS
+  name: Shuckle
+  number: '72'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Withdraw
+    text: Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's
+      next turn. (Any other effects of attacks still happen.)
+  - cost: [GRASS, GRASS]
+    name: Wrap
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-72
+  nationalPokedexNumber: 213
+- enumId: SLOWPOKE_73:NEO_GENESIS
+  name: Slowpoke
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [PSYCHIC]
+    name: Psyshock
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER]
+    name: Water Gun
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each [W] Energy attached to Slowpoke
+      but not used to pay for this attack's Energy cost. You can't add more than 20
+      damage in this way.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: neo1-73
+  nationalPokedexNumber: 79
+- enumId: SNUBBULL_74:NEO_GENESIS
+  name: Snubbull
+  number: '74'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Roar
+    text: Flip a coin. If heads and if your opponent has any Benched Pokémon, he or
+      she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage
+      before switching the Pokémon.)
+  - cost: [COLORLESS, COLORLESS]
+    name: Lick
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: neo1-74
+  nationalPokedexNumber: 209
+- enumId: SPINARAK_75:NEO_GENESIS
+  name: Spinarak
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Scary Face
+    text: Flip a coin. If heads, until the end of your opponent's next turn, the Defending
+      Pokémon can't attack or retreat.
+  - cost: [GRASS]
+    name: String Shot
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-75
+  nationalPokedexNumber: 167
+- enumId: STANTLER_76:NEO_GENESIS
+  name: Stantler
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Stomp
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if
+      tails, this attack does 20 damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Mystifying Horns
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-76
+  nationalPokedexNumber: 234
+- enumId: SUDOWOODO_77:NEO_GENESIS
+  name: Sudowoodo
+  number: '77'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Flail
+    damage: 10x
+    text: Does 10 damage times the number of damage counters on Sudowoodo.
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Throw
+    damage: '30'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-77
+  nationalPokedexNumber: 185
+- enumId: SUNKERN_78:NEO_GENESIS
+  name: Sunkern
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Growth
+    text: Flip a coin. If heads, you may attach up to 2 [G] Energy cards from your
+      hand to Sunkern.
+  - cost: [GRASS, GRASS, GRASS]
+    name: Mega Drain
+    damage: '30'
+    text: Remove a number of damage counters from Sunkern equal to half the damage
+      done to the Defending Pokémon (after applying Weakness and Resistance) (rounded
+      up to the nearest 10). If Sunkern has fewer damage counters than that, remove
+      all of them.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: neo1-78
+  nationalPokedexNumber: 191
+- enumId: SWINUB_79:NEO_GENESIS
+  name: Swinub
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 40
+  moves:
+  - cost: [WATER]
+    name: Powder Snow
+    damage: '10'
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-79
+  nationalPokedexNumber: 220
+- enumId: TOTODILE_80:NEO_GENESIS
+  name: Totodile
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Totodile.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: neo1-80
+  nationalPokedexNumber: 158
+- enumId: TOTODILE_81:NEO_GENESIS
+  name: Totodile
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Leer
+    text: Flip a coin. If heads, the Defending Pokémon can't attack Totodile during
+      your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)
+  - cost: [WATER]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hironobu Yoshida
+  pioId: neo1-81
+  nationalPokedexNumber: 158
+- enumId: WOOPER_82:NEO_GENESIS
+  name: Wooper
+  number: '82'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Amnesia
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that
+      attack during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS]
+    name: Slam
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: neo1-82
+  nationalPokedexNumber: 194
+- enumId: ARCADE_GAME_83:NEO_GENESIS
+  name: Arcade Game
+  number: '83'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Shuffle your deck, then reveal the top 3 cards of it. If at least 2 of those
+    cards share the same name, put all of the ones with that name into your hand and
+    shuffle the rest into your deck. If none of them do, shuffle all 3 into your deck.
+  artist: ''
+  pioId: neo1-83
+- enumId: ECOGYM_84:NEO_GENESIS
+  name: Ecogym
+  number: '84'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Rare
+  text: Whenever an attack, Pokémon Power, or Trainer card discards another player's
+    non- Energy card from a Pokémon, return that Energy card to its owner's hand.
+    (Energy cards that are discarded when that Pokémon is Knocked Out don't count.)
+  artist: ''
+  pioId: neo1-84
+- enumId: ENERGY_CHARGE_85:NEO_GENESIS
+  name: Energy Charge
+  number: '85'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Flip a coin. If heads, shuffle up to 2 Energy cards from your discard pile
+    into your deck.
+  artist: Keiji Kinebuchi
+  pioId: neo1-85
+- enumId: FOCUS_BAND_86:NEO_GENESIS
+  name: Focus Band
+  number: '86'
+  cardTypes: [TRAINER, POKEMON_TOOL]
+  rarity: Rare
+  text: If the Pokémon Focus Band is attached to would be Knocked Out by your opponent's
+    attack, flip a coin. If heads, that Pokémon is not Knocked Out and its remaining
+    HP become 10 instead. Then, discard Focus Band.
+  artist: Tomokazu Komiya
+  pioId: neo1-86
+- enumId: MARY_87:NEO_GENESIS
+  name: Mary
+  number: '87'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Draw 2 cards. Then, shuffle 2 cards from your hand into your deck.
+  artist: Ken Sugimori
+  pioId: neo1-87
+- enumId: POKEGEAR_88:NEO_GENESIS
+  name: PokéGear
+  number: '88'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Look at the top 7 cards of your deck. If any of them are Trainer cards, you
+    may show 1 of them to your opponent and put it into your hand. Shuffle your deck
+    afterward. You can't play any more Trainer cards this turn.
+  artist: ''
+  pioId: neo1-88
+- enumId: SUPER_ENERGY_RETRIEVAL_89:NEO_GENESIS
+  name: Super Energy Retrieval
+  number: '89'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Trade 2 of the other cards in your hand for 4 basic Energy cards from your
+    discard pile. If you have fewer than 4 basic Energy cards there, take all of them.
+  artist: Keiji Kinebuchi
+  pioId: neo1-89
+- enumId: TIME_CAPSULE_90:NEO_GENESIS
+  name: Time Capsule
+  number: '90'
+  cardTypes: [TRAINER]
+  rarity: Rare
+  text: Your opponent may choose 5 Basic Pokémon, Evolution, and/or basic Energy cards
+    in his or her discard pile. (If your opponent doesn't have that many, he or she
+    chooses all or none of them.) If your opponent chooses any cards, he or she shuffles
+    them into his or her deck. Either way, you may do the same, and you can't play
+    any more Trainer cards this turn.
+  artist: ''
+  pioId: neo1-90
+- enumId: BILL_S_TELEPORTER_91:NEO_GENESIS
+  name: Bill's Teleporter
+  number: '91'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Flip a coin. If heads, draw 4 cards.
+  artist: Keiji Kinebuchi
+  pioId: neo1-91
+- enumId: CARD_FLIP_GAME_92:NEO_GENESIS
+  name: Card-Flip Game
+  number: '92'
+  cardTypes: [TRAINER, NOT_IMPLEMENTED]
+  rarity: Uncommon
+  text: Choose 1 of your opponent's face-down Prizes. Guess whether it is an Energy
+    card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face
+    up (and leave it face up). If you guessed right, draw 2 cards.
+  artist: ''
+  pioId: neo1-92
+- enumId: GOLD_BERRY_93:NEO_GENESIS
+  name: Gold Berry
+  number: '93'
+  cardTypes: [TRAINER, POKEMON_TOOL]
+  rarity: Uncommon
+  text: At any time between turns, if there are at least 4 damage counters on the
+    Pokémon Gold Berry is attached to, you may remove 4 of them and discard Gold Berry.
+    At the start of each turn, if there are at least 4 damage counters on the Pokémon
+    Gold Berry is attached to, remove 4 of them and discard Gold Berry.
+  artist: ''
+  pioId: neo1-93
+- enumId: MIRACLE_BERRY_94:NEO_GENESIS
+  name: Miracle Berry
+  number: '94'
+  cardTypes: [TRAINER, POKEMON_TOOL]
+  rarity: Uncommon
+  text: At any time between turns, if the Pokémon Miracle Berry is attached to is
+    Asleep, Confused, Paralyzed, or Poisoned, you may remove all of those effects
+    from that Pokémon and discard Miracle Berry. At the start of each turn, if the
+    Pokémon Miracle Berry is attached to is Asleep, Confused, Paralyzed, or Poisoned,
+    remove all of those effects from that Pokémon and discard Miracle Berry.
+  artist: ''
+  pioId: neo1-94
+- enumId: NEW_POKEDEX_95:NEO_GENESIS
+  name: New Pokédex
+  number: '95'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Shuffle your deck. Then, look at up to 5 cards from the top of your deck and
+    rearrange them as you like.
+  artist: Keiji Kinebuchi
+  pioId: neo1-95
+- enumId: PROFESSOR_ELM_96:NEO_GENESIS
+  name: Professor Elm
+  number: '96'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more
+    Trainer cards this turn.
+  artist: Ken Sugimori
+  pioId: neo1-96
+- enumId: SPROUT_TOWER_97:NEO_GENESIS
+  name: Sprout Tower
+  number: '97'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: All damage done by [C] Pokémon's attacks is reduce by 30 (after applying Weakness
+    and Resistance).
+  artist: ''
+  pioId: neo1-97
+- enumId: SUPER_SCOOP_UP_98:NEO_GENESIS
+  name: Super Scoop Up
+  number: '98'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Flip a coin. If heads, return 1 of your Pokémon and all cards attached to
+    it to your hand.
+  artist: Keiji Kinebuchi
+  pioId: neo1-98
+- enumId: BERRY_99:NEO_GENESIS
+  name: Berry
+  number: '99'
+  cardTypes: [TRAINER, POKEMON_TOOL]
+  rarity: Common
+  text: At any time between turns, if there are at least 2 damage counters on the
+    Pokémon Berry is attached to, you may remove 2 of them and discard Berry. At the
+    start of each turn, if there are at least 2 damage counters on the Pokémon Berry
+    is attached to, remove 2 of them and discard Berry.
+  artist: ''
+  pioId: neo1-99
+- enumId: DOUBLE_GUST_100:NEO_GENESIS
+  name: Double Gust
+  number: '100'
+  cardTypes: [TRAINER]
+  rarity: Common
+  text: If you have any Benched Pokémon, your opponent chooses 1 of them and switches
+    it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose
+    1 of them and switch it with his or her Active Pokémon.
+  artist: Tomokazu Komiya
+  pioId: neo1-100
+- enumId: MOO_MOO_MILK_101:NEO_GENESIS
+  name: Moo-Moo Milk
+  number: '101'
+  cardTypes: [TRAINER]
+  rarity: Common
+  text: Choose 1 of your Pokémon. Flip 2 coins. Remove 2 damage counters times the
+    number of heads from that Pokémon. If the Pokémon has fewer damage counters than
+    that, remove all of them.
+  artist: Tomokazu Komiya
+  pioId: neo1-101
+- enumId: POKEMON_MARCH_102:NEO_GENESIS
+  name: Pokémon March
+  number: '102'
+  cardTypes: [TRAINER]
+  rarity: Common
+  text: Your opponent may search his or her deck for 1 Basic Pokémon card and put
+    it onto his or her Bench. Then, you may search your deck for 1 Basic Pokémon card
+    and put it onto your Bench. Then, each player shuffles his or her deck. (A player
+    can't do any of this if his or her Bench is full.)
+  artist: Tomokazu Komiya
+  pioId: neo1-102
+- enumId: SUPER_ROD_103:NEO_GENESIS
+  name: Super Rod
+  number: '103'
+  cardTypes: [TRAINER]
+  rarity: Common
+  text: Flip a coin. If heads, put an Evolution card from your discard pile, if any,
+    into your hand. If tails, put a Basic Pokémon card from your discard pile, if
+    any, into your hand.
+  artist: Keiji Kinebuchi
+  pioId: neo1-103
+- enumId: DARKNESS_ENERGY_104:NEO_GENESIS
+  name: Darkness Energy
+  number: '104'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: If the Pokémon [D] Energy is attached to damages the Defending Pokémon (after
+    applying Weakness and Resistance), the attack does 10 more damage to the Defending
+    Pokémon. At the end of every turn, put 1 damage counter on the Pokémon [D] Energy
+    is attached to, unless it's or has Dark in its name. [D] Energy provides Energy.
+    (Doesn't count as a basic Energy card.)
+  energy: [[DARKNESS]]
+  artist: Milky Isobe
+  pioId: neo1-104
+- enumId: RECYCLE_ENERGY_105:NEO_GENESIS
+  name: Recycle Energy
+  number: '105'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Recycle Energy provides 1 Energy. (Doesn't count as a basic Energy card.)
+    If this card is put into your discard pile from play, return it to your hand.
+  energy: [[COLORLESS]]
+  artist: Hideki Kazama
+  pioId: neo1-105
+- enumId: FIGHTING_ENERGY_106:NEO_GENESIS
+  variantOf: FIGHTING_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Fighting Energy
+  number: '106'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[FIGHTING]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-106
+- enumId: FIRE_ENERGY_107:NEO_GENESIS
+  variantOf: FIRE_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Fire Energy
+  number: '107'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[FIRE]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-107
+- enumId: GRASS_ENERGY_108:NEO_GENESIS
+  variantOf: GRASS_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Grass Energy
+  number: '108'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[GRASS]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-108
+- enumId: LIGHTNING_ENERGY_109:NEO_GENESIS
+  variantOf: LIGHTNING_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Lightning Energy
+  number: '109'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[LIGHTNING]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-109
+- enumId: PSYCHIC_ENERGY_110:NEO_GENESIS
+  variantOf: PSYCHIC_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Psychic Energy
+  number: '110'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[PSYCHIC]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-110
+- enumId: WATER_ENERGY_111:NEO_GENESIS
+  variantOf: WATER_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Water Energy
+  number: '111'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Common
+  energy: [[WATER]]
+  artist: Keiji Kinebuchi
+  pioId: neo1-111

@@ -1,0 +1,2711 @@
+schema: E3
+expansion:
+  orderId: '221'
+  name: Delta Species
+  enumId: DELTA_SPECIES
+  shortName: DS
+cards:
+- enumId: BEEDRILL_DELTA_1:DELTA_SPECIES
+  name: Beedrill δ
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS, METAL]
+  evolvesFrom: [Kakuna]
+  hp: 90
+  abilities:
+  - type: Poké-Power
+    name: Final Sting
+    text: Once during your turn (before your attack), you may Knock Out Beedrill.
+      If you do, choose 1 of your opponent's Defending Pokémon. That Pokémon is now
+      Paralyzed and Poisoned. Put 2 damage counters instead of 1 on that Pokémon between
+      turns. This power can't be used if Beedrill is affected by a Special Condition.
+  moves:
+  - cost: [GRASS, METAL, COLORLESS]
+    name: Super Slash
+    damage: 50+
+    text: If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage
+      plus 30 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  text: This Pokémon is both Grass Metal type.
+  artist: Masakazu Fukuda
+  pioId: ex11-1
+  nationalPokedexNumber: 15
+- enumId: CROBAT_DELTA_2:DELTA_SPECIES
+  name: Crobat δ
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS, METAL]
+  evolvesFrom: [Golbat]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Radar Jam
+    damage: '30'
+    text: Your opponent can't play any Trainer cards (except for Supporter cards)
+      from his or her hand during your opponent's next turn.
+  - cost: [GRASS, METAL, COLORLESS]
+    name: Target Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 40 damage to that
+      Pokémon. If that Pokémon already has damage counters on it, this attack does
+      60 damage instead. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  text: This Pokémon is both Grass Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-2
+  nationalPokedexNumber: 169
+- enumId: DRAGONITE_DELTA_3:DELTA_SPECIES
+  name: Dragonite δ
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING, METAL]
+  evolvesFrom: [Dragonair]
+  hp: 100
+  abilities:
+  - type: Poké-Power
+    name: Delta Charge
+    text: Once during your turn (before your attack), you may attach a [L] Energy
+      card from your discard pile to 1 of your Benched Pokémon. This power can't be
+      used if Dragonite is affected by a Special Condition.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Agility
+    damage: '30'
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage,
+      done to Dragonite during your opponent's next turn.
+  - cost: [LIGHTNING, METAL, COLORLESS, COLORLESS]
+    name: Heavy Impact
+    damage: '70'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-3
+  nationalPokedexNumber: 149
+- enumId: ESPEON_DELTA_4:DELTA_SPECIES
+  name: Espeon δ
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC, METAL]
+  evolvesFrom: [Eevee]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Delta Heal
+    text: Once during your turn (before your attack), you may remove 1 damage counter
+      from each of your Pokémon that has δ on its card. You can't use more than 1
+      Delta Heal Poké-Power each turn. This power can't be used if Espeon is affected
+      by a Special Condition.
+  moves:
+  - cost: [PSYCHIC, METAL]
+    name: Psyshock
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Psychic Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-4
+  nationalPokedexNumber: 196
+- enumId: FLAREON_DELTA_5:DELTA_SPECIES
+  name: Flareon δ
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE, METAL]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Delta Search
+    damage: '10'
+    text: Search your deck for a Holon Energy card and attach it to Flareon. Shuffle
+      your deck afterward.
+  - cost: []
+    name: Return Burn
+    damage: '50'
+    text: You may return an Energy card attached to Flareon to your hand. If you do,
+      the Defending Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Fire Metal type.
+  artist: Kouki Saitou
+  pioId: ex11-5
+  nationalPokedexNumber: 136
+- enumId: GARDEVOIR_DELTA_6:DELTA_SPECIES
+  name: Gardevoir δ
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC, METAL]
+  evolvesFrom: [Kirlia]
+  hp: 100
+  abilities:
+  - type: Poké-Power
+    name: Energy Jump
+    text: Once during your turn (before your attack), you may move an Energy card
+      attached to 1 of your Pokémon to another of your Pokémon. This power can't be
+      used if Gardevoir is affected by a Special Condition.
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Psychic Rage
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage for each
+      damage counter on Gardevoir to that Pokémon. (Don't apply Weakness and Resistance
+      for Benched Pokémon.)
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Black Magic
+    damage: 10+
+    text: Does 10 damage plus 20 more damage times the number of your opponent's Benched
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: This Pokémon is both Psychic Metal type.
+  artist: Mitsuhiro Arita
+  pioId: ex11-6
+  nationalPokedexNumber: 282
+- enumId: JOLTEON_DELTA_7:DELTA_SPECIES
+  name: Jolteon δ
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING, METAL]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Delta Search
+    damage: '10'
+    text: Search your deck for a Holon Energy card and attach it to Jolteon. Shuffle
+      your deck afterward.
+  - cost: [LIGHTNING, METAL, COLORLESS]
+    name: Return Spark
+    damage: '50'
+    text: You may return an Energy card attached to Jolteon to your hand. If you do,
+      this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Kouki Saitou
+  pioId: ex11-7
+  nationalPokedexNumber: 135
+- enumId: LATIAS_DELTA_8:DELTA_SPECIES
+  name: Latias δ
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING, METAL]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Delta Aura
+    text: If you have Latios or Latios ex in play, the attack cost of Latias's Extra
+      Crush is now Lightning Metal [C].
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Spiral Drain
+    damage: '20'
+    text: Remove 2 damage counters from Latias.
+  - cost: [LIGHTNING, METAL, COLORLESS, COLORLESS, COLORLESS]
+    name: Extra Crush
+    damage: '80'
+    text: If your opponent has no Pokémon-ex in play, this attack does nothing.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-8
+  nationalPokedexNumber: 380
+- enumId: LATIOS_DELTA_9:DELTA_SPECIES
+  name: Latios δ
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING, METAL]
+  hp: 80
+  abilities:
+  - type: Poké-Body
+    name: Delta Aura
+    text: If you have Latias or Latias ex in play, the attack cost of Latios's Psychic
+      Force is now Lightning Metal [C].
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Dragon Claw
+    damage: '20'
+  - cost: [LIGHTNING, METAL, COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic Force
+    damage: '80'
+    text: If your opponent has no Stage 2 Evolved Pokémon in play, this attack does
+      nothing.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-9
+  nationalPokedexNumber: 381
+- enumId: MAROWAK_DELTA_10:DELTA_SPECIES
+  name: Marowak δ
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING, METAL]
+  evolvesFrom: [Cubone]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, METAL]
+    name: Energy Bone
+    text: Choose a number of your opponent's Pokémon up to the amount of Energy attached
+      to Marowak. This attack does 20 damage to each of them.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Metal Crusher
+    damage: '50'
+    text: If the Defending Pokémon is [M] Pokémon, this attack's base damage is 90.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Fighting Metal type.
+  artist: Hajime Kusajima
+  pioId: ex11-10
+  nationalPokedexNumber: 105
+- enumId: METAGROSS_DELTA_11:DELTA_SPECIES
+  name: Metagross δ
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING, METAL]
+  evolvesFrom: [Metang]
+  hp: 100
+  abilities:
+  - type: Poké-Power
+    name: Delta Control
+    text: Once during your turn (before your attack), you may look at the top 4 cards
+      of your deck, choose 1 of them, and put it into your hand. Put the 3 other cards
+      on the bottom of your deck in any order. This power can't be used if Metagross
+      is affected by a Special Condition.
+  moves:
+  - cost: [LIGHTNING, METAL]
+    name: Crush and Burn
+    damage: 30+
+    text: You may discard as many Energy cards as you like attached to your Pokémon
+      in play. If you do, this attack does 30 damage plus 20 more damage for each
+      Energy card you discarded.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Masakazu Fukuda
+  pioId: ex11-11
+  nationalPokedexNumber: 376
+- enumId: MEWTWO_DELTA_12:DELTA_SPECIES
+  name: Mewtwo δ
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE, METAL]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Delta Switch
+    text: Once during your turn, when you put Mewtwo from your hand onto your Bench,
+      you may move any number of basic Energy cards attached to your Pokémon to your
+      other Pokémon (excluding Mewtwo) in any way you like.
+  moves:
+  - cost: [FIRE, METAL]
+    name: Energy Burst
+    damage: 10x
+    text: Does 10 damage times the total amount of Energy attached to Mewtwo and the
+      Defending Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Fire Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-12
+  nationalPokedexNumber: 150
+- enumId: RAYQUAZA_DELTA_13:DELTA_SPECIES
+  name: Rayquaza δ
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING, METAL]
+  hp: 90
+  abilities:
+  - type: Poké-Body
+    name: Delta Guard
+    text: As long as Rayquaza has any Holon Energy cards attached to it, ignore the
+      effect of Rayquaza's Lightning Storm attack.
+  moves:
+  - cost: [LIGHTNING]
+    name: Power Blow
+    damage: 10x
+    text: Does 10 damage times the amount of Energy attached to Rayquaza.
+  - cost: [LIGHTNING, METAL, COLORLESS, COLORLESS]
+    name: Lightning Storm
+    text: Put 7 damage counters on Rayquaza.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare Holo
+  text: This Pokémon is both Lightning Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-13
+  nationalPokedexNumber: 384
+- enumId: SALAMENCE_DELTA_14:DELTA_SPECIES
+  name: Salamence δ
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE, METAL]
+  evolvesFrom: [Shelgon]
+  hp: 110
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Dance
+    damage: '30'
+    text: Search your discard pile for a [R] Energy card and attach it to 1 of your
+      Pokémon.
+  - cost: [FIRE, METAL, COLORLESS, COLORLESS]
+    name: Delta Blast
+    damage: '100'
+    text: Discard a [M] Energy card attached to Salamence.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: FIRE
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Fire Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-14
+  nationalPokedexNumber: 373
+- enumId: STARMIE_DELTA_15:DELTA_SPECIES
+  name: Starmie δ
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER, METAL]
+  evolvesFrom: [Staryu]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Metal Navigation
+    text: Once during your turn (before your attack), you may search your deck for
+      a [M] Energy card and attach it to Starmie. Shuffle your deck afterward. This
+      power can't be used if Starmie is affected by a Special Condition.
+  moves:
+  - cost: [WATER]
+    name: Collect
+    text: Draw 3 cards.
+  - cost: [METAL]
+    name: Energy Loop
+    damage: '30'
+    text: Return an Energy card attached to Starmie to your hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  text: This Pokémon is both Water Metal type.
+  artist: Masakazu Fukuda
+  pioId: ex11-15
+  nationalPokedexNumber: 121
+- enumId: TYRANITAR_DELTA_16:DELTA_SPECIES
+  name: Tyranitar δ
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE, METAL]
+  evolvesFrom: [Pupitar]
+  hp: 120
+  abilities:
+  - type: Poké-Power
+    name: Crush Draw
+    text: Once during your turn (before your attack), you may reveal the top card
+      of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon.
+      If not, put the card back on top of your deck. This power can't be used if Tyranitar
+      is affected by a Special Condition.
+  moves:
+  - cost: [FIRE, METAL, COLORLESS]
+    name: Delta Crush
+    damage: 50+
+    text: You may discard an Energy card attached to Tyranitar. If you do, this attack
+      does 50 damage plus 20 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: This Pokémon is both Fire Metal type.
+  artist: Mitsuhiro Arita
+  pioId: ex11-16
+  nationalPokedexNumber: 248
+- enumId: UMBREON_DELTA_17:DELTA_SPECIES
+  name: Umbreon δ
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS, METAL]
+  evolvesFrom: [Eevee]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Delta Moon
+    text: When your opponent attaches a Special Energy card from his or her hand to
+      1 of his or her Pokémon, put 1 damage counter on that Pokémon. You can't use
+      more than 1 Delta Moon Poké-Body each turn.
+  moves:
+  - cost: [DARKNESS, METAL]
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on that Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Darkness Metal type.
+  artist: Ryo Ueda
+  pioId: ex11-17
+  nationalPokedexNumber: 197
+- enumId: VAPOREON_DELTA_18:DELTA_SPECIES
+  name: Vaporeon δ
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER, METAL]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Delta Search
+    damage: '10'
+    text: Search your deck for a Holon Energy card and attach it to Vaporeon. Shuffle
+      your deck afterward.
+  - cost: [WATER, METAL, COLORLESS]
+    name: Return Wave
+    damage: '50'
+    text: You may return an Energy card attached to Vaporeon to your hand. If you
+      do, choose an Energy card attached to the Defending Pokémon and return it to
+      your opponent's hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: This Pokémon is both Water Metal type.
+  artist: Kouki Saitou
+  pioId: ex11-18
+  nationalPokedexNumber: 134
+- enumId: AZUMARILL_DELTA_19:DELTA_SPECIES
+  name: Azumarill δ
+  number: '19'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER, METAL]
+  evolvesFrom: [Marill]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Bubblebeam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Rolling Tackle
+    damage: '50'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  text: This Pokémon is both Water Metal type.
+  artist: Atsuko Nishida
+  pioId: ex11-19
+  nationalPokedexNumber: 184
+- enumId: AZURILL_20:DELTA_SPECIES
+  name: Azurill
+  number: '20'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  abilities:
+  - type: Poké-Power
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Marill from your
+      hand onto Azurill (this counts as evolving Azurill) and remove all damage counters
+      from Azurill.
+  moves:
+  - cost: [COLORLESS]
+    name: Type Match
+    text: Choose a basic Energy card in your hand and show it to your opponent. Then,
+      search your deck for a Basic Pokémon or Evolution card of that Energy type,
+      show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Midori Harada
+  pioId: ex11-20
+  nationalPokedexNumber: 298
+- enumId: HOLON_S_ELECTRODE_21:DELTA_SPECIES
+  name: Holon's Electrode
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Holon's Voltorb]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Dazzle Blast
+    damage: '30'
+    text: The Defending Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  text: You may attach this as an Energy card from your hand to 1 of your Pokémon
+    that already has an Energy card attached to it. When you attach this card, return
+    an Energy card attached to that Pokémon to your hand. While attached, this card
+    is a Special Energy card and provides every type of Energy but 2 Energy at a time.
+    (Has no effect other than providing Energy.)
+  artist: Hisao Nakamura
+  pioId: ex11-21
+  nationalPokedexNumber: 101
+- enumId: HOLON_S_MAGNETON_22:DELTA_SPECIES
+  name: Holon's Magneton
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Holon's Magnemite]
+  hp: 70
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Extra Ball
+    damage: 30+
+    text: If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus
+      20 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  text: You may attach this as an Energy card from your hand to 1 of your Pokémon
+    that already has an Energy card attached to it. When you attach this card, return
+    an Energy card attached to that Pokémon to your hand. While attached, this card
+    is a Special Energy card and provides every type of Energy but 2 Energy at a time.
+    (Has no effect other than providing Energy.)
+  artist: Katsura Tabata
+  pioId: ex11-22
+  nationalPokedexNumber: 82
+- enumId: HYPNO_23:DELTA_SPECIES
+  name: Hypno
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Drowzee]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Binding Aura
+    text: Your opponent can't play any Basic Pokémon or Evolution cards from his or
+      her hand to evolve an Asleep Pokémon and can't attach any Energy cards from
+      his or her hand to an Asleep Pokémon.
+  moves:
+  - cost: [COLORLESS]
+    name: Sleep Inducer
+    text: Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.
+      Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon
+      is now Asleep.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psyshot
+    damage: '40'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Midori Harada
+  pioId: ex11-23
+  nationalPokedexNumber: 97
+- enumId: MIGHTYENA_DELTA_24:DELTA_SPECIES
+  name: Mightyena δ
+  number: '24'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS, METAL]
+  evolvesFrom: [Poochyena]
+  hp: 70
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Delta Fang
+    damage: '20'
+    text: If the Defending Pokémon is Pokémon-ex, that Pokémon can't attack during
+      your opponent's next turn.
+  - cost: [METAL, COLORLESS]
+    name: Gang Up
+    damage: 10x
+    text: Does 10 damage times the number of [D] Pokémon and [M] Pokémon you have
+      in play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  text: This Pokémon is both Darkness Metal type.
+  artist: Hajime Kusajima
+  pioId: ex11-24
+  nationalPokedexNumber: 262
+- enumId: PORYGON2_25:DELTA_SPECIES
+  name: Porygon2
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Porygon]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Backup
+    text: Once during your turn (before your attack), if you have less than 6 cards
+      in your hand, you may draw cards until you have 6 cards in your hand. This power
+      can't be used if Porygon2 is affected by a Special Condition.
+  moves:
+  - cost: []
+    name: Machine Burst
+    damage: '30'
+    text: If Porygon2 has a Technical Machine card attached to it, the Defending Pokémon
+      is now Asleep and Burned.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Hisao Nakamura
+  pioId: ex11-25
+  nationalPokedexNumber: 233
+- enumId: RAIN_CASTFORM_26:DELTA_SPECIES
+  name: Rain Castform
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Temperamental Weather
+    text: Once during your turn (before your attack), you may search your deck for
+      Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform.
+      (Any cards attached to Rain Castform, damage counters, Special Conditions, and
+      effects on it are now on the new Pokémon.) Shuffle Rain Castform back into your
+      deck. You can't use more than 1 Temperamental Weather Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Holon Splash
+    damage: 30+
+    text: Does 30 damage plus 10 more damage for each Holon Energy card attached to
+      Rain Castform.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Miki Tanaka
+  pioId: ex11-26
+  nationalPokedexNumber: 351
+- enumId: SANDSLASH_DELTA_27:DELTA_SPECIES
+  name: Sandslash δ
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING, METAL]
+  evolvesFrom: [Sandshrew]
+  hp: 80
+  abilities:
+  - type: Poké-Body
+    name: Delta Storm
+    text: As long as Sandslash is your Active Pokémon, put 1 damage counter on each
+      of your opponent's Pokémon-ex between turns.
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rend
+    damage: 20+
+    text: If the Defending Pokémon already has any damage counters on it, this attack
+      does 20 damage plus 20 more damage.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '50'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  text: This Pokémon is both Fighting Metal type.
+  artist: Mitsuhiro Arita
+  pioId: ex11-27
+  nationalPokedexNumber: 28
+- enumId: SLOWKING_28:DELTA_SPECIES
+  name: Slowking
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Slowpoke]
+  hp: 80
+  abilities:
+  - type: Poké-Power
+    name: Prize Shift
+    text: Once during your turn (before your attack), you may choose a card from your
+      hand and put it as a Prize card face up. If you do, choose 1 of your face-down
+      Prize cards without looking and put it into your hand. This power can't be used
+      if Slowking is affected by a Special Condition or if all of your Prize cards
+      are face up.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Psychic Option
+    damage: 20+
+    text: If Slowking has a [W] Energy card attached to it, this attack does 20 damage
+      plus 20 more damage. If Slowking has a [P] Energy card attached to it, discard
+      a Special Energy card attached to the Defending Pokémon, if any.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: ex11-28
+  nationalPokedexNumber: 199
+- enumId: SNOW_CLOUD_CASTFORM_29:DELTA_SPECIES
+  name: Snow-cloud Castform
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Temperamental Weather
+    text: Once during your turn (before your attack), you may search your deck for
+      Castform, Rain Castform, or Sunny Castform and switch it with Snow-cloud Castform.
+      (Any cards attached to Snow-cloud Castform, damage counters, Special Conditions,
+      and effects on it are now on the new Pokémon.) Shuffle Snow-cloud Castform back
+      into your deck. You can't use more than 1 Temperamental Weather Poké-Power each
+      turn.
+  moves:
+  - cost: [WATER]
+    name: Holon Blizzard
+    damage: '20'
+    text: If Snow-cloud Castform has any Holon Energy cards attached to it, this attack
+      does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Miki Tanaka
+  pioId: ex11-29
+  nationalPokedexNumber: 351
+- enumId: STARMIE_DELTA_30:DELTA_SPECIES
+  name: Starmie δ
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER, METAL]
+  evolvesFrom: [Staryu]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Surf
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Swift
+    damage: '50'
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  text: This Pokémon is both Water Metal type.
+  artist: Midori Harada
+  pioId: ex11-30
+  nationalPokedexNumber: 121
+- enumId: SUNNY_CASTFORM_31:DELTA_SPECIES
+  name: Sunny Castform
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Temperamental Weather
+    text: Once during your turn (before your attack), you may search your deck for
+      Castform, Rain Castform, or Snow-cloud Castform and switch it with Sunny Castform.
+      (Any cards attached to Sunny Castform, damage counters, Special Conditions,
+      and effects on it are now on the new Pokémon.) Shuffle Sunny Castform back into
+      your deck. You can't use more than 1 Temperamental Weather Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Holon Search
+    text: Search your deck for a Holon Energy card and attach it to 1 of your Pokémon.
+      Shuffle your deck afterward.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Miki Tanaka
+  pioId: ex11-31
+  nationalPokedexNumber: 351
+- enumId: SWELLOW_32:DELTA_SPECIES
+  name: Swellow
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Taillow]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Steep Dive
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage,
+      done to Swellow during your opponent's next turn. If tails, during your next
+      turn, Swellow's Glide attack's base damage is 100.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Glide
+    damage: '40'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Atsuko Nishida
+  pioId: ex11-32
+  nationalPokedexNumber: 277
+- enumId: WEEZING_33:DELTA_SPECIES
+  name: Weezing
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Koffing]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Body Odor
+    text: As long as Weezing is the Active Pokémon, put 1 damage counter on each of
+      your opponent's Pokémon that has any Poké-Bodies between turns.
+  moves:
+  - cost: [GRASS]
+    name: Mist Attack
+    text: Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Sludge Whirlpool
+    damage: '50'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Yukiko Baba
+  pioId: ex11-33
+  nationalPokedexNumber: 110
+- enumId: CASTFORM_34:DELTA_SPECIES
+  name: Castform
+  number: '34'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Temperamental Weather
+    text: Once during your turn (before your attack), you may search your deck for
+      Sunny Castform, Rain Castform, or Snow-cloud Castform and switch it with Castform.
+      (Any cards attached to Castform, damage counters, Special Conditions, and effects
+      on it are now on the new Pokémon.) Shuffle Castform back into your deck. You
+      can't use more than 1 Temperamental Weather Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS]
+    name: Holon Draw
+    text: Draw a card. If Castform has any Holon Energy cards attached to it, draw
+      2 more cards.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: ex11-34
+  nationalPokedexNumber: 351
+- enumId: DITTO_35:DELTA_SPECIES
+  name: Ditto
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Link
+    damage: '10'
+    text: Search your discard pile for an Energy card and attach it to Ditto.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-35
+  nationalPokedexNumber: 132
+- enumId: DITTO_36:DELTA_SPECIES
+  name: Ditto
+  number: '36'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Toxic
+    text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of
+      1 on the Defending Pokémon between turns.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-36
+  nationalPokedexNumber: 132
+- enumId: DITTO_37:DELTA_SPECIES
+  name: Ditto
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Ditto.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-37
+  nationalPokedexNumber: 132
+- enumId: DITTO_38:DELTA_SPECIES
+  name: Ditto
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [COLORLESS]
+    name: Copy
+    text: Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This
+      attack does nothing if Ditto doesn't have the Energy necessary to use that attack.
+      (You must still do anything else required for that attack.) Ditto performs that
+      attack.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-38
+  nationalPokedexNumber: 132
+- enumId: DITTO_39:DELTA_SPECIES
+  name: Ditto
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunderbolt
+    damage: '40'
+    text: Discard all Energy cards attached to Ditto.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-39
+  nationalPokedexNumber: 132
+- enumId: DITTO_40:DELTA_SPECIES
+  name: Ditto
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Smash Turn
+    damage: '20'
+    text: After your attack, you may switch Ditto with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: ex11-40
+  nationalPokedexNumber: 132
+- enumId: DRAGONAIR_DELTA_41:DELTA_SPECIES
+  name: Dragonair δ
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Dratini]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Slam
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Dragon Rage
+    damage: '40'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hajime Kusajima
+  pioId: ex11-41
+  nationalPokedexNumber: 148
+- enumId: DRAGONAIR_DELTA_42:DELTA_SPECIES
+  name: Dragonair δ
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Dratini]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Twister
+    damage: '20'
+    text: Flip 2 coins. If both are tails, this attack does nothing. For each heads,
+      discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: ex11-42
+  nationalPokedexNumber: 148
+- enumId: GOLBAT_43:DELTA_SPECIES
+  name: Golbat
+  number: '43'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Zubat]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Super Poison Breath
+    text: Each Defending Pokémon is now Poisoned.
+  - cost: [COLORLESS, COLORLESS]
+    name: Sonic Signal
+    text: Choose 2 of your opponent's Pokémon. This attack does 10 damage to each
+      of them. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yukiko Baba
+  pioId: ex11-43
+  nationalPokedexNumber: 42
+- enumId: HARIYAMA_44:DELTA_SPECIES
+  name: Hariyama
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Makuhita]
+  hp: 80
+  abilities:
+  - type: Poké-Body
+    name: Reversal Aura
+    text: As long as you have more Prize cards left than your opponent, each of Hariyama's
+      attacks does 20 more damage to the Active Pokémon (before applying Weakness
+      and Resistance) and damage done by the Active Pokémon to Hariyama is reduced
+      by 20 (after applying Weakness and Resistance).
+  moves:
+  - cost: []
+    name: Slap Push
+    damage: '30'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Brick Smash
+    damage: '50'
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies,
+      or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hisao Nakamura
+  pioId: ex11-44
+  nationalPokedexNumber: 297
+- enumId: ILLUMISE_45:DELTA_SPECIES
+  name: Illumise
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Poké-Body
+    name: Beacon Protection
+    text: As long as you have Volbeat in play, prevent all effects, including damage,
+      done to Illumise by attacks from your opponent's Pokémon that has Dark in its
+      name.
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle
+      your deck afterward.
+  - cost: [GRASS, COLORLESS]
+    name: Strange Rasping
+    damage: '20'
+    text: If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is
+      now Confused.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: ex11-45
+  nationalPokedexNumber: 314
+- enumId: KAKUNA_46:DELTA_SPECIES
+  name: Kakuna
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Weedle]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Fast Evolution
+    text: Search your deck for an Evolution card, show it to your opponent, and put
+      it into your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rollout
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Sachiko Adachi
+  pioId: ex11-46
+  nationalPokedexNumber: 14
+- enumId: KIRLIA_47:DELTA_SPECIES
+  name: Kirlia
+  number: '47'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Ralts]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Calm Mind
+    text: Remove 3 damage counters from Kirlia.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psychic Boom
+    damage: 20+
+    text: Does 20 damage plus 10 more damage for each Energy attached to the Defending
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: ex11-47
+  nationalPokedexNumber: 281
+- enumId: MAGNETON_48:DELTA_SPECIES
+  name: Magneton
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Magnemite]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Supersonic
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Speed Ball
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: ex11-48
+  nationalPokedexNumber: 82
+- enumId: METANG_DELTA_49:DELTA_SPECIES
+  name: Metang δ
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Beldum]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharp Claws
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Magnetic Blast
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Hajime Kusajima
+  pioId: ex11-49
+  nationalPokedexNumber: 375
+- enumId: PERSIAN_50:DELTA_SPECIES
+  name: Persian
+  number: '50'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Meowth]
+  hp: 80
+  abilities:
+  - type: Poké-Power
+    name: Prowl
+    text: Once during your turn, when you play Persian from your hand to evolve 1
+      of your Pokémon, you may search your deck for any 1 card and put it into your
+      hand. Shuffle your deck afterward.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Snap Tail
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: ex11-50
+  nationalPokedexNumber: 53
+- enumId: PUPITAR_DELTA_51:DELTA_SPECIES
+  name: Pupitar δ
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Larvitar]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Paralyzing Gaze
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Double-edge
+    damage: '40'
+    text: Pupitar does 10 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: ex11-51
+  nationalPokedexNumber: 247
+- enumId: RAPIDASH_52:DELTA_SPECIES
+  name: Rapidash
+  number: '52'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Ponyta]
+  hp: 70
+  moves:
+  - cost: [FIRE]
+    name: Super Singe
+    text: The Defending Pokémon is now Burned.
+  - cost: [FIRE, COLORLESS]
+    name: Stomp
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: ex11-52
+  nationalPokedexNumber: 78
+- enumId: SHELGON_DELTA_53:DELTA_SPECIES
+  name: Shelgon δ
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Bagon]
+  hp: 80
+  moves:
+  - cost: [FIRE]
+    name: Tight Jaw
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Combustion
+    damage: '40'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  - type: FIRE
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: ex11-53
+  nationalPokedexNumber: 372
+- enumId: SHELGON_DELTA_54:DELTA_SPECIES
+  name: Shelgon δ
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Bagon]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Exoskeleton
+    text: Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: []
+    name: Heat Blast
+    damage: '30'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  - type: FIRE
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: ex11-54
+  nationalPokedexNumber: 372
+- enumId: SKARMORY_55:DELTA_SPECIES
+  name: Skarmory
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Shining Horn
+    text: As long as Skarmory is the only Pokémon you have in play, your opponent's
+      Basic Pokémon can't attack.
+  moves:
+  - cost: [COLORLESS]
+    name: Cry for Help
+    text: Search your deck for a [M] Pokémon (excluding Pokémon-ex), show it to your
+      opponent, and put it into your hand. Shuffle your deck afterward.
+  - cost: [METAL, COLORLESS]
+    name: Steel Wing
+    damage: '20'
+    text: During your opponent's next turn, any damage done to Skarmory by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hisao Nakamura
+  pioId: ex11-55
+  nationalPokedexNumber: 227
+- enumId: VOLBEAT_56:DELTA_SPECIES
+  name: Volbeat
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Poké-Body
+    name: Extra Protection
+    text: As long as you have Illumise in play, prevent all effects, including damage,
+      done to Volbeat by attacks from your opponent's Pokémon-ex.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Swift
+    damage: '30'
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: ex11-56
+  nationalPokedexNumber: 313
+- enumId: BAGON_DELTA_57:DELTA_SPECIES
+  name: Bagon δ
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  - type: FIRE
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: ex11-57
+  nationalPokedexNumber: 371
+- enumId: BAGON_DELTA_58:DELTA_SPECIES
+  name: Bagon δ
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Ember
+    damage: '30'
+    text: Discard a [R] Energy card attached to Bagon.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: FIRE
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: ex11-58
+  nationalPokedexNumber: 371
+- enumId: BELDUM_DELTA_59:DELTA_SPECIES
+  name: Beldum δ
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  abilities:
+  - type: Poké-Body
+    name: Conductive Body
+    text: You pay [C] to retreat Beldum for each Beldum on your Bench.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Take Down
+    damage: '30'
+    text: Beldum does 10 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: ex11-59
+  nationalPokedexNumber: 374
+- enumId: CUBONE_60:DELTA_SPECIES
+  name: Cubone
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Beat
+    damage: '10'
+  - cost: []
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: ex11-60
+  nationalPokedexNumber: 104
+- enumId: DITTO_61:DELTA_SPECIES
+  name: Ditto
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fireworks
+    damage: '30'
+    text: Flip a coin. If tails, discard a [R] Energy card attached to Ditto.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: ex11-61
+  nationalPokedexNumber: 132
+- enumId: DITTO_62:DELTA_SPECIES
+  name: Ditto
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Linear Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: ex11-62
+  nationalPokedexNumber: 132
+- enumId: DITTO_63:DELTA_SPECIES
+  name: Ditto
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thundershock
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: ex11-63
+  nationalPokedexNumber: 132
+- enumId: DITTO_64:DELTA_SPECIES
+  name: Ditto
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Duplicate
+    text: Once during your turn (before your attack), you may search your deck for
+      another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage
+      counters, Special Conditions, and effects on it are now on the new Pokémon.)
+      If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't
+      use more than 1 Duplicate Poké-Power each turn.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Spiral Drain
+    damage: '20'
+    text: Remove 3 damage counters from Ditto (all if there are less than 3).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: ex11-64
+  nationalPokedexNumber: 132
+- enumId: DRATINI_DELTA_65:DELTA_SPECIES
+  name: Dratini δ
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hook
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Jolt
+    damage: '30'
+    text: Flip a coin. If tails, Dratini does 10 damage to itself.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: ex11-65
+  nationalPokedexNumber: 147
+- enumId: DRATINI_DELTA_66:DELTA_SPECIES
+  name: Dratini δ
+  number: '66'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Wave
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: ex11-66
+  nationalPokedexNumber: 147
+- enumId: DROWZEE_67:DELTA_SPECIES
+  name: Drowzee
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [PSYCHIC]
+    name: Disable
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that
+      attack during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: ex11-67
+  nationalPokedexNumber: 96
+- enumId: EEVEE_DELTA_68:DELTA_SPECIES
+  name: Eevee δ
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Metal Scoop
+    damage: '10'
+    text: Search your discard pile for a [M] Energy card and attach it to Eevee.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: ex11-68
+  nationalPokedexNumber: 133
+- enumId: EEVEE_69:DELTA_SPECIES
+  name: Eevee
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle
+      your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Rear Kick
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: ex11-69
+  nationalPokedexNumber: 133
+- enumId: HOLON_S_MAGNEMITE_70:DELTA_SPECIES
+  name: Holon's Magnemite
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 40
+  moves:
+  - cost: [METAL]
+    name: Linear Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  text: You may attach this as an Energy card from your hand to 1 of your Pokémon.
+    While attached, this card is a Special Energy card and provides [C] Energy.
+  artist: Katsura Tabata
+  pioId: ex11-70
+  nationalPokedexNumber: 81
+- enumId: HOLON_S_VOLTORB_71:DELTA_SPECIES
+  name: Holon's Voltorb
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [LIGHTNING]
+    name: Thundershock
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  text: You may attach this as an Energy card from your hand to 1 of your Pokémon.
+    While attached, this card is a Special Energy card and provides [C] Energy.
+  artist: Takao Unno
+  pioId: ex11-71
+  nationalPokedexNumber: 100
+- enumId: KOFFING_72:DELTA_SPECIES
+  name: Koffing
+  number: '72'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Confusion Gas
+    text: The Defending Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sachiko Adachi
+  pioId: ex11-72
+  nationalPokedexNumber: 109
+- enumId: LARVITAR_DELTA_73:DELTA_SPECIES
+  name: Larvitar δ
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  - cost: []
+    name: Rising Lunge
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: ex11-73
+  nationalPokedexNumber: 246
+- enumId: MAGNEMITE_74:DELTA_SPECIES
+  name: Magnemite
+  number: '74'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    damage: '0'
+    text: Draw a card.
+  - cost: [LIGHTNING]
+    name: Magnetic Blast
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: ex11-74
+  nationalPokedexNumber: 81
+- enumId: MAKUHITA_75:DELTA_SPECIES
+  name: Makuhita
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Sand Attack
+    damage: '10'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sachiko Adachi
+  pioId: ex11-75
+  nationalPokedexNumber: 296
+- enumId: MARILL_76:DELTA_SPECIES
+  name: Marill
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Rollout
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Jump On
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: ex11-76
+  nationalPokedexNumber: 183
+- enumId: MEOWTH_77:DELTA_SPECIES
+  name: Meowth
+  number: '77'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Pickup Power
+    text: Search your discard pile for an Energy card, show it to your opponent, and
+      put it into your hand.
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hiroki Fuchino
+  pioId: ex11-77
+  nationalPokedexNumber: 52
+- enumId: PONYTA_78:DELTA_SPECIES
+  name: Ponyta
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE]
+    name: Flare
+    damage: '10'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: ex11-78
+  nationalPokedexNumber: 77
+- enumId: POOCHYENA_79:DELTA_SPECIES
+  name: Poochyena
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon, if any.
+  - cost: [DARKNESS, COLORLESS]
+    name: Ambush
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Sachiko Adachi
+  pioId: ex11-79
+  nationalPokedexNumber: 261
+- enumId: PORYGON_80:DELTA_SPECIES
+  name: Porygon
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharpen
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hisao Nakamura
+  pioId: ex11-80
+  nationalPokedexNumber: 137
+- enumId: RALTS_81:DELTA_SPECIES
+  name: Ralts
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: []
+    name: Quick Blow
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kenkichi Toyama
+  pioId: ex11-81
+  nationalPokedexNumber: 280
+- enumId: SANDSHREW_82:DELTA_SPECIES
+  name: Sandshrew
+  number: '82'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [FIGHTING]
+    name: Dig Under
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: ex11-82
+  nationalPokedexNumber: 27
+- enumId: SLOWPOKE_83:DELTA_SPECIES
+  name: Slowpoke
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: ex11-83
+  nationalPokedexNumber: 79
+- enumId: STARYU_84:DELTA_SPECIES
+  name: Staryu
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Spinning Attack
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: ex11-84
+  nationalPokedexNumber: 120
+- enumId: STARYU_85:DELTA_SPECIES
+  name: Staryu
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Surprise Attack
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  - cost: [WATER]
+    name: Recover
+    text: Discard a [W] Energy card attached to Staryu and remove 4 damage counters
+      from Staryu (all if there are less than 4).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hisao Nakamura
+  pioId: ex11-85
+  nationalPokedexNumber: 120
+- enumId: TAILLOW_86:DELTA_SPECIES
+  name: Taillow
+  number: '86'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Skill Dive
+    text: Does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and
+      Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: ex11-86
+  nationalPokedexNumber: 276
+- enumId: WEEDLE_87:DELTA_SPECIES
+  name: Weedle
+  number: '87'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: String Shot
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: ex11-87
+  nationalPokedexNumber: 13
+- enumId: ZUBAT_88:DELTA_SPECIES
+  name: Zubat
+  number: '88'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Poison Fang
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: ex11-88
+  nationalPokedexNumber: 41
+- enumId: DUAL_BALL_89:DELTA_SPECIES
+  name: Dual Ball
+  number: '89'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  artist: '"Big Mama" Tagawa'
+  pioId: ex11-89
+- enumId: GREAT_BALL_90:DELTA_SPECIES
+  name: Great Ball
+  number: '90'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  artist: Nakaoka
+  pioId: ex11-90
+- enumId: HOLON_FARMER_91:DELTA_SPECIES
+  name: Holon Farmer
+  number: '91'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.Search your discard pile for 3 basic Energy cards and any combination of 3 Basic Pokémon or Evolution cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.
+  artist: Kouki Saitou
+  pioId: ex11-91
+- enumId: HOLON_LASS_92:DELTA_SPECIES
+  name: Holon Lass
+  number: '92'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.Count the total number of Prize cards left (both yours and your opponent's). Look at that many cards from the top of your deck, choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward."
+  artist: Kouki Saitou
+  pioId: ex11-92
+- enumId: HOLON_MENTOR_93:DELTA_SPECIES
+  name: Holon Mentor
+  number: '93'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.Search your deck for up to 3 Basic Pokémon that each has 100 HP or less, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  artist: Kouki Saitou
+  pioId: ex11-93
+- enumId: HOLON_RESEARCH_TOWER_94:DELTA_SPECIES
+  name: Holon Research Tower
+  number: '94'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: |-
+    This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.
+    Each player's basic Energy cards attached to Pokémon that has δ on its card are both their usual Energy type and [M] type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)
+  artist: Ryo Ueda
+  pioId: ex11-94
+- enumId: HOLON_RESEARCHER_95:DELTA_SPECIES
+  name: Holon Researcher
+  number: '95'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.
+    "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your deck for a [M] Energy card or a Basic Pokémon (or Evolution card) that has δ on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+  artist: Kanako Eo
+  pioId: ex11-95
+- enumId: HOLON_RUINS_96:DELTA_SPECIES
+  name: Holon Ruins
+  number: '96'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: |-
+    This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.
+    Each player that has any Pokémon in play that has ݎ on its card may draw a card once during his or her turn. If the player does, he or she discards a card from his or her hand.
+  artist: Ryo Ueda
+  pioId: ex11-96
+- enumId: HOLON_SCIENTIST_97:DELTA_SPECIES
+  name: Holon Scientist
+  number: '97'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent.
+  artist: Ken Sugimori
+  pioId: ex11-97
+- enumId: HOLON_TRANSCEIVER_98:DELTA_SPECIES
+  name: Holon Transceiver
+  number: '98'
+  cardTypes: [TRAINER, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Search your deck for a Supporter card that has Holon in its name, show it
+    to your opponent, and put it into your hand. Shuffle your deck afterward. Or,
+    search your discard pile for a Supporter card that has Holon in its name, show
+    it to your opponent, and put it into your hand.
+  artist: Mitsuhiro Arita
+  pioId: ex11-98
+- enumId: MASTER_BALL_99:DELTA_SPECIES
+  variantOf: MASTER_BALL_88:DEOXYS
+  variantType: Reprint
+  name: Master Ball
+  number: '99'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution
+    card from those cards, show it to your opponent, and put it into your hand. Put
+    the other 6 cards back on top of your deck. Shuffle your deck afterward.
+  artist: Keiji Kinebuchi
+  pioId: ex11-99
+- enumId: SUPER_SCOOP_UP_100:DELTA_SPECIES
+  variantOf: SUPER_SCOOP_UP_98:NEO_GENESIS
+  variantType: Reprint
+  name: Super Scoop Up
+  number: '100'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Flip a coin. If heads, return 1 of your Pokémon and all cards attached to
+    it to your hand.
+  artist: Keiji Kinebuchi
+  pioId: ex11-100
+- enumId: POTION_101:DELTA_SPECIES
+  name: Potion
+  number: '101'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Remove 2 damage counters from I of your Pokémon (remove 1 damage counter if
+    that Pokémon has only 1).
+  artist: Shin-ichi Yoshikawa
+  pioId: ex11-101
+- enumId: SWITCH_102:DELTA_SPECIES
+  variantOf: SWITCH_92:RUBY_SAPPHIRE
+  variantType: Reprint
+  name: Switch
+  number: '102'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
+  artist: Hiromichi Sugiyama
+  pioId: ex11-102
+- enumId: DARKNESS_ENERGY_103:DELTA_SPECIES
+  variantOf: DARKNESS_ENERGY_86:EMERALD
+  variantType: Reprint
+  name: Darkness Energy
+  number: '103'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: If the Pokémon [D] Energy is attached to attacks, the attack does 10 more
+    damage to the Active Pokémon (before applying Weakness and Resistance). Ignore
+    this effect unless the Attacking Pokémon is [D] or has Dark in its name. [D] Energy
+    provides [D] Energy. (Doesn't count as a basic Energy card.)
+  artist: Milky Isobe
+  pioId: ex11-103
+- enumId: HOLON_ENERGY_FF_104:DELTA_SPECIES
+  name: Holon Energy FF
+  number: '104'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Holon Energy FF provides [C] Energy. If the Pokémon that Holon Energy FF is
+    attached to also has a basic [R] Energy card attached to it, that Pokémon has
+    no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic
+    [F] Energy card attached to it, damage done by that Pokémon's attack isn't affected
+    by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.
+  artist: Takumi Akabane
+  pioId: ex11-104
+- enumId: HOLON_ENERGY_GL_105:DELTA_SPECIES
+  name: Holon Energy GL
+  number: '105'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Holon Energy GL provides [C] Energy. If the Pokémon that Holon Energy GL is
+    attached to also has a basic [G] Energy card attached to it, that Pokémon can't
+    be affected by any Special Conditions. If the Pokémon that Holon Energy GL is
+    attached to also has a basic [L] Energy card attached to it, damage done by your
+    opponent's Pokémon-ex is reduced by 10. Ignore these effects if Holon Energy GL
+    is attached to Pokémon-ex.
+  artist: Takumi Akabane
+  pioId: ex11-105
+- enumId: HOLON_ENERGY_WP_106:DELTA_SPECIES
+  name: Holon Energy WP
+  number: '106'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Holon Energy WP provides [C] Energy. If the Pokémon that Holon Energy WP is
+    attached to also has a basic [W] Energy card attached to it, prevent all effects,
+    excluding damage, done to that Pokémon by your opponent's Pokémon. If the Pokémon
+    that Holon Energy WP is attached to also has a basic [P] Energy card attached
+    to it, that Pokémon's Retreat Cost is 0. Ignore these effects if Holon Energy
+    WP is attached to Pokémon-ex.
+  artist: Takumi Akabane
+  pioId: ex11-106
+- enumId: METAL_ENERGY_107:DELTA_SPECIES
+  variantOf: METAL_ENERGY_88:EMERALD
+  variantType: Reprint
+  name: Metal Energy
+  number: '107'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Damage done by attacks to the Pokémon that [M] Energy is attached to is reduced
+    by 10 (after applying Weakness and Resistance). Ignore this effect if the Pokémon
+    that [M] Energy is attached to isn't Metal. [M] Energy provides [M] Energy. (Doesn't
+    count as a basic Energy card.)
+  artist: Milky Isobe
+  pioId: ex11-107
+- enumId: FLAREON_EX_108:DELTA_SPECIES
+  name: Flareon ex
+  number: '108'
+  cardTypes: [POKEMON, EVOLUTION, EX, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 110
+  abilities:
+  - type: Poké-Power
+    name: Evolutionary Flame
+    text: Once during your turn, when you play Flareon ex from your hand to evolve
+      1 of your Pokémon, you may choose 1 of the Defending Pokémon. That Pokémon is
+      now Burned and Confused.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Flame Screen
+    damage: '30'
+    text: During your opponent's next turn, any damage done to Flareon ex by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Heat Tackle
+    damage: '70'
+    text: Flareon ex does 10 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: ex11-108
+  nationalPokedexNumber: 136
+- enumId: JOLTEON_EX_109:DELTA_SPECIES
+  name: Jolteon ex
+  number: '109'
+  cardTypes: [POKEMON, EVOLUTION, EX, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 100
+  abilities:
+  - type: Poké-Power
+    name: Evolutionary Thunder
+    text: Once during your turn, when you play Jolteon ex from your hand to evolve
+      1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Second Bite
+    damage: 20+
+    text: Does 20 damage plus 10 more damage for each damage counter on the Defending
+      Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder Blast
+    damage: '70'
+    text: Discard a [L] Energy card attached to Jolteon ex.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Mitsuhiro Arita
+  pioId: ex11-109
+  nationalPokedexNumber: 135
+- enumId: VAPOREON_EX_110:DELTA_SPECIES
+  name: Vaporeon ex
+  number: '110'
+  cardTypes: [POKEMON, EVOLUTION, EX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 120
+  abilities:
+  - type: Poké-Power
+    name: Evolutionary Swirl
+    text: Once during your turn, when you play Vaporeon ex from your hand to evolve
+      1 of your Pokémon, you may have your opponent shuffle his or her hand into his
+      or her deck. Then, your opponent draws up to 4 cards.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Fastwave
+    damage: '40'
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies,
+      or any other effects on the Defending Pokémon.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hydrosplash
+    damage: '60'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Hikaru Koike
+  pioId: ex11-110
+  nationalPokedexNumber: 134
+- enumId: GROUDON_STAR_111:DELTA_SPECIES
+  name: Groudon Star
+  number: '111'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 90
+  moves:
+  - cost: [FIGHTING]
+    name: Critical Collection
+    damage: '10'
+    text: Count the number of Prize cards your opponent has taken. Search your discard
+      pile for up to that many [F] Energy cards and attach them to Groudon Star.
+  - cost: [FIGHTING, FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Ground Slash
+    damage: '80'
+    text: Discard a [F] Energy card attached to Groudon Star.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: You can't have more than 1 Pokémon Star in your deck.
+  artist: Masakazu Fukuda
+  pioId: ex11-111
+  nationalPokedexNumber: 383
+- enumId: KYOGRE_STAR_112:DELTA_SPECIES
+  name: Kyogre Star
+  number: '112'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Critical Collection
+    damage: '10'
+    text: Count the number of Prize cards your opponent has taken. Search your discard
+      pile for up to that many [W] Energy cards and attach them to Kyogre Star.
+  - cost: [WATER, WATER, WATER, COLORLESS, COLORLESS]
+    name: Sheer Cold
+    damage: '60'
+    text: Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's
+      next turn.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: You can't have more than 1 Pokémon Star in your deck.
+  artist: Masakazu Fukuda
+  pioId: ex11-112
+  nationalPokedexNumber: 382
+- enumId: METAGROSS_STAR_113:DELTA_SPECIES
+  name: Metagross Star
+  number: '113'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 70
+  moves:
+  - cost: [METAL]
+    name: Critical Collection
+    damage: '10'
+    text: Count the number of Prize cards your opponent has taken. Search your discard
+      pile for up to that many [M] Energy cards and attach them to Metagross Star.
+  - cost: [METAL, METAL, METAL, COLORLESS, COLORLESS]
+    name: Hyper Beam
+    damage: '50'
+    text: Flip a coin. If heads, discard an Energy card attached to the Defending
+      Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare Holo
+  text: You can't have more than 1 Pokémon Star in your deck.
+  artist: Masakazu Fukuda
+  pioId: ex11-113
+  nationalPokedexNumber: 376
+- enumId: AZUMARILL_114:DELTA_SPECIES
+  name: Azumarill
+  number: '114'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Marill]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Thick Fat
+    text: Any damage done to Azumarill by attacks from [R] Pokémon and [W] Pokémon
+      is reduced by 30 (after applying Weakness and Resistance).
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Bubblebeam
+    damage: '40'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: ex11-114
+  nationalPokedexNumber: 184

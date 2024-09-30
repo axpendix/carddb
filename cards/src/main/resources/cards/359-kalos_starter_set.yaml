@@ -1,0 +1,783 @@
+schema: E3
+expansion:
+  orderId: '359'
+  name: Kalos Starter Set
+  enumId: KALOS_STARTER_SET
+  shortName: KSS
+cards:
+- enumId: WEEDLE_1:KALOS_STARTER_SET
+  name: Weedle
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: String Shot
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: xy0-1
+  nationalPokedexNumber: 13
+- enumId: PANSAGE_2:KALOS_STARTER_SET
+  name: Pansage
+  number: '2'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: xy0-2
+  nationalPokedexNumber: 511
+- enumId: CHESPIN_3:KALOS_STARTER_SET
+  name: Chespin
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Vine Whip
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Seed Bomb
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-3
+  nationalPokedexNumber: 650
+- enumId: QUILLADIN_4:KALOS_STARTER_SET
+  name: Quilladin
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Chespin]
+  hp: 90
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Leech Seed
+    damage: '20'
+    text: Heal 10 damage from this Pokémon.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Needle Arm
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-4
+  nationalPokedexNumber: 651
+- enumId: CHESNAUGHT_5:KALOS_STARTER_SET
+  name: Chesnaught
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Quilladin]
+  hp: 150
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Needle Arm
+    damage: '50'
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Tumbling Attack
+    damage: 80+
+    text: Flip a coin. If heads, this attack does 40 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 4
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-5
+  nationalPokedexNumber: 652
+- enumId: SLUGMA_6:KALOS_STARTER_SET
+  name: Slugma
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Combustion
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: xy0-6
+  nationalPokedexNumber: 218
+- enumId: PANSEAR_7:KALOS_STARTER_SET
+  name: Pansear
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: xy0-7
+  nationalPokedexNumber: 513
+- enumId: FENNEKIN_8:KALOS_STARTER_SET
+  name: Fennekin
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Scratch
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Live Coal
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-8
+  nationalPokedexNumber: 653
+- enumId: BRAIXEN_9:KALOS_STARTER_SET
+  name: Braixen
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Fennekin]
+  hp: 80
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Firebreathing
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flame Tail
+    damage: '60'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-9
+  nationalPokedexNumber: 654
+- enumId: DELPHOX_10:KALOS_STARTER_SET
+  name: Delphox
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Braixen]
+  hp: 140
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Will-O-Wisp
+    damage: '30'
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS]
+    name: Fire Blast
+    damage: '120'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-10
+  nationalPokedexNumber: 655
+- enumId: PANPOUR_11:KALOS_STARTER_SET
+  name: Panpour
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: xy0-11
+  nationalPokedexNumber: 515
+- enumId: FROAKIE_12:KALOS_STARTER_SET
+  name: Froakie
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Pound
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Water Drip
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-12
+  nationalPokedexNumber: 656
+- enumId: FROGADIER_13:KALOS_STARTER_SET
+  name: Frogadier
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Froakie]
+  hp: 80
+  moves:
+  - cost: [WATER]
+    name: Water Drip
+    damage: '20'
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Wave
+    damage: 40+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-13
+  nationalPokedexNumber: 657
+- enumId: GRENINJA_14:KALOS_STARTER_SET
+  name: Greninja
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Frogadier]
+  hp: 140
+  moves:
+  - cost: [WATER]
+    name: Mat Block
+    damage: '40'
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active
+      Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Edge
+    damage: '80'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-14
+  nationalPokedexNumber: 658
+- enumId: CLAUNCHER_15:KALOS_STARTER_SET
+  name: Clauncher
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Water Gun
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-15
+  nationalPokedexNumber: 692
+- enumId: POOCHYENA_16:KALOS_STARTER_SET
+  name: Poochyena
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Bite
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: xy0-16
+  nationalPokedexNumber: 261
+- enumId: MIGHTYENA_17:KALOS_STARTER_SET
+  name: Mightyena
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Poochyena]
+  hp: 90
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Hard Bite
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: xy0-17
+  nationalPokedexNumber: 262
+- enumId: INKAY_18:KALOS_STARTER_SET
+  name: Inkay
+  number: '18'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Peck
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-18
+  nationalPokedexNumber: 686
+- enumId: PAWNIARD_19:KALOS_STARTER_SET
+  variantOf: PAWNIARD_81:NOBLE_VICTORIES
+  variantType: Reprint
+  name: Pawniard
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL]
+    name: Pierce
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Cut
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: xy0-19
+  nationalPokedexNumber: 624
+- enumId: BISHARP_20:KALOS_STARTER_SET
+  name: Bisharp
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Pawniard]
+  hp: 90
+  moves:
+  - cost: [METAL]
+    name: Wicked Jab
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Metal Claw
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: xy0-20
+  nationalPokedexNumber: 625
+- enumId: HONEDGE_21:KALOS_STARTER_SET
+  name: Honedge
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Continuous Slash
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage times the number
+      of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-21
+  nationalPokedexNumber: 679
+- enumId: SNUBBULL_22:KALOS_STARTER_SET
+  name: Snubbull
+  number: '22'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 70
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Headbutt
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Naoki Saito
+  pioId: xy0-22
+  nationalPokedexNumber: 209
+- enumId: GRANBULL_23:KALOS_STARTER_SET
+  name: Granbull
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Snubbull]
+  hp: 100
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Headbutt
+    damage: '30'
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Double Stomp
+    damage: 50+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 3
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: xy0-23
+  nationalPokedexNumber: 210
+- enumId: SWIRLIX_24:KALOS_STARTER_SET
+  name: Swirlix
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [FAIRY]
+    name: Draining Kiss
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-24
+  nationalPokedexNumber: 684
+- enumId: FARFETCH_D_25:KALOS_STARTER_SET
+  name: Farfetch'd
+  number: '25'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Slash
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: xy0-25
+  nationalPokedexNumber: 83
+- enumId: SNORLAX_26:KALOS_STARTER_SET
+  name: Snorlax
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rock Smash
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Strength
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Common
+  artist: Naoki Saito
+  pioId: xy0-26
+  nationalPokedexNumber: 143
+- enumId: MILTANK_27:KALOS_STARTER_SET
+  name: Miltank
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Sitdown Splash
+    damage: 50+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Akira Komayama
+  pioId: xy0-27
+  nationalPokedexNumber: 241
+- enumId: SKITTY_28:KALOS_STARTER_SET
+  name: Skitty
+  number: '28'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Jump On
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: xy0-28
+  nationalPokedexNumber: 300
+- enumId: BIDOOF_29:KALOS_STARTER_SET
+  name: Bidoof
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rollout
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: xy0-29
+  nationalPokedexNumber: 399
+- enumId: BUNNELBY_30:KALOS_STARTER_SET
+  name: Bunnelby
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-30
+  nationalPokedexNumber: 659
+- enumId: FLETCHLING_31:KALOS_STARTER_SET
+  name: Fletchling
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Razor Wind
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-31
+  nationalPokedexNumber: 661
+- enumId: FURFROU_32:KALOS_STARTER_SET
+  name: Furfrou
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tight Jaw
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Sharp Fang
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-32
+  nationalPokedexNumber: 676
+- enumId: FURFROU_33:KALOS_STARTER_SET
+  variantOf: FURFROU_32:KALOS_STARTER_SET
+  variantType: Alternate Art
+  name: Furfrou
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tight Jaw
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Sharp Fang
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: 5ban Graphics
+  pioId: xy0-33
+  nationalPokedexNumber: 676
+- enumId: CRUSHING_HAMMER_34:KALOS_STARTER_SET
+  variantOf: CRUSHING_HAMMER_92:EMERGING_POWERS
+  variantType: Reprint
+  name: Crushing Hammer
+  number: '34'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Flip a coin. If heads, discard an Energy attached to 1 of your opponent's
+    Pokémon.
+  artist: 5ban Graphics
+  pioId: xy0-34
+- enumId: POKE_BALL_35:KALOS_STARTER_SET
+  variantOf: POKE_BALL_97:BLACK_WHITE
+  variantType: Reprint
+  name: Poké Ball
+  number: '35'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put
+    it into your hand. Shuffle your deck afterward.
+  artist: 5ban Graphics
+  pioId: xy0-35
+- enumId: POKEMON_CATCHER_36:KALOS_STARTER_SET
+  name: Pokémon Catcher
+  number: '36'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his
+    or her Active Pokémon.
+  artist: 5ban Graphics
+  pioId: xy0-36
+- enumId: POTION_37:KALOS_STARTER_SET
+  variantOf: POTION_100:BLACK_WHITE
+  variantType: Reprint
+  name: Potion
+  number: '37'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Heal 30 damage from 1 of your Pokémon.
+  artist: 5ban Graphics
+  pioId: xy0-37
+- enumId: SWITCH_38:KALOS_STARTER_SET
+  variantOf: SWITCH_157:EXPEDITION
+  variantType: Reprint
+  name: Switch
+  number: '38'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Common
+  text: Switch your Active Pokémon with 1 of your Benched Pokémon.
+  artist: 5ban Graphics
+  pioId: xy0-38
+- enumId: TIERNO_39:KALOS_STARTER_SET
+  name: Tierno
+  number: '39'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Common
+  text: Draw 3 cards.
+  artist: Ken Sugimori
+  pioId: xy0-39

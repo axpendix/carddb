@@ -1,0 +1,1647 @@
+schema: E3
+expansion:
+  orderId: '112'
+  name: Jungle
+  enumId: JUNGLE
+  shortName: JU
+cards:
+- enumId: CLEFABLE_1:JUNGLE
+  variantType: Holo
+  name: Clefable
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Clefairy]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Metronome
+    text: Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack
+      except for its Energy costs and anything else required in order to use that
+      attack, such as discarding Energy cards. (No matter what type the Defending
+      Pokémon is, Clefable's type is still [C].)
+  - cost: [COLORLESS, COLORLESS]
+    name: Minimize
+    text: All damage done by attacks to Clefable during your opponent's next turn
+      is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: base2-1
+  nationalPokedexNumber: 36
+- enumId: ELECTRODE_2:JUNGLE
+  variantType: Holo
+  name: Electrode
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Voltorb]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING]
+    name: Chain Lightning
+    damage: '20'
+    text: If the Defending Pokémon isn't [C], this attack does 10 damage to each Benched
+      Pokémon of the same type as the Defending Pokémon (including your own).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: base2-2
+  nationalPokedexNumber: 101
+- enumId: FLAREON_3:JUNGLE
+  variantType: Holo
+  name: Flareon
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '60'
+    text: Discard 1 Energy card attached to Flareon in order to use this attack.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: base2-3
+  nationalPokedexNumber: 136
+- enumId: JOLTEON_4:JUNGLE
+  variantType: Holo
+  name: Jolteon
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Pin Missile
+    damage: 20x
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: base2-4
+  nationalPokedexNumber: 135
+- enumId: KANGASKHAN_5:JUNGLE
+  variantType: Holo
+  name: Kangaskhan
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Fetch
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Comet Punch
+    damage: 20x
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: base2-5
+  nationalPokedexNumber: 115
+- enumId: MR_MIME_6:JUNGLE
+  name: Mr. Mime
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  evolvesFrom: [Mime Jr.]
+  hp: 40
+  abilities:
+  - type: Pokémon Power
+    name: Invisible Wall
+    text: Whenever an attack (including your own) does 30 or more damage to Mr. Mime
+      (after applying Weakness and Resistance), prevent that damage. (Any other effects
+      of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused,
+      or Paralyzed.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Meditate
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on the Defending
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-6
+  nationalPokedexNumber: 122
+- enumId: NIDOQUEEN_7:JUNGLE
+  variantType: Holo
+  name: Nidoqueen
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Nidorina]
+  hp: 90
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Boyfriends
+    damage: 20+
+    text: Does 20 damage plus 20 more damage for each Nidoking you have in play.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Mega Punch
+    damage: '50'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-7
+  nationalPokedexNumber: 31
+- enumId: PIDGEOT_8:JUNGLE
+  variantType: Holo
+  name: Pidgeot
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Pidgeotto]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hurricane
+    damage: '30'
+    text: Unless this attack Knocks Out the Defending Pokémon, return the Defending
+      Pokémon and all cards attached to it to your opponent's hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: base2-8
+  nationalPokedexNumber: 18
+- enumId: PINSIR_9:JUNGLE
+  variantType: Holo
+  name: Pinsir
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Irongrip
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Guillotine
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: base2-9
+  nationalPokedexNumber: 127
+- enumId: SCYTHER_10:JUNGLE
+  variantType: Holo
+  name: Scyther
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Swords Dance
+    text: During your next turn, Scyther's Slash attack's base damage is 60 instead
+      of 30.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-10
+  nationalPokedexNumber: 123
+- enumId: SNORLAX_11:JUNGLE
+  variantType: Holo
+  name: Snorlax
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  abilities:
+  - type: Pokémon Power
+    name: Thick Skinned
+    text: Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power
+      can't be used if Snorlax is already Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-11
+  nationalPokedexNumber: 143
+- enumId: VAPOREON_12:JUNGLE
+  variantType: Holo
+  name: Vaporeon
+  number: '12'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Water Gun
+    damage: 30+
+    text: Does 30 damage plus 10 more damage for each Energy attached to Vaporeon
+      but not used to pay for this attack's Energy cost. Extra Energy after the 2nd
+      doesn't count.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: base2-12
+  nationalPokedexNumber: 134
+- enumId: VENOMOTH_13:JUNGLE
+  variantType: Holo
+  name: Venomoth
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Venonat]
+  hp: 70
+  abilities:
+  - type: Pokémon Power
+    name: Shift
+    text: Once during your turn (before your attack), you may change the type of Venomoth
+      to the type of any other Pokémon in play other than [C]. This power can't be
+      used if Venomoth is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Venom Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-13
+  nationalPokedexNumber: 49
+- enumId: VICTREEBEL_14:JUNGLE
+  variantType: Holo
+  name: Victreebel
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Weepinbell]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Lure
+    text: If your opponent has any Benched Pokémon, choose 1 of them and switch it
+      with his or her Active Pokémon.
+  - cost: [GRASS, GRASS]
+    name: Acid
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's
+      next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: base2-14
+  nationalPokedexNumber: 71
+- enumId: VILEPLUME_15:JUNGLE
+  variantType: Holo
+  name: Vileplume
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Gloom]
+  hp: 80
+  abilities:
+  - type: Pokémon Power
+    name: Heal
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      remove 1 damage counter from 1 of your Pokémon. This power can't be used if
+      Vileplume is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS, GRASS]
+    name: Petal Dance
+    damage: 40x
+    text: Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume
+      is now Confused (after doing damage).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Keiji Kinebuchi
+  pioId: base2-15
+  nationalPokedexNumber: 45
+- enumId: WIGGLYTUFF_16:JUNGLE
+  variantType: Holo
+  name: Wigglytuff
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Jigglypuff]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Lullaby
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Do the Wave
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each of your Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: base2-16
+  nationalPokedexNumber: 40
+- enumId: CLEFABLE:JUNGLE
+  variantOf: CLEFABLE_1:JUNGLE
+  variantType: Regular
+  name: Clefable
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Clefairy]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Metronome
+    text: Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack
+      except for its Energy costs and anything else required in order to use that
+      attack, such as discarding Energy cards. (No matter what type the Defending
+      Pokémon is, Clefable's type is still [C].)
+  - cost: [COLORLESS, COLORLESS]
+    name: Minimize
+    text: All damage done by attacks to Clefable during your opponent's next turn
+      is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: base2-17
+  nationalPokedexNumber: 36
+- enumId: ELECTRODE:JUNGLE
+  variantOf: ELECTRODE_2:JUNGLE
+  variantType: Regular
+  name: Electrode
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Voltorb]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING]
+    name: Chain Lightning
+    damage: '20'
+    text: If the Defending Pokémon isn't [C], this attack does 10 damage to each Benched
+      Pokémon of the same type as the Defending Pokémon (including your own).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: base2-18
+  nationalPokedexNumber: 101
+- enumId: FLAREON:JUNGLE
+  variantOf: FLAREON_3:JUNGLE
+  variantType: Regular
+  name: Flareon
+  number: '19'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '60'
+    text: Discard 1 Energy card attached to Flareon in order to use this attack.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: base2-19
+  nationalPokedexNumber: 136
+- enumId: JOLTEON:JUNGLE
+  variantOf: JOLTEON_4:JUNGLE
+  variantType: Regular
+  name: Jolteon
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Pin Missile
+    damage: 20x
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: base2-20
+  nationalPokedexNumber: 135
+- enumId: KANGASKHAN:JUNGLE
+  variantOf: KANGASKHAN_5:JUNGLE
+  variantType: Regular
+  name: Kangaskhan
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Fetch
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Comet Punch
+    damage: 20x
+    text: Flip 4 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: base2-21
+  nationalPokedexNumber: 115
+- enumId: MR_MIME:JUNGLE
+  name: Mr. Mime
+  number: '22'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 40
+  abilities:
+  - type: Pokémon Power
+    name: Invisible Wall
+    text: Whenever an attack (including your own) does 30 or more damage to Mr. Mime
+      (after applying Weakness and Resistance), prevent that damage. (Any other effects
+      of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused,
+      or Paralyzed.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Meditate
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on the Defending
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-22
+  nationalPokedexNumber: 122
+- enumId: NIDOQUEEN:JUNGLE
+  variantOf: NIDOQUEEN_7:JUNGLE
+  variantType: Regular
+  name: Nidoqueen
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Nidorina]
+  hp: 90
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Boyfriends
+    damage: 20+
+    text: Does 20 damage plus 20 more damage for each Nidoking you have in play.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Mega Punch
+    damage: '50'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-23
+  nationalPokedexNumber: 31
+- enumId: PIDGEOT:JUNGLE
+  variantOf: PIDGEOT_8:JUNGLE
+  variantType: Regular
+  name: Pidgeot
+  number: '24'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Pidgeotto]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hurricane
+    damage: '30'
+    text: Unless this attack Knocks Out the Defending Pokémon, return the Defending
+      Pokémon and all cards attached to it to your opponent's hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: base2-24
+  nationalPokedexNumber: 18
+- enumId: PINSIR:JUNGLE
+  variantOf: PINSIR_9:JUNGLE
+  variantType: Regular
+  name: Pinsir
+  number: '25'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Irongrip
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Guillotine
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: base2-25
+  nationalPokedexNumber: 127
+- enumId: SCYTHER:JUNGLE
+  variantOf: SCYTHER_10:JUNGLE
+  variantType: Regular
+  name: Scyther
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Swords Dance
+    text: During your next turn, Scyther's Slash attack's base damage is 60 instead
+      of 30.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-26
+  nationalPokedexNumber: 123
+- enumId: SNORLAX:JUNGLE
+  variantOf: SNORLAX_11:JUNGLE
+  variantType: Regular
+  name: Snorlax
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  abilities:
+  - type: Pokémon Power
+    name: Thick Skinned
+    text: Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power
+      can't be used if Snorlax is already Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-27
+  nationalPokedexNumber: 143
+- enumId: VAPOREON:JUNGLE
+  variantOf: VAPOREON_12:JUNGLE
+  variantType: Regular
+  name: Vaporeon
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Water Gun
+    damage: 30+
+    text: Does 30 damage plus 10 more damage for each Energy attached to Vaporeon
+      but not used to pay for this attack's Energy cost. Extra Energy after the 2nd
+      doesn't count.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: base2-28
+  nationalPokedexNumber: 134
+- enumId: VENOMOTH:JUNGLE
+  variantOf: VENOMOTH_13:JUNGLE
+  variantType: Regular
+  name: Venomoth
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Venonat]
+  hp: 70
+  abilities:
+  - type: Pokémon Power
+    name: Shift
+    text: Once during your turn (before your attack), you may change the type of Venomoth
+      to the type of any other Pokémon in play other than [C]. This power can't be
+      used if Venomoth is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Venom Powder
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-29
+  nationalPokedexNumber: 49
+- enumId: VICTREEBEL:JUNGLE
+  variantOf: VICTREEBEL_14:JUNGLE
+  variantType: Regular
+  name: Victreebel
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Weepinbell]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Lure
+    text: If your opponent has any Benched Pokémon, choose 1 of them and switch it
+      with his or her Active Pokémon.
+  - cost: [GRASS, GRASS]
+    name: Acid
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's
+      next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: base2-30
+  nationalPokedexNumber: 71
+- enumId: VILEPLUME:JUNGLE
+  variantOf: VILEPLUME_15:JUNGLE
+  variantType: Regular
+  name: Vileplume
+  number: '31'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Gloom]
+  hp: 80
+  abilities:
+  - type: Pokémon Power
+    name: Heal
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      remove 1 damage counter from 1 of your Pokémon. This power can't be used if
+      Vileplume is Asleep, Confused, or Paralyzed.
+  moves:
+  - cost: [GRASS, GRASS, GRASS]
+    name: Petal Dance
+    damage: 40x
+    text: Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume
+      is now Confused (after doing damage).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Keiji Kinebuchi
+  pioId: base2-31
+  nationalPokedexNumber: 45
+- enumId: WIGGLYTUFF:JUNGLE
+  variantOf: WIGGLYTUFF_16:JUNGLE
+  variantType: Regular
+  name: Wigglytuff
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Jigglypuff]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Lullaby
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Do the Wave
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each of your Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: base2-32
+  nationalPokedexNumber: 40
+- enumId: BUTTERFREE:JUNGLE
+  name: Butterfree
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Metapod]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Whirlwind
+    damage: '20'
+    text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and
+      switches it with the Defending Pokémon. (Do the damage before switching the
+      Pokémon.)
+  - cost: [GRASS, GRASS, GRASS, GRASS]
+    name: Mega Drain
+    damage: '40'
+    text: Remove a number of damage counters from Butterfree equal to half the damage
+      done to the Defending Pokémon (after applying Weakness and Resistance) (rounded
+      up to the nearest 10).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-33
+  nationalPokedexNumber: 12
+- enumId: DODRIO:JUNGLE
+  name: Dodrio
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Doduo]
+  hp: 70
+  abilities:
+  - type: Pokémon Power
+    name: Retreat Aid
+    text: As long as Dodrio is Benched, pay 1 [C] less to retreat your Active Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Dodrio.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: base2-34
+  nationalPokedexNumber: 85
+- enumId: EXEGGUTOR:JUNGLE
+  name: Exeggutor
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Exeggcute]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Teleport
+    text: Switch Exeggutor with 1 of your Benched Pokémon.
+  - cost: [COLORLESS]
+    name: Big Eggsplosion
+    damage: 20x
+    text: Flip a number of coins equal to the number of Energy attached to Exeggutor.
+      This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-35
+  nationalPokedexNumber: 103
+- enumId: FEAROW:JUNGLE
+  name: Fearow
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Spearow]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Agility
+    damage: '20'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Fearow.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Drill Peck
+    damage: '40'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: base2-36
+  nationalPokedexNumber: 22
+- enumId: GLOOM:JUNGLE
+  name: Gloom
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Oddish]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Poisonpowder
+    damage: '10'
+    text: The Defending Pokémon is now Poisoned.
+  - cost: [GRASS, GRASS]
+    name: Foul Odor
+    damage: '20'
+    text: Both the Defending Pokémon and Gloom are now Confused (after doing damage).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Keiji Kinebuchi
+  pioId: base2-37
+  nationalPokedexNumber: 44
+- enumId: LICKITUNG:JUNGLE
+  name: Lickitung
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Tongue Wrap
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: base2-38
+  nationalPokedexNumber: 108
+- enumId: MAROWAK:JUNGLE
+  name: Marowak
+  number: '39'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Cubone]
+  hp: 60
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Bonemerang
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Call for Friend
+    text: Search your deck for a [F] Basic Pokémon card and put it onto your Bench.
+      Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: base2-39
+  nationalPokedexNumber: 105
+- enumId: NIDORINA:JUNGLE
+  name: Nidorina
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Nidoran♀]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Double Kick
+    damage: 30x
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: base2-40
+  nationalPokedexNumber: 30
+- enumId: PARASECT:JUNGLE
+  name: Parasect
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Paras]
+  hp: 60
+  moves:
+  - cost: [GRASS, GRASS]
+    name: Spore
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: base2-41
+  nationalPokedexNumber: 47
+- enumId: PERSIAN:JUNGLE
+  name: Persian
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Meowth]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Pounce
+    damage: '30'
+    text: If the Defending Pokémon attacks Persian during your opponent's next turn,
+      any damage done by the attack is reduced by 10 (after applying Weakness and
+      Resistance). (Benching either Pokémon ends this effect.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-42
+  nationalPokedexNumber: 53
+- enumId: PRIMEAPE:JUNGLE
+  name: Primeape
+  number: '43'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Mankey]
+  hp: 70
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Fury Swipes
+    damage: 20x
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Tantrum
+    damage: '50'
+    text: Flip a coin. If tails, Primeape is now Confused (after doing damage).
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-43
+  nationalPokedexNumber: 57
+- enumId: RAPIDASH:JUNGLE
+  name: Rapidash
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Ponyta]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Stomp
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if
+      tails, this attack does 20 damage.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Agility
+    damage: '30'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to Rapidash.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: base2-44
+  nationalPokedexNumber: 78
+- enumId: RHYDON:JUNGLE
+  name: Rhydon
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Rhyhorn]
+  hp: 100
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Horn Attack
+    damage: '30'
+  - cost: [FIGHTING, FIGHTING, FIGHTING, FIGHTING]
+    name: Ram
+    damage: '50'
+    text: Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon,
+      he or she chooses 1 of them and switches it with the Defending Pokémon. (Do
+      the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is
+      knocked out.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-45
+  nationalPokedexNumber: 112
+- enumId: SEAKING:JUNGLE
+  name: Seaking
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Goldeen]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Horn Attack
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Waterfall
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-46
+  nationalPokedexNumber: 119
+- enumId: TAUROS:JUNGLE
+  name: Tauros
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Stomp
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if
+      tails, this attack does 20 damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rampage
+    damage: 20+
+    text: Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip
+      a coin. If tails, Tauros is now Confused (after doing damage).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-47
+  nationalPokedexNumber: 128
+- enumId: WEEPINBELL:JUNGLE
+  name: Weepinbell
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Bellsprout]
+  hp: 70
+  moves:
+  - cost: [GRASS]
+    name: Poisonpowder
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  - cost: [GRASS, GRASS]
+    name: Razor Leaf
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: base2-48
+  nationalPokedexNumber: 70
+- enumId: BELLSPROUT:JUNGLE
+  name: Bellsprout
+  number: '49'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Vine Whip
+    damage: '10'
+  - cost: [GRASS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon named Bellsprout and put it onto your
+      Bench. Shuffle your deck afterward. (You can't use this attack if your Bench
+      is full.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: base2-49
+  nationalPokedexNumber: 69
+- enumId: CUBONE:JUNGLE
+  name: Cubone
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Snivel
+    text: If the Defending Pokémon attacks Cubone during your opponent's next turn,
+      any damage done by the attack is reduced by 20 (after applying Weakness and
+      Resistance). (Benching either Pokémon ends this effect.)
+  - cost: [FIGHTING, FIGHTING]
+    name: Rage
+    damage: 10+
+    text: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-50
+  nationalPokedexNumber: 104
+- enumId: EEVEE:JUNGLE
+  name: Eevee
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Tail Wag
+    text: Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your
+      opponent's next turn. (Benching either Pokémon ends this effect.)
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if
+      tails, this attack does 10 damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: base2-51
+  nationalPokedexNumber: 133
+- enumId: EXEGGCUTE:JUNGLE
+  name: Exeggcute
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [PSYCHIC]
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - cost: [GRASS, GRASS]
+    name: Leech Seed
+    damage: '20'
+    text: Unless all damage from this attack is prevented, you may remove 1 damage
+      counter from Exeggcute.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-52
+  nationalPokedexNumber: 102
+- enumId: GOLDEEN:JUNGLE
+  name: Goldeen
+  number: '53'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 40
+  moves:
+  - cost: [WATER]
+    name: Horn Attack
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: base2-53
+  nationalPokedexNumber: 118
+- enumId: JIGGLYPUFF:JUNGLE
+  name: Jigglypuff
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Lullaby
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS]
+    name: Pound
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: base2-54
+  nationalPokedexNumber: 39
+- enumId: MANKEY:JUNGLE
+  name: Mankey
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 30
+  abilities:
+  - type: Pokémon Power
+    name: Peek
+    text: 'Once during your turn (before your attack), you may look at one of the
+      following: the top card of either player''s deck, a random card from your opponent''s
+      hand, or one of either player''s Prizes. This power can''t be used if Mankey
+      is Asleep, Confused, or Paralyzed.'
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: base2-55
+  nationalPokedexNumber: 56
+- enumId: MEOWTH:JUNGLE
+  name: Meowth
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Pay Day
+    damage: '10'
+    text: Flip a coin. If heads, draw a card.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-56
+  nationalPokedexNumber: 52
+- enumId: NIDORAN_FEMALE:JUNGLE
+  name: Nidoran♀
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  - cost: [GRASS, GRASS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon named Nidoran♂ or Nidoran♀ and put
+      it onto your Bench. Shuffle your deck afterward. (You can't use this attack
+      if your Bench is full.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: base2-57
+  nationalPokedexNumber: 29
+- enumId: ODDISH:JUNGLE
+  name: Oddish
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Stun Spore
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [GRASS, GRASS]
+    name: Sprout
+    text: Search your deck for a Basic Pokémon named Oddish and put it onto your Bench.
+      Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Keiji Kinebuchi
+  pioId: base2-58
+  nationalPokedexNumber: 43
+- enumId: PARAS:JUNGLE
+  name: Paras
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  - cost: [GRASS, GRASS]
+    name: Spore
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: base2-59
+  nationalPokedexNumber: 46
+- enumId: PIKACHU:JUNGLE
+  name: Pikachu
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Spark
+    damage: '20'
+    text: If your opponent has any Benched Pokémon, choose 1 of them and this attack
+      does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: base2-60
+  nationalPokedexNumber: 25
+- enumId: RHYHORN:JUNGLE
+  name: Rhyhorn
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Leer
+    text: Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during
+      your opponent's next turn. (Benching either Pokémon ends this effect.)
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Horn Attack
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-30'
+  retreatCost: 3
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-61
+  nationalPokedexNumber: 111
+- enumId: SPEAROW:JUNGLE
+  name: Spearow
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Peck
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Mirror Move
+    text: If Spearow was attacked last turn, do the final result of that attack on
+      Spearow to the Defending Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-62
+  nationalPokedexNumber: 21
+- enumId: VENONAT:JUNGLE
+  name: Venonat
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Stun Spore
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [GRASS, COLORLESS]
+    name: Leech Life
+    damage: '10'
+    text: Remove a number of damage counters from Venonat equal to the damage done
+      to the Defending Pokémon (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: base2-63
+  nationalPokedexNumber: 48
+- enumId: POKE_BALL:JUNGLE
+  name: Poké Ball
+  number: '64'
+  cardTypes: [TRAINER]
+  rarity: Common
+  text: Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution
+    card. Show that card to your opponent, then put it into your hand. Shuffle your
+    deck afterward.
+  artist: Keiji Kinebuchi
+  pioId: base2-64

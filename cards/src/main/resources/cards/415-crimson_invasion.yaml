@@ -1,0 +1,2921 @@
+schema: E3
+expansion:
+  orderId: '415'
+  name: Crimson Invasion
+  enumId: CRIMSON_INVASION
+  shortName: CIN
+cards:
+- enumId: WEEDLE_1:CRIMSON_INVASION
+  name: Weedle
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Poison Sting
+    text: Your opponent's Active Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: sm4-1
+  nationalPokedexNumber: 13
+- enumId: KAKUNA_2:CRIMSON_INVASION
+  name: Kakuna
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Weedle]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Multiply
+    text: Search your deck for up to 3 Kakuna and put them onto your Bench. Then,
+      shuffle your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: miki kudo
+  pioId: sm4-2
+  nationalPokedexNumber: 14
+- enumId: BEEDRILL_3:CRIMSON_INVASION
+  name: Beedrill
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Kakuna]
+  hp: 120
+  moves:
+  - cost: [GRASS]
+    name: Sudden Sting
+    damage: '10'
+    text: If this Pokémon evolved from Kakuna during this turn, your opponent's Active
+      Pokémon is now Paralyzed and Poisoned.
+  - cost: [GRASS]
+    name: Sharp Sting
+    damage: '60'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: kirisAki
+  pioId: sm4-3
+  nationalPokedexNumber: 15
+- enumId: EXEGGCUTE_4:CRIMSON_INVASION
+  name: Exeggcute
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [GRASS]
+    name: Ram
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm4-4
+  nationalPokedexNumber: 102
+- enumId: CACNEA_5:CRIMSON_INVASION
+  name: Cacnea
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Sucker Punch
+    damage: 10+
+    text: If this Pokémon has any [D] Energy attached to it, this attack does 30 more
+      damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Anesaki Dynamic
+  pioId: sm4-5
+  nationalPokedexNumber: 331
+- enumId: CACTURNE_6:CRIMSON_INVASION
+  name: Cacturne
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Cacnea]
+  hp: 110
+  moves:
+  - cost: [GRASS]
+    name: Spike Rend
+    damage: 30+
+    text: If your opponent's Active Pokémon already has any damage counters on it,
+      this attack does 60 more damage.
+  - cost: [GRASS, COLORLESS]
+    name: Hunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This
+      attack does 40 damage to the new Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Mina Nakai
+  pioId: sm4-6
+  nationalPokedexNumber: 332
+- enumId: KARRABLAST_7:CRIMSON_INVASION
+  name: Karrablast
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Shell On
+    text: Once during your turn (before your attack), you may discard a Shelmet from
+      your hand. If you do, search your deck for a card that evolves from this Pokémon
+      and put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Peck
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: OOYAMA
+  pioId: sm4-7
+  nationalPokedexNumber: 588
+- enumId: SHELMET_8:CRIMSON_INVASION
+  name: Shelmet
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Absorb
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: OOYAMA
+  pioId: sm4-8
+  nationalPokedexNumber: 616
+- enumId: ACCELGOR_9:CRIMSON_INVASION
+  name: Accelgor
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Shelmet]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Recover
+    text: Discard an Energy from this Pokémon and heal all damage from it.
+  - cost: [GRASS, COLORLESS]
+    name: Speed Attack
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: tetsuya koizumi
+  pioId: sm4-9
+  nationalPokedexNumber: 617
+- enumId: SKIDDO_10:CRIMSON_INVASION
+  name: Skiddo
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Seed Bomb
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: sm4-10
+  nationalPokedexNumber: 672
+- enumId: GOGOAT_11:CRIMSON_INVASION
+  name: Gogoat
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Skiddo]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Sap Sipper
+    text: This Pokémon's attacks do 80 more damage to your opponent's [G] Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Horn Leech
+    damage: '80'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: You Iribi
+  pioId: sm4-11
+  nationalPokedexNumber: 673
+- enumId: ALOLAN_MAROWAK_12:CRIMSON_INVASION
+  name: Alolan Marowak
+  number: '12'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Cubone]
+  hp: 100
+  moves:
+  - cost: []
+    name: Dance of Flames
+    text: For each Energy attached to your opponent's Pokémon, attach a [R] Energy
+      card from your discard pile to your Pokémon in any way you like.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Burning Bonemerang
+    damage: 70x
+    text: Flip 2 coins. This attack does 70 damage for each heads. If either of them
+      is heads, your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: sm4-12
+  nationalPokedexNumber: 105
+- enumId: NUMEL_13:CRIMSON_INVASION
+  name: Numel
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Continuous Headbutt
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: sui
+  pioId: sm4-13
+  nationalPokedexNumber: 322
+- enumId: CAMERUPT_14:CRIMSON_INVASION
+  name: Camerupt
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Numel]
+  hp: 140
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Continuous Headbutt
+    damage: 80x
+    text: Flip a coin until you get tails. This attack does 80 damage for each heads.
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Searing Flame
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: Anesaki Dynamic
+  pioId: sm4-14
+  nationalPokedexNumber: 323
+- enumId: STARYU_15:CRIMSON_INVASION
+  name: Staryu
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Spinning Attack
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: sm4-15
+  nationalPokedexNumber: 120
+- enumId: STARMIE_16:CRIMSON_INVASION
+  name: Starmie
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Staryu]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Escape
+    text: Once during your turn (before your attack), you may shuffle this Pokémon
+      and all cards attached to it into your deck.
+  moves:
+  - cost: [COLORLESS]
+    name: Spinning Attack
+    damage: '40'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Yuka Morii
+  pioId: sm4-16
+  nationalPokedexNumber: 121
+- enumId: MAGIKARP_17:CRIMSON_INVASION
+  name: Magikarp
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  abilities:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this
+      Pokémon by attacks (both yours and your opponent's).
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Waterfall Evolution
+    text: Search your deck for a card that evolves from this Pokémon and put it onto
+      this Pokémon to evolve it. Then, shuffle your deck.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: TOKIYA
+  pioId: sm4-17
+  nationalPokedexNumber: 129
+- enumId: GYARADOS_GX_18:CRIMSON_INVASION
+  name: Gyarados-GX
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 240
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Waterfall
+    damage: '70'
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Draconic Disaster
+    damage: 100+
+    text: If there is any Stadium card in play, this attack does 100 more damage.
+      Then, discard that Stadium card.
+  - cost: [WATER]
+    name: Dread Storm-GX
+    text: Discard an Energy from each of your opponent's Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-18
+  nationalPokedexNumber: 130
+- enumId: SWINUB_19:CRIMSON_INVASION
+  name: Swinub
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gnaw
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Eri Yamaki
+  pioId: sm4-19
+  nationalPokedexNumber: 220
+- enumId: PILOSWINE_20:CRIMSON_INVASION
+  name: Piloswine
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Swinub]
+  hp: 100
+  moves:
+  - cost: [WATER]
+    name: Stampede
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Rest
+    text: This Pokémon is now Asleep. Heal 90 damage from it.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 4
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: sm4-20
+  nationalPokedexNumber: 221
+- enumId: MAMOSWINE_21:CRIMSON_INVASION
+  name: Mamoswine
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Piloswine]
+  hp: 180
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Double Stomp
+    damage: 60+
+    text: Flip 2 coins. This attack does 30 more damage for each heads.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Forceful Tackle
+    damage: 90+
+    text: You may put up to 9 damage counters on this Pokémon. This attack does 10
+      more damage for each damage counter you placed in this way.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: sm4-21
+  nationalPokedexNumber: 473
+- enumId: REMORAID_22:CRIMSON_INVASION
+  name: Remoraid
+  number: '22'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Water Gun
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Aya Kusube
+  pioId: sm4-22
+  nationalPokedexNumber: 223
+- enumId: OCTILLERY_23:CRIMSON_INVASION
+  name: Octillery
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Remoraid]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Ink Spit
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  - cost: [WATER, COLORLESS]
+    name: Special Artillery
+    damage: 40+
+    text: You may discard a Special Energy from this Pokémon. If you do, this attack
+      does 80 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: tetsuya koizumi
+  pioId: sm4-23
+  nationalPokedexNumber: 224
+- enumId: CORPHISH_24:CRIMSON_INVASION
+  name: Corphish
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER, WATER]
+    name: Crabhammer
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: sm4-24
+  nationalPokedexNumber: 341
+- enumId: CRAWDAUNT_25:CRIMSON_INVASION
+  name: Crawdaunt
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Corphish]
+  hp: 110
+  moves:
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Double Claws
+    damage: '80'
+    text: Discard 2 Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Saya Tsuruta
+  pioId: sm4-25
+  nationalPokedexNumber: 342
+- enumId: FEEBAS_26:CRIMSON_INVASION
+  name: Feebas
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [WATER]
+    name: Splashing Dodge
+    damage: '10'
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage,
+      done to this Pokémon during your opponent's next turn.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hitoshi Ariga
+  pioId: sm4-26
+  nationalPokedexNumber: 349
+- enumId: MILOTIC_27:CRIMSON_INVASION
+  name: Milotic
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Feebas]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: TLC
+    text: Shuffle 1 of your opponent's Benched Pokémon that has any damage counters
+      on it and all cards attached to it into their deck.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Ocean Cyclone
+    damage: '80'
+    text: This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: sm4-27
+  nationalPokedexNumber: 350
+- enumId: REGICE_28:CRIMSON_INVASION
+  name: Regice
+  number: '28'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Iceberg Shield
+    text: If you have Regirock in play, prevent all effects of attacks, including
+      damage, done to this Pokémon by your opponent's Stage 2 Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Frost Smash
+    damage: '70'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: sm4-28
+  nationalPokedexNumber: 378
+- enumId: SHELLOS_29:CRIMSON_INVASION
+  name: Shellos
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Regeneration
+    text: Heal 30 damage from this Pokémon.
+  - cost: [COLORLESS]
+    name: Mud-Slap
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm4-29
+  nationalPokedexNumber: 422
+- enumId: PIKACHU_30:CRIMSON_INVASION
+  name: Pikachu
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Pika Draw
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Shibuzoh.
+  pioId: sm4-30
+  nationalPokedexNumber: 25
+- enumId: ALOLAN_RAICHU_31:CRIMSON_INVASION
+  variantOf: ALOLAN_RAICHU_SM72:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Alolan Raichu
+  number: '31'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Pikachu]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Surge Surfer
+    text: If there is any Stadium card in play, this Pokémon has no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 70+
+    text: This attack does 20 more damage times the amount of Energy attached to your
+      opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Akira Komayama
+  pioId: sm4-31
+  nationalPokedexNumber: 26
+- enumId: ALOLAN_GEODUDE_32:CRIMSON_INVASION
+  name: Alolan Geodude
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: []
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks
+      during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: sm4-32
+  nationalPokedexNumber: 74
+- enumId: ALOLAN_GRAVELER_33:CRIMSON_INVASION
+  name: Alolan Graveler
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Geodude]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Corkscrew Punch
+    damage: '30'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Self-Destruct
+    damage: '100'
+    text: This Pokémon does 100 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: kirisAki
+  pioId: sm4-33
+  nationalPokedexNumber: 75
+- enumId: ALOLAN_GOLEM_GX_34:CRIMSON_INVASION
+  name: Alolan Golem-GX
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Graveler]
+  hp: 250
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Super Electromagnetic Tackle
+    damage: '200'
+    text: This Pokémon does 50 damage to itself.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Heavy Rock-GX
+    damage: '100'
+    text: Your opponent can't play any cards from their hand during their next turn.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-34
+  nationalPokedexNumber: 76
+- enumId: EMOLGA_35:CRIMSON_INVASION
+  name: Emolga
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Catch
+    text: Put 3 basic Energy cards from your discard pile into your hand.
+  - cost: [LIGHTNING]
+    name: Volt Switch
+    damage: '30'
+    text: Switch this Pokémon with 1 of your Benched [L] Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: sm4-35
+  nationalPokedexNumber: 587
+- enumId: GASTLY_36:CRIMSON_INVASION
+  name: Gastly
+  number: '36'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [PSYCHIC]
+    name: Ominous Eyes
+    text: Put 1 damage counter on 1 of your opponent's Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Shibuzoh.
+  pioId: sm4-36
+  nationalPokedexNumber: 92
+- enumId: HAUNTER_37:CRIMSON_INVASION
+  name: Haunter
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Gastly]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Pain Amplifier
+    text: Put 2 damage counters on each of your opponent's Pokémon that has any damage
+      counters on it.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Eri Yamaki
+  pioId: sm4-37
+  nationalPokedexNumber: 93
+- enumId: GENGAR_38:CRIMSON_INVASION
+  name: Gengar
+  number: '38'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Haunter]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Gnawing Curse
+    text: Whenever your opponent attaches an Energy card from their hand to 1 of their
+      Pokémon, put 2 damage counters on that Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Fade to Black
+    damage: '70'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: sm4-38
+  nationalPokedexNumber: 94
+- enumId: MISDREAVUS_39:CRIMSON_INVASION
+  name: Misdreavus
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: so-taro
+  pioId: sm4-39
+  nationalPokedexNumber: 200
+- enumId: MISMAGIUS_40:CRIMSON_INVASION
+  name: Mismagius
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Misdreavus]
+  hp: 110
+  moves:
+  - cost: [PSYCHIC]
+    name: Chaos Wheel
+    damage: '30'
+    text: Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards
+      from their hand during their next turn.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Dark Arts
+    damage: 20x
+    text: This attack does 20 damage for each card in your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: chibi
+  pioId: sm4-40
+  nationalPokedexNumber: 429
+- enumId: SPOINK_41:CRIMSON_INVASION
+  name: Spoink
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Splash
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sekio
+  pioId: sm4-41
+  nationalPokedexNumber: 325
+- enumId: GRUMPIG_42:CRIMSON_INVASION
+  name: Grumpig
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Spoink]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Own Tempo
+    text: This Pokémon can't be Confused.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Psych Up
+    damage: '60'
+    text: During your next turn, this Pokémon's Psych Up attack does 60 more damage
+      (before applying Weakness and Resistance).
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Saya Tsuruta
+  pioId: sm4-42
+  nationalPokedexNumber: 326
+- enumId: CHIMECHO_43:CRIMSON_INVASION
+  name: Chimecho
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Bell of Silence
+    damage: '10'
+    text: Your opponent can't play any Pokémon that has an Ability from their hand
+      during their next turn.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kanako Eo
+  pioId: sm4-43
+  nationalPokedexNumber: 358
+- enumId: PUMPKABOO_44:CRIMSON_INVASION
+  name: Pumpkaboo
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Astonish
+    text: Choose a random card from your opponent's hand. Your opponent reveals that
+      card and shuffles it into their deck.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: sm4-44
+  nationalPokedexNumber: 710
+- enumId: GOURGEIST_45:CRIMSON_INVASION
+  name: Gourgeist
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Pumpkaboo]
+  hp: 120
+  moves:
+  - cost: [PSYCHIC]
+    name: Confuse Ray
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS]
+    name: Pumpkin Bomb
+    damage: 10+
+    text: Before doing damage, you may discard any number of Pokémon Tool cards from
+      your Pokémon. This attack does 40 more damage for each card you discarded in
+      this way.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: kirisAki
+  pioId: sm4-45
+  nationalPokedexNumber: 711
+- enumId: SALANDIT_46:CRIMSON_INVASION
+  name: Salandit
+  number: '46'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: tetsuya koizumi
+  pioId: sm4-46
+  nationalPokedexNumber: 757
+- enumId: SALAZZLE_47:CRIMSON_INVASION
+  variantOf: SALAZZLE_SM73:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Salazzle
+  number: '47'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Salandit]
+  hp: 110
+  moves:
+  - cost: [PSYCHIC]
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle
+      your deck.
+  - cost: [PSYCHIC]
+    name: Severe Poison
+    text: Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead
+      of 1 on that Pokémon between turns.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: sm4-47
+  nationalPokedexNumber: 758
+- enumId: ORANGURU_48:CRIMSON_INVASION
+  name: Oranguru
+  number: '48'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 110
+  moves:
+  - cost: [PSYCHIC]
+    name: Fixer of the Forest
+    text: Put 3 Pokémon Tool cards from your discard pile into your hand.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Zen Headbutt
+    damage: '70'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Yoshinobu Saito
+  pioId: sm4-48
+  nationalPokedexNumber: 765
+- enumId: NIHILEGO_GX_49:CRIMSON_INVASION
+  name: Nihilego-GX
+  number: '49'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [PSYCHIC]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Empty Light
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may leave both Active Pokémon Confused and Poisoned.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Lock Up
+    damage: '120'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Symbiont-GX
+    text: Add the top 2 cards of your opponent's deck to their Prize cards. (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-49
+  nationalPokedexNumber: 793
+- enumId: MANKEY_50:CRIMSON_INVASION
+  name: Mankey
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Three-Step Strike
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: sm4-50
+  nationalPokedexNumber: 56
+- enumId: PRIMEAPE_51:CRIMSON_INVASION
+  name: Primeape
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Mankey]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Low Kick
+    damage: '30'
+  - cost: [FIGHTING, FIGHTING]
+    name: Lucha Fight
+    damage: '90'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      more damage (before applying Weakness and Resistance).
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Yuka Morii
+  pioId: sm4-51
+  nationalPokedexNumber: 57
+- enumId: CUBONE_52:CRIMSON_INVASION
+  name: Cubone
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: sui
+  pioId: sm4-52
+  nationalPokedexNumber: 104
+- enumId: REGIROCK_53:CRIMSON_INVASION
+  variantOf: REGIROCK_SM74:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Regirock
+  number: '53'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Rock Peak Growl
+    text: Your Registeel's attacks do 10 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Tough Swing
+    damage: '110'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: kawayoo
+  pioId: sm4-53
+  nationalPokedexNumber: 377
+- enumId: GASTRODON_54:CRIMSON_INVASION
+  name: Gastrodon
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Shellos]
+  hp: 120
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Eerie Fluid
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Earthquake
+    damage: '120'
+    text: This attack does 10 damage to each of your Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: TOKIYA
+  pioId: sm4-54
+  nationalPokedexNumber: 423
+- enumId: STUFFUL_55:CRIMSON_INVASION
+  name: Stufful
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Flop
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kanako Eo
+  pioId: sm4-55
+  nationalPokedexNumber: 759
+- enumId: BEWEAR_56:CRIMSON_INVASION
+  name: Bewear
+  number: '56'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Stufful]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Fluffy
+    text: This Pokémon takes 30 less damage from the attacks of your opponent's non-[R]
+      Pokémon (after applying Weakness and Resistance).
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Cross-Cut
+    damage: 60+
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does
+      60 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Saya Tsuruta
+  pioId: sm4-56
+  nationalPokedexNumber: 760
+- enumId: BUZZWOLE_GX_57:CRIMSON_INVASION
+  name: Buzzwole-GX
+  number: '57'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIGHTING]
+  hp: 190
+  moves:
+  - cost: [FIGHTING]
+    name: Jet Punch
+    damage: '30'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Knuckle Impact
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Absorption-GX
+    damage: 40x
+    text: This attack does 40 damage for each of your remaining Prize cards. (You
+      can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-57
+  nationalPokedexNumber: 794
+- enumId: HOUNDOUR_58:CRIMSON_INVASION
+  name: Houndour
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Rear Kick
+    damage: '10'
+  - cost: [DARKNESS, COLORLESS]
+    name: Darkness Fang
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm4-58
+  nationalPokedexNumber: 228
+- enumId: HOUNDOOM_59:CRIMSON_INVASION
+  name: Houndoom
+  number: '59'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Houndour]
+  hp: 110
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Fire Fang
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Puncturing Fangs
+    damage: '90'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: sm4-59
+  nationalPokedexNumber: 229
+- enumId: DEINO_60:CRIMSON_INVASION
+  name: Deino
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Headbutt
+    damage: '20'
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Surprise Attack
+    damage: '60'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: miki kudo
+  pioId: sm4-60
+  nationalPokedexNumber: 633
+- enumId: ZWEILOUS_61:CRIMSON_INVASION
+  name: Zweilous
+  number: '61'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Deino]
+  hp: 90
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Headbutt
+    damage: '30'
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Double Hit
+    damage: 60x
+    text: Flip 2 coins. This attack does 60 damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kodama
+  pioId: sm4-61
+  nationalPokedexNumber: 634
+- enumId: HYDREIGON_62:CRIMSON_INVASION
+  name: Hydreigon
+  number: '62'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Zweilous]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Weed Out
+    text: Once during your turn (before your attack), you may choose 3 of your Benched
+      Pokémon. Then, discard your other Benched Pokémon.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Dark Destruction
+    damage: '120'
+    text: You may discard an Energy from this Pokémon. If you do, discard an Energy
+      from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Anesaki Dynamic
+  pioId: sm4-62
+  nationalPokedexNumber: 635
+- enumId: GUZZLORD_GX_63:CRIMSON_INVASION
+  name: Guzzlord-GX
+  number: '63'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS]
+    name: Eat Sloppily
+    text: Discard the top 5 cards of your deck. If any of those cards are Energy cards,
+      attach them to this Pokémon.
+  - cost: [DARKNESS, DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Tyrannical Hole
+    damage: '180'
+  - cost: [DARKNESS, DARKNESS, DARKNESS, DARKNESS, DARKNESS]
+    name: Glutton-GX
+    damage: '100'
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take
+      2 more Prize cards. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-63
+  nationalPokedexNumber: 799
+- enumId: GUZZLORD_GX_63A:CRIMSON_INVASION
+  variantOf: GUZZLORD_GX_63:CRIMSON_INVASION
+  variantType: Full Art
+  name: Guzzlord-GX
+  number: 63a
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS]
+    name: Eat Sloppily
+    text: Discard the top 5 cards of your deck. If any of those cards are Energy cards,
+      attach them to this Pokémon.
+  - cost: [DARKNESS, DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Tyrannical Hole
+    damage: '180'
+  - cost: [DARKNESS, DARKNESS, DARKNESS, DARKNESS, DARKNESS]
+    name: Glutton-GX
+    damage: '100'
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take
+      2 more Prize cards. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-63a
+  nationalPokedexNumber: 799
+- enumId: MAWILE_64:CRIMSON_INVASION
+  name: Mawile
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Crunch
+    damage: '30'
+    text: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: tetsuya koizumi
+  pioId: sm4-64
+  nationalPokedexNumber: 303
+- enumId: ARON_65:CRIMSON_INVASION
+  name: Aron
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL]
+    name: Tackle
+    damage: '10'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Metal Claw
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: TOKIYA
+  pioId: sm4-65
+  nationalPokedexNumber: 304
+- enumId: LAIRON_66:CRIMSON_INVASION
+  name: Lairon
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Aron]
+  hp: 100
+  moves:
+  - cost: [METAL]
+    name: Metal Claw
+    damage: '20'
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: sm4-66
+  nationalPokedexNumber: 305
+- enumId: AGGRON_67:CRIMSON_INVASION
+  name: Aggron
+  number: '67'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Lairon]
+  hp: 170
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Revenge Cannon
+    damage: 10+
+    text: This attack does 10 more damage for each damage counter on all of your Benched
+      Pokémon.
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Buster Swing
+    damage: '120'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Yoshinobu Saito
+  pioId: sm4-67
+  nationalPokedexNumber: 306
+- enumId: REGISTEEL_68:CRIMSON_INVASION
+  variantOf: REGISTEEL_SM75:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Registeel
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  moves:
+  - cost: [METAL]
+    name: Turbo Arm
+    damage: '30'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Iron Hand
+    damage: '90'
+    text: If Regice is on your Bench, heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: sm4-68
+  nationalPokedexNumber: 379
+- enumId: ESCAVALIER_69:CRIMSON_INVASION
+  name: Escavalier
+  number: '69'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Karrablast]
+  hp: 120
+  moves:
+  - cost: [METAL]
+    name: Fury Attack
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage for each heads.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Iron Tackle
+    damage: '130'
+    text: This Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: sm4-69
+  nationalPokedexNumber: 589
+- enumId: KARTANA_GX_70:CRIMSON_INVASION
+  name: Kartana-GX
+  number: '70'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [METAL]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Slice Off
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may discard a Special Energy from 1 of your opponent's Pokémon.
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Gale Blade
+    damage: '70'
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+  - cost: [METAL]
+    name: Blade-GX
+    text: Take a Prize card. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-70
+  nationalPokedexNumber: 798
+- enumId: JIGGLYPUFF_71:CRIMSON_INVASION
+  name: Jigglypuff
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Rollout
+    damage: '10'
+  - cost: [FAIRY, COLORLESS]
+    name: Double Slap
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: You Iribi
+  pioId: sm4-71
+  nationalPokedexNumber: 39
+- enumId: WIGGLYTUFF_72:CRIMSON_INVASION
+  name: Wigglytuff
+  number: '72'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Jigglypuff]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hypnoblast
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Punishing Slap
+    damage: 60+
+    text: If any of your opponent's Pokémon have any [D] Energy attached to them,
+      this attack does 60 more damage.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: '0313'
+  pioId: sm4-72
+  nationalPokedexNumber: 40
+- enumId: XERNEAS_73:CRIMSON_INVASION
+  name: Xerneas
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand.
+      Then, shuffle your deck.
+  - cost: [FAIRY, FAIRY, FAIRY]
+    name: Bright Horns
+    damage: '130'
+    text: This Pokémon can't use Bright Horns during your next turn.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: sui
+  pioId: sm4-73
+  nationalPokedexNumber: 716
+- enumId: ALOLAN_EXEGGUTOR_GX_74:CRIMSON_INVASION
+  name: Alolan Exeggutor-GX
+  number: '74'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Exeggcute]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Tropical Head
+    text: This attack does 20 damage times the amount of Energy attached to this Pokémon
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Dragon Hammer
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Tower-Go-Round-GX
+    damage: '180'
+    text: Move any number of Energy from your Pokémon to your other Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-74
+  nationalPokedexNumber: 103
+- enumId: JANGMO_O_75:CRIMSON_INVASION
+  name: Jangmo-o
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Headbutt
+    damage: '10'
+  - cost: [LIGHTNING, FIGHTING]
+    name: Gentle Slap
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: sm4-75
+  nationalPokedexNumber: 782
+- enumId: HAKAMO_O_76:CRIMSON_INVASION
+  name: Hakamo-o
+  number: '76'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Jangmo-o]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Noble Roar
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - cost: [LIGHTNING, FIGHTING]
+    name: Dragon Claw
+    damage: '40'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: sm4-76
+  nationalPokedexNumber: 783
+- enumId: KOMMO_O_77:CRIMSON_INVASION
+  name: Kommo-o
+  number: '77'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Hakamo-o]
+  hp: 160
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: War Cry
+    damage: 30+
+    text: If you have fewer Pokémon in play than your opponent, this attack does 90
+      more damage.
+  - cost: [LIGHTNING, FIGHTING, COLORLESS]
+    name: Clanging Scales
+    damage: '130'
+    text: During your opponent's next turn, this Pokémon takes 30 more damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: kawayoo
+  pioId: sm4-77
+  nationalPokedexNumber: 784
+- enumId: MILTANK_78:CRIMSON_INVASION
+  name: Miltank
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Moomoo Malt
+    text: As long as this Pokémon is your Active Pokémon, whenever you attach an Energy
+      card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Sitdown Splash
+    damage: 60+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mina Nakai
+  pioId: sm4-78
+  nationalPokedexNumber: 241
+- enumId: SWABLU_79:CRIMSON_INVASION
+  name: Swablu
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Peck
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: sm4-79
+  nationalPokedexNumber: 333
+- enumId: ALTARIA_80:CRIMSON_INVASION
+  name: Altaria
+  number: '80'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Swablu]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Draco Melody
+    text: Flip a coin. If heads, search your deck for a [N] Pokémon and put it onto
+      your Bench. Then, shuffle your deck.
+  - cost: [COLORLESS]
+    name: Cotton Guard
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: sui
+  pioId: sm4-80
+  nationalPokedexNumber: 334
+- enumId: STARLY_81:CRIMSON_INVASION
+  name: Starly
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Bug Search
+    text: Your opponent reveals their hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Flap
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: miki kudo
+  pioId: sm4-81
+  nationalPokedexNumber: 396
+- enumId: STARAVIA_82:CRIMSON_INVASION
+  name: Staravia
+  number: '82'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Starly]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Flap
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '60'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: sm4-82
+  nationalPokedexNumber: 397
+- enumId: STARAPTOR_83:CRIMSON_INVASION
+  name: Staraptor
+  number: '83'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Staravia]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Clutch
+    damage: '50'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Sky Hunting
+    damage: '120'
+    text: If your opponent's Pokémon is Knocked Out by the damage from this attack,
+      switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Sekio
+  pioId: sm4-83
+  nationalPokedexNumber: 398
+- enumId: REGIGIGAS_84:CRIMSON_INVASION
+  name: Regigigas
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Seal of Antiquity
+    text: This Pokémon can't attack unless Regirock, Regice, and Registeel are on
+      your Bench.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Giant Stomp
+    damage: '160'
+    text: Discard any Stadium card in play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm4-84
+  nationalPokedexNumber: 486
+- enumId: REGIGIGAS_84A:CRIMSON_INVASION
+  variantOf: REGIGIGAS_84:CRIMSON_INVASION
+  variantType: Holo
+  name: Regigigas
+  number: 84a
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Seal of Antiquity
+    text: This Pokémon can't attack unless Regirock, Regice, and Registeel are on
+      your Bench.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Giant Stomp
+    damage: '160'
+    text: Discard any Stadium card in play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Hasuno
+  pioId: sm4-84a
+  nationalPokedexNumber: 486
+- enumId: MINCCINO_85:CRIMSON_INVASION
+  name: Minccino
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tickle
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: kodama
+  pioId: sm4-85
+  nationalPokedexNumber: 572
+- enumId: CINCCINO_86:CRIMSON_INVASION
+  name: Cinccino
+  number: '86'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Minccino]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Amazing Plea
+    text: Choose 2 cards from your discard pile. Then, ask your opponent if you may
+      put them into your hand. If yes, put those cards into your hand. If no, this
+      attack does 80 damage to your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: '0313'
+  pioId: sm4-86
+  nationalPokedexNumber: 573
+- enumId: BUNNELBY_87:CRIMSON_INVASION
+  name: Bunnelby
+  number: '87'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Mud Shot
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: kirisAki
+  pioId: sm4-87
+  nationalPokedexNumber: 659
+- enumId: DIGGERSBY_88:CRIMSON_INVASION
+  name: Diggersby
+  number: '88'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Bunnelby]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dig
+    damage: '60'
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage,
+      done to this Pokémon during your opponent's next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer Arm
+    damage: '90'
+    text: Discard the top card of your opponent's deck.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Anesaki Dynamic
+  pioId: sm4-88
+  nationalPokedexNumber: 660
+- enumId: TYPE__NULL_89:CRIMSON_INVASION
+  name: 'Type: Null'
+  number: '89'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Armor Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slashing Claw
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Hitoshi Ariga
+  pioId: sm4-89
+- enumId: SILVALLY_GX_90:CRIMSON_INVASION
+  name: Silvally-GX
+  number: '90'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: ['Type: Null']
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Gyro Unit
+    text: Your Basic Pokémon in play have no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Turbo Drive
+    damage: '120'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rebel-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-90
+  nationalPokedexNumber: 773
+- enumId: COUNTER_CATCHER_91:CRIMSON_INVASION
+  name: Counter Catcher
+  number: '91'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you have more Prize cards remaining than your opponent.
+    Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  artist: Toyste Beach
+  pioId: sm4-91
+- enumId: DASHING_POUCH_92:CRIMSON_INVASION
+  name: Dashing Pouch
+  number: '92'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If the Pokémon this card is attached to discards Energy for its Retreat Cost,
+    put that Energy into your hand instead of the discard pile.
+  artist: Eske Yoshinob
+  pioId: sm4-92
+- enumId: DEVOURED_FIELD_93:CRIMSON_INVASION
+  name: Devoured Field
+  number: '93'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: The attacks of [D] Pokémon and [N] Pokémon (both yours and your opponent's)
+    do 10 more damage to the opponent's Active Pokémon (before applying Weakness and
+    Resistance).
+  artist: 5ban Graphics
+  pioId: sm4-93
+- enumId: FIGHTING_MEMORY_94:CRIMSON_INVASION
+  name: Fighting Memory
+  number: '94'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: The Silvally-GX this card is attached to is a [F] Pokémon.
+  artist: 5ban Graphics
+  pioId: sm4-94
+- enumId: GLADION_95:CRIMSON_INVASION
+  name: Gladion
+  number: '95'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Look at your face-down Prize cards and put 1 of them into your hand. Then,
+    shuffle this Gladion into your remaining Prize cards and put them back face down.
+    If you didn't play this Gladion from your hand, it does nothing.
+  artist: Ken Sugimori
+  pioId: sm4-95
+- enumId: LUSAMINE_96:CRIMSON_INVASION
+  name: Lusamine
+  number: '96'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Put 2 in any combination of Supporter and Stadium cards from your discard
+    pile into your hand.
+  artist: take
+  pioId: sm4-96
+- enumId: PEEKING_RED_CARD_97:CRIMSON_INVASION
+  name: Peeking Red Card
+  number: '97'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Your opponent reveals their hand. You may have your opponent count the cards
+    in their hand, shuffle those cards into their deck, then draw that many cards.
+  artist: Toyste Beach
+  pioId: sm4-97
+- enumId: PSYCHIC_MEMORY_98:CRIMSON_INVASION
+  name: Psychic Memory
+  number: '98'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: The Silvally-GX this card is attached to is a [P] Pokémon.
+  artist: 5ban Graphics
+  pioId: sm4-98
+- enumId: SEA_OF_NOTHINGNESS_99:CRIMSON_INVASION
+  name: Sea of Nothingness
+  number: '99'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Special Conditions are not removed when Pokémon (both yours and your opponent's)
+    evolve or devolve.
+  artist: Ryo Ueda
+  pioId: sm4-99
+- enumId: COUNTER_ENERGY_100:CRIMSON_INVASION
+  name: Counter Energy
+  number: '100'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: |-
+    This card provides [C] Energy.
+    If you have more Prize cards remaining than your opponent, and if this card is attached to a Pokémon that isn't a Pokémon-GX or Pokémon-EX, this card provides every type of Energy but provides only 2 Energy at a time
+  energy: [[COLORLESS]]
+  artist: ''
+  pioId: sm4-100
+- enumId: GYARADOS_GX_101:CRIMSON_INVASION
+  variantOf: GYARADOS_GX_18:CRIMSON_INVASION
+  variantType: Full Art
+  name: Gyarados-GX
+  number: '101'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 240
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Waterfall
+    damage: '70'
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Draconic Disaster
+    damage: 100+
+    text: If there is any Stadium card in play, this attack does 100 more damage.
+      Then, discard that Stadium card.
+  - cost: [WATER]
+    name: Dread Storm-GX
+    text: Discard an Energy from each of your opponent's Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-101
+  nationalPokedexNumber: 130
+- enumId: ALOLAN_GOLEM_GX_102:CRIMSON_INVASION
+  name: Alolan Golem-GX
+  number: '102'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Graveler]
+  hp: 250
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Super Electromagnetic Tackle
+    damage: '200'
+    text: This Pokémon does 50 damage to itself.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Heavy Rock-GX
+    damage: '100'
+    text: Your opponent can't play any cards from their hand during their next turn.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-102
+  nationalPokedexNumber: 76
+- enumId: NIHILEGO_GX_103:CRIMSON_INVASION
+  variantOf: NIHILEGO_GX_49:CRIMSON_INVASION
+  variantType: Full Art
+  name: Nihilego-GX
+  number: '103'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [PSYCHIC]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Empty Light
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may leave both Active Pokémon Confused and Poisoned.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Lock Up
+    damage: '120'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Symbiont-GX
+    text: Add the top 2 cards of your opponent's deck to their Prize cards. (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-103
+  nationalPokedexNumber: 793
+- enumId: BUZZWOLE_GX_104:CRIMSON_INVASION
+  variantOf: BUZZWOLE_GX_57:CRIMSON_INVASION
+  variantType: Full Art
+  name: Buzzwole-GX
+  number: '104'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIGHTING]
+  hp: 190
+  moves:
+  - cost: [FIGHTING]
+    name: Jet Punch
+    damage: '30'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Knuckle Impact
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Absorption-GX
+    damage: 40x
+    text: This attack does 40 damage for each of your remaining Prize cards. (You
+      can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-104
+  nationalPokedexNumber: 794
+- enumId: GUZZLORD_GX_105:CRIMSON_INVASION
+  variantOf: GUZZLORD_GX_63:CRIMSON_INVASION
+  variantType: Full Art
+  name: Guzzlord-GX
+  number: '105'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS]
+    name: Eat Sloppily
+    text: Discard the top 5 cards of your deck. If any of those cards are Energy cards,
+      attach them to this Pokémon.
+  - cost: [DARKNESS, DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Tyrannical Hole
+    damage: '180'
+  - cost: [DARKNESS, DARKNESS, DARKNESS, DARKNESS, DARKNESS]
+    name: Glutton-GX
+    damage: '100'
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take
+      2 more Prize cards. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-105
+  nationalPokedexNumber: 799
+- enumId: KARTANA_GX_106:CRIMSON_INVASION
+  variantOf: KARTANA_GX_70:CRIMSON_INVASION
+  variantType: Full Art
+  name: Kartana-GX
+  number: '106'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [METAL]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Slice Off
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may discard a Special Energy from 1 of your opponent's Pokémon.
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Gale Blade
+    damage: '70'
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+  - cost: [METAL]
+    name: Blade-GX
+    text: Take a Prize card. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-106
+  nationalPokedexNumber: 798
+- enumId: ALOLAN_EXEGGUTOR_GX_107:CRIMSON_INVASION
+  variantOf: ALOLAN_EXEGGUTOR_GX_74:CRIMSON_INVASION
+  variantType: Full Art
+  name: Alolan Exeggutor-GX
+  number: '107'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Exeggcute]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Tropical Head
+    text: This attack does 20 damage times the amount of Energy attached to this Pokémon
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Dragon Hammer
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Tower-Go-Round-GX
+    damage: '180'
+    text: Move any number of Energy from your Pokémon to your other Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-107
+  nationalPokedexNumber: 103
+- enumId: SILVALLY_GX_108:CRIMSON_INVASION
+  variantOf: SILVALLY_GX_90:CRIMSON_INVASION
+  variantType: Full Art
+  name: Silvally-GX
+  number: '108'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: ['Type: Null']
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Gyro Unit
+    text: Your Basic Pokémon in play have no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Turbo Drive
+    damage: '120'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rebel-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-108
+  nationalPokedexNumber: 773
+- enumId: GLADION_109:CRIMSON_INVASION
+  variantOf: GLADION_95:CRIMSON_INVASION
+  variantType: Full Art
+  name: Gladion
+  number: '109'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Look at your face-down Prize cards and put 1 of them into your hand. Then,
+    shuffle this Gladion into your remaining Prize cards and put them back face down.
+    If you didn't play this Gladion from your hand, it does nothing.
+  artist: TOKIYA
+  pioId: sm4-109
+- enumId: LUSAMINE_110:CRIMSON_INVASION
+  variantOf: LUSAMINE_96:CRIMSON_INVASION
+  variantType: Full Art
+  name: Lusamine
+  number: '110'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Put 2 in any combination of Supporter and Stadium cards from your discard
+    pile into your hand.
+  artist: Megumi Mizutani
+  pioId: sm4-110
+- enumId: OLIVIA_111:CRIMSON_INVASION
+  variantOf: OLIVIA_119:BURNING_SHADOWS
+  variantType: Reprint
+  name: Olivia
+  number: '111'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for up to 2 Pokémon-GX, reveal them, and put them into your
+    hand. Then, shuffle your deck.
+  artist: Naoki Saito
+  pioId: sm4-111
+- enumId: GYARADOS_GX_112:CRIMSON_INVASION
+  variantOf: GYARADOS_GX_18:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Gyarados-GX
+  number: '112'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 240
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Waterfall
+    damage: '70'
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Draconic Disaster
+    damage: 100+
+    text: If there is any Stadium card in play, this attack does 100 more damage.
+      Then, discard that Stadium card.
+  - cost: [WATER]
+    name: Dread Storm-GX
+    text: Discard an Energy from each of your opponent's Pokémon. (You can't use more
+      than 1 GX attack in a game.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-112
+  nationalPokedexNumber: 130
+- enumId: ALOLAN_GOLEM_GX_113:CRIMSON_INVASION
+  variantOf: ALOLAN_GOLEM_GX_34:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Alolan Golem-GX
+  number: '113'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Alolan Graveler]
+  hp: 250
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Super Electromagnetic Tackle
+    damage: '200'
+    text: This Pokémon does 50 damage to itself.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Heavy Rock-GX
+    damage: '100'
+    text: Your opponent can't play any cards from their hand during their next turn.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 4
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-113
+  nationalPokedexNumber: 76
+- enumId: NIHILEGO_GX_114:CRIMSON_INVASION
+  variantOf: NIHILEGO_GX_49:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Nihilego-GX
+  number: '114'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [PSYCHIC]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Empty Light
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may leave both Active Pokémon Confused and Poisoned.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Lock Up
+    damage: '120'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Symbiont-GX
+    text: Add the top 2 cards of your opponent's deck to their Prize cards. (You can't
+      use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-114
+  nationalPokedexNumber: 793
+- enumId: BUZZWOLE_GX_115:CRIMSON_INVASION
+  variantOf: BUZZWOLE_GX_57:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Buzzwole-GX
+  number: '115'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [FIGHTING]
+  hp: 190
+  moves:
+  - cost: [FIGHTING]
+    name: Jet Punch
+    damage: '30'
+    text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Knuckle Impact
+    damage: '160'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Absorption-GX
+    damage: 40x
+    text: This attack does 40 damage for each of your remaining Prize cards. (You
+      can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-115
+  nationalPokedexNumber: 794
+- enumId: GUZZLORD_GX_116:CRIMSON_INVASION
+  variantOf: GUZZLORD_GX_63:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Guzzlord-GX
+  number: '116'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS]
+    name: Eat Sloppily
+    text: Discard the top 5 cards of your deck. If any of those cards are Energy cards,
+      attach them to this Pokémon.
+  - cost: [DARKNESS, DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Tyrannical Hole
+    damage: '180'
+  - cost: [DARKNESS, DARKNESS, DARKNESS, DARKNESS, DARKNESS]
+    name: Glutton-GX
+    damage: '100'
+    text: If your opponent's Pokémon is Knocked Out by damage from this attack, take
+      2 more Prize cards. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-116
+  nationalPokedexNumber: 799
+- enumId: KARTANA_GX_117:CRIMSON_INVASION
+  variantOf: KARTANA_GX_70:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Kartana-GX
+  number: '117'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [METAL]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Slice Off
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may discard a Special Energy from 1 of your opponent's Pokémon.
+  moves:
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Gale Blade
+    damage: '70'
+    text: You may shuffle this Pokémon and all cards attached to it into your deck.
+  - cost: [METAL]
+    name: Blade-GX
+    text: Take a Prize card. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-117
+  nationalPokedexNumber: 798
+- enumId: ALOLAN_EXEGGUTOR_GX_118:CRIMSON_INVASION
+  variantOf: ALOLAN_EXEGGUTOR_GX_74:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Alolan Exeggutor-GX
+  number: '118'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Exeggcute]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Tropical Head
+    text: This attack does 20 damage times the amount of Energy attached to this Pokémon
+      to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Dragon Hammer
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Tower-Go-Round-GX
+    damage: '180'
+    text: Move any number of Energy from your Pokémon to your other Pokémon in any
+      way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-118
+  nationalPokedexNumber: 103
+- enumId: SILVALLY_GX_119:CRIMSON_INVASION
+  variantOf: SILVALLY_GX_90:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Silvally-GX
+  number: '119'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: ['Type: Null']
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Gyro Unit
+    text: Your Basic Pokémon in play have no Retreat Cost.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Turbo Drive
+    damage: '120'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rebel-GX
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Benched Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm4-119
+  nationalPokedexNumber: 773
+- enumId: COUNTER_CATCHER_120:CRIMSON_INVASION
+  variantOf: COUNTER_CATCHER_91:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Counter Catcher
+  number: '120'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: |-
+    You can play this card only if you have more Prize cards remaining than your opponent.
+    Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  artist: Toyste Beach
+  pioId: sm4-120
+- enumId: WISHFUL_BATON_121:CRIMSON_INVASION
+  variantOf: WISHFUL_BATON_128:BURNING_SHADOWS
+  variantType: Reprint
+  name: Wishful Baton
+  number: '121'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: If the Pokémon this card is attached to is your Active Pokémon and is Knocked
+    Out by damage from an opponent's attack, move up to 3 basic Energy cards from
+    that Pokémon to 1 of your Benched Pokémon.
+  artist: Toyste Beach
+  pioId: sm4-121
+- enumId: COUNTER_ENERGY_122:CRIMSON_INVASION
+  variantOf: COUNTER_ENERGY_100:CRIMSON_INVASION
+  variantType: Secret Art
+  name: Counter Energy
+  number: '122'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Secret
+  text: |-
+    This card provides [C] Energy.
+    If you have more Prize cards remaining than your opponent, and if this card is attached to a Pokémon that isn't a Pokémon-GX or Pokémon-EX, this card provides every type of Energy but provides only 2 Energy at a time
+  energy: [[COLORLESS]]
+  artist: ''
+  pioId: sm4-122
+- enumId: WARP_ENERGY_123:CRIMSON_INVASION
+  variantOf: WARP_ENERGY_70:SHINING_LEGENDS
+  variantType: Reprint
+  name: Warp Energy
+  number: '123'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Secret
+  text: This card provides [C] Energy. When you attach this card from your hand to
+    your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.
+  energy: [[COLORLESS]]
+  artist: ''
+  pioId: sm4-123
+- enumId: WATER_ENERGY_124:CRIMSON_INVASION
+  variantOf: WATER_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Water Energy
+  number: '124'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[WATER]]
+  artist: ''
+  pioId: sm4-124

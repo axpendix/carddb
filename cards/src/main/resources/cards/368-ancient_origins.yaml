@@ -1,0 +1,2305 @@
+schema: E3
+expansion:
+  orderId: '368'
+  name: Ancient Origins
+  enumId: ANCIENT_ORIGINS
+  shortName: AOR
+cards:
+- enumId: ODDISH_1:ANCIENT_ORIGINS
+  name: Oddish
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Trip Over
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: xy7-1
+  nationalPokedexNumber: 43
+- enumId: GLOOM_2:ANCIENT_ORIGINS
+  name: Gloom
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Oddish]
+  hp: 80
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Drool
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: xy7-2
+  nationalPokedexNumber: 44
+- enumId: VILEPLUME_3:ANCIENT_ORIGINS
+  name: Vileplume
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Gloom]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Irritating Pollen
+    text: Each player can't play any Item cards from his or her hand.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Solar Beam
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Midori Harada
+  pioId: xy7-3
+  nationalPokedexNumber: 45
+- enumId: BELLOSSOM_4:ANCIENT_ORIGINS
+  name: Bellossom
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Gloom]
+  hp: 120
+  moves:
+  - cost: [GRASS]
+    name: Windmill
+    damage: '20'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [GRASS, COLORLESS]
+    name: Flower Tornado
+    damage: '60'
+    text: Move as many [G] Energy attached to your Pokémon to your other Pokémon in
+      any way you like.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mizue
+  pioId: xy7-4
+  nationalPokedexNumber: 182
+- enumId: SPINARAK_5:ANCIENT_ORIGINS
+  name: Spinarak
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: String Shot
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: xy7-5
+  nationalPokedexNumber: 167
+- enumId: ARIADOS_6:ANCIENT_ORIGINS
+  name: Ariados
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Spinarak]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Poisonous Nest
+    text: Once during your turn (before your attack), you may use this Ability. Both
+      Active Pokémon (except for [G] Pokémon) are now Poisoned.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Impound
+    damage: '30'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hajime Kusajima
+  pioId: xy7-6
+  nationalPokedexNumber: 168
+- enumId: SCEPTILE_EX_7:ANCIENT_ORIGINS
+  name: Sceptile-EX
+  number: '7'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [GRASS]
+  hp: 170
+  moves:
+  - cost: [GRASS]
+    name: Sleep Poison
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and
+      Poisoned.
+  - cost: [GRASS, COLORLESS]
+    name: Unseen Claw
+    damage: 60+
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this
+      attack does 70 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: xy7-7
+  nationalPokedexNumber: 254
+- enumId: M_SCEPTILE_EX_8:ANCIENT_ORIGINS
+  name: M Sceptile-EX
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [GRASS]
+  evolvesFrom: [Sceptile-EX]
+  hp: 220
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Jagged Saber
+    damage: '100'
+    text: You may attach up to 2 [G] Energy cards from your hand to your Benched Pokémon
+      in any way you like. If you attached Energy to a Pokémon in this way, heal all
+      damage from that Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-8
+  nationalPokedexNumber: 254
+- enumId: COMBEE_9:ANCIENT_ORIGINS
+  name: Combee
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Bug Bite
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: xy7-9
+  nationalPokedexNumber: 415
+- enumId: VESPIQUEN_10:ANCIENT_ORIGINS
+  name: Vespiquen
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Combee]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Intelligence Gathering
+    damage: '10'
+    text: You may draw cards until you have 6 cards in your hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Bee Revenge
+    damage: 20+
+    text: This attack does 10 more damage for each Pokémon in your discard pile.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: xy7-10
+  nationalPokedexNumber: 416
+- enumId: VESPIQUEN_11:ANCIENT_ORIGINS
+  name: Vespiquen
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Combee]
+  hp: 90
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [GRASS]
+    name: Bee Drain
+    damage: '20'
+    text: Heal from this Pokémon the same amount of damage you did to your opponent's
+      Active Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  artist: Ayaka Yoshida
+  pioId: xy7-11
+  nationalPokedexNumber: 416
+- enumId: VIRIZION_12:ANCIENT_ORIGINS
+  name: Virizion
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 110
+  moves:
+  - cost: [GRASS]
+    name: Bail Out
+    text: Put 2 Pokémon from your discard pile into your hand.
+  - cost: [GRASS, GRASS]
+    name: Prize Count
+    damage: 40+
+    text: If you have more Prize cards left than your opponent, this attack does 80
+      more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: match
+  pioId: xy7-12
+  nationalPokedexNumber: 640
+- enumId: FLAREON_13:ANCIENT_ORIGINS
+  name: Flareon
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Eevee]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Flare Effect
+    text: Each of your Stage 1 Pokémon in play is now a [R] Pokémon in addition to
+      its existing types.
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Heat Breath
+    damage: 60+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: sui
+  pioId: xy7-13
+  nationalPokedexNumber: 136
+- enumId: ENTEI_14:ANCIENT_ORIGINS
+  name: Entei
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Burning Roar
+    text: Discard the top 4 cards of your deck. If any of those cards are [R] Energy
+      cards, attach them to your Pokémon in any way you like.
+  - cost: [FIRE, FIRE]
+    name: Combat Blaze
+    damage: 20+
+    text: This attack does 20 more damage for each of your opponent's Benched Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: xy7-14
+  nationalPokedexNumber: 244
+- enumId: ENTEI_15:ANCIENT_ORIGINS
+  name: Entei
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 130
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Flame Screen
+    damage: '30'
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 30 (after applying Weakness and Resistance).
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Heat Tackle
+    damage: '130'
+    text: Flip a coin. If tails, this Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  artist: Mitsuhiro Arita
+  pioId: xy7-15
+  nationalPokedexNumber: 244
+- enumId: LARVESTA_16:ANCIENT_ORIGINS
+  name: Larvesta
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Combustion
+    damage: '30'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Satoshi Shirai
+  pioId: xy7-16
+  nationalPokedexNumber: 636
+- enumId: VOLCARONA_17:ANCIENT_ORIGINS
+  name: Volcarona
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Larvesta]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Solar Birth
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, search
+      your deck for up to 2 basic Energy cards and attach them to that Pokémon. Shuffle
+      your deck afterward.
+  - cost: [FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '60'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kyoko Umemoto
+  pioId: xy7-17
+  nationalPokedexNumber: 637
+- enumId: VOLCARONA_18:ANCIENT_ORIGINS
+  name: Volcarona
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Larvesta]
+  hp: 110
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  moves:
+  - cost: [FIRE]
+    name: Burning Scales
+    damage: 20+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Wind Wheel
+    damage: '80'
+    text: Your opponent switches his or her Active Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  text: Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+  artist: Kagemaru Himeno
+  pioId: xy7-18
+  nationalPokedexNumber: 637
+- enumId: MAGIKARP_19:ANCIENT_ORIGINS
+  variantOf: MAGIKARP_XY143:XY_PROMOS
+  variantType: Reprint
+  name: Magikarp
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [WATER]
+    name: Epic Splash
+    damage: '30'
+    text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: xy7-19
+  nationalPokedexNumber: 129
+- enumId: GYARADOS_20:ANCIENT_ORIGINS
+  variantOf: GYARADOS_XY109:XY_PROMOS
+  variantType: Reprint
+  name: Gyarados
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 130
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Berserker Splash
+    damage: '80'
+    text: This attack does 10 damage to each Benched Pokémon (both yours and your
+      opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Aqua Tail
+    damage: 90+
+    text: Flip a coin for each [W] Energy attached to this Pokémon. This attack does
+      30 more damage for each heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: xy7-20
+  nationalPokedexNumber: 130
+- enumId: GYARADOS_21:ANCIENT_ORIGINS
+  variantOf: GYARADOS_XY60:XY_PROMOS
+  variantType: Reprint
+  name: Gyarados
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 130
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Full Retaliation
+    damage: 30+
+    text: This attack does 30 more damage for each damage counter on each of your
+      Benched Magikarp.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Thrash
+    damage: 100+
+    text: Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon
+      does 30 damage to itself.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: TOKIYA
+  pioId: xy7-21
+  nationalPokedexNumber: 130
+- enumId: VAPOREON_22:ANCIENT_ORIGINS
+  name: Vaporeon
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Eevee]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Aqua Effect
+    text: Each of your Stage 1 Pokémon in play is now a [W] Pokémon in addition to
+      its existing types.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hydro Splash
+    damage: '70'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kirisAki
+  pioId: xy7-22
+  nationalPokedexNumber: 134
+- enumId: RELICANTH_23:ANCIENT_ORIGINS
+  name: Relicanth
+  number: '23'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Deep Sea Search
+    text: Search your deck for up to 2 Pokémon Tool cards, reveal them, and put them
+      into your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Take Down
+    damage: '30'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: xy7-23
+  nationalPokedexNumber: 369
+- enumId: REGICE_24:ANCIENT_ORIGINS
+  name: Regice
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Ice Beam
+    damage: '30'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Resistance Blizzard
+    damage: '70'
+    text: During your opponent's next turn, prevent all effects of attacks, including
+      damage, done to this Pokémon by Pokémon-EX.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Miki Tanaka
+  pioId: xy7-24
+  nationalPokedexNumber: 378
+- enumId: KYUREM_EX_25:ANCIENT_ORIGINS
+  name: Kyurem-EX
+  number: '25'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [WATER]
+  hp: 180
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Glaciate
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Icecalibur
+    damage: '130'
+    text: Discard an Energy attached to this Pokémon. The Defending Pokémon can't
+      attack during your opponent's next turn.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA
+  pioId: xy7-25
+  nationalPokedexNumber: 646
+- enumId: JOLTEON_26:ANCIENT_ORIGINS
+  name: Jolteon
+  number: '26'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Eevee]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Electric Effect
+    text: Each of your Stage 1 Pokémon in play is now a [L] Pokémon in addition to
+      its existing types.
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder Blast
+    damage: '80'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Sanosuke Sakuma
+  pioId: xy7-26
+  nationalPokedexNumber: 135
+- enumId: AMPHAROS_EX_27:ANCIENT_ORIGINS
+  name: Ampharos-EX
+  number: '27'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Thunder Rod
+    text: Look at the top 4 cards of your deck and attach as many [L] Energy cards
+      you find there as you like to this Pokémon. Shuffle the other cards back into
+      your deck.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Sparkling Tail
+    damage: '100'
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other
+      effects on your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: xy7-27
+  nationalPokedexNumber: 181
+- enumId: M_AMPHAROS_EX_28:ANCIENT_ORIGINS
+  name: M Ampharos-EX
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [LIGHTNING]
+  evolvesFrom: [Ampharos-EX]
+  hp: 220
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Exavolt
+    damage: 120+
+    text: You may do 50 more damage and leave your opponent's Active Pokémon Paralyzed.
+      If you do, this Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-28
+  nationalPokedexNumber: 181
+- enumId: ROTOM_29:ANCIENT_ORIGINS
+  name: Rotom
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Electro Ball
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS]
+    name: Electric Mischief
+    text: Flip 3 coins. For each heads, choose a random card from your opponent's
+      hand. Your opponent reveals that card and shuffles it into his or her deck.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mizue
+  pioId: xy7-29
+  nationalPokedexNumber: 479
+- enumId: UNOWN_30:ANCIENT_ORIGINS
+  name: Unown
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Farewell Letter
+    text: Once during your turn (before your attack), if this Pokémon is on your Bench,
+      you may discard this Pokémon and all cards attached to it (this does not count
+      as a Knock Out). If you do, draw a card.
+  moves:
+  - cost: [COLORLESS]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: xy7-30
+  nationalPokedexNumber: 201
+- enumId: BALTOY_31:ANCIENT_ORIGINS
+  name: Baltoy
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Slap
+    damage: '10'
+  - cost: [PSYCHIC, COLORLESS]
+    name: Spinning Attack
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: xy7-31
+  nationalPokedexNumber: 343
+- enumId: BALTOY_32:ANCIENT_ORIGINS
+  name: Baltoy
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  moves:
+  - cost: [PSYCHIC]
+    name: Future Spin
+    text: Look at the top 3 cards of either player's deck and put them back on top
+      of that player's deck in any order.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  text: Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+  artist: Ayaka Yoshida
+  pioId: xy7-32
+  nationalPokedexNumber: 343
+- enumId: CLAYDOL_33:ANCIENT_ORIGINS
+  name: Claydol
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Baltoy]
+  hp: 100
+  moves:
+  - cost: [PSYCHIC]
+    name: Rewind
+    text: Devolve each of your opponent's evolved Pokémon and put the highest Stage
+      Evolution card on it into your opponent's hand.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Hyper Beam
+    damage: '30'
+    text: Flip a coin. If heads, discard an Energy attached to your opponent's Active
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Satoshi Shirai
+  pioId: xy7-33
+  nationalPokedexNumber: 344
+- enumId: GOLETT_34:ANCIENT_ORIGINS
+  name: Golett
+  number: '34'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Smash Punch
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Common
+  artist: Sanosuke Sakuma
+  pioId: xy7-34
+  nationalPokedexNumber: 622
+- enumId: GOLURK_35:ANCIENT_ORIGINS
+  name: Golurk
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Golett]
+  hp: 130
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  - type: Ability
+    name: Double Type
+    text: As long as this Pokémon is in play, it is [P] and [F] type.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Superpower
+    damage: 80+
+    text: You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  text: Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+  artist: kawayoo
+  pioId: xy7-35
+  nationalPokedexNumber: 623
+- enumId: HOOPA_EX_36:ANCIENT_ORIGINS
+  variantOf: HOOPA_EX_XY71:XY_PROMOS
+  variantType: Reprint
+  name: Hoopa-EX
+  number: '36'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Scoundrel Ring
+    text: When you play this Pokémon from your hand onto your Bench, you may search
+      your deck for up to 3 Pokémon-EX (except for Hoopa-EX), reveal them, and put
+      them into your hand. Shuffle your deck afterward.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Hyperspace Fury
+    text: Discard 2 Energy attached to this Pokémon. This attack does 100 damage to
+      1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryota Murayama
+  pioId: xy7-36
+  nationalPokedexNumber: 720
+- enumId: MACHAMP_EX_37:ANCIENT_ORIGINS
+  name: Machamp-EX
+  number: '37'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIGHTING]
+  hp: 180
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Steaming Mad
+    damage: 20x
+    text: This attack does 20 damage times the number of damage counters on this Pokémon.
+      This Pokémon is now Confused.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Crazy Hammer
+    damage: 80+
+    text: If this Pokémon is affected by a Special Condition, this attack does 80
+      more damage. Then, remove all Special Conditions from this Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: xy7-37
+  nationalPokedexNumber: 68
+- enumId: WOOPER_38:ANCIENT_ORIGINS
+  name: Wooper
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: xy7-38
+  nationalPokedexNumber: 194
+- enumId: QUAGSIRE_39:ANCIENT_ORIGINS
+  name: Quagsire
+  number: '39'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Wooper]
+  hp: 110
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '30'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Landslide
+    damage: '80'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: xy7-39
+  nationalPokedexNumber: 195
+- enumId: REGIROCK_40:ANCIENT_ORIGINS
+  name: Regirock
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 120
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Throw
+    damage: '40'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Unyielding Rock
+    damage: 60+
+    text: If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more
+      damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: xy7-40
+  nationalPokedexNumber: 377
+- enumId: GOLURK_41:ANCIENT_ORIGINS
+  name: Golurk
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Golett]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Dig Out
+    damage: '20'
+    text: Discard the top card of your deck. If that card is a [F] Energy card, attach
+      it to this Pokémon.
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Double Lariat
+    damage: 90x
+    text: Flip 2 coins. This attack does 90 damage times the number of heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Common
+  artist: Suwama Chiaki
+  pioId: xy7-41
+  nationalPokedexNumber: 623
+- enumId: TYRANITAR_EX_42:ANCIENT_ORIGINS
+  name: Tyranitar-EX
+  number: '42'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DARKNESS]
+  hp: 180
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '60'
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Break Ground
+    damage: '130'
+    text: This attack does 10 damage to each of your Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: xy7-42
+  nationalPokedexNumber: 248
+- enumId: M_TYRANITAR_EX_43:ANCIENT_ORIGINS
+  name: M Tyranitar-EX
+  number: '43'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [DARKNESS]
+  evolvesFrom: [Tyranitar-EX]
+  hp: 240
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Destroyer King
+    damage: 110+
+    text: This attack does 60 more damage for each damage counter on your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-43
+  nationalPokedexNumber: 248
+- enumId: SABLEYE_44:ANCIENT_ORIGINS
+  name: Sableye
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS]
+    name: Bewitching Eyes
+    text: Choose a Supporter card from your opponent's discard pile and use it as
+      the effect of this attack.
+  - cost: [DARKNESS, COLORLESS]
+    name: Furtive Drop
+    text: Put 3 damage counters on your opponent's Active Pokémon.
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hitoshi Ariga
+  pioId: xy7-44
+  nationalPokedexNumber: 302
+- enumId: INKAY_45:ANCIENT_ORIGINS
+  name: Inkay
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [DARKNESS]
+    name: Ink Spit
+    damage: '10'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: xy7-45
+  nationalPokedexNumber: 686
+- enumId: MALAMAR_46:ANCIENT_ORIGINS
+  name: Malamar
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Inkay]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Entangling Control
+    text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+      The new Active Pokémon is now Confused.
+  - cost: [DARKNESS]
+    name: Trash Tentacle
+    damage: '30'
+    text: Put a card from your discard pile into your hand.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: xy7-46
+  nationalPokedexNumber: 687
+- enumId: BELDUM_47:ANCIENT_ORIGINS
+  name: Beldum
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL]
+    name: Ram
+    damage: '10'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Spinning Attack
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Yuka Morii
+  pioId: xy7-47
+  nationalPokedexNumber: 374
+- enumId: METANG_48:ANCIENT_ORIGINS
+  name: Metang
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Beldum]
+  hp: 90
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Metal Claw
+    damage: '30'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Bullet Punch
+    damage: 50+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Shigenori Negishi
+  pioId: xy7-48
+  nationalPokedexNumber: 375
+- enumId: METAGROSS_49:ANCIENT_ORIGINS
+  name: Metagross
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Magnetic Warp
+    text: Once during your turn (before your attack), you may switch your Active Pokémon
+      with 1 of your Benched Pokémon. If you do, your opponent switches his or her
+      Active Pokémon with 1 of his or her Benched Pokémon.
+  moves:
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Iron Cannon
+    damage: 80+
+    text: You may discard all [M] Energy attached to this Pokémon. If you do, this
+      attack does 80 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: kirisAki
+  pioId: xy7-49
+  nationalPokedexNumber: 376
+- enumId: METAGROSS_50:ANCIENT_ORIGINS
+  name: Metagross
+  number: '50'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 150
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Machine Gun Stomp
+    damage: 20+
+    text: This attack does 10 more damage for each card in your hand.
+  - cost: [METAL, METAL, COLORLESS, COLORLESS]
+    name: Guard Press
+    damage: '80'
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  artist: Hitoshi Ariga
+  pioId: xy7-50
+  nationalPokedexNumber: 376
+- enumId: REGISTEEL_51:ANCIENT_ORIGINS
+  name: Registeel
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 120
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Iron Head
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage times the number
+      of heads.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Forbidden Iron Hammer
+    damage: '70'
+    text: If your opponent's Active Pokémon is a Pokémon-EX, discard an Energy attached
+      to that Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: xy7-51
+  nationalPokedexNumber: 379
+- enumId: RALTS_52:ANCIENT_ORIGINS
+  name: Ralts
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Mumble
+    damage: '10'
+  - cost: [FAIRY, COLORLESS]
+    name: Magical Shot
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Aya Kusube
+  pioId: xy7-52
+  nationalPokedexNumber: 280
+- enumId: KIRLIA_53:ANCIENT_ORIGINS
+  name: Kirlia
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Ralts]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Calm Mind
+    text: Heal 30 damage from this Pokémon.
+  - cost: [FAIRY, COLORLESS, COLORLESS]
+    name: Magical Shot
+    damage: '50'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: match
+  pioId: xy7-53
+  nationalPokedexNumber: 281
+- enumId: GARDEVOIR_54:ANCIENT_ORIGINS
+  name: Gardevoir
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FAIRY]
+  evolvesFrom: [Kirlia]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Bright Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from
+      each of your Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Telekinesis
+    text: This attack does 50 damage to 1 of your opponent's Pokémon. This attack's
+      damage isn't affected by Weakness or Resistance.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: TOKIYA
+  pioId: xy7-54
+  nationalPokedexNumber: 282
+- enumId: COTTONEE_55:ANCIENT_ORIGINS
+  name: Cottonee
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [FAIRY]
+  hp: 40
+  moves:
+  - cost: [FAIRY]
+    name: Cotton Bed
+    damage: '10'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kanako Eo
+  pioId: xy7-55
+  nationalPokedexNumber: 546
+- enumId: WHIMSICOTT_56:ANCIENT_ORIGINS
+  name: Whimsicott
+  number: '56'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FAIRY]
+  evolvesFrom: [Cottonee]
+  hp: 70
+  moves:
+  - cost: [FAIRY]
+    name: Windy Mischief
+    text: Move all damage counters from 1 of your Benched Pokémon to your opponent's
+      Active Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Rolling Tackle
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: DARKNESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: xy7-56
+  nationalPokedexNumber: 547
+- enumId: GIRATINA_EX_57:ANCIENT_ORIGINS
+  name: Giratina-EX
+  number: '57'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DRAGON]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Renegade Pulse
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by
+      your opponent's Mega Evolution Pokémon.
+  moves:
+  - cost: [GRASS, PSYCHIC, COLORLESS, COLORLESS]
+    name: Chaos Wheel
+    damage: '100'
+    text: Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards
+      from his or her hand during his or her next turn.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA
+  pioId: xy7-57
+  nationalPokedexNumber: 487
+- enumId: GOOMY_58:ANCIENT_ORIGINS
+  name: Goomy
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 40
+  abilities:
+  - type: Ability
+    name: Water Down
+    text: Whenever you attach a [W] Energy card from your hand to this Pokémon, you
+      may search your deck for Goomy and put it onto your Bench. Shuffle your deck
+      afterward.
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Stampede
+    damage: '10'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: sui
+  pioId: xy7-58
+  nationalPokedexNumber: 704
+- enumId: SLIGGOO_59:ANCIENT_ORIGINS
+  name: Sliggoo
+  number: '59'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Goomy]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Bubble
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [WATER, FAIRY]
+    name: Melt
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: xy7-59
+  nationalPokedexNumber: 705
+- enumId: GOODRA_60:ANCIENT_ORIGINS
+  name: Goodra
+  number: '60'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Sliggoo]
+  hp: 150
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Liquid Blow
+    text: This attack does 20 damage to 1 of your opponent's Pokémon for each [C]
+      in its Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, FAIRY, COLORLESS, COLORLESS]
+    name: Shining Breath
+    damage: '110'
+    text: During your opponent's next turn, this Pokémon can't be affected by any
+      Special Conditions.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Saya Tsuruta
+  pioId: xy7-60
+  nationalPokedexNumber: 706
+- enumId: MEOWTH_61:ANCIENT_ORIGINS
+  name: Meowth
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Act Tough
+    damage: 10+
+    text: If this Pokémon has any [D] Energy attached to it, this attack does 20 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kanako Eo
+  pioId: xy7-61
+  nationalPokedexNumber: 52
+- enumId: PERSIAN_62:ANCIENT_ORIGINS
+  name: Persian
+  number: '62'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Meowth]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Fake Out
+    damage: '30'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ambush
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: xy7-62
+  nationalPokedexNumber: 53
+- enumId: EEVEE_63:ANCIENT_ORIGINS
+  name: Eevee
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Lunge
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: xy7-63
+  nationalPokedexNumber: 133
+- enumId: PORYGON_64:ANCIENT_ORIGINS
+  name: Porygon
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Data Check
+    text: Look through your deck. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharpen
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: xy7-64
+  nationalPokedexNumber: 137
+- enumId: PORYGON2_65:ANCIENT_ORIGINS
+  name: Porygon2
+  number: '65'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Porygon]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Sharpen
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Tri Attack
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: MAHOU
+  pioId: xy7-65
+  nationalPokedexNumber: 233
+- enumId: PORYGON_Z_66:ANCIENT_ORIGINS
+  name: Porygon-Z
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Porygon2]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Cyber Crush
+    text: Discard all Special Energy attached to each of your opponent's Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slowing Beam
+    damage: '70'
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost [C]
+      more.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: TOKIYA
+  pioId: xy7-66
+  nationalPokedexNumber: 474
+- enumId: PORYGON_Z_67:ANCIENT_ORIGINS
+  name: Porygon-Z
+  number: '67'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Porygon2]
+  hp: 130
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  moves:
+  - cost: [COLORLESS]
+    name: Digital Reboot
+    text: Devolve as many of your Benched Pokémon as many times as you like. Put each
+      Evolution card removed this way into your hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Dazzle Blast
+    damage: '50'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+  artist: Naoki Saito
+  pioId: xy7-67
+  nationalPokedexNumber: 474
+- enumId: LUGIA_EX_68:ANCIENT_ORIGINS
+  name: Lugia-EX
+  number: '68'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [COLORLESS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Aero Ball
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Deep Hurricane
+    damage: 80+
+    text: If there is any Stadium card in play, this attack does 70 more damage. Then,
+      discard that Stadium card.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: xy7-68
+  nationalPokedexNumber: 249
+- enumId: ACE_TRAINER_69:ANCIENT_ORIGINS
+  name: Ace Trainer
+  number: '69'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you have more Prize cards left than your opponent.
+    Each player shuffles his or her hand into his or her deck. Then, draw 6 cards. Your opponent draws 3 cards.
+  artist: Ken Sugimori
+  pioId: xy7-69
+- enumId: AMPHAROS_SPIRIT_LINK_70:ANCIENT_ORIGINS
+  name: Ampharos Spirit Link
+  number: '70'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Your turn does not end if the Pokémon this card is attached to becomes M Ampharos-EX.
+  artist: 5ban Graphics
+  pioId: xy7-70
+- enumId: ECO_ARM_71:ANCIENT_ORIGINS
+  name: Eco Arm
+  number: '71'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Shuffle 3 Pokémon Tool cards from your discard pile into your deck.
+  artist: Toyste Beach
+  pioId: xy7-71
+- enumId: ENERGY_RECYCLER_72:ANCIENT_ORIGINS
+  name: Energy Recycler
+  number: '72'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Shuffle 5 basic Energy cards from your discard pile into your deck.
+  artist: Toyste Beach
+  pioId: xy7-72
+- enumId: FADED_TOWN_73:ANCIENT_ORIGINS
+  name: Faded Town
+  number: '73'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: At any time between turns, put 2 damage counters on each Mega Evolution Pokémon.
+  artist: Ryo Ueda
+  pioId: xy7-73
+- enumId: FOREST_OF_GIANT_PLANTS_74:ANCIENT_ORIGINS
+  name: Forest of Giant Plants
+  number: '74'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Each player's [G] Pokémon can evolve during his or her first turn or the turn
+    he or she plays those Pokémon.
+  artist: Ryo Ueda
+  pioId: xy7-74
+- enumId: HEX_MANIAC_75:ANCIENT_ORIGINS
+  name: Hex Maniac
+  number: '75'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Until the end of your opponent's next turn, each Pokémon in play, in each
+    player's hand, and in each player's discard pile has no Abilities. (This includes
+    cards that come into play on that turn.)
+  artist: Yusuke Ohmura
+  pioId: xy7-75
+- enumId: HEX_MANIAC_75A:ANCIENT_ORIGINS
+  variantOf: HEX_MANIAC_75:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Hex Maniac
+  number: 75a
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Until the end of your opponent's next turn, each Pokémon in play, in each
+    player's hand, and in each player's discard pile has no Abilities. (This includes
+    cards that come into play on that turn.)
+  artist: You Iribi
+  pioId: xy7-75a
+- enumId: LEVEL_BALL_76:ANCIENT_ORIGINS
+  variantOf: LEVEL_BALL_89:NEXT_DESTINIES
+  variantType: Reprint
+  name: Level Ball
+  number: '76'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Search your deck for a Pokémon with 90 HP or less, reveal it, and put it into
+    your hand. Shuffle your deck afterward.
+  artist: Toyste Beach
+  pioId: xy7-76
+- enumId: LUCKY_HELMET_77:ANCIENT_ORIGINS
+  name: Lucky Helmet
+  number: '77'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Whenever the Pokémon this card is attached to is your Active Pokémon and is
+    damaged by an opponent's attack (even if that Pokémon is Knocked Out), draw 2
+    cards.
+  artist: Toyste Beach
+  pioId: xy7-77
+- enumId: LYSANDRE_78:ANCIENT_ORIGINS
+  variantOf: LYSANDRE_90:FLASHFIRE
+  variantType: Reprint
+  name: Lysandre
+  number: '78'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.
+  artist: Ken Sugimori
+  pioId: xy7-78
+- enumId: PAINT_ROLLER_79:ANCIENT_ORIGINS
+  name: Paint Roller
+  number: '79'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Discard any Stadium card in play. Then, draw a card.
+  artist: Toyste Beach
+  pioId: xy7-79
+- enumId: SCEPTILE_SPIRIT_LINK_80:ANCIENT_ORIGINS
+  name: Sceptile Spirit Link
+  number: '80'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Your turn does not end if the Pokémon this card is attached to becomes M Sceptile-EX.
+  artist: 5ban Graphics
+  pioId: xy7-80
+- enumId: TYRANITAR_SPIRIT_LINK_81:ANCIENT_ORIGINS
+  name: Tyranitar Spirit Link
+  number: '81'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: Your turn does not end if the Pokémon this card is attached to becomes M Tyranitar-EX.
+  artist: 5ban Graphics
+  pioId: xy7-81
+- enumId: DANGEROUS_ENERGY_82:ANCIENT_ORIGINS
+  name: Dangerous Energy
+  number: '82'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: |-
+    This card can only be attached to [D] Pokémon. This card provides [D] Energy only while this card is attached to a [D] Pokémon.
+    Whenever the [D] Pokémon this card is attached to is your Active Pokémon and is damaged by an attack from your opponent's Pokémon-EX (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon-EX.
+    (If this card is attached to anything other than a [D] Pokémon, discard this card.)
+  energy: [[DARKNESS]]
+  artist: 5ban Graphics
+  pioId: xy7-82
+- enumId: FLASH_ENERGY_83:ANCIENT_ORIGINS
+  name: Flash Energy
+  number: '83'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: |-
+    This card can only be attached to [L] Pokémon. This card provides [L] Energy only while this card is attached to a [L] Pokémon.
+    The [L] Pokémon this card is attached to has no Weakness.
+    (If this card is attached to anything other than a [L] Pokémon, discard this card.)
+  energy: [[LIGHTNING]]
+  artist: 5ban Graphics
+  pioId: xy7-83
+- enumId: SCEPTILE_EX_84:ANCIENT_ORIGINS
+  variantOf: SCEPTILE_EX_7:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Sceptile-EX
+  number: '84'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [GRASS]
+  hp: 170
+  moves:
+  - cost: [GRASS]
+    name: Sleep Poison
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and
+      Poisoned.
+  - cost: [GRASS, COLORLESS]
+    name: Unseen Claw
+    damage: 60+
+    text: If your opponent's Active Pokémon is affected by a Special Condition, this
+      attack does 70 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-84
+  nationalPokedexNumber: 254
+- enumId: M_SCEPTILE_EX_85:ANCIENT_ORIGINS
+  variantOf: M_SCEPTILE_EX_8:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: M Sceptile-EX
+  number: '85'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [GRASS]
+  evolvesFrom: [Sceptile-EX]
+  hp: 220
+  abilities:
+  - type: Ancient Trait
+    name: θ Stop
+    text: Prevent all effects of your opponent's Pokémon's Abilities done to this
+      Pokémon.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Jagged Saber
+    damage: '100'
+    text: You may attach up to 2 [G] Energy cards from your hand to your Benched Pokémon
+      in any way you like. If you attached Energy to a Pokémon in this way, heal all
+      damage from that Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-85
+  nationalPokedexNumber: 254
+- enumId: KYUREM_EX_86:ANCIENT_ORIGINS
+  variantOf: KYUREM_EX_25:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Kyurem-EX
+  number: '86'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [WATER]
+  hp: 180
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Glaciate
+    text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Icecalibur
+    damage: '130'
+    text: Discard an Energy attached to this Pokémon. The Defending Pokémon can't
+      attack during your opponent's next turn.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-86
+  nationalPokedexNumber: 646
+- enumId: AMPHAROS_EX_87:ANCIENT_ORIGINS
+  variantOf: AMPHAROS_EX_27:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Ampharos-EX
+  number: '87'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [COLORLESS]
+    name: Thunder Rod
+    text: Look at the top 4 cards of your deck and attach as many [L] Energy cards
+      you find there as you like to this Pokémon. Shuffle the other cards back into
+      your deck.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Sparkling Tail
+    damage: '100'
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other
+      effects on your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-87
+  nationalPokedexNumber: 181
+- enumId: M_AMPHAROS_EX_88:ANCIENT_ORIGINS
+  variantOf: M_AMPHAROS_EX_28:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: M Ampharos-EX
+  number: '88'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [LIGHTNING]
+  evolvesFrom: [Ampharos-EX]
+  hp: 220
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Exavolt
+    damage: 120+
+    text: You may do 50 more damage and leave your opponent's Active Pokémon Paralyzed.
+      If you do, this Pokémon does 30 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-88
+  nationalPokedexNumber: 181
+- enumId: HOOPA_EX_89:ANCIENT_ORIGINS
+  variantOf: HOOPA_EX_XY71:XY_PROMOS
+  variantType: Reprint
+  name: Hoopa-EX
+  number: '89'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [PSYCHIC]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Scoundrel Ring
+    text: When you play this Pokémon from your hand onto your Bench, you may search
+      your deck for up to 3 Pokémon-EX (except for Hoopa-EX), reveal them, and put
+      them into your hand. Shuffle your deck afterward.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, PSYCHIC]
+    name: Hyperspace Fury
+    text: Discard 2 Energy attached to this Pokémon. This attack does 100 damage to
+      1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: xy7-89
+  nationalPokedexNumber: 720
+- enumId: MACHAMP_EX_90:ANCIENT_ORIGINS
+  variantOf: MACHAMP_EX_37:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Machamp-EX
+  number: '90'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIGHTING]
+  hp: 180
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Steaming Mad
+    damage: 20x
+    text: This attack does 20 damage times the number of damage counters on this Pokémon.
+      This Pokémon is now Confused.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Crazy Hammer
+    damage: 80+
+    text: If this Pokémon is affected by a Special Condition, this attack does 80
+      more damage. Then, remove all Special Conditions from this Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-90
+  nationalPokedexNumber: 68
+- enumId: TYRANITAR_EX_91:ANCIENT_ORIGINS
+  variantOf: TYRANITAR_EX_42:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Tyranitar-EX
+  number: '91'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DARKNESS]
+  hp: 180
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '60'
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Break Ground
+    damage: '130'
+    text: This attack does 10 damage to each of your Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-91
+  nationalPokedexNumber: 248
+- enumId: M_TYRANITAR_EX_92:ANCIENT_ORIGINS
+  variantOf: M_TYRANITAR_EX_43:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: M Tyranitar-EX
+  number: '92'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [DARKNESS]
+  evolvesFrom: [Tyranitar-EX]
+  hp: 240
+  abilities:
+  - type: Ancient Trait
+    name: θ Double
+    text: This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS, COLORLESS]
+    name: Destroyer King
+    damage: 110+
+    text: This attack does 60 more damage for each damage counter on your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    This Pokémon may have up to 2 Pokémon Tool cards attached to it.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-92
+  nationalPokedexNumber: 248
+- enumId: GIRATINA_EX_93:ANCIENT_ORIGINS
+  variantOf: GIRATINA_EX_57:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Giratina-EX
+  number: '93'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DRAGON]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Renegade Pulse
+    text: Prevent all effects of attacks, including damage, done to this Pokémon by
+      your opponent's Mega Evolution Pokémon.
+  moves:
+  - cost: [GRASS, PSYCHIC, COLORLESS, COLORLESS]
+    name: Chaos Wheel
+    damage: '100'
+    text: Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards
+      from his or her hand during his or her next turn.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-93
+  nationalPokedexNumber: 487
+- enumId: LUGIA_EX_94:ANCIENT_ORIGINS
+  variantOf: LUGIA_EX_68:ANCIENT_ORIGINS
+  variantType: Full Art
+  name: Lugia-EX
+  number: '94'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [COLORLESS]
+  hp: 170
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Aero Ball
+    damage: 20x
+    text: This attack does 20 damage times the amount of Energy attached to both Active
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Deep Hurricane
+    damage: 80+
+    text: If there is any Stadium card in play, this attack does 70 more damage. Then,
+      discard that Stadium card.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: xy7-94
+  nationalPokedexNumber: 249
+- enumId: STEVEN_95:ANCIENT_ORIGINS
+  variantOf: STEVEN_90:ROARING_SKIES
+  variantType: Reprint
+  name: Steven
+  number: '95'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for a Supporter card and a basic Energy card, reveal them,
+    and put them into your hand. Shuffle your deck afterward.
+  artist: Megumi Mizutani
+  pioId: xy7-95
+- enumId: PRIMAL_KYOGRE_EX_96:ANCIENT_ORIGINS
+  name: Primal Kyogre-EX
+  number: '96'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [WATER]
+  evolvesFrom: [Kyogre-EX]
+  hp: 240
+  abilities:
+  - type: Ancient Trait
+    name: θ Max
+    text: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+  moves:
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Tidal Storm
+    damage: '150'
+    text: Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack
+      does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+  artist: 5ban Graphics
+  pioId: xy7-96
+  nationalPokedexNumber: 382
+- enumId: PRIMAL_GROUDON_EX_97:ANCIENT_ORIGINS
+  name: Primal Groudon-EX
+  number: '97'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [FIGHTING]
+  evolvesFrom: [Groudon-EX]
+  hp: 240
+  abilities:
+  - type: Ancient Trait
+    name: θ Max
+    text: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+  moves:
+  - cost: [FIGHTING, FIGHTING, FIGHTING, COLORLESS]
+    name: Gaia Volcano
+    damage: 100+
+    text: If there is any Stadium card in play, this attack does 100 more damage.
+      Discard that Stadium card.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+  artist: 5ban Graphics
+  pioId: xy7-97
+  nationalPokedexNumber: 383
+- enumId: M_RAYQUAZA_EX_98:ANCIENT_ORIGINS
+  name: M Rayquaza-EX
+  number: '98'
+  cardTypes: [POKEMON, EVOLUTION, MEGA_POKEMON, POKEMON_EX]
+  types: [COLORLESS]
+  evolvesFrom: [Rayquaza-EX]
+  hp: 220
+  abilities:
+  - type: Ancient Trait
+    name: θ Max
+    text: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Emerald Break
+    damage: 30x
+    text: This attack does 30 damage times the number of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: |-
+    When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    When 1 of your Pokémon becomes this Pokémon, heal all damage from it.
+    When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.
+  artist: 5ban Graphics
+  pioId: xy7-98
+  nationalPokedexNumber: 384
+- enumId: ENERGY_RETRIEVAL_99:ANCIENT_ORIGINS
+  variantOf: ENERGY_RETRIEVAL_92:BLACK_WHITE
+  variantType: Reprint
+  name: Energy Retrieval
+  number: '99'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Put 2 basic Energy cards from your discard pile into your hand.
+  artist: 5ban Graphics
+  pioId: xy7-99
+- enumId: TRAINERS__MAIL_100:ANCIENT_ORIGINS
+  variantOf: TRAINERS__MAIL_92:ROARING_SKIES
+  variantType: Reprint
+  name: Trainers' Mail
+  number: '100'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Look at the top 4 cards of your deck. You may reveal a Trainer card you find
+    there (except for Trainers' Mail) and put it into your hand. Shuffle the other
+    cards back into your deck.
+  artist: Toyste Beach
+  pioId: xy7-100

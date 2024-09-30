@@ -1,0 +1,408 @@
+schema: E3
+expansion:
+  orderId: '288'
+  name: POP Series 8
+  enumId: POP_SERIES_8
+  shortName: POP8
+cards:
+- enumId: HEATRAN_1:POP_SERIES_8
+  name: Heatran
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Fire Spin
+    damage: '90'
+    text: Discard 2 basic Energy cards attached to Heatran. (If you can't discard
+      cards, this attack does nothing.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop8-1
+  nationalPokedexNumber: 485
+- enumId: LUCARIO_2:POP_SERIES_8
+  name: Lucario
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Riolu]
+  hp: 90
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Blocking Punch
+    damage: '40'
+    text: During your opponent's next turn, any damage done to Lucario by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Striking Kick
+    damage: '60'
+    text: This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies,
+      or any other effects of the Defending Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kent Kanetsuna
+  pioId: pop8-2
+  nationalPokedexNumber: 448
+- enumId: LUXRAY_3:POP_SERIES_8
+  name: Luxray
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Luxio]
+  hp: 120
+  abilities:
+  - type: Poké-Body
+    name: Intimidating Fang
+    text: As long as Luxray is your Active Pokémon, any damage done by an opponent's
+      attack is reduced by 10 (before applying Weakness and Resistance).
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING, COLORLESS]
+    name: Thunder
+    damage: '120'
+    text: Flip a coin. If tails, Luxray does 40 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop8-3
+  nationalPokedexNumber: 405
+- enumId: PROBOPASS_4:POP_SERIES_8
+  name: Probopass
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Nosepass]
+  hp: 90
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Slide
+    damage: '20'
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Triple Nose
+    damage: 50+
+    text: Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop8-4
+  nationalPokedexNumber: 476
+- enumId: YANMEGA_5:POP_SERIES_8
+  name: Yanmega
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Yanma]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Supersonic
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Air Slash
+    damage: '70'
+    text: Flip a coin. If tails, discard an Energy attached to Yanmega.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop8-5
+  nationalPokedexNumber: 469
+- enumId: CHERRIM_6:POP_SERIES_8
+  variantOf: CHERRIM_45:DIAMOND_PEARL
+  variantType: Reprint
+  name: Cherrim
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Cherubi]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Worry Seed
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [GRASS, GRASS]
+    name: Magical Leaf
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage and
+      remove 3 damage counters from Cherrim.
+  weaknesses:
+  - type: FIRE
+    value: +20
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: pop8-6
+  nationalPokedexNumber: 421
+- enumId: CARNIVINE_7:POP_SERIES_8
+  variantOf: CARNIVINE_21:DIAMOND_PEARL
+  variantType: Reprint
+  name: Carnivine
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Swallow Up
+    damage: '30'
+    text: Before doing damage, count the remaining HP of the Defending Pokémon and
+      Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine's,
+      this attack does 60 damage instead.
+  - cost: [GRASS, GRASS]
+    name: Wring Out
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard
+      an Energy card attached to the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: +20
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: pop8-7
+  nationalPokedexNumber: 455
+- enumId: LUXIO_8:POP_SERIES_8
+  variantOf: LUXIO_52:DIAMOND_PEARL
+  variantType: Reprint
+  name: Luxio
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Shinx]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Fasten Claws
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 30 more damage.
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Thunder Fang
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: +20
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: pop8-8
+  nationalPokedexNumber: 404
+- enumId: NIGHT_MAINTENANCE_9:POP_SERIES_8
+  name: Night Maintenance
+  number: '9'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Search your discard pile for up to 3 in any combination of Pokémon and basic
+    Energy cards. Show them to your opponent and shuffle them into your deck.
+  artist: Ryo Ueda
+  pioId: pop8-9
+- enumId: RARE_CANDY_10:POP_SERIES_8
+  variantOf: RARE_CANDY_7:POP_SERIES_5
+  variantType: Reprint
+  name: Rare Candy
+  number: '10'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card
+    that evolves from that Pokémon in your hand, put that card on the Basic Pokémon.
+    (This counts as evolving that Pokémon.)
+  artist: Ryo Ueda
+  pioId: pop8-10
+- enumId: ROSEANNE_S_RESEARCH_11:POP_SERIES_8
+  name: Roseanne's Research
+  number: '11'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Search your deck for up to 2 in any combination of basic Pokémon and basic
+    Energy cards, show them to your opponent, and put them into your hand. Shuffle
+    your deck afterward.
+  artist: Kanako Eo
+  pioId: pop8-11
+- enumId: CHIMCHAR_12:POP_SERIES_8
+  variantOf: CHIMCHAR_76:DIAMOND_PEARL
+  variantType: Reprint
+  name: Chimchar
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: []
+    name: Scratch
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Ember
+    damage: '30'
+    text: Flip a coin. If tails, discard a [R] Energy attached to Chimchar.
+  weaknesses:
+  - type: WATER
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop8-12
+  nationalPokedexNumber: 390
+- enumId: CROAGUNK_13:POP_SERIES_8
+  variantOf: CROAGUNK_78:MYSTERIOUS_TREASURES
+  variantType: Reprint
+  name: Croagunk
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Ghastly Sound
+    text: Flip a coin. If heads, your opponent can't play any Supporter cards from
+      his or her hand during his or her next turn.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Finger Poke
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: PSYCHIC
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: pop8-13
+  nationalPokedexNumber: 453
+- enumId: HAPPINY_14:POP_SERIES_8
+  variantOf: HAPPINY_52:MYSTERIOUS_TREASURES
+  variantType: Reprint
+  name: Happiny
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  abilities:
+  - type: Poké-Power
+    name: Baby Evolution
+    text: Once during your turn (before your attack), you may put Chansey from your
+      hand onto Happiny (this counts as evolving Happiny) and remove all damage counters
+      from Happiny.
+  moves:
+  - cost: []
+    name: Lively
+    text: Remove 2 damage counters from 1 of your Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: pop8-14
+  nationalPokedexNumber: 440
+- enumId: PIPLUP_15:POP_SERIES_8
+  variantOf: PIPLUP_93:DIAMOND_PEARL
+  variantType: Reprint
+  name: Piplup
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Peck
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Water Splash
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: pop8-15
+  nationalPokedexNumber: 393
+- enumId: RIOLU_16:POP_SERIES_8
+  name: Riolu
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 50
+  abilities:
+  - type: Poké-Body
+    name: Inner Focus
+    text: Riolu can't be Paralyzed.
+  moves:
+  - cost: [FIGHTING]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: pop8-16
+  nationalPokedexNumber: 447
+- enumId: TURTWIG_17:POP_SERIES_8
+  variantOf: TURTWIG_103:DIAMOND_PEARL
+  variantType: Reprint
+  name: Turtwig
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: []
+    name: Tackle
+    damage: '10'
+  - cost: [GRASS]
+    name: Razor Leaf
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: +10
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: pop8-17
+  nationalPokedexNumber: 387

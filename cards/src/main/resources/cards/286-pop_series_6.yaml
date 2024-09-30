@@ -1,0 +1,447 @@
+schema: E3
+expansion:
+  orderId: '286'
+  name: POP Series 6
+  enumId: POP_SERIES_6
+  shortName: POP6
+cards:
+- enumId: BASTIODON_1:POP_SERIES_6
+  variantOf: BASTIODON_21:MYSTERIOUS_TREASURES
+  variantType: Reprint
+  name: Bastiodon
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Shieldon]
+  hp: 130
+  abilities:
+  - type: Poké-Body
+    name: Protective Wall
+    text: Prevent all damage done to your Benched Pokémon by your opponent's attacks.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Anger Revenge
+    damage: '60'
+    text: If Bastiodon was damaged by an attack during your opponent's last turn,
+      this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIRE
+    value: +40
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare
+  artist: Kazuyuki Kano
+  pioId: pop6-1
+  nationalPokedexNumber: 411
+- enumId: LUCARIO_2:POP_SERIES_6
+  variantOf: LUCARIO_6:DIAMOND_PEARL
+  variantType: Reprint
+  name: Lucario
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Riolu]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Feint
+    damage: '30'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [FIGHTING, FIGHTING]
+    name: Aura Sphere
+    damage: '40'
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: +20
+  retreatCost: 1
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: pop6-2
+  nationalPokedexNumber: 448
+- enumId: MANAPHY_3:POP_SERIES_6
+  variantOf: MANAPHY_9:DIAMOND_PEARL
+  variantType: Reprint
+  name: Manaphy
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle
+      your deck afterward.
+  - cost: [WATER, WATER]
+    name: Aqua Ring
+    damage: '30'
+    text: Switch Manaphy with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: +20
+  retreatCost: 1
+  rarity: Rare
+  artist: Atsuko Nishida
+  pioId: pop6-3
+  nationalPokedexNumber: 490
+- enumId: PACHIRISU_4:POP_SERIES_6
+  variantOf: PACHIRISU_35:DIAMOND_PEARL
+  variantType: Reprint
+  name: Pachirisu
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Minor Errand-Running
+    text: Search your deck for a basic Energy card, show it to your opponent, and
+      put it into your hand. Shuffle your deck afterward.
+  - cost: [LIGHTNING]
+    name: Thunder Jolt
+    damage: '20'
+    text: Flip a coin. If tails, Pachirisu does 10 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: +20
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Atsuko Nishida
+  pioId: pop6-4
+  nationalPokedexNumber: 417
+- enumId: RAMPARDOS_5:POP_SERIES_6
+  variantOf: RAMPARDOS_33:MYSTERIOUS_TREASURES
+  variantType: Reprint
+  name: Rampardos
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Cranidos]
+  hp: 120
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Assurance
+    damage: '30'
+    text: As long as the Defending Pokémon's remaining HP is 60 or less, this attack's
+      base damage is 60 instead of 30.
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Hasty Headbutt
+    damage: '100'
+    text: Rampardos does 20 damage to itself. This attack's damage isn't affected
+      by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the
+      Defending Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: +30
+  retreatCost: 1
+  rarity: Rare
+  artist: Kazuyuki Kano
+  pioId: pop6-5
+  nationalPokedexNumber: 409
+- enumId: DRIFLOON_6:POP_SERIES_6
+  variantOf: DRIFLOON_46:DIAMOND_PEARL
+  variantType: Reprint
+  name: Drifloon
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Blowing Wind
+    text: Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached
+      to on top of your deck. Shuffle your deck afterward.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Ominous Wind
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat
+      during your opponent's next turn.
+  weaknesses:
+  - type: DARKNESS
+    value: +10
+  resistances:
+  - type: COLORLESS
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: pop6-6
+  nationalPokedexNumber: 425
+- enumId: GIBLE_7:POP_SERIES_6
+  name: Gible
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Surprise Attack
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: pop6-7
+  nationalPokedexNumber: 443
+- enumId: RIOLU_8:POP_SERIES_6
+  variantOf: RIOLU_61:DIAMOND_PEARL
+  variantType: Reprint
+  name: Riolu
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Wild Kick
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: PSYCHIC
+    value: +10
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: pop6-8
+  nationalPokedexNumber: 447
+- enumId: PIKACHU_9:POP_SERIES_6
+  name: Pikachu
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Spark
+    damage: '10'
+    text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop6-9
+  nationalPokedexNumber: 25
+- enumId: STARAVIA_10:POP_SERIES_6
+  variantOf: STARAVIA_64:DIAMOND_PEARL
+  variantType: Reprint
+  name: Staravia
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Starly]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Whirlwind
+    damage: '20'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Clutch
+    damage: '20'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: LIGHTNING
+    value: +20
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: pop6-10
+  nationalPokedexNumber: 397
+- enumId: BIDOOF_11:POP_SERIES_6
+  variantOf: BIDOOF_70:DIAMOND_PEARL
+  variantType: Reprint
+  name: Bidoof
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Amnesia
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that
+      attack during your opponent's next turn.
+  - cost: [COLORLESS]
+    name: Scavenge
+    text: Search your discard pile for a Trainer card, show it to your opponent, and
+      put it into your hand.
+  weaknesses:
+  - type: FIGHTING
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: pop6-11
+  nationalPokedexNumber: 399
+- enumId: BUNEARY_12:POP_SERIES_6
+  variantOf: BUNEARY_73:DIAMOND_PEARL
+  variantType: Reprint
+  name: Buneary
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Splash
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Jump Kick
+    damage: '10'
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop6-12
+  nationalPokedexNumber: 427
+- enumId: CHERUBI_13:POP_SERIES_6
+  variantOf: CHERUBI_75:DIAMOND_PEARL
+  variantType: Reprint
+  name: Cherubi
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Sleep Powder
+    text: The Defending Pokémon is now Asleep.
+  - cost: [GRASS, COLORLESS]
+    name: Leech Seed
+    damage: '20'
+    text: If this attack does any damage to the Defending Pokémon (after applying
+      Weakness and Resistance), remove 1 damage counter from Cherubi.
+  weaknesses:
+  - type: FIRE
+    value: +10
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: pop6-13
+  nationalPokedexNumber: 420
+- enumId: CHIMCHAR_14:POP_SERIES_6
+  variantOf: CHIMCHAR_76:DIAMOND_PEARL
+  variantType: Reprint
+  name: Chimchar
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: []
+    name: Scratch
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Ember
+    damage: '30'
+    text: Flip a coin. If tails, discard a [R] Energy attached to Chimchar.
+  weaknesses:
+  - type: WATER
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop6-14
+  nationalPokedexNumber: 390
+- enumId: PIPLUP_15:POP_SERIES_6
+  variantOf: PIPLUP_93:DIAMOND_PEARL
+  variantType: Reprint
+  name: Piplup
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: []
+    name: Peck
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Water Splash
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: +10
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: pop6-15
+  nationalPokedexNumber: 393
+- enumId: STARLY_16:POP_SERIES_6
+  variantOf: STARLY_101:DIAMOND_PEARL
+  variantType: Reprint
+  name: Starly
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Gust
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: +10
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: pop6-16
+  nationalPokedexNumber: 396
+- enumId: TURTWIG_17:POP_SERIES_6
+  variantOf: TURTWIG_103:DIAMOND_PEARL
+  variantType: Reprint
+  name: Turtwig
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: []
+    name: Tackle
+    damage: '10'
+  - cost: [GRASS]
+    name: Razor Leaf
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: +10
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: pop6-17
+  nationalPokedexNumber: 387

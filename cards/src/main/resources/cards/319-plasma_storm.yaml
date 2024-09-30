@@ -1,0 +1,3050 @@
+schema: E3
+expansion:
+  orderId: '319'
+  name: Plasma Storm
+  enumId: PLASMA_STORM
+  shortName: PLS
+cards:
+- enumId: TURTWIG_1:PLASMA_STORM
+  name: Turtwig
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Nap
+    text: Heal 20 damage from this Pokémon.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-1
+  nationalPokedexNumber: 387
+- enumId: GROTLE_2:PLASMA_STORM
+  name: Grotle
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Turtwig]
+  hp: 100
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Knock Away
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: bw8-2
+  nationalPokedexNumber: 388
+- enumId: TORTERRA_3:PLASMA_STORM
+  name: Torterra
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2, TEAM_PLASMA]
+  types: [GRASS]
+  evolvesFrom: [Grotle]
+  hp: 150
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Guard Press
+    damage: '60'
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [GRASS, COLORLESS, COLORLESS, COLORLESS]
+    name: Rumble Stomp
+    damage: 80+
+    text: Flip a coin until you get tails. This attack does 20 more damage for each
+      heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-3
+  nationalPokedexNumber: 389
+- enumId: COMBEE_4:PLASMA_STORM
+  name: Combee
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 30
+  moves:
+  - cost: [GRASS]
+    name: Sting Missile
+    damage: '30'
+    text: Shuffle this Pokémon and all cards attached to it into your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: bw8-4
+  nationalPokedexNumber: 415
+- enumId: VESPIQUEN_5:PLASMA_STORM
+  name: Vespiquen
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Combee]
+  hp: 100
+  moves:
+  - cost: [GRASS]
+    name: Gather Order
+    text: Search your deck for as many Combee as you like and put them onto your Bench.
+      Shuffle your deck afterward.
+  - cost: [GRASS, COLORLESS]
+    name: Damage Beat
+    damage: 20x
+    text: Does 20 damage times the number of damage counters on the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Hajime Kusajima
+  pioId: bw8-5
+  nationalPokedexNumber: 416
+- enumId: CHERUBI_6:PLASMA_STORM
+  name: Cherubi
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Leech Seed
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: bw8-6
+  nationalPokedexNumber: 420
+- enumId: CHERRIM_7:PLASMA_STORM
+  name: Cherrim
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Cherubi]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Fair-Weather Heal
+    text: Once during your turn (before your attack), you may heal 20 damage from
+      1 of your Pokémon that has any [G] Energy attached to it.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Random Peck
+    damage: 20+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: bw8-7
+  nationalPokedexNumber: 421
+- enumId: SEWADDLE_8:PLASMA_STORM
+  name: Sewaddle
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Bug Bite
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: bw8-8
+  nationalPokedexNumber: 540
+- enumId: SWADLOON_9:PLASMA_STORM
+  name: Swadloon
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Sewaddle]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Swaddle Guard
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 40 (after applying Weakness and Resistance).
+  - cost: [COLORLESS, COLORLESS]
+    name: Surprise Attack
+    damage: '40'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Kyoko Umemoto
+  pioId: bw8-9
+  nationalPokedexNumber: 541
+- enumId: LEAVANNY_10:PLASMA_STORM
+  name: Leavanny
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Swadloon]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Cleave
+    damage: '30'
+    text: Flip 2 coins. If both of them are heads, discard all Energy attached to
+      the Defending Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Leaf Blade
+    damage: 70+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: bw8-10
+  nationalPokedexNumber: 542
+- enumId: MARACTUS_11:PLASMA_STORM
+  name: Maractus
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Dazzle Dance
+    damage: '10'
+    text: The Defending Pokémon is now Confused.
+  - cost: [GRASS, COLORLESS]
+    name: Ambush
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shigenori Negishi
+  pioId: bw8-11
+  nationalPokedexNumber: 556
+- enumId: FOONGUS_12:PLASMA_STORM
+  name: Foongus
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Astonish
+    text: Flip a coin. If heads, choose a random card from your opponent's hand. Your
+      opponent reveals that card and shuffles it into his or her deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: bw8-12
+  nationalPokedexNumber: 590
+- enumId: AMOONGUSS_13:PLASMA_STORM
+  name: Amoonguss
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [GRASS]
+  evolvesFrom: [Foongus]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Astonish
+    text: Flip a coin. If heads, choose 3 random cards from your opponent's hand.
+      Your opponent reveals those cards and shuffles them into his or her deck.
+  - cost: [GRASS, COLORLESS]
+    name: Miracle Powder
+    damage: '30'
+    text: Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon
+      is now affected by that Special Condition.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: 5ban Graphics
+  pioId: bw8-13
+  nationalPokedexNumber: 591
+- enumId: MOLTRES_EX_14:PLASMA_STORM
+  name: Moltres-EX
+  number: '14'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [FIRE]
+  hp: 170
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Destructive Flame
+    damage: '30'
+    text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS, COLORLESS]
+    name: Power Flame
+    damage: 80+
+    text: If this Pokémon has any Plasma Energy attached to it, this attack does 40
+      more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: bw8-14
+  nationalPokedexNumber: 146
+- enumId: CHIMCHAR_15:PLASMA_STORM
+  name: Chimchar
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE]
+    name: Flare
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: bw8-15
+  nationalPokedexNumber: 390
+- enumId: MONFERNO_16:PLASMA_STORM
+  name: Monferno
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Chimchar]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Loud Howl
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [FIRE, COLORLESS]
+    name: Fire Tail Slap
+    damage: '50'
+    text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: bw8-16
+  nationalPokedexNumber: 391
+- enumId: INFERNAPE_17:PLASMA_STORM
+  name: Infernape
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2, TEAM_PLASMA]
+  types: [FIRE]
+  evolvesFrom: [Monferno]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Torment
+    damage: '30'
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that
+      attack during your opponent's next turn.
+  - cost: [FIRE, COLORLESS]
+    name: Malevolent Fire
+    damage: '120'
+    text: Discard all Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-17
+  nationalPokedexNumber: 392
+- enumId: VICTINI_EX_18:PLASMA_STORM
+  name: Victini-EX
+  number: '18'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIRE]
+  hp: 110
+  moves:
+  - cost: [FIRE]
+    name: Turbo Energize
+    text: Search your deck for 2 basic Energy cards and attach them to your Benched
+      Pokémon in any way you like. Shuffle your deck afterward.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Intensifying Burn
+    damage: 50+
+    text: If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: bw8-18
+  nationalPokedexNumber: 494
+- enumId: PANSEAR_19:PLASMA_STORM
+  name: Pansear
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Scratch
+    damage: '20'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Double Fire
+    damage: 40x
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: bw8-19
+  nationalPokedexNumber: 513
+- enumId: SIMISEAR_20:PLASMA_STORM
+  name: Simisear
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Pansear]
+  hp: 90
+  moves:
+  - cost: [FIRE]
+    name: Searing Flame
+    damage: '20'
+    text: The Defending Pokémon is now Burned.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Flame Blast
+    damage: 40+
+    text: Does 20 more damage for each [R] Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Naoki Saito
+  pioId: bw8-20
+  nationalPokedexNumber: 514
+- enumId: LITWICK_21:PLASMA_STORM
+  name: Litwick
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Surprise Attack
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-21
+  nationalPokedexNumber: 607
+- enumId: LAMPENT_22:PLASMA_STORM
+  name: Lampent
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Litwick]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Freefloating
+    text: If this Pokémon has no Energy attached to it, this Pokémon has no Retreat
+      Cost.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Will-O-Wisp
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: bw8-22
+  nationalPokedexNumber: 608
+- enumId: HEATMOR_23:PLASMA_STORM
+  name: Heatmor
+  number: '23'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [FIRE]
+    name: Luring Flame
+    text: Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.
+      The new Defending Pokémon is now Burned.
+  - cost: [FIRE, FIRE, FIRE]
+    name: Fiery Licks
+    damage: 50x
+    text: Discard the top 4 cards of your deck. This attack does 50 damage times the
+      number of [R] Energy cards you discarded.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: bw8-23
+  nationalPokedexNumber: 631
+- enumId: SQUIRTLE_24:PLASMA_STORM
+  name: Squirtle
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: bw8-24
+  nationalPokedexNumber: 7
+- enumId: ARTICUNO_EX_25:PLASMA_STORM
+  name: Articuno-EX
+  number: '25'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [WATER]
+  hp: 170
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Blizzard
+    damage: '60'
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Frost Prison
+    damage: '80'
+    text: If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon
+      is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Toyste Beach
+  pioId: bw8-25
+  nationalPokedexNumber: 144
+- enumId: SWINUB_26:PLASMA_STORM
+  name: Swinub
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Double Headbutt
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-26
+  nationalPokedexNumber: 220
+- enumId: PILOSWINE_27:PLASMA_STORM
+  name: Piloswine
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Swinub]
+  hp: 100
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Ice Beam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Quintuple Headbutt
+    damage: 40x
+    text: Flip 5 coins. This attack does 40 damage times the number of heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: bw8-27
+  nationalPokedexNumber: 221
+- enumId: MAMOSWINE_28:PLASMA_STORM
+  name: Mamoswine
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Piloswine]
+  hp: 150
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Frost Stone
+    damage: 50+
+    text: Flip a coin. If heads, this attack does 20 more damage and the Defending
+      Pokémon is now Paralyzed.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Continuous Headbutt
+    damage: 90x
+    text: Flip a coin until you get tails. This attack does 90 damage times the number
+      of heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: match
+  pioId: bw8-28
+  nationalPokedexNumber: 473
+- enumId: LOTAD_29:PLASMA_STORM
+  name: Lotad
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Bubble Beam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: bw8-29
+  nationalPokedexNumber: 270
+- enumId: LOMBRE_30:PLASMA_STORM
+  name: Lombre
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Lotad]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Jump On
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Wave Splash
+    damage: '50'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Suwama Chiaki
+  pioId: bw8-30
+  nationalPokedexNumber: 271
+- enumId: LUDICOLO_31:PLASMA_STORM
+  name: Ludicolo
+  number: '31'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Lombre]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Rain Dish
+    text: At any time between turns, heal 20 damage from this Pokémon.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Groovy Dance
+    damage: '70'
+    text: You may discard an Energy attached to this Pokémon. If you do, the Defending
+      Pokémon is now Confused.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: match
+  pioId: bw8-31
+  nationalPokedexNumber: 272
+- enumId: CARVANHA_32:PLASMA_STORM
+  name: Carvanha
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Bite
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: bw8-32
+  nationalPokedexNumber: 318
+- enumId: SHARPEDO_33:PLASMA_STORM
+  name: Sharpedo
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [WATER]
+  evolvesFrom: [Carvanha]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Rough Skin
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
+      (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking
+      Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Hard Bite
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-33
+  nationalPokedexNumber: 319
+- enumId: MANAPHY_34:PLASMA_STORM
+  name: Manaphy
+  number: '34'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Final Wish
+    text: When this Pokémon is Knocked Out by damage from an opponent's attack, search
+      your deck for a card and put it into your hand. Shuffle your deck afterward.
+  moves:
+  - cost: [WATER]
+    name: Seafaring
+    text: Flip 3 coins. For each heads, attach a [W] Energy card from your discard
+      pile to your Benched Pokémon in any way you like.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Naoki Saito
+  pioId: bw8-34
+  nationalPokedexNumber: 490
+- enumId: VANILLITE_35:PLASMA_STORM
+  name: Vanillite
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Snow Squall
+    damage: '10'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: bw8-35
+  nationalPokedexNumber: 582
+- enumId: VANILLISH_36:PLASMA_STORM
+  name: Vanillish
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Vanillite]
+  hp: 80
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Icy Snow
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: bw8-36
+  nationalPokedexNumber: 583
+- enumId: VANILLUXE_37:PLASMA_STORM
+  name: Vanilluxe
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Vanillish]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Enefountain
+    damage: '30'
+    text: Attach 2 basic Energy cards from your hand to 1 of your Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Blizzard
+    damage: '70'
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: bw8-37
+  nationalPokedexNumber: 584
+- enumId: FRILLISH_38:PLASMA_STORM
+  name: Frillish
+  number: '38'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Absorb
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw8-38
+  nationalPokedexNumber: 592
+- enumId: JELLICENT_39:PLASMA_STORM
+  name: Jellicent
+  number: '39'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [WATER]
+  evolvesFrom: [Frillish]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Spiteful Spirit
+    text: If this Pokémon is your Active Pokémon and is Knocked Out by damage from
+      an opponent's attack, the Attacking Pokémon is now Confused and Poisoned.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Aqua Bullet
+    damage: '40'
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-39
+  nationalPokedexNumber: 593
+- enumId: CUBCHOO_40:PLASMA_STORM
+  name: Cubchoo
+  number: '40'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Hail
+    text: Flip a coin. If heads, this attack does 10 damage to each of your opponent's
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Icy Snow
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: MAHOU
+  pioId: bw8-40
+  nationalPokedexNumber: 613
+- enumId: BEARTIC_41:PLASMA_STORM
+  name: Beartic
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [WATER]
+  evolvesFrom: [Cubchoo]
+  hp: 130
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Powerful Rage
+    damage: 20x
+    text: Does 20 damage times the number of damage counters on this Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Glacier Drop
+    damage: '90'
+    text: Discard the top card of your opponent's deck.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-41
+  nationalPokedexNumber: 614
+- enumId: MAGNEMITE_42:PLASMA_STORM
+  name: Magnemite
+  number: '42'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Metal Sound
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shigenori Negishi
+  pioId: bw8-42
+  nationalPokedexNumber: 81
+- enumId: MAGNEMITE_43:PLASMA_STORM
+  name: Magnemite
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Electro Ball
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: match
+  pioId: bw8-43
+  nationalPokedexNumber: 81
+- enumId: MAGNETON_44:PLASMA_STORM
+  name: Magneton
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Magnemite]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Metal Sound
+    text: The Defending Pokémon is now Confused.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: MAHOU
+  pioId: bw8-44
+  nationalPokedexNumber: 82
+- enumId: MAGNETON_45:PLASMA_STORM
+  name: Magneton
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Magnemite]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Knock Away
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: match
+  pioId: bw8-45
+  nationalPokedexNumber: 82
+- enumId: MAGNEZONE_46:PLASMA_STORM
+  name: Magnezone
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2, TEAM_PLASMA]
+  types: [LIGHTNING]
+  evolvesFrom: [Magneton]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Dual Brains
+    text: During your turn, you may play 2 Supporter cards.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Gyro Ball
+    damage: '80'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent
+      switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-46
+  nationalPokedexNumber: 462
+- enumId: MAGNEZONE_47:PLASMA_STORM
+  name: Magnezone
+  number: '47'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Magneton]
+  hp: 140
+  moves:
+  - cost: [LIGHTNING]
+    name: Double Assist
+    damage: '30'
+    text: Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Tumbling Attack
+    damage: 70+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: match
+  pioId: bw8-47
+  nationalPokedexNumber: 462
+- enumId: ZAPDOS_EX_48:PLASMA_STORM
+  name: Zapdos-EX
+  number: '48'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [LIGHTNING]
+  hp: 170
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Agility
+    damage: '30'
+    text: Flip a coin. If heads, prevent all effects of attacks, including damage,
+      done to this Pokémon during your opponent's next turn.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Powervolt
+    damage: 80+
+    text: If this Pokémon has any Plasma Energy attached to it, this attack does 40
+      more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: bw8-48
+  nationalPokedexNumber: 145
+- enumId: ROTOM_49:PLASMA_STORM
+  name: Rotom
+  number: '49'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Electribonus
+    text: Discard a [L] Energy card from your hand. If you do, draw 3 cards.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Poltergeist
+    damage: 20x
+    text: Your opponent reveals his or her hand. This attack does 20 damage times
+      the number of Trainer cards in your opponent's hand.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: 5ban Graphics
+  pioId: bw8-49
+  nationalPokedexNumber: 479
+- enumId: JOLTIK_50:PLASMA_STORM
+  name: Joltik
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [LIGHTNING]
+    name: Jump On
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: bw8-50
+  nationalPokedexNumber: 595
+- enumId: GALVANTULA_51:PLASMA_STORM
+  name: Galvantula
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Joltik]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING]
+    name: Discharge
+    damage: 30x
+    text: Discard all [L] Energy attached to this Pokémon. This attack does 30 damage
+      times the number of Energy cards you discarded.
+  - cost: [COLORLESS, COLORLESS]
+    name: Signal Beam
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Hajime Kusajima
+  pioId: bw8-51
+  nationalPokedexNumber: 596
+- enumId: ZUBAT_52:PLASMA_STORM
+  name: Zubat
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Spiral Drain
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw8-52
+  nationalPokedexNumber: 41
+- enumId: ZUBAT_53:PLASMA_STORM
+  name: Zubat
+  number: '53'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 40
+  abilities:
+  - type: Ability
+    name: Free Flight
+    text: If this Pokémon has no Energy attached to it, this Pokémon has no Retreat
+      Cost.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Wing Attack
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: bw8-53
+  nationalPokedexNumber: 41
+- enumId: GOLBAT_54:PLASMA_STORM
+  name: Golbat
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Zubat]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Spiral Drain
+    damage: '20'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kyoko Umemoto
+  pioId: bw8-54
+  nationalPokedexNumber: 42
+- enumId: CROBAT_55:PLASMA_STORM
+  variantOf: CROBAT_BW51:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Crobat
+  number: '55'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2, TEAM_PLASMA]
+  types: [PSYCHIC]
+  evolvesFrom: [Golbat]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Night Sight
+    text: Once during your turn (before your attack), you may draw a card.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Ultra-Toxic Fang
+    damage: '40'
+    text: The Defending Pokémon is now Poisoned. Put 4 damage counters instead of
+      1 on that Pokémon between turns.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-55
+  nationalPokedexNumber: 169
+- enumId: KOFFING_56:PLASMA_STORM
+  name: Koffing
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Double Spin
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw8-56
+  nationalPokedexNumber: 109
+- enumId: KOFFING_57:PLASMA_STORM
+  name: Koffing
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Smokescreen
+    damage: '20'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: match
+  pioId: bw8-57
+  nationalPokedexNumber: 109
+- enumId: WEEZING_58:PLASMA_STORM
+  name: Weezing
+  number: '58'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [PSYCHIC]
+  evolvesFrom: [Koffing]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Aftermath
+    text: When this Pokémon is Knocked Out by damage from an opponent's attack, discard
+      the top 3 cards of your opponent's deck.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Smogbank
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-58
+  nationalPokedexNumber: 110
+- enumId: RALTS_59:PLASMA_STORM
+  name: Ralts
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Psy Bolt
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kanako Eo
+  pioId: bw8-59
+  nationalPokedexNumber: 280
+- enumId: KIRLIA_60:PLASMA_STORM
+  name: Kirlia
+  number: '60'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Ralts]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Psy Bolt
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mizue
+  pioId: bw8-60
+  nationalPokedexNumber: 281
+- enumId: GALLADE_61:PLASMA_STORM
+  name: Gallade
+  number: '61'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Kirlia]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Powerful Storm
+    damage: 20x
+    text: Does 20 damage times the amount of Energy attached to all of your Pokémon.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Swift Lunge
+    damage: '80'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: kawayoo
+  pioId: bw8-61
+  nationalPokedexNumber: 475
+- enumId: GIRATINA_62:PLASMA_STORM
+  variantOf: GIRATINA_BW74:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Giratina
+  number: '62'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [PSYCHIC]
+  hp: 130
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Hex
+    damage: 50+
+    text: If the Defending Pokémon is affected by a Special Condition, this attack
+      does 50 more damage.
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS, COLORLESS]
+    name: Shadow Claw
+    damage: '90'
+    text: Discard a random card from your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-62
+  nationalPokedexNumber: 487
+- enumId: TRUBBISH_63:PLASMA_STORM
+  name: Trubbish
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Pile Up
+    text: Flip a coin. If heads, search your deck for a Pokémon Tool card, reveal
+      it, and put it into your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Sludge Toss
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: bw8-63
+  nationalPokedexNumber: 568
+- enumId: TRUBBISH_64:PLASMA_STORM
+  name: Trubbish
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Pound
+    damage: '10'
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Sludge Bomb
+    damage: '40'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-64
+  nationalPokedexNumber: 568
+- enumId: TRUBBISH_65:PLASMA_STORM
+  name: Trubbish
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Tool Drop
+    damage: 20x
+    text: Does 20 damage for each Pokémon Tool card attached to Pokémon in play (both
+      yours and your opponent's).
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Midori Harada
+  pioId: bw8-65
+  nationalPokedexNumber: 568
+- enumId: GARBODOR_66:PLASMA_STORM
+  name: Garbodor
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [PSYCHIC]
+  evolvesFrom: [Trubbish]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Biosmog
+    damage: '20'
+    text: The Defending Pokémon is now Poisoned. Flip a coin. If heads, discard an
+      Energy attached to that Pokémon.
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Sludge Bomb
+    damage: '70'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-66
+  nationalPokedexNumber: 569
+- enumId: GARBODOR_67:PLASMA_STORM
+  name: Garbodor
+  number: '67'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [PSYCHIC]
+  evolvesFrom: [Trubbish]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ensnarl
+    damage: 20x
+    text: Does 20 damage times the number of [C] in the Defending Pokémon's Retreat
+      Cost.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS, COLORLESS]
+    name: Double Ducts
+    damage: 80x
+    text: Flip 2 coins. This attack does 80 damage times the number of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-67
+  nationalPokedexNumber: 569
+- enumId: ELGYEM_68:PLASMA_STORM
+  name: Elgyem
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Psyshot
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-68
+  nationalPokedexNumber: 605
+- enumId: ELGYEM_69:PLASMA_STORM
+  name: Elgyem
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Reflect
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [PSYCHIC, COLORLESS]
+    name: Smash Punch
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: bw8-69
+  nationalPokedexNumber: 605
+- enumId: BEHEEYEM_70:PLASMA_STORM
+  name: Beheeyem
+  number: '70'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [PSYCHIC]
+  evolvesFrom: [Elgyem]
+  hp: 90
+  moves:
+  - cost: [PSYCHIC]
+    name: Lock Up
+    damage: '20'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Damakinesis
+    text: Move 6 damage counters from any of your Pokémon to the Defending Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-70
+  nationalPokedexNumber: 606
+- enumId: PHANPY_71:PLASMA_STORM
+  name: Phanpy
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING]
+    name: Tackle
+    damage: '10'
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Rollout
+    damage: '50'
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: bw8-71
+  nationalPokedexNumber: 231
+- enumId: DONPHAN_72:PLASMA_STORM
+  name: Donphan
+  number: '72'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 130
+  moves:
+  - cost: [FIGHTING]
+    name: Spinning Turn
+    damage: '40'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Wreck
+    damage: 80+
+    text: If there is any Stadium card in play, this attack does 60 more damage. Discard
+      that Stadium card.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 4
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: bw8-72
+  nationalPokedexNumber: 232
+- enumId: LUNATONE_73:PLASMA_STORM
+  name: Lunatone
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Premonition
+    text: Once during your turn (before your attack), you may look at the top 2 cards
+      of your deck and put them back on top of your deck in any order.
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Throw
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kouji Tajima
+  pioId: bw8-73
+  nationalPokedexNumber: 337
+- enumId: SOLROCK_74:PLASMA_STORM
+  name: Solrock
+  number: '74'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 90
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Heat Burn
+    damage: '20'
+    text: The Defending Pokémon is now Burned.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Explosion
+    damage: '90'
+    text: This Pokémon does 90 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kouji Tajima
+  pioId: bw8-74
+  nationalPokedexNumber: 338
+- enumId: RIOLU_75:PLASMA_STORM
+  name: Riolu
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Punch
+    damage: '10'
+  - cost: [FIGHTING, COLORLESS]
+    name: Kick
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: bw8-75
+  nationalPokedexNumber: 447
+- enumId: RIOLU_76:PLASMA_STORM
+  name: Riolu
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Kick
+    damage: '20'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Feint
+    damage: '40'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw8-76
+  nationalPokedexNumber: 447
+- enumId: LUCARIO_77:PLASMA_STORM
+  name: Lucario
+  number: '77'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Riolu]
+  hp: 90
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Kick
+    damage: '30'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Mach Cross
+    damage: '70'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: bw8-77
+  nationalPokedexNumber: 448
+- enumId: LUCARIO_78:PLASMA_STORM
+  name: Lucario
+  number: '78'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Riolu]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Dual Armor
+    text: If this Pokémon has any [M] Energy attached to it, this Pokémon's type is
+      both [F] and [M].
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Hurricane Kick
+    damage: 60+
+    text: Does 30 more damage for each Prize card your opponent has taken.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Satoshi Shirai
+  pioId: bw8-78
+  nationalPokedexNumber: 448
+- enumId: TIMBURR_79:PLASMA_STORM
+  name: Timburr
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Knock Back
+    damage: '20'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Low Kick
+    damage: '40'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: bw8-79
+  nationalPokedexNumber: 532
+- enumId: GURDURR_80:PLASMA_STORM
+  name: Gurdurr
+  number: '80'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Timburr]
+  hp: 90
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Dynamic Punch
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 20 more damage and the Defending
+      Pokémon is now Confused.
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '80'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: bw8-80
+  nationalPokedexNumber: 533
+- enumId: CONKELDURR_81:PLASMA_STORM
+  name: Conkeldurr
+  number: '81'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Gurdurr]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Facade
+    damage: 60+
+    text: If this Pokémon is Burned or Poisoned, this attack does 60 more damage.
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Drain Punch
+    damage: '80'
+    text: Heal 20 damage from this Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: bw8-81
+  nationalPokedexNumber: 534
+- enumId: PURRLOIN_82:PLASMA_STORM
+  name: Purrloin
+  number: '82'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [DARKNESS]
+    name: Tail Trickery
+    text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  - cost: [DARKNESS, COLORLESS]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: bw8-82
+  nationalPokedexNumber: 509
+- enumId: PURRLOIN_83:PLASMA_STORM
+  name: Purrloin
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Scout
+    text: Your opponent reveals his or her hand.
+  - cost: [DARKNESS, COLORLESS]
+    name: Fasten Claws
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: bw8-83
+  nationalPokedexNumber: 509
+- enumId: LIEPARD_84:PLASMA_STORM
+  name: Liepard
+  number: '84'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [DARKNESS]
+  evolvesFrom: [Purrloin]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Silent Claw
+    text: Your opponent reveals his or her hand. Discard a Supporter card you find
+      there. Use the effect of that card as the effect of this attack.
+  - cost: [DARKNESS, COLORLESS]
+    name: Fake Out
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-84
+  nationalPokedexNumber: 510
+- enumId: SCRAGGY_85:PLASMA_STORM
+  name: Scraggy
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Headbutt
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Low Kick
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-85
+  nationalPokedexNumber: 559
+- enumId: SCRAFTY_86:PLASMA_STORM
+  name: Scrafty
+  number: '86'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [DARKNESS]
+  evolvesFrom: [Scraggy]
+  hp: 90
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Kick Away
+    damage: '30'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Reinforced Headbutt
+    damage: 50+
+    text: If this Pokémon has a Pokémon Tool card attached to it, this attack does
+      50 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-86
+  nationalPokedexNumber: 560
+- enumId: SKARMORY_87:PLASMA_STORM
+  name: Skarmory
+  number: '87'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [METAL]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Cargo Jet
+    text: Discard a Team Plasma card from your hand. If you do, draw 3 cards.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Steel Wing
+    damage: '40'
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-87
+  nationalPokedexNumber: 227
+- enumId: KLINK_88:PLASMA_STORM
+  name: Klink
+  number: '88'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Rigidify
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [METAL, COLORLESS]
+    name: Vice Grip
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Akira Komayama
+  pioId: bw8-88
+  nationalPokedexNumber: 599
+- enumId: KLANG_89:PLASMA_STORM
+  name: Klang
+  number: '89'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Klink]
+  hp: 80
+  moves:
+  - cost: [METAL]
+    name: Vice Grip
+    damage: '20'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Gear Smash
+    damage: 30+
+    text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Akira Komayama
+  pioId: bw8-89
+  nationalPokedexNumber: 600
+- enumId: KLINKLANG_90:PLASMA_STORM
+  name: Klinklang
+  number: '90'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2, TEAM_PLASMA]
+  types: [METAL]
+  evolvesFrom: [Klang]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Plasma Steel
+    text: Prevent all damage done to your [M] Pokémon by attacks from your opponent's
+      Pokémon-EX.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Heavy Bullet
+    damage: '70'
+    text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's
+      Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: 5ban Graphics
+  pioId: bw8-90
+  nationalPokedexNumber: 601
+- enumId: DURANT_91:PLASMA_STORM
+  name: Durant
+  number: '91'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [METAL]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gnaw
+    damage: '20'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Hard Crunch
+    damage: 40+
+    text: If the Defending Pokémon already has any damage counters on it, this attack
+      does 30 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: 5ban Graphics
+  pioId: bw8-91
+  nationalPokedexNumber: 632
+- enumId: DURANT_92:PLASMA_STORM
+  name: Durant
+  number: '92'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [METAL]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Backup
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle
+      your deck afterward.
+  - cost: [METAL, COLORLESS]
+    name: Metal Jail
+    damage: '30'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: 5ban Graphics
+  pioId: bw8-92
+  nationalPokedexNumber: 632
+- enumId: COBALION_EX_93:PLASMA_STORM
+  name: Cobalion-EX
+  number: '93'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [METAL]
+  hp: 180
+  moves:
+  - cost: [METAL]
+    name: Righteous Edge
+    damage: '30'
+    text: Discard a Special Energy attached to the Defending Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Steel Bullet
+    damage: '100'
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other
+      effects on the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Eske Yoshinob
+  pioId: bw8-93
+  nationalPokedexNumber: 638
+- enumId: DRUDDIGON_94:PLASMA_STORM
+  name: Druddigon
+  number: '94'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [DRAGON]
+  hp: 110
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Guard Press
+    damage: '20'
+    text: During your opponent's next turn, any damage done to this Pokémon by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [FIRE, FIRE, WATER, COLORLESS]
+    name: Dragon Claw
+    damage: '90'
+  weaknesses:
+  - type: DRAGON
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-94
+  nationalPokedexNumber: 621
+- enumId: BLACK_KYUREM_EX_95:PLASMA_STORM
+  name: Black Kyurem-EX
+  number: '95'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DRAGON]
+  hp: 180
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '60'
+  - cost: [WATER, WATER, LIGHTNING, COLORLESS]
+    name: Black Ballista
+    damage: '200'
+    text: Discard 3 Energy attached to this Pokémon.
+  weaknesses:
+  - type: DRAGON
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw8-95
+  nationalPokedexNumber: 646
+- enumId: WHITE_KYUREM_EX_96:PLASMA_STORM
+  name: White Kyurem-EX
+  number: '96'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [DRAGON]
+  hp: 180
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Slash
+    damage: '60'
+  - cost: [FIRE, FIRE, WATER, COLORLESS]
+    name: White Inferno
+    damage: 100+
+    text: Does 10 more damage for each damage counter on this Pokémon.
+  weaknesses:
+  - type: DRAGON
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Shizurow
+  pioId: bw8-96
+  nationalPokedexNumber: 646
+- enumId: CLEFAIRY_97:PLASMA_STORM
+  name: Clefairy
+  number: '97'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Pound
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Double Slap
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: bw8-97
+  nationalPokedexNumber: 35
+- enumId: CLEFABLE_98:PLASMA_STORM
+  name: Clefable
+  number: '98'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Clefairy]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Moon Guidance
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      search your deck for a card that evolves from 1 of your Pokémon and put it onto
+      that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Moon Impact
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: bw8-98
+  nationalPokedexNumber: 36
+- enumId: DODUO_99:PLASMA_STORM
+  name: Doduo
+  number: '99'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Gatling Peck
+    damage: 10x
+    text: Flip 5 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Kyoko Umemoto
+  pioId: bw8-99
+  nationalPokedexNumber: 84
+- enumId: DODRIO_100:PLASMA_STORM
+  name: Dodrio
+  number: '100'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Doduo]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Raging Pecks
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads. This
+      Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Drill Peck
+    damage: '60'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: kawayoo
+  pioId: bw8-100
+  nationalPokedexNumber: 85
+- enumId: SNORLAX_101:PLASMA_STORM
+  name: Snorlax
+  number: '101'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [COLORLESS]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Block
+    text: As long as this Pokémon is your Active Pokémon, your opponent's Active Pokémon
+      can't retreat.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Teampact
+    damage: 30x
+    text: Does 30 damage times the number of Team Plasma Pokémon you have in play.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-101
+  nationalPokedexNumber: 143
+- enumId: TOGEPI_102:PLASMA_STORM
+  name: Togepi
+  number: '102'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Yawn
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kanako Eo
+  pioId: bw8-102
+  nationalPokedexNumber: 175
+- enumId: TOGETIC_103:PLASMA_STORM
+  name: Togetic
+  number: '103'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Togepi]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Sweet Kiss
+    damage: '30'
+    text: Your opponent draws a card.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Akira Komayama
+  pioId: bw8-103
+  nationalPokedexNumber: 176
+- enumId: TOGEKISS_104:PLASMA_STORM
+  name: Togekiss
+  number: '104'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Togetic]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Bright Veil
+    text: As long as this Pokémon is your Active Pokémon, whenever your opponent plays
+      an Item card from his or her hand, prevent all effects of that card done to
+      your Pokémon.
+  moves:
+  - cost: [COLORLESS]
+    name: Return
+    damage: '30'
+    text: Draw cards until you have 6 cards in your hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: bw8-104
+  nationalPokedexNumber: 468
+- enumId: WHISMUR_105:PLASMA_STORM
+  name: Whismur
+  number: '105'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Shout
+    text: Flip a coin. If heads, discard a random card from your opponent's hand.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hyper Voice
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Midori Harada
+  pioId: bw8-105
+  nationalPokedexNumber: 293
+- enumId: LOUDRED_106:PLASMA_STORM
+  name: Loudred
+  number: '106'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Whismur]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Supersonic
+    text: The Defending Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hyper Voice
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Aya Kusube
+  pioId: bw8-106
+  nationalPokedexNumber: 294
+- enumId: EXPLOUD_107:PLASMA_STORM
+  name: Exploud
+  number: '107'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Loudred]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Destructive Sound
+    text: Your opponent reveals his or her hand. Discard all Item cards you find there.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Round
+    damage: 50x
+    text: Does 50 damage times the number of your Pokémon that have the Round attack.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: match
+  pioId: bw8-107
+  nationalPokedexNumber: 295
+- enumId: LUGIA_EX_108:PLASMA_STORM
+  variantOf: LUGIA_EX_BW83:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Lugia-EX
+  number: '108'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [COLORLESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Overflow
+    text: If your opponent's Pokémon is Knocked Out by damage from an attack of this
+      Pokémon, take 1 more Prize card.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Plasma Gale
+    damage: '120'
+    text: Discard a Plasma Energy attached to this Pokémon. If you can't discard a
+      Plasma Energy, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Toyste Beach
+  pioId: bw8-108
+  nationalPokedexNumber: 249
+- enumId: SKITTY_109:PLASMA_STORM
+  name: Skitty
+  number: '109'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Triple Slap
+    damage: 20x
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: bw8-109
+  nationalPokedexNumber: 300
+- enumId: PATRAT_110:PLASMA_STORM
+  name: Patrat
+  number: '110'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Reckless Charge
+    damage: '20'
+    text: This Pokémon does 10 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: bw8-110
+  nationalPokedexNumber: 504
+- enumId: PATRAT_111:PLASMA_STORM
+  name: Patrat
+  number: '111'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Slam
+    damage: 20x
+    text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoki Saito
+  pioId: bw8-111
+  nationalPokedexNumber: 504
+- enumId: WATCHOG_112:PLASMA_STORM
+  name: Watchog
+  number: '112'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [COLORLESS]
+  evolvesFrom: [Patrat]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Fast Swipe
+    text: Discard a random card from your opponent's hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Biting Fang
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: 5ban Graphics
+  pioId: bw8-112
+  nationalPokedexNumber: 505
+- enumId: WATCHOG_113:PLASMA_STORM
+  name: Watchog
+  number: '113'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1, TEAM_PLASMA]
+  types: [COLORLESS]
+  evolvesFrom: [Patrat]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Second Bite
+    damage: 20+
+    text: Does 10 more damage for each damage counter on the Defending Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Low Kick
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-113
+  nationalPokedexNumber: 505
+- enumId: BOUFFALANT_114:PLASMA_STORM
+  name: Bouffalant
+  number: '114'
+  cardTypes: [POKEMON, BASIC, TEAM_PLASMA]
+  types: [COLORLESS]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Tool Breaker
+    text: Discard a Pokémon Tool card attached to the Defending Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: 5ban Graphics
+  pioId: bw8-114
+  nationalPokedexNumber: 626
+- enumId: RUFFLET_115:PLASMA_STORM
+  name: Rufflet
+  number: '115'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Incessant Peck
+    damage: 10+
+    text: Flip a coin until you get tails. This attack does 20 more damage for each
+      heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: kawayoo
+  pioId: bw8-115
+  nationalPokedexNumber: 627
+- enumId: BRAVIARY_116:PLASMA_STORM
+  name: Braviary
+  number: '116'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Rufflet]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Big Wing
+    text: Once during your turn (before your attack), if this Pokémon is your Active
+      Pokémon, you may have your opponent switch his or her Active Pokémon with 1
+      of his or her Benched Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Wild Edge
+    damage: 60+
+    text: You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Akira Komayama
+  pioId: bw8-116
+  nationalPokedexNumber: 628
+- enumId: BICYCLE_117:PLASMA_STORM
+  name: Bicycle
+  number: '117'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Draw cards until you have 4 cards in your hand.
+  artist: Toyste Beach
+  pioId: bw8-117
+- enumId: COLRESS_118:PLASMA_STORM
+  name: Colress
+  number: '118'
+  cardTypes: [TRAINER, SUPPORTER, TEAM_PLASMA]
+  rarity: Uncommon
+  text: Shuffle your hand into your deck. Then, draw a number of cards equal to the
+    number of Benched Pokémon (both yours and your opponent's).
+  artist: Yusuke Ohmura
+  pioId: bw8-118
+- enumId: COLRESS_MACHINE_119:PLASMA_STORM
+  name: Colress Machine
+  number: '119'
+  cardTypes: [TRAINER, ITEM, TEAM_PLASMA]
+  rarity: Uncommon
+  text: Search your deck for a Plasma Energy card and attach it to 1 of your Team
+    Plasma Pokémon. Shuffle your deck afterward.
+  artist: Ryo Ueda
+  pioId: bw8-119
+- enumId: ESCAPE_ROPE_120:PLASMA_STORM
+  name: Escape Rope
+  number: '120'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Each player switches his or her Active Pokémon with 1 of his or her Benched
+    Pokémon. (Your opponent switches first. If a player does not have a Benched Pokémon,
+    he or she doesn't switch Pokémon.)
+  artist: Ryo Ueda
+  pioId: bw8-120
+- enumId: ETHER_121:PLASMA_STORM
+  name: Ether
+  number: '121'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Reveal the top card of your deck. If that card is a basic Energy card, attach
+    it to 1 of your Pokémon. If it is not a basic Energy card, return it to the top
+    of your deck.
+  artist: Toyste Beach
+  pioId: bw8-121
+- enumId: EVIOLITE_122:PLASMA_STORM
+  variantOf: EVIOLITE_91:NOBLE_VICTORIES
+  variantType: Reprint
+  name: Eviolite
+  number: '122'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If the Pokémon this card is attached to is a Basic Pokémon, any damage done
+    to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  artist: 5ban Graphics
+  pioId: bw8-122
+- enumId: HYPNOTOXIC_LASER_123:PLASMA_STORM
+  name: Hypnotoxic Laser
+  number: '123'
+  cardTypes: [TRAINER, ITEM, TEAM_PLASMA]
+  rarity: Uncommon
+  text: Your opponent's Active Pokémon is now Poisoned. Flip a coin. If heads, your
+    opponent's Active Pokémon is also Asleep.
+  artist: 5ban Graphics
+  pioId: bw8-123
+- enumId: PLASMA_FRIGATE_124:PLASMA_STORM
+  name: Plasma Frigate
+  number: '124'
+  cardTypes: [TRAINER, STADIUM, TEAM_PLASMA]
+  rarity: Uncommon
+  text: Each Pokémon that has any Plasma Energy attached to it (both yours and your
+    opponent's) has no Weakness.
+  artist: 5ban Graphics
+  pioId: bw8-124
+- enumId: TEAM_PLASMA_GRUNT_125:PLASMA_STORM
+  name: Team Plasma Grunt
+  number: '125'
+  cardTypes: [TRAINER, SUPPORTER, TEAM_PLASMA]
+  rarity: Uncommon
+  text: Discard a Team Plasma card from your hand. (If you can't discard a Team Plasma
+    card, you can't play this card.) Draw 4 cards.
+  artist: Yusuke Ohmura
+  pioId: bw8-125
+- enumId: VIRBANK_CITY_GYM_126:PLASMA_STORM
+  name: Virbank City Gym
+  number: '126'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Put 2 more damage counters on Poisoned Pokémon (both yours and your opponent's)
+    between turns.
+  artist: Ryo Ueda
+  pioId: bw8-126
+- enumId: PLASMA_ENERGY_127:PLASMA_STORM
+  name: Plasma Energy
+  number: '127'
+  cardTypes: [ENERGY, SPECIAL_ENERGY, TEAM_PLASMA]
+  rarity: Uncommon
+  text: This card provides [C] Energy.
+  energy: [[COLORLESS]]
+  artist: 5ban Graphics
+  pioId: bw8-127
+- enumId: DOWSING_MACHINE_128:PLASMA_STORM
+  name: Dowsing Machine
+  number: '128'
+  cardTypes: [TRAINER, ACE_SPEC, ITEM]
+  rarity: Ultra Rare
+  text: |-
+    Discard 2 cards from your hand. (If you can't discard 2 cards, you can't play this card.) Put a Trainer card from your discard pile into your hand.
+    You can't have more than 1 ACE SPEC card in your deck.
+  artist: Ryo Ueda
+  pioId: bw8-128
+- enumId: SCRAMBLE_SWITCH_129:PLASMA_STORM
+  name: Scramble Switch
+  number: '129'
+  cardTypes: [TRAINER, ACE_SPEC, ITEM]
+  rarity: Ultra Rare
+  text: |-
+    Switch your Active Pokémon with 1 of your Benched Pokémon. Then, you may move as many Energy attached to the old Active Pokémon to the new Active Pokémon as you like.
+    You can't have more than 1 ACE SPEC card in your deck.
+  artist: 5ban Graphics
+  pioId: bw8-129
+- enumId: VICTORY_PIECE_130:PLASMA_STORM
+  name: Victory Piece
+  number: '130'
+  cardTypes: [TRAINER, ACE_SPEC, ITEM, POKEMON_TOOL]
+  rarity: Ultra Rare
+  text: |-
+    If this card is attached to Victini-EX, Victini-EX can use its attacks regardless of the amount or type of Energy attached to it.
+    You can't have more than 1 ACE SPEC card in your deck.
+  artist: 5ban Graphics
+  pioId: bw8-130
+- enumId: VICTINI_EX_131:PLASMA_STORM
+  variantOf: VICTINI_EX_18:PLASMA_STORM
+  variantType: Full Art
+  name: Victini-EX
+  number: '131'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [FIRE]
+  hp: 110
+  moves:
+  - cost: [FIRE]
+    name: Turbo Energize
+    text: Search your deck for 2 basic Energy cards and attach them to your Benched
+      Pokémon in any way you like. Shuffle your deck afterward.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Intensifying Burn
+    damage: 50+
+    text: If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: bw8-131
+  nationalPokedexNumber: 494
+- enumId: ARTICUNO_EX_132:PLASMA_STORM
+  variantOf: ARTICUNO_EX_25:PLASMA_STORM
+  variantType: Full Art
+  name: Articuno-EX
+  number: '132'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [WATER]
+  hp: 170
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Blizzard
+    damage: '60'
+    text: Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Frost Prison
+    damage: '80'
+    text: If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon
+      is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Toyste Beach
+  pioId: bw8-132
+  nationalPokedexNumber: 144
+- enumId: COBALION_EX_133:PLASMA_STORM
+  variantOf: COBALION_EX_93:PLASMA_STORM
+  variantType: Full Art
+  name: Cobalion-EX
+  number: '133'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX]
+  types: [METAL]
+  hp: 180
+  moves:
+  - cost: [METAL]
+    name: Righteous Edge
+    damage: '30'
+    text: Discard a Special Energy attached to the Defending Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Steel Bullet
+    damage: '100'
+    text: This attack's damage isn't affected by Weakness, Resistance, or any other
+      effects on the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Ryo Ueda
+  pioId: bw8-133
+  nationalPokedexNumber: 638
+- enumId: LUGIA_EX_134:PLASMA_STORM
+  variantOf: LUGIA_EX_BW83:BLACK_WHITE_PROMOS
+  variantType: Reprint
+  name: Lugia-EX
+  number: '134'
+  cardTypes: [POKEMON, BASIC, POKEMON_EX, TEAM_PLASMA]
+  types: [COLORLESS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Overflow
+    text: If your opponent's Pokémon is Knocked Out by damage from an attack of this
+      Pokémon, take 1 more Prize card.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Plasma Gale
+    damage: '120'
+    text: Discard a Plasma Energy attached to this Pokémon. If you can't discard a
+      Plasma Energy, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  artist: Toyste Beach
+  pioId: bw8-134
+  nationalPokedexNumber: 249
+- enumId: COLRESS_135:PLASMA_STORM
+  variantOf: COLRESS_118:PLASMA_STORM
+  variantType: Full Art
+  name: Colress
+  number: '135'
+  cardTypes: [TRAINER, SUPPORTER, TEAM_PLASMA]
+  rarity: Ultra Rare
+  text: Shuffle your hand into your deck. Then, draw a number of cards equal to the
+    number of Benched Pokémon (both yours and your opponent's).
+  artist: Kanako Eo
+  pioId: bw8-135
+- enumId: CHARIZARD_136:PLASMA_STORM
+  variantOf: CHARIZARD_20:BOUNDARIES_CROSSED
+  variantType: Reprint
+  name: Charizard
+  number: '136'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Charmeleon]
+  hp: 160
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Split Bomb
+    text: This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Scorching Fire
+    damage: '150'
+    text: Discard a [R] Energy attached to this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  artist: Ayaka Yoshida
+  pioId: bw8-136
+  nationalPokedexNumber: 6
+- enumId: BLASTOISE_137:PLASMA_STORM
+  variantOf: BLASTOISE_31:BOUNDARIES_CROSSED
+  variantType: Reprint
+  name: Blastoise
+  number: '137'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Wartortle]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Deluge
+    text: As often as you like during your turn (before your attack), you may attach
+      a [W] Energy card from your hand to 1 of your Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Hydro Pump
+    damage: 60+
+    text: Does 10 more damage for each [W] Energy attached to this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Secret
+  artist: Ayaka Yoshida
+  pioId: bw8-137
+  nationalPokedexNumber: 9
+- enumId: RANDOM_RECEIVER_138:PLASMA_STORM
+  variantOf: RANDOM_RECEIVER_99:DARK_EXPLORERS
+  variantType: Reprint
+  name: Random Receiver
+  number: '138'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Reveal cards from the top of your deck until you reveal a Supporter card.
+    Put it into your hand. Shuffle the other cards back into your deck.
+  artist: 5ban Graphics
+  pioId: bw8-138

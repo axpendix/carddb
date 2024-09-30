@@ -1,0 +1,346 @@
+schema: E3
+expansion:
+  orderId: '285'
+  name: POP Series 5
+  enumId: POP_SERIES_5
+  shortName: POP5
+cards:
+- enumId: HO_OH_1:POP_SERIES_5
+  name: Ho-oh
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Wing
+    damage: '20'
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Fire Blast
+    damage: '60'
+    text: Discard a Energy attached to Ho-oh.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: pop5-1
+  nationalPokedexNumber: 250
+- enumId: LUGIA_2:POP_SERIES_5
+  name: Lugia
+  number: '2'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Super Psy Bolt
+    damage: '20'
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Aerowing
+    text: Before doing damage, you may flip a coin. If tails, this attack does nothing.
+      If heads, this attack does 60 damage instead.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Mitsuhiro Arita
+  pioId: pop5-2
+  nationalPokedexNumber: 249
+- enumId: MEW_DELTA_3:POP_SERIES_5
+  name: Mew (Delta Species)
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Copy
+    text: Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This
+      attack does nothing if Mew doesn't have the Energy necessary to use that attack.
+      (You must still do anything else required for that attack.) Mew performs that
+      attack.
+  - cost: [FIRE]
+    name: Extra Draw
+    text: If your opponent has any Pokémon-ex in play, search your deck for up to
+      2 basic Energy cards and attach them to Mew. Shuffle your deck afterward.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: pop5-3
+  nationalPokedexNumber: 151
+- enumId: DOUBLE_RAINBOW_ENERGY_4:POP_SERIES_5
+  name: Double Rainbow Energy
+  number: '4'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Rare
+  text: Double Rainbow Energy can be attached only to an Evolved Pokémon (excluding
+    Pokémon-ex). While in play, Double Rainbow Energy provides every type of Energy
+    but provides 2 Energy at a time. (Has no effect other than providing Energy.)
+    Damage done to your opponent's Pokémon by the Pokémon Double Rainbow Energy is
+    attached to is reduced by 10 (before applying Weakness and Resistance). When the
+    Pokémon Double Rainbow Energy is attached to is no longer an Evolved Pokémon,
+    discard Double Rainbow Energy. (Major text change in Emerald. Using earlier versions
+    requires reference.)
+  artist: Takumi Akabane
+  pioId: pop5-4
+- enumId: CHARMELEON_DELTA_5:POP_SERIES_5
+  name: Charmeleon (Delta Species)
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Charmander]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Slash
+    damage: '20'
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder Jolt
+    damage: '50'
+    text: Flip a coin. If tails, Charmeleon does 10 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: pop5-5
+  nationalPokedexNumber: 5
+- enumId: BILL_S_MAINTENANCE_6:POP_SERIES_5
+  name: Bill's Maintenance
+  number: '6'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: If you have any cards in your hand, shuffle 1 of them into your deck, then
+    draw 3 cards.
+  artist: Ken Sugimori
+  pioId: pop5-6
+- enumId: RARE_CANDY_7:POP_SERIES_5
+  name: Rare Candy
+  number: '7'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card
+    that evolves from that Pokémon in your hand, put that card on the Basic Pokémon.
+    (This counts as evolving that Pokémon.)
+  artist: Ryo Ueda
+  pioId: pop5-7
+- enumId: BOOST_ENERGY_8:POP_SERIES_5
+  name: Boost Energy
+  number: '8'
+  cardTypes: [TRAINER]
+  rarity: Uncommon
+  text: Boost Energy can be attached only to an Evolved Pokémon. Discard Boost Energy
+    at the end of the turn it was attached. Boost Energy provides Energy. The Pokémon
+    Boost Energy is attached to can't retreat. If the Pokémon Boost Energy is attached
+    to isn't an Evolved Pokémon, discard Boost Energy.
+  artist: Shin-ichi Yoshikawa
+  pioId: pop5-8
+- enumId: DELTA_SPECIES_RAINBOW_ENERGY_9:POP_SERIES_5
+  name: Delta Species Rainbow Energy
+  number: '9'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: Delta Species Rainbow Energy provides Energy. While attached to a Pokémon
+    that has Delta Species on its card, Delta Species Rainbow Energy provides every
+    type of Energy but provides only 1 Energy at a time. (Has no effect other than
+    providing Energy.)
+  artist: Takumi Akabane
+  pioId: pop5-9
+- enumId: CHARMANDER_DELTA_10:POP_SERIES_5
+  name: Charmander (Delta Species)
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS]
+    name: Bite
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: pop5-10
+  nationalPokedexNumber: 4
+- enumId: MEOWTH_DELTA_11:POP_SERIES_5
+  name: Meowth (Delta Species)
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 50
+  moves:
+  - cost: [DARKNESS]
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 10 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on that Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: pop5-11
+  nationalPokedexNumber: 52
+- enumId: PIKACHU_12:POP_SERIES_5
+  name: Pikachu
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING]
+    name: Lightning Ball
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunderbolt
+    damage: '50'
+    text: Discard all Energy cards attached to Pikachu.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: pop5-12
+  nationalPokedexNumber: 25
+- enumId: PIKACHU_DELTA_13:POP_SERIES_5
+  name: Pikachu (Delta Species)
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Electric Punch
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Heavy Metal
+    damage: 10+
+    text: Flip a coin for each Energy attached to Pikachu. This attack does 10 damage
+      plus 20 more damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ryo Ueda
+  pioId: pop5-13
+  nationalPokedexNumber: 25
+- enumId: PELIPPER_DELTA_14:POP_SERIES_5
+  name: Pelipper (Delta Species)
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Wingull]
+  hp: 70
+  abilities:
+  - type: Poké-Body
+    name: Mist
+    text: Any damage done to Pelipper by attacks from Stage 2 Evolved Pokémon (both
+      yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Lightning Wing
+    damage: '50'
+    text: Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance
+      for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: pop5-14
+  nationalPokedexNumber: 279
+- enumId: ZANGOOSE_DELTA_15:POP_SERIES_5
+  name: Zangoose (Delta Species)
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Detect
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage,
+      done to Zangoose during your opponent's next turn.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Metal Claw
+    damage: '40'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: pop5-15
+  nationalPokedexNumber: 335
+- enumId: ESPEON_STAR_16:POP_SERIES_5
+  name: Espeon Star
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Purple Ray
+    text: Once during your turn, when you put Espeon * from your hand onto your Bench,
+      you may use this power. Each Active Pokémon (both yours and your opponent's)
+      is now Confused.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Psychic Boom
+    damage: 30+
+    text: Does 30 damage plus 10 more damage for each Energy attached to the Defending
+      Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: pop5-16
+  nationalPokedexNumber: 196
+- enumId: UMBREON_STAR_17:POP_SERIES_5
+  name: Umbreon Star
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  abilities:
+  - type: Poké-Power
+    name: Dark Ray
+    text: Once during your turn, when you put Umbreon * from your hand onto your Bench,
+      you may choose 1 card from your opponent's hand without looking and discard
+      it.
+  moves:
+  - cost: [DARKNESS, DARKNESS]
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: pop5-17
+  nationalPokedexNumber: 197

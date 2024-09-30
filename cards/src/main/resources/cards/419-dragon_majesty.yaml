@@ -1,0 +1,1803 @@
+schema: E3
+expansion:
+  orderId: '419'
+  name: Dragon Majesty
+  enumId: DRAGON_MAJESTY
+  shortName: DRM
+cards:
+- enumId: CHARMANDER_1:DRAGON_MAJESTY
+  name: Charmander
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Fang
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: tetsuya koizumi
+  pioId: sm75-1
+  nationalPokedexNumber: 4
+- enumId: CHARMELEON_2:DRAGON_MAJESTY
+  name: Charmeleon
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Charmander]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Burning Fighter
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may discard the top 5 cards of your deck. If any of those cards
+      are [R] Energy cards, attach them to this Pokémon.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '80'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kodama
+  pioId: sm75-2
+  nationalPokedexNumber: 5
+- enumId: CHARIZARD_3:DRAGON_MAJESTY
+  name: Charizard
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Charmeleon]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Resolute Flame
+    text: This Pokémon's attacks do 30 more damage to your opponent's Active Pokémon
+      for each of their Pokémon-GX and Pokémon-EX in play.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fiery Blast
+    damage: '130'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ryota Murayama
+  pioId: sm75-3
+  nationalPokedexNumber: 6
+- enumId: TORCHIC_4:DRAGON_MAJESTY
+  name: Torchic
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Singe
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm75-4
+  nationalPokedexNumber: 255
+- enumId: COMBUSKEN_5:DRAGON_MAJESTY
+  name: Combusken
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Torchic]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Natural Cure
+    text: Whenever you attach an Energy card from your hand to this Pokémon, remove
+      all Special Conditions from it.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Lunge
+    damage: '60'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm75-5
+  nationalPokedexNumber: 256
+- enumId: BLAZIKEN_6:DRAGON_MAJESTY
+  name: Blaziken
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Combusken]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Firestarter
+    text: Once during your turn (before your attack), you may attach a [R] Energy
+      card from your discard pile to 1 of your Benched Pokémon.
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Fire Stream
+    damage: '90'
+    text: Discard a [R] Energy from this Pokémon. This attack does 20 damage to each
+      of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for
+      Benched Pokémon.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: sm75-6
+  nationalPokedexNumber: 257
+- enumId: VICTINI_PRISM_STAR_7:DRAGON_MAJESTY
+  name: Victini ◇
+  number: '7'
+  cardTypes: [POKEMON, BASIC, PRISM_STAR]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [FIRE, FIRE]
+    name: Infinity
+    damage: 20x
+    text: This attack does 20 damage for each basic Energy card in your discard pile.
+      Then, shuffle those cards into your deck.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: You can't have more than 1 ◇ card with the same name in your deck. If a ◇
+    card would go to the discard pile, put it in the Lost Zone instead.
+  artist: Shin Nagasawa
+  pioId: sm75-7
+  nationalPokedexNumber: 494
+- enumId: DARUMAKA_8:DRAGON_MAJESTY
+  name: Darumaka
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Damage Rush
+    damage: 10+
+    text: Flip a coin until you get tails. This attack does 30 more damage for each
+      heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: sm75-8
+  nationalPokedexNumber: 554
+- enumId: DARMANITAN_9:DRAGON_MAJESTY
+  name: Darmanitan
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Darumaka]
+  hp: 130
+  moves:
+  - cost: [FIRE]
+    name: Heat Assist
+    text: Attach up to 3 [R] Energy cards from your hand to your Pokémon in any way
+      you like.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Darmani-Hands
+    damage: 30+
+    text: Flip 4 coins. This attack does 50 more damage for each heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: sm75-9
+  nationalPokedexNumber: 555
+- enumId: HEATMOR_10:DRAGON_MAJESTY
+  name: Heatmor
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 110
+  moves:
+  - cost: [FIRE]
+    name: Singe
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE]
+    name: Charring Breath
+    damage: '120'
+    text: If your opponent's Active Pokémon isn't Burned, this attack does nothing.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm75-10
+  nationalPokedexNumber: 631
+- enumId: RESHIRAM_GX_11:DRAGON_MAJESTY
+  name: Reshiram-GX
+  number: '11'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Flame Charge
+    text: Search your deck for up to 2 [R] Energy cards and attach them to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Scorching Column
+    damage: '110'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Vermilion-GX
+    damage: '180'
+    text: You may attach up to 5 [R] Energy cards from your hand to your Pokémon in
+      any way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Otani
+  pioId: sm75-11
+  nationalPokedexNumber: 643
+- enumId: LITTEN_12:DRAGON_MAJESTY
+  name: Litten
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ryota Murayama
+  pioId: sm75-12
+  nationalPokedexNumber: 725
+- enumId: SALANDIT_13:DRAGON_MAJESTY
+  name: Salandit
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle
+      your deck.
+  - cost: [FIRE, COLORLESS]
+    name: Dig Claws
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: sm75-13
+  nationalPokedexNumber: 757
+- enumId: SALAZZLE_14:DRAGON_MAJESTY
+  name: Salazzle
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Salandit]
+  hp: 110
+  moves:
+  - cost: [FIRE]
+    name: Ring of Fire
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Burned. It can't retreat during your
+      opponent's next turn.
+  - cost: [FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '80'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Naoki Saito
+  pioId: sm75-14
+  nationalPokedexNumber: 758
+- enumId: HORSEA_15:DRAGON_MAJESTY
+  name: Horsea
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 40
+  moves:
+  - cost: [WATER]
+    name: Splatter
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: sm75-15
+  nationalPokedexNumber: 116
+- enumId: HORSEA_16:DRAGON_MAJESTY
+  name: Horsea
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hydro Pump
+    damage: 10+
+    text: This attack does 10 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: sm75-16
+  nationalPokedexNumber: 116
+- enumId: SEADRA_17:DRAGON_MAJESTY
+  name: Seadra
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Horsea]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Hydro Pump
+    damage: 10+
+    text: This attack does 20 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yumi
+  pioId: sm75-17
+  nationalPokedexNumber: 117
+- enumId: KINGDRA_GX_18:DRAGON_MAJESTY
+  name: Kingdra-GX
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Seadra]
+  hp: 230
+  moves:
+  - cost: [COLORLESS]
+    name: Hydro Pump
+    damage: 10+
+    text: This attack does 50 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  - cost: [WATER]
+    name: Reverse Thrust
+    damage: '30'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [WATER]
+    name: Maelstrom-GX
+    text: This attack does 40 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX
+      attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-18
+  nationalPokedexNumber: 230
+- enumId: MAGIKARP_19:DRAGON_MAJESTY
+  name: Magikarp
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [WATER]
+    name: Water Splash
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Sekio
+  pioId: sm75-19
+  nationalPokedexNumber: 129
+- enumId: GYARADOS_20:DRAGON_MAJESTY
+  name: Gyarados
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Commotion
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
+      (even if this Pokémon is Knocked Out), put 2 damage counters on each of your
+      Benched Pokémon.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Wild Tail
+    damage: '160'
+    text: You may discard any Stadium card in play.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: kawayoo
+  pioId: sm75-20
+  nationalPokedexNumber: 130
+- enumId: LAPRAS_21:DRAGON_MAJESTY
+  name: Lapras
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: Aqua Bullet
+    damage: '20'
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hydro Pump
+    damage: 70+
+    text: This attack does 10 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Saya Tsuruta
+  pioId: sm75-21
+  nationalPokedexNumber: 131
+- enumId: TOTODILE_22:DRAGON_MAJESTY
+  name: Totodile
+  number: '22'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Leer
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [WATER]
+    name: Fury Swipes
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hironobu Yoshida
+  pioId: sm75-22
+  nationalPokedexNumber: 158
+- enumId: CROCONAW_23:DRAGON_MAJESTY
+  name: Croconaw
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Totodile]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '30'
+  - cost: [WATER, WATER, COLORLESS]
+    name: Sweep Away
+    damage: '90'
+    text: Discard the top 3 cards of your deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm75-23
+  nationalPokedexNumber: 159
+- enumId: FERALIGATR_24:DRAGON_MAJESTY
+  name: Feraligatr
+  number: '24'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Croconaw]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Downpour
+    text: As often as you like during your turn (before your attack), you may discard
+      a [W] Energy card from your hand.
+  moves:
+  - cost: [WATER, WATER]
+    name: Riptide
+    damage: 10+
+    text: This attack does 20 more damage for each [W] Energy card in your discard
+      pile. Then, shuffle those cards into your deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: sm75-24
+  nationalPokedexNumber: 160
+- enumId: WOOPER_25:DRAGON_MAJESTY
+  name: Wooper
+  number: '25'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Rain Splash
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shibuzoh.
+  pioId: sm75-25
+  nationalPokedexNumber: 194
+- enumId: QUAGSIRE_26:DRAGON_MAJESTY
+  name: Quagsire
+  number: '26'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Wooper]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Wash Out
+    text: As often as you like during your turn (before your attack), you may move
+      a [W] Energy from 1 of your Benched Pokémon to your Active Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hydro Pump
+    damage: 60+
+    text: This attack does 20 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: sm75-26
+  nationalPokedexNumber: 195
+- enumId: CORSOLA_27:DRAGON_MAJESTY
+  name: Corsola
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Bubble Shoot
+    text: This attack does 20 damage times the amount of [W] Energy attached to this
+      Pokémon to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance
+      for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: sm75-27
+  nationalPokedexNumber: 222
+- enumId: FEEBAS_28:DRAGON_MAJESTY
+  name: Feebas
+  number: '28'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  abilities:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this
+      Pokémon by attacks (both yours and your opponent's).
+  moves:
+  - cost: [WATER]
+    name: Rain Splash
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: sm75-28
+  nationalPokedexNumber: 349
+- enumId: MILOTIC_29:DRAGON_MAJESTY
+  name: Milotic
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Feebas]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: Aurora Wave
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [WATER, WATER, WATER]
+    name: Aqua Split
+    damage: '40'
+    text: This attack does 40 damage to 2 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: hatachu
+  pioId: sm75-29
+  nationalPokedexNumber: 350
+- enumId: PHIONE_30:DRAGON_MAJESTY
+  name: Phione
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Murmurs of the Sea
+    text: Your [W] Pokémon can't be Confused. If those Pokémon are already Confused,
+      remove that Special Condition.
+  moves:
+  - cost: [WATER, WATER]
+    name: Water Pulse
+    damage: '30'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: sm75-30
+  nationalPokedexNumber: 489
+- enumId: WISHIWASHI_31:DRAGON_MAJESTY
+  name: Wishiwashi
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  abilities:
+  - type: Ability
+    name: Meet Up
+    text: Your Wishiwashi-GX in play get +20 HP, and their attacks do 20 more damage
+      to your opponent's Active Pokémon (before applying Weakness and Resistance).
+  moves:
+  - cost: [WATER]
+    name: Water Gun
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm75-31
+  nationalPokedexNumber: 746
+- enumId: TRAPINCH_32:DRAGON_MAJESTY
+  name: Trapinch
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Mini Earthquake
+    damage: '20'
+    text: This attack does 10 damage to each of your Benched Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: sm75-32
+  nationalPokedexNumber: 328
+- enumId: HYDREIGON_33:DRAGON_MAJESTY
+  variantOf: HYDREIGON_62:CRIMSON_INVASION
+  variantType: Reprint
+  name: Hydreigon
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Zweilous]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Weed Out
+    text: Once during your turn (before your attack), you may choose 3 of your Benched
+      Pokémon. Then, discard your other Benched Pokémon.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Dark Destruction
+    damage: '120'
+    text: You may discard an Energy from this Pokémon. If you do, discard an Energy
+      from your opponent's Active Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: sm75-33
+  nationalPokedexNumber: 635
+- enumId: DRATINI_34:DRAGON_MAJESTY
+  name: Dratini
+  number: '34'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Wrap
+    damage: '10'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Ayaka Yoshida
+  pioId: sm75-34
+  nationalPokedexNumber: 147
+- enumId: DRATINI_35:DRAGON_MAJESTY
+  name: Dratini
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 70
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Tail Whap
+    damage: '30'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Anesaki Dynamic
+  pioId: sm75-35
+  nationalPokedexNumber: 147
+- enumId: DRAGONAIR_36:DRAGON_MAJESTY
+  name: Dragonair
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Dratini]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dragon Tail
+    damage: 60x
+    text: Flip 2 coins. This attack does 60 damage for each heads.
+  - cost: [WATER, LIGHTNING, COLORLESS, COLORLESS]
+    name: Waterfall
+    damage: '80'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: sui
+  pioId: sm75-36
+  nationalPokedexNumber: 148
+- enumId: DRAGONITE_GX_37:DRAGON_MAJESTY
+  name: Dragonite-GX
+  number: '37'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Dragonair]
+  hp: 250
+  moves:
+  - cost: [LIGHTNING]
+    name: Dragon Claw
+    damage: '70'
+  - cost: [WATER, LIGHTNING, COLORLESS, COLORLESS]
+    name: Giga Impact
+    damage: '200'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dragonporter-GX
+    text: Put 3 [N] Pokémon from your discard pile onto your Bench. (You can't use
+      more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-37
+  nationalPokedexNumber: 149
+- enumId: VIBRAVA_38:DRAGON_MAJESTY
+  name: Vibrava
+  number: '38'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Trapinch]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Sonic Edge
+    damage: '50'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: sm75-38
+  nationalPokedexNumber: 329
+- enumId: FLYGON_39:DRAGON_MAJESTY
+  name: Flygon
+  number: '39'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Vibrava]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Dragon Guard
+    text: Prevent all effects of your opponent's attacks, except damage, done to your
+      [N] Pokémon. (Existing effects are not removed.)
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Sand Tomb
+    damage: '110'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Shigenori Negishi
+  pioId: sm75-39
+  nationalPokedexNumber: 330
+- enumId: ALTARIA_40:DRAGON_MAJESTY
+  name: Altaria
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Fight Song
+    text: Your [N] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Pierce
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kyoko Umemoto
+  pioId: sm75-40
+  nationalPokedexNumber: 334
+- enumId: ALTARIA_40A:DRAGON_MAJESTY
+  variantOf: ALTARIA_40:DRAGON_MAJESTY
+  variantType: Holo
+  name: Altaria
+  number: 40a
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Fight Song
+    text: Your [N] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Pierce
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: sm75-40a
+  nationalPokedexNumber: 334
+- enumId: ALTARIA_GX_41:DRAGON_MAJESTY
+  name: Altaria-GX
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 200
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Bright Tone
+    damage: '50'
+    text: During your opponent's next turn, prevent all damage done to this Pokémon
+      by attacks from Pokémon-GX and Pokémon-EX.
+  - cost: [WATER, FAIRY, COLORLESS]
+    name: Sonic Edge
+    damage: '110'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [FAIRY, COLORLESS]
+    name: Euphoria-GX
+    text: Your opponent's Active Pokémon is now Asleep. Heal all damage from all of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-41
+  nationalPokedexNumber: 334
+- enumId: BAGON_42:DRAGON_MAJESTY
+  name: Bagon
+  number: '42'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Risky Kick
+    damage: '10'
+    text: Flip a coin. If tails, this attack does nothing.
+  - cost: [FIRE, WATER]
+    name: Dragon Eye
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: sm75-42
+  nationalPokedexNumber: 371
+- enumId: SHELGON_43:DRAGON_MAJESTY
+  name: Shelgon
+  number: '43'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Bagon]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Energy Guard
+    text: If this Pokémon has any basic Energy attached to it, it takes 20 less damage
+      from attacks (after applying Weakness and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Rollout
+    damage: '30'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Yuka Morii
+  pioId: sm75-43
+  nationalPokedexNumber: 372
+- enumId: SALAMENCE_GX_44:DRAGON_MAJESTY
+  name: Salamence-GX
+  number: '44'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Shelgon]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Dragon Lift
+    text: Your Pokémon in play have no Retreat Cost, except Pokémon-GX and Pokémon-EX.
+  moves:
+  - cost: [FIRE, WATER, COLORLESS, COLORLESS]
+    name: Bright Flame
+    damage: '200'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flame Jet-GX
+    text: This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX
+      attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-44
+  nationalPokedexNumber: 373
+- enumId: DRUGGIDON_45:DRAGON_MAJESTY
+  name: Druddigon
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Rough Skin
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
+      (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking
+      Pokémon.
+  moves:
+  - cost: [FIRE, WATER, COLORLESS]
+    name: Dragon Claw
+    damage: '100'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Mitsuhiro Arita
+  pioId: sm75-45
+  nationalPokedexNumber: 621
+- enumId: ZEKROM_46:DRAGON_MAJESTY
+  name: Zekrom
+  number: '46'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Shred
+    damage: '70'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS, COLORLESS]
+    name: Bolt Strike
+    damage: '150'
+    text: Flip a coin. If tails, this Pokémon does 50 damage to itself.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Hasuno
+  pioId: sm75-46
+  nationalPokedexNumber: 644
+- enumId: KYUREM_47:DRAGON_MAJESTY
+  variantOf: KYUREM_SM142:SUN_MOON_PROMOS
+  variantType: Reprint
+  name: Kyurem
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Outrage
+    damage: 20+
+    text: This attack does 10 more damage for each damage counter on this Pokémon.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Frost Spear
+    damage: '100'
+    text: This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: TOKIYA
+  pioId: sm75-47
+  nationalPokedexNumber: 646
+- enumId: WHITE_KYUREM_GX_48:DRAGON_MAJESTY
+  name: White Kyurem-GX
+  number: '48'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [DRAGON]
+  hp: 190
+  moves:
+  - cost: [FIRE]
+    name: Shred
+    damage: '40'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [FIRE, WATER, COLORLESS]
+    name: Raging Blade
+    damage: 80+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  - cost: [FIRE, FIRE, WATER, COLORLESS]
+    name: Dragon Nova-GX
+    damage: '200'
+    text: Your opponent's Active Pokémon is now Burned and Paralyzed. (You can't use
+      more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-48
+  nationalPokedexNumber: 646
+- enumId: ZYGARDE_49:DRAGON_MAJESTY
+  name: Zygarde
+  number: '49'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [FIGHTING]
+    name: Rumble
+    damage: '20'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Raging Blade
+    damage: 60+
+    text: If this Pokémon has any damage counters on it, this attack does 60 more
+      damage.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Misa Tsutsui
+  pioId: sm75-49
+  nationalPokedexNumber: 718
+- enumId: TURTONATOR_50:DRAGON_MAJESTY
+  name: Turtonator
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 110
+  moves:
+  - cost: [FIRE, FIRE, FIRE]
+    name: Explosive Jet
+    damage: 50x
+    text: Discard any amount of [R] Energy from your Pokémon. This attack does 50
+      damage for each card you discarded in this way.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: sm75-50
+  nationalPokedexNumber: 776
+- enumId: DRAMPA_51:DRAGON_MAJESTY
+  name: Drampa
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Dragon Wisdom
+    damage: '20'
+    text: Attach a basic Energy card from your discard pile to 1 of your [N] Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hyper Voice
+    damage: '80'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Sanosuke Sakuma
+  pioId: sm75-51
+  nationalPokedexNumber: 780
+- enumId: JANGMO_O_52:DRAGON_MAJESTY
+  name: Jangmo-o
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Rigidify
+    text: During your opponent's next turn, this Pokémon takes 20 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [FIGHTING, COLORLESS]
+    name: Dragon Claw
+    damage: '20'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yusuke Ohmura
+  pioId: sm75-52
+  nationalPokedexNumber: 782
+- enumId: HAKAMO_O_53:DRAGON_MAJESTY
+  name: Hakamo-o
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Jangmo-o]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Guard Press
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [LIGHTNING, FIGHTING, COLORLESS]
+    name: Dragon Claw
+    damage: '70'
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: hatachu
+  pioId: sm75-53
+  nationalPokedexNumber: 783
+- enumId: KOMMO_O_54:DRAGON_MAJESTY
+  name: Kommo-o
+  number: '54'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Hakamo-o]
+  hp: 160
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Guard Press
+    damage: '60'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Raging Uppercut
+    damage: 90+
+    text: If this Pokémon has 8 or more damage counters on it, this attack does 120
+      more damage.
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: so-taro
+  pioId: sm75-54
+  nationalPokedexNumber: 784
+- enumId: KANGASKHAN_55:DRAGON_MAJESTY
+  name: Kangaskhan
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Fetch
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '30'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: One-Two Punch
+    damage: 60+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: sm75-55
+  nationalPokedexNumber: 115
+- enumId: SWABLU_56:DRAGON_MAJESTY
+  name: Swablu
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Peck
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: sm75-56
+  nationalPokedexNumber: 333
+- enumId: SWABLU_57:DRAGON_MAJESTY
+  name: Swablu
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Sing
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Shibuzoh.
+  pioId: sm75-57
+  nationalPokedexNumber: 333
+- enumId: BLAINE_S_LAST_STAND_58:DRAGON_MAJESTY
+  name: Blaine's Last Stand
+  number: '58'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare Holo
+  text: |-
+    You can play this card only when it is the last card in your hand.
+    Draw 2 cards for each [R] Pokémon you have in play.
+  artist: Ken Sugimori
+  pioId: sm75-58
+- enumId: DRAGON_TALON_59:DRAGON_MAJESTY
+  name: Dragon Talon
+  number: '59'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If the [N] Pokémon this card is attached to is your Active Pokémon and is
+    damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 3 damage
+    counters on the Attacking Pokémon.
+  artist: Toyste Beach
+  pioId: sm75-59
+- enumId: FIERY_FLINT_60:DRAGON_MAJESTY
+  name: Fiery Flint
+  number: '60'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Search your deck for up to 4 [R] Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  artist: Eske Yoshinob
+  pioId: sm75-60
+- enumId: FIERY_FLINT_60A:DRAGON_MAJESTY
+  variantOf: FIERY_FLINT_60:DRAGON_MAJESTY
+  variantType: Alternate Art
+  name: Fiery Flint
+  number: 60a
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Search your deck for up to 4 [R] Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  artist: Yoshinobu Saito
+  pioId: sm75-60a
+- enumId: LANCE_PRISM_STAR_61:DRAGON_MAJESTY
+  name: Lance ◇
+  number: '61'
+  cardTypes: [TRAINER, PRISM_STAR, SUPPORTER]
+  rarity: Rare Holo
+  text: |-
+    You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead.
+    You can play this card only if 1 of your Pokémon was Knocked Out during your opponent's last turn. Search your deck for up to 2 [N] Pokémon and put them onto your Bench. Then, shuffle your deck.
+  artist: kodama
+  pioId: sm75-61
+- enumId: SWITCH_RAFT_62:DRAGON_MAJESTY
+  name: Switch Raft
+  number: '62'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Switch your Active [W] Pokémon with 1 of your Benched Pokémon. If you do,
+    heal 30 damage from the Pokémon you moved to your Bench.
+  artist: Yoshinobu Saito
+  pioId: sm75-62
+- enumId: WELA_VOLCANO_PARK_63:DRAGON_MAJESTY
+  name: Wela Volcano Park
+  number: '63'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Whenever a player flips a coin for the Special Condition Burned between turns,
+    that Special Condition isn't removed even if the result is heads.
+  artist: 5ban Graphics
+  pioId: sm75-63
+- enumId: ZINNIA_64:DRAGON_MAJESTY
+  name: Zinnia
+  number: '64'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if 1 of your Pokémon was Knocked Out during your opponent's last turn.
+    Attach up to 2 basic Energy cards from your hand to 1 of your [N] Pokémon.
+  artist: Megumi Mizutani
+  pioId: sm75-64
+- enumId: RESHIRAM_GX_65:DRAGON_MAJESTY
+  variantOf: RESHIRAM_GX_11:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Reshiram-GX
+  number: '65'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Flame Charge
+    text: Search your deck for up to 2 [R] Energy cards and attach them to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Scorching Column
+    damage: '110'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Vermilion-GX
+    damage: '180'
+    text: You may attach up to 5 [R] Energy cards from your hand to your Pokémon in
+      any way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm75-65
+  nationalPokedexNumber: 643
+- enumId: KINGDRA_GX_66:DRAGON_MAJESTY
+  variantOf: KINGDRA_GX_18:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Kingdra-GX
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Seadra]
+  hp: 230
+  moves:
+  - cost: [COLORLESS]
+    name: Hydro Pump
+    damage: 10+
+    text: This attack does 50 more damage times the amount of [W] Energy attached
+      to this Pokémon.
+  - cost: [WATER]
+    name: Reverse Thrust
+    damage: '30'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  - cost: [WATER]
+    name: Maelstrom-GX
+    text: This attack does 40 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX
+      attack in a game.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-66
+  nationalPokedexNumber: 230
+- enumId: DRAGONITE_GX_67:DRAGON_MAJESTY
+  variantOf: DRAGONITE_GX_37:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Dragonite-GX
+  number: '67'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Dragonair]
+  hp: 250
+  moves:
+  - cost: [LIGHTNING]
+    name: Dragon Claw
+    damage: '70'
+  - cost: [WATER, LIGHTNING, COLORLESS, COLORLESS]
+    name: Giga Impact
+    damage: '200'
+    text: This Pokémon can't attack during your next turn.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Dragonporter-GX
+    text: Put 3 [N] Pokémon from your discard pile onto your Bench. (You can't use
+      more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-67
+  nationalPokedexNumber: 149
+- enumId: ALTARIA_GX_68:DRAGON_MAJESTY
+  variantOf: ALTARIA_GX_41:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Altaria-GX
+  number: '68'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 200
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Bright Tone
+    damage: '50'
+    text: During your opponent's next turn, prevent all damage done to this Pokémon
+      by attacks from Pokémon-GX and Pokémon-EX.
+  - cost: [WATER, FAIRY, COLORLESS]
+    name: Sonic Edge
+    damage: '110'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [FAIRY, COLORLESS]
+    name: Euphoria-GX
+    text: Your opponent's Active Pokémon is now Asleep. Heal all damage from all of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-68
+  nationalPokedexNumber: 334
+- enumId: BLAINE_S_LAST_STAND_69:DRAGON_MAJESTY
+  variantOf: BLAINE_S_LAST_STAND_58:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Blaine's Last Stand
+  number: '69'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: |-
+    You can play this card only when it is the last card in your hand.
+    Draw 2 cards for each [R] Pokémon you have in play.
+  artist: Mitsuhiro Arita
+  pioId: sm75-69
+- enumId: ZINNIA_70:DRAGON_MAJESTY
+  variantOf: ZINNIA_64:DRAGON_MAJESTY
+  variantType: Full Art
+  name: Zinnia
+  number: '70'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: |-
+    You can play this card only if 1 of your Pokémon was Knocked Out during your opponent's last turn.
+    Attach up to 2 basic Energy cards from your hand to 1 of your [N] Pokémon.
+  artist: Hideki Ishikawa
+  pioId: sm75-70
+- enumId: RESHIRAM_GX_71:DRAGON_MAJESTY
+  variantOf: RESHIRAM_GX_11:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Reshiram-GX
+  number: '71'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [FIRE]
+  hp: 180
+  moves:
+  - cost: [COLORLESS]
+    name: Flame Charge
+    text: Search your deck for up to 2 [R] Energy cards and attach them to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Scorching Column
+    damage: '110'
+    text: Your opponent's Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, FIRE, COLORLESS]
+    name: Vermilion-GX
+    damage: '180'
+    text: You may attach up to 5 [R] Energy cards from your hand to your Pokémon in
+      any way you like. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm75-71
+  nationalPokedexNumber: 643
+- enumId: ALTARIA_GX_72:DRAGON_MAJESTY
+  variantOf: ALTARIA_GX_41:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Altaria-GX
+  number: '72'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE1]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 200
+  moves:
+  - cost: [FAIRY, COLORLESS]
+    name: Bright Tone
+    damage: '50'
+    text: During your opponent's next turn, prevent all damage done to this Pokémon
+      by attacks from Pokémon-GX and Pokémon-EX.
+  - cost: [WATER, FAIRY, COLORLESS]
+    name: Sonic Edge
+    damage: '110'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [FAIRY, COLORLESS]
+    name: Euphoria-GX
+    text: Your opponent's Active Pokémon is now Asleep. Heal all damage from all of
+      your Pokémon. (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-72
+  nationalPokedexNumber: 334
+- enumId: SALAMENCE_GX_73:DRAGON_MAJESTY
+  variantOf: SALAMENCE_GX_44:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Salamence-GX
+  number: '73'
+  cardTypes: [POKEMON, EVOLUTION, POKEMON_GX, STAGE2]
+  types: [DRAGON]
+  evolvesFrom: [Shelgon]
+  hp: 250
+  abilities:
+  - type: Ability
+    name: Dragon Lift
+    text: Your Pokémon in play have no Retreat Cost, except Pokémon-GX and Pokémon-EX.
+  moves:
+  - cost: [FIRE, WATER, COLORLESS, COLORLESS]
+    name: Bright Flame
+    damage: '200'
+    text: Discard 2 Energy from this Pokémon.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flame Jet-GX
+    text: This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX
+      attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-73
+  nationalPokedexNumber: 373
+- enumId: WHITE_KYUREM_GX_74:DRAGON_MAJESTY
+  variantOf: WHITE_KYUREM_GX_48:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: White Kyurem-GX
+  number: '74'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX]
+  types: [DRAGON]
+  hp: 190
+  moves:
+  - cost: [FIRE]
+    name: Shred
+    damage: '40'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [FIRE, WATER, COLORLESS]
+    name: Raging Blade
+    damage: 80+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  - cost: [FIRE, FIRE, WATER, COLORLESS]
+    name: Dragon Nova-GX
+    damage: '200'
+    text: Your opponent's Active Pokémon is now Burned and Paralyzed. (You can't use
+      more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: 5ban Graphics
+  pioId: sm75-74
+  nationalPokedexNumber: 646
+- enumId: DRAGON_TALON_75:DRAGON_MAJESTY
+  variantOf: DRAGON_TALON_59:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Dragon Talon
+  number: '75'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: If the [N] Pokémon this card is attached to is your Active Pokémon and is
+    damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 3 damage
+    counters on the Attacking Pokémon.
+  artist: Toyste Beach
+  pioId: sm75-75
+- enumId: FIERY_FLINT_76:DRAGON_MAJESTY
+  variantOf: FIERY_FLINT_60:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Fiery Flint
+  number: '76'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Search your deck for up to 4 [R] Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  artist: Eske Yoshinob
+  pioId: sm75-76
+- enumId: SWITCH_RAFT_77:DRAGON_MAJESTY
+  variantOf: SWITCH_RAFT_62:DRAGON_MAJESTY
+  variantType: Secret Art
+  name: Switch Raft
+  number: '77'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Switch your Active [W] Pokémon with 1 of your Benched Pokémon. If you do,
+    heal 30 damage from the Pokémon you moved to your Bench.
+  artist: Yoshinobu Saito
+  pioId: sm75-77
+- enumId: ULTRA_NECROZMA_GX_78:DRAGON_MAJESTY
+  variantOf: ULTRA_NECROZMA_GX_95:FORBIDDEN_LIGHT
+  variantType: Reprint
+  name: Ultra Necrozma-GX
+  number: '78'
+  cardTypes: [POKEMON, BASIC, POKEMON_GX, ULTRA_BEAST]
+  types: [DRAGON]
+  hp: 190
+  moves:
+  - cost: [PSYCHIC, METAL]
+    name: Photon Geyser
+    damage: 20+
+    text: Discard all basic [P] Energy from this Pokémon. This attack does 80 more
+      damage for each card you discarded in this way.
+  - cost: [PSYCHIC, METAL]
+    name: Sky-Scorching Light-GX
+    text: You can use this attack only if the total of both players' remaining Prize
+      cards is 6 or less. Put 6 damage counters on each of your opponent's Pokémon.
+      (You can't use more than 1 GX attack in a game.)
+  weaknesses:
+  - type: FAIRY
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  text: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.
+  artist: PLANETA Igarashi
+  pioId: sm75-78
+  nationalPokedexNumber: 800

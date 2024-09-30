@@ -1,0 +1,431 @@
+schema: E3
+expansion:
+  orderId: '281'
+  name: POP Series 1
+  enumId: POP_SERIES_1
+  shortName: POP1
+cards:
+- enumId: BLAZIKEN_1:POP_SERIES_1
+  name: Blaziken
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Combusken]
+  hp: 110
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Fire Punch
+    damage: '40'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Double Kick
+    damage: 50x
+    text: Flip 2 coins. This attack does 50 damage times the number of heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Katsura Tabata
+  pioId: pop1-1
+  nationalPokedexNumber: 257
+- enumId: METAGROSS_2:POP_SERIES_1
+  name: Metagross
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Metang]
+  hp: 100
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Metal Claw
+    damage: '30'
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Hyper Beam
+    damage: '50'
+    text: Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop1-2
+  nationalPokedexNumber: 376
+- enumId: RAYQUAZA_3:POP_SERIES_1
+  name: Rayquaza
+  number: '3'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Fly
+    damage: '10'
+    text: Flip a coin. If tails, this attack does nothing. If heads, prevent all effects
+      of an attack, including damage, done to Rayquaza during your opponent's next
+      turn.
+  - cost: [FIRE, LIGHTNING]
+    name: Dragon Claw
+    damage: '30'
+  weaknesses:
+  - type: COLORLESS
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Katsura Tabata
+  pioId: pop1-3
+  nationalPokedexNumber: 384
+- enumId: SCEPTILE_4:POP_SERIES_1
+  name: Sceptile
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Grovyle]
+  hp: 100
+  moves:
+  - cost: [GRASS]
+    name: Cling
+    damage: '20'
+    text: After your attack, remove from Sceptile the number of damage counters equal
+      to the damage you did to the Defending Pokémon. If Sceptile has fewer damage
+      counters than that, remove all of them.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Leaf Blade
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 40 damage plus 30 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  artist: Hiromichi Sugiyama
+  pioId: pop1-4
+  nationalPokedexNumber: 254
+- enumId: SWAMPERT_5:POP_SERIES_1
+  name: Swampert
+  number: '5'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Marshtomp]
+  hp: 100
+  moves:
+  - cost: [WATER]
+    name: Bubble
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Mud Splash
+    damage: '50'
+    text: If your opponent has any Benched Pokémon, choose 1 of them and flip a coin.
+      If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Hiromichi Sugiyama
+  pioId: pop1-5
+  nationalPokedexNumber: 260
+- enumId: BEAUTIFLY_6:POP_SERIES_1
+  name: Beautifly
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Silcoon]
+  hp: 100
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Blot
+    damage: '30'
+    text: Remove 1 damage counter from Beautifly.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Whirlwind
+    damage: '40'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: pop1-6
+  nationalPokedexNumber: 267
+- enumId: MASQUERAIN_7:POP_SERIES_1
+  name: Masquerain
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Surskit]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Gust
+    damage: '50'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: pop1-7
+  nationalPokedexNumber: 284
+- enumId: MURKROW_8:POP_SERIES_1
+  name: Murkrow
+  number: '8'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  abilities:
+  - type: Poké-Body
+    name: Insomnia
+    text: Murkrow can't be Asleep.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Feint Attack
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on that Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: pop1-8
+  nationalPokedexNumber: 198
+- enumId: PUPITAR_9:POP_SERIES_1
+  name: Pupitar
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Larvitar]
+  hp: 70
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Smash
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hisao Nakamura
+  pioId: pop1-9
+  nationalPokedexNumber: 247
+- enumId: TORKOAL_10:POP_SERIES_1
+  name: Torkoal
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Amnesia
+    text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that
+      attack during your opponent's next turn.
+  - cost: [FIGHTING, COLORLESS]
+    name: Body Slam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: pop1-10
+  nationalPokedexNumber: 324
+- enumId: LARVITAR_11:POP_SERIES_1
+  name: Larvitar
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 40
+  moves:
+  - cost: [FIGHTING]
+    name: Sand Attack
+    damage: '10'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hisao Nakamura
+  pioId: pop1-11
+  nationalPokedexNumber: 246
+- enumId: MINUN_12:POP_SERIES_1
+  name: Minun
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Wave
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [COLORLESS, COLORLESS]
+    name: Spark
+    damage: '10'
+    text: Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage
+      to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: pop1-12
+  nationalPokedexNumber: 312
+- enumId: PLUSLE_13:POP_SERIES_1
+  name: Plusle
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Agility
+    damage: '20'
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage,
+      done to Plusle during your opponent's next turn.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: pop1-13
+  nationalPokedexNumber: 311
+- enumId: SURSKIT_14:POP_SERIES_1
+  name: Surskit
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Bubble
+    damage: '10'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop1-14
+  nationalPokedexNumber: 283
+- enumId: SWELLOW_15:POP_SERIES_1
+  name: Swellow
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Taillow]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Focus Energy
+    text: During your next turn, base damage of Swellow's Agility is 70 instead of
+      30.
+  - cost: [COLORLESS, COLORLESS]
+    name: Agility
+    damage: '30'
+    text: Flip a coin. If heads, prevent all effects of an attack, including damage,
+      done to Swellow during your opponent's next turn.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: pop1-15
+  nationalPokedexNumber: 277
+- enumId: ARMALDO_EX_16:POP_SERIES_1
+  name: Armaldo ex
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Anorith]
+  hp: 160
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Twin Blade
+    text: Does 30 damage to each Defending Pokémon.
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Supersonic Claws
+    damage: '80'
+    text: This attack's damage is not affected by Resistance.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Hikaru Koike
+  pioId: pop1-16
+  nationalPokedexNumber: 348
+- enumId: TYRANITAR_EX_17:POP_SERIES_1
+  name: Tyranitar ex
+  number: '17'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Pupitar]
+  hp: 150
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '20'
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Critical Crush
+    damage: '80'
+    text: Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does
+      nothing.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: PSYCHIC
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare
+  artist: Hikaru Koike
+  pioId: pop1-17
+  nationalPokedexNumber: 248

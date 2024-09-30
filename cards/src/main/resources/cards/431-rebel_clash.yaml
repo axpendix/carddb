@@ -1,0 +1,4154 @@
+schema: E3
+expansion:
+  orderId: '431'
+  name: Rebel Clash
+  enumId: REBEL_CLASH
+  shortName: RCL
+  pioId: swsh2
+cards:
+- enumId: CATERPIE_1:REBEL_CLASH
+  name: Caterpie
+  number: '1'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  abilities:
+  - type: Ability
+    name: Adaptive Evolution
+    text: This Pokémon can evolve during your first turn or the turn you play it.
+  moves:
+  - cost: [COLORLESS]
+    name: Gnaw
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-1
+- enumId: METAPOD_2:REBEL_CLASH
+  name: Metapod
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Caterpie]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Adaptive Evolution
+    text: This Pokémon can evolve during your first turn or the turn you play it.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: swsh2-2
+- enumId: BUTTERFREE_3:REBEL_CLASH
+  name: Butterfree
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Metapod]
+  hp: 140
+  moves:
+  - cost: [GRASS]
+    name: Panic Poison
+    damage: '30'
+    text: Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.
+  - cost: [COLORLESS, COLORLESS]
+    name: Cutting Wind
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-3
+- enumId: SCYTHER_4:REBEL_CLASH
+  name: Scyther
+  number: '4'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Swords Dance
+    text: During your next turn, this Pokémon’s Blinding Scythe attack does 70 more
+      damage (before applying Weakness and Resistance).
+  - cost: [COLORLESS]
+    name: Blinding Scythe
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-4
+- enumId: SHUCKLE_5:REBEL_CLASH
+  name: Shuckle
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Berry Picking
+    text: Shuffle up to 5 basic Energy cards from your discard pile into your deck.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Bind
+    damage: '50'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-5
+- enumId: HERACROSS_6:REBEL_CLASH
+  name: Heracross
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Push Down
+    damage: '30'
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Superpowered Horns
+    damage: '110'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-6
+- enumId: LOTAD_7:REBEL_CLASH
+  name: Lotad
+  number: '7'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Mini Drain
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  - cost: [GRASS, COLORLESS]
+    name: Ram
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-7
+- enumId: LOMBRE_8:REBEL_CLASH
+  name: Lombre
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Lotad]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Top Entry
+    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
+      of your turn and your Bench isn't full, before you put it into your hand, you
+      may put it onto your Bench.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 40x
+    text: Flip 3 coins. This attack does 40 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-8
+- enumId: LUDICOLO_9:REBEL_CLASH
+  name: Ludicolo
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Lombre]
+  hp: 160
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Spirited Rushdown
+    damage: 60x
+    text: This attack does 60 damage for each Prize card you have taken.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Mega Drain
+    damage: '120'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-9
+- enumId: SURSKIT_10:REBEL_CLASH
+  name: Surskit
+  number: '10'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Agility
+    damage: '10'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-10
+- enumId: MASQUERAIN_11:REBEL_CLASH
+  name: Masquerain
+  number: '11'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Surskit]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Threatening Pattern
+    damage: '30'
+    text: During your opponent’s next turn, Energy can’t be attached from your opponent's
+      hand to the Defending Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: U-turn
+    damage: '40'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-11
+- enumId: SNOVER_12:REBEL_CLASH
+  name: Snover
+  number: '12'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Beat
+    damage: '20'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  pioId: swsh2-12
+- enumId: ABOMASNOW_13:REBEL_CLASH
+  name: Abomasnow
+  number: '13'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Snover]
+  hp: 140
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Soothing Scent
+    damage: '80'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Megaton Lariat
+    damage: '140'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-13
+- enumId: PHANTUMP_14:REBEL_CLASH
+  name: Phantump
+  number: '14'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Dark Guidance
+    text: Put a Basic Pokémon from your discard pile onto your Bench.
+  - cost: [GRASS, COLORLESS]
+    name: Seed Bomb
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-14
+- enumId: TREVENANT_15:REBEL_CLASH
+  name: Trevenant
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Phantump]
+  hp: 130
+  moves:
+  - cost: [GRASS]
+    name: Seed Bomb
+    damage: '40'
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Shadow Cage
+    damage: '120'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-15
+- enumId: GRUBBIN_16:REBEL_CLASH
+  name: Grubbin
+  number: '16'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Gnaw
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-16
+- enumId: RILLABOOM_V_17:REBEL_CLASH
+  variantOf: RILLABOOM_V_SWSH14:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Rillaboom V
+  number: '17'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Forest Feast
+    text: Search your deck for up to 2 Basic [G] Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Wood Hammer
+    damage: '220'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-17
+- enumId: RILLABOOM_VMAX_18:REBEL_CLASH
+  name: Rillaboom VMAX
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Rillaboom V]
+  hp: 330
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '50'
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Max Beating
+    damage: 130+
+    text: You may discard up to 3 [G] Energy from this Pokémon. If you do, this attack
+      does 50 more damage for each card you discarded in this way.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-18
+- enumId: ELDEGOSS_V_19:REBEL_CLASH
+  name: Eldegoss V
+  number: '19'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Happy Match
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may put a Supporter card from your discard pile into your hand.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Float Up
+    damage: '50'
+    text: You may shuffle this Pokémon and all attached cards into your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: swsh2-19
+- enumId: APPLIN_20:REBEL_CLASH
+  name: Applin
+  number: '20'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Continuous Tumble
+    damage: 10+
+    text: Flip a coin until you get tails. This attack does 30 more damage for each
+      heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-20
+- enumId: APPLIN_21:REBEL_CLASH
+  name: Applin
+  number: '21'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Withdraw
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage
+      done to this Pokémon by attacks.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-21
+- enumId: FLAPPLE_22:REBEL_CLASH
+  variantOf: FLAPPLE_SWSH22:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Flapple
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Applin]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Apple Drop
+    text: Once during your turn, you may put 2 damage counters on 1 of your opponent’s
+      Pokémon. If you placed any damage counters in this way, shuffle this Pokémon
+      and all attached cards into your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Acid Spray
+    damage: '60'
+    text: Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: swsh2-22
+- enumId: APPLETUN_23:REBEL_CLASH
+  name: Appletun
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Applin]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Delicious Aroma
+    text: Once during your turn, you may flip a coin. If heads, switch 1 of your opponent’s
+      Benched Basic Pokémon with their Active Pokémon.
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Solar Beam
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-23
+- enumId: VULPIX_24:REBEL_CLASH
+  name: Vulpix
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Confuse Ray
+    text: Your opponent’s Active Pokémon is now Confused.
+  - cost: [COLORLESS, COLORLESS]
+    name: Smash Kick
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-24
+- enumId: NINETALES_25:REBEL_CLASH
+  name: Ninetales
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Vulpix]
+  hp: 120
+  moves:
+  - cost: [FIRE]
+    name: Hex
+    damage: 30+
+    text: If your opponent’s Active Pokémon is affected by a Special Condition, this
+      attack does 90 more damage.
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flickering Flames
+    damage: '90'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-25
+- enumId: NINETALES_V_26:REBEL_CLASH
+  name: Ninetales V
+  number: '26'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 200
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Nine-Tailed Shapeshifter
+    text: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this
+      attack.
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '180'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-26
+- enumId: GROWLITHE_27:REBEL_CLASH
+  name: Growlithe
+  number: '27'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Odor Sleuth
+    text: Flip a coin. If heads, put a card from your discard pile into your hand.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Claws
+    damage: '60'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-27
+- enumId: ARCANINE_28:REBEL_CLASH
+  name: Arcanine
+  number: '28'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Growlithe]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Warming Up
+    text: If this Pokémon has a Burning Scarf attached, it gets +100 HP.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Mane
+    damage: '130'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-28
+- enumId: MAGMAR_29:REBEL_CLASH
+  name: Magmar
+  number: '29'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Punch
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Heat Breath
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-29
+- enumId: MAGMORTAR_30:REBEL_CLASH
+  name: Magmortar
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Magmar]
+  hp: 140
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Burst Punch
+    damage: '30'
+    text: Your opponent’s Active Pokémon is now Burned.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Ground Burn
+    damage: 80+
+    text: Each player discards the top card of their deck. This attack does 100 more
+      damage for each Energy card discarded in this way.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-30
+- enumId: LITWICK_31:REBEL_CLASH
+  name: Litwick
+  number: '31'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Scorch
+    text: Your opponent’s Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-31
+- enumId: LAMPENT_32:REBEL_CLASH
+  name: Lampent
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Litwick]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Top Entry
+    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
+      of your turn and your Bench isn't full, before you put it into your hand, you
+      may put it onto your Bench.
+  moves:
+  - cost: [FIRE]
+    name: Reignite
+    damage: '20'
+    text: Attach a [R] Energy card from your discard pile to 1 of your Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-32
+- enumId: CHANDELURE_33:REBEL_CLASH
+  name: Chandelure
+  number: '33'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Lampent]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Protective Glow
+    text: All of your Pokémon that have Energy attached have no Weakness.
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Mirage Flare
+    damage: '110'
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-33
+- enumId: HEATMOR_34:REBEL_CLASH
+  name: Heatmor
+  number: '34'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Lick
+    damage: '20'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flamethrower
+    damage: '120'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-34
+- enumId: CINDERACE_V_35:REBEL_CLASH
+  variantOf: CINDERACE_V_SWSH15:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Cinderace V
+  number: '35'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Field Runner
+    text: If a Stadium is in play, this Pokémon has no Retreat Cost.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Crimson Legs
+    damage: '140'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-35
+- enumId: CINDERACE_VMAX_36:REBEL_CLASH
+  name: Cinderace VMAX
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [FIRE]
+  evolvesFrom: [Cinderace V]
+  hp: 320
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Counter
+    damage: 30+
+    text: If this Pokémon was damaged by an attack during your opponent's last turn,
+      this attack does that much more damage.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Max Pyro Ball
+    damage: '170'
+    text: Your opponent’s Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-36
+- enumId: GALARIAN_MR_MIME_37:REBEL_CLASH
+  name: Galarian Mr. Mime
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Icy Wind
+    damage: '10'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  - cost: [WATER, COLORLESS]
+    name: Triple Spin
+    damage: 20x
+    text: Flip 3 coins. This attack does 20 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-37
+- enumId: GALARIAN_MR_RIME_38:REBEL_CLASH
+  name: Galarian Mr. Rime
+  number: '38'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Galarian Mr. Mime]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Screen Cleaner
+    text: Prevent all effects of your opponent's attacks, except damage, done to all
+      of your Pokémon that have Energy attached. (Existing effects are not removed.)
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Triple Spin
+    damage: 50x
+    text: Flip 3 coins. This attack does 50 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-38
+- enumId: MAGIKARP_39:REBEL_CLASH
+  name: Magikarp
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Leap Out
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-39
+- enumId: GYARADOS_40:REBEL_CLASH
+  name: Gyarados
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 180
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Wrack Down
+    damage: '90'
+  - cost: [WATER, WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Big Storm
+    damage: '200'
+    text: Discard any Stadium in play.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  pioId: swsh2-40
+- enumId: WINGULL_41:REBEL_CLASH
+  name: Wingull
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-41
+- enumId: PELIPPER_42:REBEL_CLASH
+  name: Pelipper
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Wingull]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Wing Attack
+    damage: '50'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Power Cyclone
+    damage: '110'
+    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-42
+- enumId: MILOTIC_V_43:REBEL_CLASH
+  name: Milotic V
+  number: '43'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Aqua Impact
+    damage: 10+
+    text: This attack does 50 more damage for each [C] in your opponent’s Active Pokémon’s
+      Retreat Cost.
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Hypno Splash
+    damage: '150'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-43
+- enumId: TYMPOLE_44:REBEL_CLASH
+  name: Tympole
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Spiral Attack
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-44
+- enumId: PALPITOAD_45:REBEL_CLASH
+  name: Palpitoad
+  number: '45'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Tympole]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Twirling Sign
+    damage: '30'
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-45
+- enumId: SEISMITOAD_46:REBEL_CLASH
+  name: Seismitoad
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Palpitoad]
+  hp: 170
+  moves:
+  - cost: [WATER]
+    name: Split Spiral Punch
+    damage: '30'
+    text: Your opponent’s Active Pokémon is now Confused.
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Resonance
+    damage: 120+
+    text: If your opponent’s Active Pokémon is Confused, this attack does 120 more
+      damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-46
+- enumId: GALARIAN_DARUMAKA_47:REBEL_CLASH
+  name: Galarian Darumaka
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 80
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Ice Punch
+    damage: '30'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-47
+- enumId: GALARIAN_DARMANITAN_48:REBEL_CLASH
+  name: Galarian Darmanitan
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Galarian Darumaka]
+  hp: 140
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Blizzard
+    damage: '80'
+    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Crushing Headbutt
+    damage: '170'
+    text: During your next turn, this Pokémon can't use Crushing Headbutt.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-48
+- enumId: INTELEON_V_49:REBEL_CLASH
+  variantOf: INTELEON_V_SWSH16:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Inteleon V
+  number: '49'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 200
+  moves:
+  - cost: [WATER]
+    name: Snipe Shot
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don’t apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Report
+    damage: '130'
+    text: Your opponent reveals their hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-49
+- enumId: INTELEON_VMAX_50:REBEL_CLASH
+  name: Inteleon VMAX
+  number: '50'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Inteleon V]
+  hp: 320
+  moves:
+  - cost: [WATER]
+    name: Hydro Snipe
+    damage: '60'
+    text: You may put an Energy attached to your opponent's Active Pokémon into their
+      hand.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Max Bullet
+    damage: '160'
+    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-50
+- enumId: CRAMORANT_51:REBEL_CLASH
+  name: Cramorant
+  number: '51'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 110
+  moves:
+  - cost: [WATER]
+    name: Dive
+    damage: '20'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
+      of attacks, including damage, done to this Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hydro Pump
+    damage: 50+
+    text: This attack does 20 more damage for each [W] Energy attached to this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-51
+- enumId: ARROKUDA_52:REBEL_CLASH
+  name: Arrokuda
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Rain Splash
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-52
+- enumId: BARRASKEWDA_53:REBEL_CLASH
+  name: Barraskewda
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Arrokuda]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Peck
+    damage: '30'
+  - cost: [WATER]
+    name: Spiral Jet
+    damage: '130'
+    text: Discard 2 [W] Energy cards from your hand. If you don't, this attack does
+      nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-53
+- enumId: EISCUE_54:REBEL_CLASH
+  name: Eiscue
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Ice Face
+    text: If this Pokémon has full HP, it takes 60 less damage from your opponent’s
+      attacks (after applying Weakness and Resistance).
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Blizzard
+    damage: '70'
+    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-54
+- enumId: EISCUE_V_55:REBEL_CLASH
+  name: Eiscue V
+  number: '55'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Cold Absorption
+    text: Whenever you attach a [W] Energy card from your hand to this Pokémon during
+      your turn, heal 30 damage from it.
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Blizzard
+    damage: '120'
+    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-55
+- enumId: VOLTORB_56:REBEL_CLASH
+  name: Voltorb
+  number: '56'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Continuous Tumble
+    damage: 20x
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-56
+- enumId: ELECTRODE_57:REBEL_CLASH
+  name: Electrode
+  number: '57'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Voltorb]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Orb Collector
+    text: Search your deck for up to 3 Energy cards, reveal them, and put them into
+      your hand. Then, shuffle your deck.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Rolling Attack
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  pioId: swsh2-57
+- enumId: ELECTABUZZ_58:REBEL_CLASH
+  name: Electabuzz
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Knuckle Punch
+    damage: '10'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electroslug
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-58
+- enumId: ELECTIVIRE_59:REBEL_CLASH
+  name: Electivire
+  number: '59'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Electabuzz]
+  hp: 140
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder Shock
+    damage: '50'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electrified Bolt
+    damage: 90+
+    text: If this Pokémon has any Special Energy attached, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-59
+- enumId: SHINX_60:REBEL_CLASH
+  name: Shinx
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Under Pressure
+    damage: 10+
+    text: If your opponent has 3 or fewer Prize cards remaining, this attack does
+      50 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-60
+- enumId: LUXIO_61:REBEL_CLASH
+  name: Luxio
+  number: '61'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Shinx]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Top Entry
+    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
+      of your turn and your Bench isn't full, before you put it into your hand, you
+      may put it onto your Bench.
+  moves:
+  - cost: [LIGHTNING]
+    name: Zap Kick
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-61
+- enumId: LUXRAY_62:REBEL_CLASH
+  variantOf: LUXRAY_SWSH23:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Luxray
+  number: '62'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Luxio]
+  hp: 160
+  moves:
+  - cost: [LIGHTNING]
+    name: Raid
+    damage: 60+
+    text: If this Pokémon evolved from Luxio during this turn, this attack does 100
+      more damage.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Head Bolt
+    damage: '120'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: swsh2-62
+- enumId: HELIOPTILE_63:REBEL_CLASH
+  name: Helioptile
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Jolt
+    damage: '30'
+    text: This Pokémon also does 10 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-63
+- enumId: HELIOLISK_64:REBEL_CLASH
+  name: Heliolisk
+  number: '64'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Helioptile]
+  hp: 110
+  moves:
+  - cost: [LIGHTNING]
+    name: Eerie Impulse
+    text: Flip a coin. If heads, discard an Energy from 1 of your opponent’s Pokémon.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Thunder
+    damage: '120'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-64
+- enumId: CHARJABUG_65:REBEL_CLASH
+  name: Charjabug
+  number: '65'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Grubbin]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Charge
+    text: Search your deck for up to 2 [L] Energy cards and attach them to this Pokémon.
+      Then, shuffle your deck.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Lightning Ball
+    damage: '70'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-65
+- enumId: VIKAVOLT_66:REBEL_CLASH
+  name: Vikavolt
+  number: '66'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Charjabug]
+  hp: 150
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Powerful Storm
+    damage: 60+
+    text: This attack does 20 more damage for each Energy attached to all of your
+      Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Thunder Jolt Beam
+    damage: '170'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-66
+- enumId: BOLTUND_V_67:REBEL_CLASH
+  name: Boltund V
+  number: '67'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 200
+  moves:
+  - cost: [LIGHTNING]
+    name: Electrify
+    text: Search your deck for up to 2 [L] Energy cards and attach them to your Benched
+      Pokémon in any way you like. Then, shuffle your deck.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Bolt Storm
+    damage: 10+
+    text: This attack does 30 more damage for each [L] Energy attached to all of your
+      Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-67
+- enumId: TOXEL_68:REBEL_CLASH
+  name: Toxel
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Tight Jaw
+    damage: '10'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-68
+- enumId: TOXTRICITY_69:REBEL_CLASH
+  name: Toxtricity
+  number: '69'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Toxel]
+  hp: 130
+  moves:
+  - cost: [LIGHTNING]
+    name: Poison Shout
+    text: This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply
+      Weakness and Resistance for Benched Pokémon.) Your opponent’s Active Pokémon
+      is now Poisoned.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '90'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-69
+- enumId: TOXTRICITY_V_70:REBEL_CLASH
+  name: Toxtricity V
+  number: '70'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING]
+    name: Poison Jab
+    damage: '20'
+    text: Your opponent’s Active Pokémon is now Poisoned.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electric Riot
+    damage: 90+
+    text: If your opponent’s Active Pokémon is Poisoned, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-70
+- enumId: TOXTRICITY_VMAX_71:REBEL_CLASH
+  name: Toxtricity VMAX
+  number: '71'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [LIGHTNING]
+  evolvesFrom: [Toxtricity V]
+  hp: 320
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: G-Max Riot
+    damage: 160+
+    text: If your opponent’s Active Pokémon is Poisoned, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-71
+- enumId: PINCURCHIN_V_72:REBEL_CLASH
+  name: Pincurchin V
+  number: '72'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Counterattack Kerzap
+    text: If this Pokémon is in the Active Spot and is damaged by an opponent's attack
+      (even if it is Knocked Out), flip 3 coins. For each heads, put 3 damage counters
+      on the Attacking Pokémon.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Sparking Strike
+    damage: '120'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-72
+- enumId: MORPEKO_73:REBEL_CLASH
+  name: Morpeko
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Torment
+    damage: '20'
+    text: Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent's
+      next turn, that Pokémon can’t use that attack.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Spark
+    damage: '50'
+    text: This attack also does 20 damage to 1 of your opponent’s Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-73
+- enumId: CLEFAIRY_74:REBEL_CLASH
+  name: Clefairy
+  number: '74'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Shining Fingers
+    text: Your opponent’s Active Pokémon is now Asleep.
+  - cost: [PSYCHIC]
+    name: Magical Shot
+    damage: '10'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-74
+- enumId: CLEFABLE_75:REBEL_CLASH
+  name: Clefable
+  number: '75'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Clefairy]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Prankish
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may put an Energy attached to your opponent’s Active Pokémon
+      on top of their deck.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Moon Kick
+    damage: '60'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-75
+- enumId: NATU_76:REBEL_CLASH
+  name: Natu
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Me First
+    text: Draw a card.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-76
+- enumId: XATU_77:REBEL_CLASH
+  name: Xatu
+  number: '77'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Natu]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Warp
+    text: Move an Energy from 1 of your opponent's Benched Pokémon to their Active
+      Pokémon.
+  - cost: [PSYCHIC]
+    name: Psychic
+    damage: 10+
+    text: This attack does 30 more damage for each Energy attached to your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-77
+- enumId: GALARIAN_CORSOLA_78:REBEL_CLASH
+  name: Galarian Corsola
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Cursed Drop
+    text: Put 3 damage counters on your opponent’s Pokémon in any way you like.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-78
+- enumId: GALARIAN_CURSOLA_79:REBEL_CLASH
+  name: Galarian Cursola
+  number: '79'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Galarian Corsola]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Perish Body
+    text: If this Pokémon is in the Active Spot and is Knocked Out by damage from
+      an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked
+      Out.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Corner
+    damage: '60'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-79
+- enumId: SIGILYPH_80:REBEL_CLASH
+  name: Sigilyph
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Counterattack
+    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
+      (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking
+      Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psychic Assault
+    damage: 30+
+    text: This attack does 10 more damage for each damage counter on your opponent’s
+      Active Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-80
+- enumId: SANDYGAST_81:REBEL_CLASH
+  name: Sandygast
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [PSYCHIC]
+    name: Sneaky Placement
+    text: Put 1 damage counter on 1 of your opponent’s Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 3
+  rarity: Common
+  pioId: swsh2-81
+- enumId: PALOSSAND_82:REBEL_CLASH
+  name: Palossand
+  number: '82'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Sandygast]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Sand Sink
+    text: Discard the top card of your opponent’s deck. If this Pokémon has a Cursed
+      Shovel attached, discard 2 more cards from the top of your opponent's deck.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Super Absorption
+    damage: '90'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 4
+  rarity: Uncommon
+  pioId: swsh2-82
+- enumId: HATENNA_83:REBEL_CLASH
+  variantOf: HATENNA_SWSH40:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Hatenna
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Find a Friend
+    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then,
+      shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Psyshot
+    damage: '20'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-83
+- enumId: HATTREM_84:REBEL_CLASH
+  name: Hattrem
+  number: '84'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Hatenna]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Calm Mind
+    text: Heal 30 damage from this Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Brutal Swing
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-84
+- enumId: HATTERENE_85:REBEL_CLASH
+  name: Hatterene
+  number: '85'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Hattrem]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Mind Hat
+    text: Once during your turn, you may use this Ability. Each player discards a
+      card from their hand. (Your opponent discards first.)
+  moves:
+  - cost: [PSYCHIC]
+    name: Dripping Grudge
+    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon
+      in your discard pile.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-85
+- enumId: MILCERY_86:REBEL_CLASH
+  name: Milcery
+  number: '86'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Aromatherapy
+    text: Heal 10 damage from each of your Pokémon.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-86
+- enumId: ALCREMIE_87:REBEL_CLASH
+  name: Alcremie
+  number: '87'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Milcery]
+  hp: 110
+  moves:
+  - cost: [COLORLESS]
+    name: Decorate
+    text: Attach any number of basic Energy cards from your hand to your Pokémon in
+      any way you like.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Draining Kiss
+    damage: '50'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-87
+- enumId: INDEEDEE_88:REBEL_CLASH
+  name: Indeedee
+  number: '88'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Replenish Time
+    text: Heal 30 damage from each of your Pokémon.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psybeam
+    damage: '30'
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-88
+- enumId: DREEPY_89:REBEL_CLASH
+  name: Dreepy
+  number: '89'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Quick Attack
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-89
+- enumId: DRAKLOAK_90:REBEL_CLASH
+  name: Drakloak
+  number: '90'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Dreepy]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Summon
+    text: Search your deck for a Dreepy and put it onto your Bench. Then, shuffle
+      your deck.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Bite
+    damage: '40'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-90
+- enumId: DRAGAPULT_91:REBEL_CLASH
+  name: Dragapult
+  number: '91'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [PSYCHIC]
+  evolvesFrom: [Drakloak]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Infiltrator
+    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads,
+      prevent that damage.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Phantom Force
+    damage: '120'
+    text: Put 3 damage counters on your opponent’s Benched Pokémon in any way you
+      like.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare Holo
+  pioId: swsh2-91
+- enumId: DRAGAPULT_V_92:REBEL_CLASH
+  name: Dragapult V
+  number: '92'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 210
+  moves:
+  - cost: [PSYCHIC]
+    name: Bite
+    damage: '30'
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Jet Assault
+    damage: 60+
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this
+      attack does 80 more damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: swsh2-92
+- enumId: DRAGAPULT_VMAX_93:REBEL_CLASH
+  name: Dragapult VMAX
+  number: '93'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [PSYCHIC]
+  evolvesFrom: [Dragapult V]
+  hp: 320
+  moves:
+  - cost: [PSYCHIC]
+    name: Shred
+    damage: '60'
+    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
+      Pokémon.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Max Phantom
+    damage: '130'
+    text: Put 5 damage counters on your opponent’s Benched Pokémon in any way you
+      like.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  pioId: swsh2-93
+- enumId: GALARIAN_FARFETCH_D_94:REBEL_CLASH
+  name: Galarian Farfetch'd
+  number: '94'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING]
+    name: Rock Smash
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  - cost: [COLORLESS, COLORLESS]
+    name: Pierce
+    damage: '30'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-94
+- enumId: GALARIAN_SIRFETCH_D_95:REBEL_CLASH
+  name: Galarian Sirfetch'd
+  number: '95'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Galarian Farfetch'd]
+  hp: 130
+  moves:
+  - cost: [FIGHTING]
+    name: Pierce
+    damage: '40'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Meteor Assault
+    damage: '180'
+    text: This Pokémon can't use Meteor Assault again until it leaves the Active Spot.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-95
+- enumId: NOSEPASS_96:REBEL_CLASH
+  name: Nosepass
+  number: '96'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rolling Tackle
+    damage: '50'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  pioId: swsh2-96
+- enumId: MEDITITE_97:REBEL_CLASH
+  name: Meditite
+  number: '97'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Yoga Shock
+    damage: '10'
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-97
+- enumId: MEDICHAM_98:REBEL_CLASH
+  name: Medicham
+  number: '98'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Meditite]
+  hp: 110
+  moves:
+  - cost: [FIGHTING]
+    name: Yoga Kick
+    damage: '40'
+    text: This attack’s damage isn’t affected by Weakness or Resistance.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Psychic
+    damage: 60+
+    text: This attack does 20 more damage for each Energy attached to your opponent’s
+      Active Pokémon.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-98
+- enumId: BARBOACH_99:REBEL_CLASH
+  name: Barboach
+  number: '99'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING]
+    name: Razor Fin
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-99
+- enumId: WHISCASH_100:REBEL_CLASH
+  name: Whiscash
+  number: '100'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Barboach]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Submerge
+    text: As long as this Pokémon is on your Bench, prevent all damage done to this
+      Pokémon by attacks (both yours and your opponent's).
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Earthquake
+    damage: '140'
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don’t
+      apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-100
+- enumId: GALARIAN_YAMASK_101:REBEL_CLASH
+  name: Galarian Yamask
+  number: '101'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Reckless Charge
+    damage: '50'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-101
+- enumId: GALARIAN_RUNERIGUS_102:REBEL_CLASH
+  name: Galarian Runerigus
+  number: '102'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Galarian Yamask]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Spreading Spite
+    text: For each damage counter on this Galarian Runerigus, put 2 damage counters
+      on your opponent’s Pokémon in any way you like.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Mad Hammer
+    damage: '120'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-102
+- enumId: BINACLE_103:REBEL_CLASH
+  name: Binacle
+  number: '103'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Dual Chop
+    damage: 50x
+    text: Flip 2 coins. This attack does 50 damage for each heads.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-103
+- enumId: BARBARACLE_104:REBEL_CLASH
+  name: Barbaracle
+  number: '104'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Binacle]
+  hp: 120
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Rock Hurl
+    damage: '50'
+    text: This attack’s damage isn’t affected by Resistance.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Hand Press
+    damage: 80+
+    text: If you have more cards in your hand than your opponent, this attack does
+      80 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-104
+- enumId: ROLYCOLY_105:REBEL_CLASH
+  name: Rolycoly
+  number: '105'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-105
+- enumId: CARKOL_106:REBEL_CLASH
+  name: Carkol
+  number: '106'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Rolycoly]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '30'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Heat Crash
+    damage: '60'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: swsh2-106
+- enumId: COALOSSAL_107:REBEL_CLASH
+  variantOf: COALOSSAL_SWSH24:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Coalossal
+  number: '107'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIGHTING]
+  evolvesFrom: [Carkol]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Tar Generator
+    text: Once during your turn, you may attach a [R] Energy card, a [F] Energy card,
+      or 1 of each from your discard pile to your Pokémon in any way you like.
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Flaming Avalanche
+    damage: '130'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  pioId: swsh2-107
+- enumId: SANDACONDA_V_108:REBEL_CLASH
+  name: Sandaconda V
+  number: '108'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 220
+  moves:
+  - cost: [FIGHTING]
+    name: Sand Eater
+    damage: '30'
+    text: Attach a [F] Energy card from your discard pile to this Pokémon.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Sand Breath
+    damage: '220'
+    text: Discard 2 Energy from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-108
+- enumId: FALINKS_109:REBEL_CLASH
+  name: Falinks
+  number: '109'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Team Attack
+    damage: 30x
+    text: This attack does 30 damage for each of your Benched Pokémon that has "Falinks"
+      in its name.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-109
+- enumId: FALINKS_V_110:REBEL_CLASH
+  name: Falinks V
+  number: '110'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Iron Defense Formation
+    text: All of your Pokémon that have “Falinks” in their name take 20 less damage
+      from your opponent’s attacks (after applying Weakness and Resistance).
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Giga Impact
+    damage: '210'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-110
+- enumId: STONJOURNER_111:REBEL_CLASH
+  name: Stonjourner
+  number: '111'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 140
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Mega Kick
+    damage: '80'
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Power Press
+    damage: 120+
+    text: If this Pokémon has at least 1 extra Energy attached (in addition to this
+      attack's cost), this attack does 60 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  pioId: swsh2-111
+- enumId: KOFFING_112:REBEL_CLASH
+  name: Koffing
+  number: '112'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS]
+    name: Suffocating Gas
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-112
+- enumId: GALARIAN_WEEZING_113:REBEL_CLASH
+  name: Galarian Weezing
+  number: '113'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Koffing]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Neutralizing Gas
+    text: As long as this Pokémon is in the Active Spot, your opponent’s Pokémon in
+      play have no Abilities, except for Neutralizing Gas.
+  moves:
+  - cost: [DARKNESS]
+    name: Severe Poison
+    text: Your opponent’s Active Pokémon is now Poisoned. Put 4 damage counters instead
+      of 1 on that Pokémon during Pokémon Checkup.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-113
+- enumId: STUNKY_114:REBEL_CLASH
+  name: Stunky
+  number: '114'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Poison Gas
+    damage: '10'
+    text: Your opponent’s Active Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-114
+- enumId: SKUNTANK_115:REBEL_CLASH
+  name: Skuntank
+  number: '115'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Stunky]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Slash
+    damage: '50'
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Poison Ring
+    damage: '80'
+    text: Your opponent’s Active Pokémon is now Poisoned. During your opponent's next
+      turn, the Defending Pokémon can’t retreat.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: swsh2-115
+- enumId: SPIRITOMB_116:REBEL_CLASH
+  name: Spiritomb
+  number: '116'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Splitting Spite
+    text: Discard the top card of each player’s deck.
+  - cost: [DARKNESS, COLORLESS]
+    name: Dripping Grudge
+    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon
+      in your discard pile.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-116
+- enumId: TRUBBISH_117:REBEL_CLASH
+  name: Trubbish
+  number: '117'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Venoshock
+    damage: 20+
+    text: If your opponent’s Active Pokémon is Poisoned, this attack does 50 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-117
+- enumId: GARBODOR_118:REBEL_CLASH
+  variantOf: GARBODOR_SWSH25:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Garbodor
+  number: '118'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Trubbish]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Poisonous Puddle
+    text: Once during your turn, if a Stadium is in play, you may make your opponent's
+      Active Pokémon Poisoned.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Sludge Bomb
+    damage: '80'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-118
+- enumId: VULLABY_119:REBEL_CLASH
+  name: Vullaby
+  number: '119'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Pluck
+    damage: '10'
+    text: Before doing damage, discard all Pokémon Tools from your opponent’s Active
+      Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-119
+- enumId: MANDIBUZZ_120:REBEL_CLASH
+  name: Mandibuzz
+  number: '120'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Vullaby]
+  hp: 120
+  moves:
+  - cost: [DARKNESS]
+    name: Bone Rush
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+  - cost: [DARKNESS, DARKNESS]
+    name: Blindside
+    text: This attack does 100 damage to 1 of your opponent’s Pokémon that has any
+      damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-120
+- enumId: MALAMAR_V_121:REBEL_CLASH
+  name: Malamar V
+  number: '121'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Drag Off
+    text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. This
+      attack does 30 damage to the new Active Pokémon.
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Brain Shake
+    damage: '130'
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-121
+- enumId: MALAMAR_VMAX_122:REBEL_CLASH
+  name: Malamar VMAX
+  number: '122'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [DARKNESS]
+  evolvesFrom: [Malamar V]
+  hp: 310
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Max Jammer
+    damage: '180'
+    text: Your opponent reveals their hand. Choose a card you find there and put it
+      on the bottom of their deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-122
+- enumId: IMPIDIMP_123:REBEL_CLASH
+  name: Impidimp
+  number: '123'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS]
+    name: Beat
+    damage: '10'
+  - cost: [DARKNESS, COLORLESS]
+    name: Stampede
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-123
+- enumId: MORGREM_124:REBEL_CLASH
+  name: Morgrem
+  number: '124'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [DARKNESS]
+  evolvesFrom: [Impidimp]
+  hp: 90
+  moves:
+  - cost: [DARKNESS]
+    name: Bite
+    damage: '30'
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: False Surrender
+    damage: '60'
+    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
+      Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-124
+- enumId: GRIMMSNARL_125:REBEL_CLASH
+  name: Grimmsnarl
+  number: '125'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [DARKNESS]
+  evolvesFrom: [Morgrem]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Dark Oath
+    text: As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon’s
+      attacks cost [C] more.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Energy Press
+    damage: 100+
+    text: This attack does 30 more damage for each Energy attached to your opponent's
+      Active Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  pioId: swsh2-125
+- enumId: GALARIAN_MEOWTH_126:REBEL_CLASH
+  name: Galarian Meowth
+  number: '126'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Evolution Roar
+    text: You must discard 2 cards from your hand in order to use this Ability. Once
+      during your turn, you may search your deck for a Galarian Perrserker, reveal
+      it, and put it into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Scratch
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-126
+- enumId: GALARIAN_PERRSERKER_127:REBEL_CLASH
+  name: Galarian Perrserker
+  number: '127'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Galarian Meowth]
+  hp: 120
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Slash
+    damage: '50'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Claw Dagger
+    damage: 80x
+    text: Flip 3 coins. This attack does 80 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-127
+- enumId: SCIZOR_128:REBEL_CLASH
+  name: Scizor
+  number: '128'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Scyther]
+  hp: 130
+  moves:
+  - cost: [METAL]
+    name: Raid
+    damage: 30+
+    text: If this Pokémon evolved from Scyther during this turn, this attack does
+      90 more damage.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Guard Claw
+    damage: '90'
+    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-128
+- enumId: BRONZOR_129:REBEL_CLASH
+  name: Bronzor
+  number: '129'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL]
+    name: Ram
+    damage: '10'
+  - cost: [METAL, COLORLESS]
+    name: Speed Dive
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-129
+- enumId: BRONZONG_130:REBEL_CLASH
+  name: Bronzong
+  number: '130'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Bronzor]
+  hp: 130
+  moves:
+  - cost: [METAL]
+    name: Smack
+    damage: '30'
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Gyro Ball
+    damage: '70'
+    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent
+      switches their Active Pokémon with 1 of their Benched Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: swsh2-130
+- enumId: PROBOPASS_131:REBEL_CLASH
+  name: Probopass
+  number: '131'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Nosepass]
+  hp: 140
+  moves:
+  - cost: [METAL]
+    name: Gravitational Drop
+    damage: 10+
+    text: This attack does 30 more damage for each [C] in your opponent’s Active Pokémon’s
+      Retreat Cost.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Heavy Impact
+    damage: '120'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare
+  pioId: swsh2-131
+- enumId: DURANT_132:REBEL_CLASH
+  name: Durant
+  number: '132'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 100
+  moves:
+  - cost: [COLORLESS]
+    name: Gathering Food
+    text: For each Energy attached to this Pokémon, search your deck for a Trainer
+      card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - cost: [METAL, COLORLESS, COLORLESS]
+    name: Metal Claw
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-132
+- enumId: HONEDGE_133:REBEL_CLASH
+  name: Honedge
+  number: '133'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 60
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Slicing Blade
+    damage: '30'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-133
+- enumId: DOUBLADE_134:REBEL_CLASH
+  name: Doublade
+  number: '134'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Honedge]
+  hp: 90
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Slash
+    damage: '30'
+  - cost: [METAL, METAL, COLORLESS]
+    name: Double Slash
+    damage: 80x
+    text: Flip 2 coins. This attack does 80 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  pioId: swsh2-134
+- enumId: AEGISLASH_135:REBEL_CLASH
+  name: Aegislash
+  number: '135'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [METAL]
+  evolvesFrom: [Doublade]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Big Shield
+    text: All of your Pokémon take 30 less damage from your opponent’s attacks (after
+      applying Weakness and Resistance). You can’t apply more than 1 Big Shield Ability
+      at a time.
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Power Edge
+    damage: '130'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-135
+- enumId: COPPERAJAH_V_136:REBEL_CLASH
+  variantOf: COPPERAJAH_V_SWSH30:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Copperajah V
+  number: '136'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 220
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Adamantine Press
+    damage: '90'
+    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: Wrack Down
+    damage: '180'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare Holo
+  pioId: swsh2-136
+- enumId: COPPERAJAH_VMAX_137:REBEL_CLASH
+  name: Copperajah VMAX
+  number: '137'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [METAL]
+  evolvesFrom: [Copperajah V]
+  hp: 340
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Dangerous Nose
+    damage: 100+
+    text: If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100
+      more damage.
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: G-Max Hammer
+    damage: '240'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Rare Holo
+  pioId: swsh2-137
+- enumId: DURALUDON_138:REBEL_CLASH
+  name: Duraludon
+  number: '138'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Metal Sharpener
+    damage: '30'
+    text: Attach a [M] Energy card from your discard pile to 1 of your Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Power Beam
+    damage: '110'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-138
+- enumId: ZACIAN_139:REBEL_CLASH
+  name: Zacian
+  number: '139'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 120
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Energy Stream
+    damage: '30'
+    text: Attach a [M] Energy card from your discard pile to this Pokémon.
+  - cost: [METAL, METAL, COLORLESS]
+    name: Smashing Edge
+    damage: '120'
+    text: Flip a coin. If tails, discard 2 Energy from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-139
+- enumId: ZAMAZENTA_140:REBEL_CLASH
+  name: Zamazenta
+  number: '140'
+  cardTypes: [POKEMON, BASIC]
+  types: [METAL]
+  hp: 120
+  moves:
+  - cost: [METAL, COLORLESS]
+    name: Guard Press
+    damage: '30'
+    text: During your opponent’s next turn, this Pokémon takes 20 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [METAL, METAL, COLORLESS]
+    name: Power Rush
+    damage: '120'
+    text: Flip a coin. If tails, this Pokémon can’t attack during your next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  pioId: swsh2-140
+- enumId: SNORLAX_141:REBEL_CLASH
+  name: Snorlax
+  number: '141'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 150
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw 2 cards.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Collapse
+    damage: '120'
+    text: This Pokémon is now Asleep.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  pioId: swsh2-141
+- enumId: CHATOT_142:REBEL_CLASH
+  name: Chatot
+  number: '142'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  abilities:
+  - type: Ability
+    name: Lucky Match
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may flip a coin. If heads, put a Supporter card from your discard pile into
+      your hand.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Glide
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-142
+- enumId: PIDOVE_143:REBEL_CLASH
+  name: Pidove
+  number: '143'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Chirp
+    text: Search your deck for up to 2 Pokémon with [F] Resistance, reveal them, and
+      put them into your hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Razor Wing
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-143
+- enumId: TRANQUILL_144:REBEL_CLASH
+  name: Tranquill
+  number: '144'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Pidove]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Razor Wing
+    damage: '40'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Gust
+    damage: '60'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-144
+- enumId: UNFEZANT_145:REBEL_CLASH
+  name: Unfezant
+  number: '145'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [COLORLESS]
+  evolvesFrom: [Tranquill]
+  hp: 150
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Daunt
+    damage: '50'
+    text: During your opponent’s next turn, the Defending Pokémon’s attacks do 50
+      less damage (before applying Weakness and Resistance).
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Air Slash
+    damage: '150'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-145
+- enumId: BUNNELBY_146:REBEL_CLASH
+  name: Bunnelby
+  number: '146'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Burrow
+    text: Discard the top card of your opponent’s deck.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Headbutt Bounce
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-146
+- enumId: DIGGERSBY_147:REBEL_CLASH
+  name: Diggersby
+  number: '147'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Bunnelby]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Mining Rush
+    damage: 30x
+    text: Discard up to 6 cards from the top of your deck. If you do, this attack
+      does 30 damage for each card you discarded in this way.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Headbutt Bounce
+    damage: '110'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  pioId: swsh2-147
+- enumId: HAWLUCHA_148:REBEL_CLASH
+  name: Hawlucha
+  number: '148'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Windfall
+    text: Shuffle your hand into your deck. Then, draw 5 cards.
+  - cost: [COLORLESS]
+    name: Speed Attack
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  pioId: swsh2-148
+- enumId: STUFFUL_149:REBEL_CLASH
+  name: Stufful
+  number: '149'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Jump On
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 40 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  pioId: swsh2-149
+- enumId: BEWEAR_150:REBEL_CLASH
+  name: Bewear
+  number: '150'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Stufful]
+  hp: 140
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Hammer Arm
+    damage: '90'
+    text: Discard the top card of your opponent’s deck.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Big Throw
+    text: Flip a coin. If heads, discard your opponent’s Active Pokémon and all attached
+      cards.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  pioId: swsh2-150
+- enumId: SKWOVET_151:REBEL_CLASH
+  name: Skwovet
+  number: '151'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Bite
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  pioId: swsh2-151
+- enumId: GREEDENT_152:REBEL_CLASH
+  name: Greedent
+  number: '152'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Skwovet]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Greedy Tail
+    text: Once during your turn, you may search your deck for a Pokémon Tool card,
+      reveal it, and put it into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Tail Smack
+    damage: '80'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  pioId: swsh2-152
+- enumId: DUBWOOL_V_153:REBEL_CLASH
+  variantOf: DUBWOOL_V_SWSH49:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Dubwool V
+  number: '153'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [COLORLESS]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Soft Wool
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Revenge Blast
+    damage: 120+
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  pioId: swsh2-153
+- enumId: BOSS_S_ORDERS_GIOVANNI__154:REBEL_CLASH
+  name: Boss's Orders
+  number: '154'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Rare Holo
+  text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.
+  pioId: swsh2-154
+- enumId: BURNING_SCARF_155:REBEL_CLASH
+  name: Burning Scarf
+  number: '155'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If the [R] Pokémon this card is attached to is in the Active Spot and is damaged
+    by an opponent’s attack (even if it is Knocked Out), the Attacking Pokémon is
+    now Burned.
+  pioId: swsh2-155
+- enumId: CAPACIOUS_BUCKET_156:REBEL_CLASH
+  name: Capacious Bucket
+  number: '156'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Search your deck for up to 2 [W] Energy cards, reveal them, and put them into
+    your hand. Then, shuffle your deck.
+  pioId: swsh2-156
+- enumId: CURSED_SHOVEL_157:REBEL_CLASH
+  name: Cursed Shovel
+  number: '157'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: If the Pokémon this card is attached to is Knocked Out by damage from an opponent’s
+    attack, discard the top 2 cards of your opponent’s deck.
+  pioId: swsh2-157
+- enumId: DAN_158:REBEL_CLASH
+  name: Dan
+  number: '158'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Draw 2 cards. You and your opponent play Rock-Paper-Scissors until someone
+    wins. If you win, draw 2 more cards.
+  pioId: swsh2-158
+- enumId: FULL_HEAL_159:REBEL_CLASH
+  name: Full Heal
+  number: '159'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Your Active Pokémon recovers from all Special Conditions.
+  pioId: swsh2-159
+- enumId: GALAR_MINE_160:REBEL_CLASH
+  name: Galar Mine
+  number: '160'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: The Retreat Cost of both Active Pokémon is [C][C] more.
+  pioId: swsh2-160
+- enumId: MILO_161:REBEL_CLASH
+  name: Milo
+  number: '161'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Discard up to 2 cards from your hand, and draw 2 cards for each card you discarded
+    in this way.
+  pioId: swsh2-161
+- enumId: NUGGET_162:REBEL_CLASH
+  name: Nugget
+  number: '162'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: "You can play this card only if you drew it from your deck at the beginning\
+    \ of your turn, before you put it into your hand. \nDraw 3 cards."
+  pioId: swsh2-162
+- enumId: OLEANA_163:REBEL_CLASH
+  name: Oleana
+  number: '163'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Your opponent reveals their hand. Put a Trainer card you find there on the bottom of their deck.
+  pioId: swsh2-163
+- enumId: POKE_BALL_164:REBEL_CLASH
+  variantOf: POKE_BALL_125:SUN_MOON
+  variantType: Reprint
+  name: Poké Ball
+  number: '164'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put
+    it into your hand. Then, shuffle your deck.
+  pioId: swsh2-164
+- enumId: SCOOP_UP_NET_165:REBEL_CLASH
+  name: Scoop Up Net
+  number: '165'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Put 1 of your Pokémon that isn't a Pokémon V or a Pokémon-GX into your hand.
+    (Discard all attached cards.)
+  pioId: swsh2-165
+- enumId: SKYLA_166:REBEL_CLASH
+  name: Skyla
+  number: '166'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for a Trainer card, reveal it, and put it into your hand.
+    Then, shuffle your deck.
+  pioId: swsh2-166
+- enumId: SONIA_167:REBEL_CLASH
+  name: Sonia
+  number: '167'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
+    reveal them, and put them into your hand. Then, shuffle your deck.
+  pioId: swsh2-167
+- enumId: TOOL_SCRAPPER_168:REBEL_CLASH
+  name: Tool Scrapper
+  number: '168'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s)
+    and discard them.
+  pioId: swsh2-168
+- enumId: TRAINING_COURT_169:REBEL_CLASH
+  name: Training Court
+  number: '169'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player’s turn, that player may put a basic Energy card from
+    their discard pile into their hand.
+  pioId: swsh2-169
+- enumId: TURRFIELD_170:REBEL_CLASH
+  name: Turffield Stadium
+  number: '170'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player’s turn, that player may search their deck for an Evolution
+    [G] Pokémon, reveal it, and put it into their hand. Then, that player shuffles
+    their deck.
+  pioId: swsh2-170
+- enumId: CAPTURE_ENERGY_171:REBEL_CLASH
+  name: Capture Energy
+  number: '171'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: "As long as this card is attached to a Pokémon, it provides [C] Energy. \n\
+    When you attach this card from your hand to a Pokémon, search your deck for a\
+    \ Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+  pioId: swsh2-171
+- enumId: HORROR_PSYCHIC_ENERGY_172:REBEL_CLASH
+  name: Horror Psychic Energy
+  number: '172'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: |-
+    As long as this card is attached to a Pokémon, it provides [P] Energy.
+    If the [P] Pokémon this card is attached to is in the Active Spot and is damaged by an opponent’s attack (even if it is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  pioId: swsh2-172
+- enumId: SPEED_LIGHTNING_ENERGY_173:REBEL_CLASH
+  name: Speed Lightning Energy
+  number: '173'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: "As long as this card is attached to a Pokémon, it provides [L] Energy. \n\
+    When you attach this card from your hand to a [L] Pokémon, draw 2 cards."
+  pioId: swsh2-173
+- enumId: TWIN_ENERGY_174:REBEL_CLASH
+  name: Twin Energy
+  number: '174'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: "As long as this card is attached to a Pokémon that isn't a Pokémon V or a\
+    \ Pokémon-GX, it provides [C][C] Energy. \nIf this card is attached to a Poké\
+    mon V or a Pokémon-GX, it provides [C] Energy instead."
+  pioId: swsh2-174
+- enumId: RILLABOOM_V_175:REBEL_CLASH
+  variantOf: RILLABOOM_V_SWSH14:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Rillaboom V
+  number: '175'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 220
+  moves:
+  - cost: [GRASS]
+    name: Forest Feast
+    text: Search your deck for up to 2 Basic [G] Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Wood Hammer
+    damage: '220'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: swsh2-175
+- enumId: ELDEGOSS_V_176:REBEL_CLASH
+  variantOf: ELDEGOSS_V_19:REBEL_CLASH
+  variantType: Full Art
+  name: Eldegoss V
+  number: '176'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Happy Match
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may put a Supporter card from your discard pile into your hand.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Float Up
+    damage: '50'
+    text: You may shuffle this Pokémon and all attached cards into your deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  pioId: swsh2-176
+- enumId: NINETALES_V_177:REBEL_CLASH
+  variantOf: NINETALES_V_26:REBEL_CLASH
+  variantType: Full Art
+  name: Ninetales V
+  number: '177'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 200
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Nine-Tailed Shapeshifter
+    text: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this
+      attack.
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '180'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-177
+- enumId: CINDERACE_V_178:REBEL_CLASH
+  variantOf: CINDERACE_V_SWSH15:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Cinderace V
+  number: '178'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Field Runner
+    text: If a Stadium is in play, this Pokémon has no Retreat Cost.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Crimson Legs
+    damage: '140'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-178
+- enumId: MILOTIC_V_179:REBEL_CLASH
+  variantOf: MILOTIC_V_43:REBEL_CLASH
+  variantType: Full Art
+  name: Milotic V
+  number: '179'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Aqua Impact
+    damage: 10+
+    text: This attack does 50 more damage for each [C] in your opponent’s Active Pokémon’s
+      Retreat Cost.
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Hypno Splash
+    damage: '150'
+    text: Your opponent’s Active Pokémon is now Asleep.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-179
+- enumId: INTELEON_V_180:REBEL_CLASH
+  variantOf: INTELEON_V_SWSH16:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Inteleon V
+  number: '180'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 200
+  moves:
+  - cost: [WATER]
+    name: Snipe Shot
+    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don’t apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS]
+    name: Aqua Report
+    damage: '130'
+    text: Your opponent reveals their hand.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-180
+- enumId: BOLTUND_V_181:REBEL_CLASH
+  variantOf: BOLTUND_V_67:REBEL_CLASH
+  variantType: Full Art
+  name: Boltund V
+  number: '181'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 200
+  moves:
+  - cost: [LIGHTNING]
+    name: Electrify
+    text: Search your deck for up to 2 [L] Energy cards and attach them to your Benched
+      Pokémon in any way you like. Then, shuffle your deck.
+  - cost: [LIGHTNING, COLORLESS]
+    name: Bolt Storm
+    damage: 10+
+    text: This attack does 30 more damage for each [L] Energy attached to all of your
+      Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-181
+- enumId: TOXTRICITY_V_182:REBEL_CLASH
+  variantOf: TOXTRICITY_V_70:REBEL_CLASH
+  variantType: Full Art
+  name: Toxtricity V
+  number: '182'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING]
+    name: Poison Jab
+    damage: '20'
+    text: Your opponent’s Active Pokémon is now Poisoned.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electric Riot
+    damage: 90+
+    text: If your opponent’s Active Pokémon is Poisoned, this attack does 90 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-182
+- enumId: DRAGAPULT_V_183:REBEL_CLASH
+  variantOf: DRAGAPULT_V_92:REBEL_CLASH
+  variantType: Full Art
+  name: Dragapult V
+  number: '183'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 210
+  moves:
+  - cost: [PSYCHIC]
+    name: Bite
+    damage: '30'
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Jet Assault
+    damage: 60+
+    text: If this Pokémon moved from your Bench to the Active Spot this turn, this
+      attack does 80 more damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Ultra Rare
+  pioId: swsh2-183
+- enumId: SANDACONDA_V_184:REBEL_CLASH
+  variantOf: SANDACONDA_V_108:REBEL_CLASH
+  variantType: Full Art
+  name: Sandaconda V
+  number: '184'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 220
+  moves:
+  - cost: [FIGHTING]
+    name: Sand Eater
+    damage: '30'
+    text: Attach a [F] Energy card from your discard pile to this Pokémon.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Sand Breath
+    damage: '220'
+    text: Discard 2 Energy from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  pioId: swsh2-184
+- enumId: FALINKS_V_185:REBEL_CLASH
+  variantOf: FALINKS_V_110:REBEL_CLASH
+  variantType: Full Art
+  name: Falinks V
+  number: '185'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Iron Defense Formation
+    text: All of your Pokémon that have “Falinks” in their name take 20 less damage
+      from your opponent’s attacks (after applying Weakness and Resistance).
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Giga Impact
+    damage: '210'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-185
+- enumId: MALAMAR_V_186:REBEL_CLASH
+  variantOf: MALAMAR_V_121:REBEL_CLASH
+  variantType: Full Art
+  name: Malamar V
+  number: '186'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Drag Off
+    text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. This
+      attack does 30 damage to the new Active Pokémon.
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Brain Shake
+    damage: '130'
+    text: Your opponent’s Active Pokémon is now Confused.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-186
+- enumId: COPPERAJAH_V_187:REBEL_CLASH
+  variantOf: COPPERAJAH_V_SWSH30:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Copperajah V
+  number: '187'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [METAL]
+  hp: 220
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Adamantine Press
+    damage: '90'
+    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: Wrack Down
+    damage: '180'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Ultra Rare
+  pioId: swsh2-187
+- enumId: DUBWOOL_V_188:REBEL_CLASH
+  variantOf: DUBWOOL_V_SWSH49:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Dubwool V
+  number: '188'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [COLORLESS]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Soft Wool
+    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Revenge Blast
+    damage: 120+
+    text: This attack does 30 more damage for each Prize card your opponent has taken.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  pioId: swsh2-188
+- enumId: BOSS_S_ORDERS_GIOVANNI__189:REBEL_CLASH
+  variantOf: BOSS_S_ORDERS_GIOVANNI__154:REBEL_CLASH
+  variantType: Full Art
+  name: Boss's Orders
+  number: '189'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.
+  pioId: swsh2-189
+- enumId: MILO_190:REBEL_CLASH
+  variantOf: MILO_161:REBEL_CLASH
+  variantType: Full Art
+  name: Milo
+  number: '190'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Discard up to 2 cards from your hand, and draw 2 cards for each card you discarded
+    in this way.
+  pioId: swsh2-190
+- enumId: OLEANA_191:REBEL_CLASH
+  variantOf: OLEANA_163:REBEL_CLASH
+  variantType: Full Art
+  name: Oleana
+  number: '191'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Your opponent reveals their hand. Put a Trainer card you find there on the bottom of their deck.
+  pioId: swsh2-191
+- enumId: SONIA_192:REBEL_CLASH
+  variantOf: SONIA_167:REBEL_CLASH
+  variantType: Full Art
+  name: Sonia
+  number: '192'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
+    reveal them, and put them into your hand. Then, shuffle your deck.
+  pioId: swsh2-192
+- enumId: RILLABOOM_VMAX_193:REBEL_CLASH
+  variantOf: RILLABOOM_VMAX_18:REBEL_CLASH
+  variantType: Secret Art
+  name: Rillaboom VMAX
+  number: '193'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Rillaboom V]
+  hp: 330
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '50'
+  - cost: [GRASS, GRASS, GRASS, COLORLESS]
+    name: Max Beating
+    damage: 130+
+    text: You may discard up to 3 [G] Energy from this Pokémon. If you do, this attack
+      does 50 more damage for each card you discarded in this way.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Secret
+  pioId: swsh2-193
+- enumId: CINDERACE_VMAX_194:REBEL_CLASH
+  variantOf: CINDERACE_VMAX_36:REBEL_CLASH
+  variantType: Secret Art
+  name: Cinderace VMAX
+  number: '194'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [FIRE]
+  evolvesFrom: [Cinderace V]
+  hp: 320
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Counter
+    damage: 30+
+    text: If this Pokémon was damaged by an attack during your opponent's last turn,
+      this attack does that much more damage.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Max Pyro Ball
+    damage: '170'
+    text: Your opponent’s Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-194
+- enumId: INTELEON_VMAX_195:REBEL_CLASH
+  variantOf: INTELEON_VMAX_50:REBEL_CLASH
+  variantType: Secret Art
+  name: Inteleon VMAX
+  number: '195'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Inteleon V]
+  hp: 320
+  moves:
+  - cost: [WATER]
+    name: Hydro Snipe
+    damage: '60'
+    text: You may put an Energy attached to your opponent's Active Pokémon into their
+      hand.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Max Bullet
+    damage: '160'
+    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-195
+- enumId: TOXTRICITY_VMAX_196:REBEL_CLASH
+  variantOf: TOXTRICITY_VMAX_71:REBEL_CLASH
+  variantType: Secret Art
+  name: Toxtricity VMAX
+  number: '196'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [LIGHTNING]
+  evolvesFrom: [Toxtricity V]
+  hp: 320
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: G-Max Riot
+    damage: 160+
+    text: If your opponent’s Active Pokémon is Poisoned, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-196
+- enumId: DRAGAPULT_VMAX_197:REBEL_CLASH
+  variantOf: DRAGAPULT_VMAX_93:REBEL_CLASH
+  variantType: Secret Art
+  name: Dragapult VMAX
+  number: '197'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [PSYCHIC]
+  evolvesFrom: [Dragapult V]
+  hp: 320
+  moves:
+  - cost: [PSYCHIC]
+    name: Shred
+    damage: '60'
+    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
+      Pokémon.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Max Phantom
+    damage: '130'
+    text: Put 5 damage counters on your opponent’s Benched Pokémon in any way you
+      like.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Secret
+  pioId: swsh2-197
+- enumId: MALAMAR_VMAX_198:REBEL_CLASH
+  variantOf: MALAMAR_VMAX_122:REBEL_CLASH
+  variantType: Secret Art
+  name: Malamar VMAX
+  number: '198'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [DARKNESS]
+  evolvesFrom: [Malamar V]
+  hp: 310
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Max Jammer
+    damage: '180'
+    text: Your opponent reveals their hand. Choose a card you find there and put it
+      on the bottom of their deck.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-198
+- enumId: COPPERAJAH_VMAX_199:REBEL_CLASH
+  variantOf: COPPERAJAH_VMAX_137:REBEL_CLASH
+  variantType: Secret Art
+  name: Copperajah VMAX
+  number: '199'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [METAL]
+  evolvesFrom: [Copperajah V]
+  hp: 340
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Dangerous Nose
+    damage: 100+
+    text: If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100
+      more damage.
+  - cost: [METAL, METAL, METAL, COLORLESS]
+    name: G-Max Hammer
+    damage: '240'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 4
+  rarity: Secret
+  pioId: swsh2-199
+- enumId: BOSS_S_ORDERS_GIOVANNI__200:REBEL_CLASH
+  variantOf: BOSS_S_ORDERS_GIOVANNI__154:REBEL_CLASH
+  variantType: Secret Art
+  name: Boss's Orders
+  number: '200'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Secret
+  text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.
+  pioId: swsh2-200
+- enumId: MILO_201:REBEL_CLASH
+  variantOf: MILO_161:REBEL_CLASH
+  variantType: Secret Art
+  name: Milo
+  number: '201'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Secret
+  text: Discard up to 2 cards from your hand, and draw 2 cards for each card you discarded
+    in this way.
+  pioId: swsh2-201
+- enumId: OLEANA_202:REBEL_CLASH
+  variantOf: OLEANA_163:REBEL_CLASH
+  variantType: Secret Art
+  name: Oleana
+  number: '202'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Secret
+  text: |-
+    You can play this card only if you discard 2 other cards from your hand.
+    Your opponent reveals their hand. Put a Trainer card you find there on the bottom of their deck.
+  pioId: swsh2-202
+- enumId: SONIA_203:REBEL_CLASH
+  variantOf: SONIA_167:REBEL_CLASH
+  variantType: Secret Art
+  name: Sonia
+  number: '203'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Secret
+  text: Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
+    reveal them, and put them into your hand. Then, shuffle your deck.
+  pioId: swsh2-203
+- enumId: FROSMOTH_204:REBEL_CLASH
+  variantOf: FROSMOTH_SWSH07:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Frosmoth
+  number: '204'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Snom]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Ice Dance
+    text: As often as you like during your turn, you may attach a [W] Energy card
+      from your hand to 1 of your Benched [W] Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Aurora Beam
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-204
+- enumId: GALARIAN_PERRSERKER_205:REBEL_CLASH
+  variantOf: GALARIAN_PERRSERKER_SWSH08:SWORD_SHIELD_PROMOS
+  variantType: Reprint
+  name: Galarian Perrserker
+  number: '205'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [METAL]
+  evolvesFrom: [Galarian Meowth]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Steely Spirit
+    text: Your [M] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon
+      (before applying Weakness and Resistance).
+  moves:
+  - cost: [METAL, METAL, COLORLESS]
+    name: Metal Claw
+    damage: '70'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: GRASS
+    value: '-30'
+  retreatCost: 2
+  rarity: Secret
+  pioId: swsh2-205
+- enumId: BIG_CHARM_206:REBEL_CLASH
+  variantOf: BIG_CHARM_158:SWORD_SHIELD
+  variantType: Reprint
+  name: Big Charm
+  number: '206'
+  cardTypes: [TRAINER, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: The Pokémon this card is attached to gets +30 HP.
+  pioId: swsh2-206
+- enumId: SCOOP_UP_NET_207:REBEL_CLASH
+  variantOf: SCOOP_UP_NET_165:REBEL_CLASH
+  variantType: Secret Art
+  name: Scoop Up Net
+  number: '207'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Put 1 of your Pokémon that isn't a Pokémon V or a Pokémon-GX into your hand.
+    (Discard all attached cards.)
+  pioId: swsh2-207
+- enumId: TOOL_SCRAPPER_208:REBEL_CLASH
+  variantOf: TOOL_SCRAPPER_168:REBEL_CLASH
+  variantType: Secret Art
+  name: Tool Scrapper
+  number: '208'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s)
+    and discard them.
+  pioId: swsh2-208
+- enumId: TWIN_ENERGY_209:REBEL_CLASH
+  variantOf: TWIN_ENERGY_174:REBEL_CLASH
+  variantType: Secret Art
+  name: Twin Energy
+  number: '209'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Secret
+  text: "As long as this card is attached to a Pokémon that isn't a Pokémon V or a\
+    \ Pokémon-GX, it provides [C][C] Energy. \nIf this card is attached to a Poké\
+    mon V or a Pokémon-GX, it provides [C] Energy instead."
+  pioId: swsh2-209

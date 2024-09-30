@@ -1,0 +1,5000 @@
+schema: E3
+expansion:
+  orderId: '438'
+  name: Evolving Skies
+  enumId: EVOLVING_SKIES
+  shortName: EVS
+  pioId: swsh7
+cards:
+- enumId: PINSIR_1:EVOLVING_SKIES
+  name: Pinsir
+  number: '1'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [GRASS]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Vise Coach
+    text: Damage from your Single Strike Pokémon's attacks isn't affected by your
+      opponent's Active Pokémon's Resistance.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Seismic Toss
+    damage: '110'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: swsh7-1
+- enumId: HOPPIP_2:EVOLVING_SKIES
+  name: Hoppip
+  number: '2'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [GRASS]
+    name: Continuous Spin
+    damage: 20x
+    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: swsh7-2
+- enumId: SKIPLOOM_3:EVOLVING_SKIES
+  name: Skiploom
+  number: '3'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION, RAPID_STRIKE]
+  types: [GRASS]
+  evolvesFrom: [Hoppip]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Solar Evolution
+    text: When you attach an Energy card from your hand to this Pokémon during your
+      turn, you may search your deck for a card that evolves from this Pokémon and
+      put it onto this Pokémon to evolve it. Then, shuffle your deck.
+  moves:
+  - cost: [GRASS]
+    name: Spinning Attack
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: kirisAki
+  pioId: swsh7-3
+- enumId: JUMPLUFF_4:EVOLVING_SKIES
+  name: Jumpluff
+  number: '4'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION, RAPID_STRIKE]
+  types: [GRASS]
+  evolvesFrom: [Skiploom]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Fluffy Barrage
+    text: This Pokémon may attack twice each turn. If the first attack Knocks Out
+      your opponent's Active Pokémon, you may attack again after your opponent chooses
+      a new Active Pokémon.
+  moves:
+  - cost: [GRASS]
+    name: Spinning Attack
+    damage: '60'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: Tika Matsuno
+  pioId: swsh7-4
+- enumId: SEEDOT_5:EVOLVING_SKIES
+  name: Seedot
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Astonish
+    damage: '10'
+    text: Choose a random card from your opponent's hand. Your opponent reveals that
+      card and shuffles it into their deck.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: otumami
+  pioId: swsh7-5
+- enumId: TROPIUS_6:EVOLVING_SKIES
+  name: Tropius
+  number: '6'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 110
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Rally Back
+    damage: 30+
+    text: If any of your Pokémon were Knocked Out by damage from an attack from your
+      opponent's Pokémon during their last turn, this attack does 90 more damage.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Solar Beam
+    damage: '100'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Oswaldo KATO
+  pioId: swsh7-6
+- enumId: LEAFEON_V_7:EVOLVING_SKIES
+  name: Leafeon V
+  number: '7'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Greening Cells
+    text: Once during your turn, you may search your deck for a [G] Energy card and
+      attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Leaf Blade
+    damage: 90+
+    text: Flip a coin. If heads, this attack does 60 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-7
+- enumId: LEAFEON_VMAX_8:EVOLVING_SKIES
+  name: Leafeon VMAX
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Leafeon V]
+  hp: 310
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Grass Knot
+    damage: 60x
+    text: This attack does 60 damage for each [C] in your opponent's Active Pokémon's
+      Retreat Cost.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Max Leaf
+    damage: '170'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-8
+- enumId: PETILIL_9:EVOLVING_SKIES
+  name: Petilil
+  number: '9'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Seed Bomb
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mika Pikazo
+  pioId: swsh7-9
+- enumId: LILLIGANT_10:EVOLVING_SKIES
+  name: Lilligant
+  number: '10'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [GRASS]
+  evolvesFrom: [Petilil]
+  hp: 100
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Dizzying Flower
+    damage: '70'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Asleep. If
+      tails, your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: swsh7-10
+- enumId: DWEBBLE_11:EVOLVING_SKIES
+  name: Dwebble
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Ram
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Sharp Claws
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Shigenori Negishi
+  pioId: swsh7-11
+- enumId: CRUSTLE_12:EVOLVING_SKIES
+  name: Crustle
+  number: '12'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [GRASS]
+  evolvesFrom: [Dwebble]
+  hp: 130
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: X-Scissor
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 60 more damage.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Hammer In
+    damage: '130'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: sowsow
+  pioId: swsh7-12
+- enumId: TREVENANT_V_13:EVOLVING_SKIES
+  name: Trevenant V
+  number: '13'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 210
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Absorb Life
+    damage: '30'
+    text: Heal 30 damage from this Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Shadow Claw
+    damage: '120'
+    text: Discard a random card from your opponent's hand.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: MUGENUP
+  pioId: swsh7-13
+- enumId: TREVENANT_VMAX_14:EVOLVING_SKIES
+  name: Trevenant VMAX
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Trevenant V]
+  hp: 320
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Missing in the Forest
+    damage: 40x
+    text: This attack does 40 damage for each Supporter card in your opponent's discard
+      pile.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Max Tree
+    damage: '180'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: MUGENUP
+  pioId: swsh7-14
+- enumId: GOSSIFLEUR_15:EVOLVING_SKIES
+  name: Gossifleur
+  number: '15'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Blot
+    damage: '10'
+    text: Heal 10 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: swsh7-15
+- enumId: ELDEGOSS_16:EVOLVING_SKIES
+  name: Eldegoss
+  number: '16'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [GRASS]
+  evolvesFrom: [Gossifleur]
+  hp: 80
+  abilities:
+  - type: Ability
+    name: Cotton Lift
+    text: Once during your turn, you may search your deck for up to 2 basic Energy
+      cards, reveal them, and put them into your hand. Then, shuffle your deck.
+  moves:
+  - cost: [GRASS]
+    name: Cotton Guard
+    damage: '30'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: swsh7-16
+- enumId: APPLIN_17:EVOLVING_SKIES
+  name: Applin
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Rollout
+    damage: '10'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: swsh7-17
+- enumId: FLAREON_VMAX_18:EVOLVING_SKIES
+  name: Flareon VMAX
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [FIRE]
+  evolvesFrom: [Flareon V]
+  hp: 320
+  moves:
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Max Detonate
+    damage: 100x
+    text: Discard the top 5 cards of your deck. This attack does 100 damage for each
+      Energy card you discarded in this way.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-18
+- enumId: ENTEI_19:EVOLVING_SKIES
+  name: Entei
+  number: '19'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [FIRE]
+  hp: 120
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Angry Fang
+    damage: 10x
+    text: This attack does 10 damage for each damage counter on all of your Benched
+      Single Strike Pokémon.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Heat Tackle
+    damage: '120'
+    text: This Pokémon also does 30 damage to itself.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: NC Empire
+  pioId: swsh7-19
+- enumId: VICTINI_20:EVOLVING_SKIES
+  name: Victini
+  number: '20'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Victory Dive
+    damage: '30'
+    text: You may search your deck for up to 2 cards and put them into your hand.
+      Then, shuffle your deck.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Teeziro
+  pioId: swsh7-20
+- enumId: VOLCARONA_V_21:EVOLVING_SKIES
+  name: Volcarona V
+  number: '21'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 210
+  moves:
+  - cost: [FIRE]
+    name: Surging Flames
+    damage: 20+
+    text: This attack does 20 more damage for each basic Energy card in your discard
+      pile. Then, shuffle those Energy cards into your deck.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Blast
+    damage: '160'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: kawayoo
+  pioId: swsh7-21
+- enumId: LITLEO_22:EVOLVING_SKIES
+  name: Litleo
+  number: '22'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Live Coal
+    damage: '10'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Misa Tsutsui
+  pioId: swsh7-22
+- enumId: PYROAR_23:EVOLVING_SKIES
+  name: Pyroar
+  number: '23'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [FIRE]
+  evolvesFrom: [Litleo]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Combustion
+    damage: '30'
+  - cost: [FIRE, COLORLESS]
+    name: Rip Claw
+    damage: '70'
+    text: Discard an Energy from your opponent's Active Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Hitoshi Ariga
+  pioId: swsh7-23
+- enumId: PSYDUCK_24:EVOLVING_SKIES
+  name: Psyduck
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Rain Splash
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: OKACHEKE
+  pioId: swsh7-24
+- enumId: GOLDUCK_25:EVOLVING_SKIES
+  name: Golduck
+  number: '25'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Psyduck]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Psybeam
+    damage: '20'
+    text: Your opponent's Active Pokémon is now Confused.
+  - cost: [WATER, COLORLESS]
+    name: Surf
+    damage: '70'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kyoko Umemoto
+  pioId: swsh7-25
+- enumId: TENTACOOL_26:EVOLVING_SKIES
+  name: Tentacool
+  number: '26'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Gentle Slap
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: SATOSHI NAKAI
+  pioId: swsh7-26
+- enumId: TENTACRUEL_27:EVOLVING_SKIES
+  name: Tentacruel
+  number: '27'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Tentacool]
+  hp: 120
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '50'
+  - cost: [WATER, WATER, COLORLESS]
+    name: Poisonous Prison
+    damage: '100'
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next
+      turn, that Pokémon can't retreat.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mina Nakai
+  pioId: swsh7-27
+- enumId: GYARADOS_V_28:EVOLVING_SKIES
+  name: Gyarados V
+  number: '28'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 220
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Get Angry
+    damage: 20x
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Heavy Storm
+    damage: '180'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-28
+- enumId: GYARADOS_VMAX_29:EVOLVING_SKIES
+  name: Gyarados VMAX
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Gyarados V]
+  hp: 330
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Hyper Beam
+    damage: '120'
+    text: Discard an Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Max Tyrant
+    damage: '240'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Shin Nagasawa
+  pioId: swsh7-29
+- enumId: VAPOREON_VMAX_30:EVOLVING_SKIES
+  name: Vaporeon VMAX
+  number: '30'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [WATER]
+  evolvesFrom: [Vaporeon V]
+  hp: 320
+  moves:
+  - cost: [COLORLESS]
+    name: Bubble Pod
+    text: Put a [W] Pokémon from your discard pile onto your Bench. If you do, attach
+      up to 3 [W] Energy cards from your discard pile to that Pokémon.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Max Torrent
+    damage: 100+
+    text: If your opponent's Active Pokémon already has any damage counters on it,
+      this attack does 100 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-30
+- enumId: SUICUNE_V_31:EVOLVING_SKIES
+  name: Suicune V
+  number: '31'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Fleet-Footed
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may draw
+      a card.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Blizzard Rondo
+    damage: 20+
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and
+      your opponent's).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ayaka Yoshida
+  pioId: swsh7-31
+- enumId: LOTAD_32:EVOLVING_SKIES
+  name: Lotad
+  number: '32'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Call for Family
+    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench.
+      Then, shuffle your deck.
+  - cost: [WATER, COLORLESS]
+    name: Rain Splash
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Teeziro
+  pioId: swsh7-32
+- enumId: LOMBRE_33:EVOLVING_SKIES
+  name: Lombre
+  number: '33'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Lotad]
+  hp: 90
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '50'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: miki kudo
+  pioId: swsh7-33
+- enumId: LUDICOLO_34:EVOLVING_SKIES
+  name: Ludicolo
+  number: '34'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Lombre]
+  hp: 140
+  abilities:
+  - type: Ability
+    name: Enthusiastic Dance
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may use this Ability. During this turn, your Basic Pokémon's
+      attacks do 100 more damage to your opponent's Active Pokémon (before applying
+      Weakness and Resistance).
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '120'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: sowsow
+  pioId: swsh7-34
+- enumId: CARVANHA_35:EVOLVING_SKIES
+  name: Carvanha
+  number: '35'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Ram
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Razor Fin
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kyoko Umemoto
+  pioId: swsh7-35
+- enumId: SHARPEDO_36:EVOLVING_SKIES
+  name: Sharpedo
+  number: '36'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Carvanha]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Taunt
+    text: Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+  - cost: [WATER, COLORLESS]
+    name: Jet Bite
+    damage: '120'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kazuma Koda
+  pioId: swsh7-36
+- enumId: FEEBAS_37:EVOLVING_SKIES
+  name: Feebas
+  number: '37'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [WATER]
+    name: Flail Around
+    damage: 10x
+    text: Flip 3 coins. This attack does 10 damage for each heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: tetsuya koizumi
+  pioId: swsh7-37
+- enumId: MILOTIC_38:EVOLVING_SKIES
+  name: Milotic
+  number: '38'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION, RAPID_STRIKE]
+  types: [WATER]
+  evolvesFrom: [Feebas]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Dew Guard
+    text: Whenever your opponent plays a Supporter card from their hand, prevent all
+      effects of that card done to you or your hand.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Double Smash
+    damage: 70x
+    text: Flip 2 coins. This attack does 70 damage for each heads.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: sui
+  pioId: swsh7-38
+- enumId: LUVDISC_39:EVOLVING_SKIES
+  name: Luvdisc
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Synchrodraw
+    text: Shuffle your hand into your deck. Then, draw a card for each card in your
+      opponent's hand.
+  - cost: [COLORLESS]
+    name: Water Gun
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mizue
+  pioId: swsh7-39
+- enumId: GLACEON_V_40:EVOLVING_SKIES
+  name: Glaceon V
+  number: '40'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Frozen Awakening
+    text: Search your deck for a card that evolves from this Pokémon and put it onto
+      this Pokémon to evolve it. Then, shuffle your deck.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Heavy Snow
+    damage: '120'
+    text: Discard a Stadium in play.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-40
+- enumId: GLACEON_VMAX_41:EVOLVING_SKIES
+  name: Glaceon VMAX
+  number: '41'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Glaceon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Crystal Veil
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon VMAX, except any Glaceon VMAX.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Max Icicle
+    damage: '150'
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-41
+- enumId: TYMPOLE_42:EVOLVING_SKIES
+  name: Tympole
+  number: '42'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Mud-Slap
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mina Nakai
+  pioId: swsh7-42
+- enumId: CRYOGONAL_43:EVOLVING_SKIES
+  name: Cryogonal
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Element Chain
+    text: Look at the top 6 cards of your deck and attach any number of basic Energy
+      cards you find there to your Pokémon in any way you like. Shuffle the other
+      cards back into your deck.
+  - cost: [WATER, COLORLESS]
+    name: Icy Snow
+    damage: '30'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: swsh7-43
+- enumId: BERGMITE_44:EVOLVING_SKIES
+  name: Bergmite
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Spinning Attack
+    damage: '20'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: kirisAki
+  pioId: swsh7-44
+- enumId: AVALUGG_45:EVOLVING_SKIES
+  name: Avalugg
+  number: '45'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Bergmite]
+  hp: 150
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Frost Barrier
+    damage: '80'
+    text: During your opponent's next turn, this Pokémon takes 30 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '140'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 4
+  rarity: Uncommon
+  artist: Kouki Saitou
+  pioId: swsh7-45
+- enumId: WISHIWASHI_46:EVOLVING_SKIES
+  name: Wishiwashi
+  number: '46'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [WATER]
+  hp: 30
+  abilities:
+  - type: Ability
+    name: Group Power
+    text: If this Pokémon has 3 or more [W] Energy attached, it gets +150 HP.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Schooling Shot
+    damage: 30+
+    text: This attack does 30 more damage for each basic Energy attached to this Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Teeziro
+  pioId: swsh7-46
+- enumId: EISCUE_47:EVOLVING_SKIES
+  name: Eiscue
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 120
+  moves:
+  - cost: [WATER]
+    name: Icy Snow
+    damage: '20'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Blockface
+    damage: '70'
+    text: During your opponent's next turn, prevent all damage done to this Pokémon
+      by attacks from Basic Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Mizue
+  pioId: swsh7-47
+- enumId: ARCTOVISH_V_48:EVOLVING_SKIES
+  name: Arctovish V
+  number: '48'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 220
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Ancient Freeze
+    damage: '80'
+    text: If the Defending Pokémon is a Pokémon V or a Pokémon-GX, it can't attack
+      during your opponent's next turn.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Giga Impact
+    damage: '220'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Eske Yoshinob
+  pioId: swsh7-48
+- enumId: PIKACHU_49:EVOLVING_SKIES
+  name: Pikachu
+  number: '49'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [LIGHTNING]
+    name: Energize
+    text: Attach a [L] Energy card from your discard pile to this Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Electro Ball
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: chibi
+  pioId: swsh7-49
+- enumId: RAICHU_50:EVOLVING_SKIES
+  name: Raichu
+  number: '50'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [LIGHTNING]
+  evolvesFrom: [Pikachu]
+  hp: 130
+  moves:
+  - cost: [LIGHTNING]
+    name: Big Sparking
+    text: This attack does 50 damage to each Pokémon V and Pokémon-GX (both yours
+      and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Thunderbolt
+    damage: '180'
+    text: Discard all Energy from this Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: swsh7-50
+- enumId: JOLTEON_VMAX_51:EVOLVING_SKIES
+  name: Jolteon VMAX
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [LIGHTNING]
+  evolvesFrom: [Jolteon V]
+  hp: 300
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Max Thunder Rumble
+    damage: '100'
+    text: This attack also does 100 damage to 1 of your opponent's Benched Pokémon
+      that has any damage counters on it. (Don't apply Weakness and Resistance for
+      Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-51
+- enumId: CHINCHOU_52:EVOLVING_SKIES
+  name: Chinchou
+  number: '52'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Electro Ball
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: sowsow
+  pioId: swsh7-52
+- enumId: LANTURN_53:EVOLVING_SKIES
+  name: Lanturn
+  number: '53'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [LIGHTNING]
+  evolvesFrom: [Chinchou]
+  hp: 120
+  moves:
+  - cost: [LIGHTNING, COLORLESS]
+    name: Blinding Beam
+    damage: '40'
+    text: During your opponent's next turn, if the Defending Pokémon tries to attack,
+      your opponent flips a coin. If tails, that attack doesn't happen.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '120'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: ryoma uratsuka
+  pioId: swsh7-53
+- enumId: MAREEP_54:EVOLVING_SKIES
+  name: Mareep
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Rear Kick
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '30'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: swsh7-54
+- enumId: FLAAFFY_55:EVOLVING_SKIES
+  name: Flaaffy
+  number: '55'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [LIGHTNING]
+  evolvesFrom: [Mareep]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Dynamotor
+    text: Once during your turn (before your attack), you may attach a [L] Energy
+      card from your discard pile to 1 of your Benched Pokémon.
+  moves:
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electro Ball
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: OKACHEKE
+  pioId: swsh7-55
+- enumId: AMPHAROS_56:EVOLVING_SKIES
+  name: Ampharos
+  number: '56'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [LIGHTNING]
+  evolvesFrom: [Flaaffy]
+  hp: 150
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Shock
+    damage: '40'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  - cost: [LIGHTNING, LIGHTNING, LIGHTNING, COLORLESS]
+    name: Electron Crush
+    damage: 100+
+    text: You may discard 3 [L] Energy from this Pokémon. If you do, this attack does
+      120 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Saya Tsuruta
+  pioId: swsh7-56
+- enumId: EMOLGA_57:EVOLVING_SKIES
+  name: Emolga
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 70
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Shock
+    damage: '30'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Nagomi Nijo
+  pioId: swsh7-57
+- enumId: DRACOZOLT_V_58:EVOLVING_SKIES
+  name: Dracozolt V
+  number: '58'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 220
+  moves:
+  - cost: [LIGHTNING]
+    name: Primeval Beak
+    damage: '30'
+    text: During your opponent's next turn, Energy cards can't be attached from your
+      opponent's hand to the Defending Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Mountain Swing
+    damage: '180'
+    text: Discard the top 3 cards of your deck.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ryota Murayama
+  pioId: swsh7-58
+- enumId: DRACOZOLT_VMAX_59:EVOLVING_SKIES
+  name: Dracozolt VMAX
+  number: '59'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [LIGHTNING]
+  evolvesFrom: [Dracozolt V]
+  hp: 330
+  moves:
+  - cost: [LIGHTNING]
+    name: Spark Trap
+    damage: '60'
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack
+      (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Max Impact
+    damage: '200'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-59
+- enumId: REGIELEKI_60:EVOLVING_SKIES
+  name: Regieleki
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Static Shock
+    damage: '20'
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Teraspark
+    damage: '120'
+    text: Discard all [L] Energy from this Pokémon. This attack also does 40 damage
+      to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance
+      for Benched Pokémon.)
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Shin Nagasawa
+  pioId: swsh7-60
+- enumId: DROWZEE_61:EVOLVING_SKIES
+  name: Drowzee
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Pound
+    damage: '10'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  artist: nagimiso
+  pioId: swsh7-61
+- enumId: HYPNO_62:EVOLVING_SKIES
+  name: Hypno
+  number: '62'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [PSYCHIC]
+  evolvesFrom: [Drowzee]
+  hp: 110
+  moves:
+  - cost: [PSYCHIC]
+    name: Hypnosis
+    text: Your opponent's Active Pokémon is now Asleep.
+  - cost: [PSYCHIC]
+    name: Wake-Up Slap
+    damage: 30+ damage. If your opponent's Active Pokémon is affected by a Special
+      Condition, this attack does 90 more
+    text: Then, that Pokémon recovers from all Special Conditions.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: swsh7-62
+- enumId: GALARIAN_ARTICUNO_63:EVOLVING_SKIES
+  name: Galarian Articuno
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Cruel Charge
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may attach up to 2 [P] Energy cards from your hand to this Pokémon.
+  moves:
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS]
+    name: Psylaser
+    text: Discard all [P] Energy from this Pokémon. This attack does 120 damage to
+      1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: swsh7-63
+- enumId: ESPEON_V_64:EVOLVING_SKIES
+  name: Espeon V
+  number: '64'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Zen Shot
+    text: This attack does 60 damage to 1 of your opponent's Pokémon V. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Super Psy Bolt
+    damage: '120'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-64
+- enumId: ESPEON_VMAX_65:EVOLVING_SKIES
+  name: Espeon VMAX
+  number: '65'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [PSYCHIC]
+  evolvesFrom: [Espeon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Solar Revelation
+    text: Prevent all effects of attacks from your opponent's Pokémon done to all
+      of your Pokémon that have Energy attached.(Existing effects are not removed.
+      Damage is not an effect.)
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Max Mindstorm
+    damage: 60x
+    text: This attack does 60 damage for each Energy attached to all of your opponent's
+      Pokémon.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-65
+- enumId: WOBBUFFET_66:EVOLVING_SKIES
+  name: Wobbuffet
+  number: '66'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [PSYCHIC]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Mirror Pain
+    text: Put damage counters on your opponent's Active Pokémon equal to the number
+      of damage counters on 1 of your Benched Pokémon.
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Headbutt Bounce
+    damage: '70'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  artist: Anesaki Dynamic
+  pioId: swsh7-66
+- enumId: SABLEYE_67:EVOLVING_SKIES
+  name: Sableye
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Go and Collect
+    text: Search your deck for a Trainer card, reveal it, and put it into your hand.
+      Then, shuffle your deck.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Corner
+    damage: '40'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Eri Yamaki
+  pioId: swsh7-67
+- enumId: WOOBAT_68:EVOLVING_SKIES
+  name: Woobat
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw a card.
+  - cost: [PSYCHIC]
+    name: Gnaw
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: swsh7-68
+- enumId: SWOOBAT_69:EVOLVING_SKIES
+  name: Swoobat
+  number: '69'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [PSYCHIC]
+  evolvesFrom: [Woobat]
+  hp: 90
+  moves:
+  - cost: [PSYCHIC]
+    name: Synchro Woofer
+    damage: 30+
+    text: If you have the same number of cards in your hand as your opponent, this
+      attack does 80 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: nagimiso
+  pioId: swsh7-69
+- enumId: GOLURK_V_70:EVOLVING_SKIES
+  name: Golurk V
+  number: '70'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [PSYCHIC]
+  hp: 220
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Mega Punch
+    damage: '80'
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS, COLORLESS]
+    name: Rewind Beam
+    damage: '180'
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting
+      the highest Stage Evolution card on it into your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Eske Yoshinob
+  pioId: swsh7-70
+- enumId: FLABEBE_71:EVOLVING_SKIES
+  name: Flabébé
+  number: '71'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [PSYCHIC]
+  hp: 40
+  moves:
+  - cost: [PSYCHIC]
+    name: Hypnotic Gaze
+    text: Your opponent's Active Pokémon is now Asleep.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: OKACHEKE
+  pioId: swsh7-71
+- enumId: FLOETTE_72:EVOLVING_SKIES
+  name: Floette
+  number: '72'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION, RAPID_STRIKE]
+  types: [PSYCHIC]
+  evolvesFrom: [Flabébé]
+  hp: 70
+  moves:
+  - cost: [PSYCHIC]
+    name: Fairy Wind
+    damage: '20'
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Double Spin
+    damage: 50x
+    text: Flip 2 coins. This attack does 50 damage for each heads.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: chibi
+  pioId: swsh7-72
+- enumId: FLORGES_73:EVOLVING_SKIES
+  name: Florges
+  number: '73'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION, RAPID_STRIKE]
+  types: [PSYCHIC]
+  evolvesFrom: [Floette]
+  hp: 130
+  abilities:
+  - type: Ability
+    name: Rapid Strike Connection
+    text: As often as you like during your turn, you may move an Energy from 1 of
+      your Pokémon to 1 of your Rapid Strike Pokémon.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Wonder Shine
+    damage: '110'
+    text: Your opponent's Active Pokémon is now Confused.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kagemaru Himeno
+  pioId: swsh7-73
+- enumId: SYLVEON_V_74:EVOLVING_SKIES
+  name: Sylveon V
+  number: '74'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [PSYCHIC]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Dream Gift
+    text: Once during your turn, you may search your deck for an Item card, reveal
+      it, and put it into your hand. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Magical Shot
+    damage: '60'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: aky CG Works
+  pioId: swsh7-74
+- enumId: SYLVEON_VMAX_75:EVOLVING_SKIES
+  name: Sylveon VMAX
+  number: '75'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [PSYCHIC]
+  evolvesFrom: [Sylveon V]
+  hp: 310
+  moves:
+  - cost: [PSYCHIC]
+    name: Precious Touch
+    text: Attach an Energy card from your hand to 1 of your Benched Pokémon. If you
+      do, heal 120 damage from that Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Max Harmony
+    damage: 70+
+    text: This attack does 30 more damage for each different type of Pokémon on your
+      Bench.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Ryota Murayama
+  pioId: swsh7-75
+- enumId: PUMPKABOO_76:EVOLVING_SKIES
+  name: Pumpkaboo
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  abilities:
+  - type: Ability
+    name: Pumpkin Pit
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may discard a Stadium in play.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Stampede
+    damage: '20'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Common
+  artist: Yuka Morii
+  pioId: swsh7-76
+- enumId: GOURGEIST_77:EVOLVING_SKIES
+  name: Gourgeist
+  number: '77'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [PSYCHIC]
+  evolvesFrom: [Pumpkaboo]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Pandemonium
+    damage: 60x
+    text: Reveal the top 6 cards of your deck. This attack does 60 damage for each
+      [P] Pokémon you find there. Then, shuffle those Pokémon back into your deck
+      and discard the other cards.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 2
+  rarity: Rare
+  artist: Megumi Higuchi
+  pioId: swsh7-77
+- enumId: CUTIEFLY_78:EVOLVING_SKIES
+  name: Cutiefly
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Flap
+    damage: '10'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 0
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: swsh7-78
+- enumId: RIBOMBEE_79:EVOLVING_SKIES
+  name: Ribombee
+  number: '79'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [PSYCHIC]
+  evolvesFrom: [Cutiefly]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Tricky Steps
+    damage: '30'
+    text: You may move an Energy from your opponent's Active Pokémon to 1 of their
+      Benched Pokémon.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Saya Tsuruta
+  pioId: swsh7-79
+- enumId: MARSHADOW_80:EVOLVING_SKIES
+  name: Marshadow
+  number: '80'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [PSYCHIC]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Rapid Hunt
+    text: Search your deck for up to 2 Rapid Strike cards, reveal them, and put them
+      into your hand. Then, shuffle your deck.
+  - cost: [COLORLESS]
+    name: Shadow Flicker
+    damage: '10'
+    text: If the Defending Pokémon is Knocked Out during your next turn, take 1 more
+      Prize card.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Yuya Oka
+  pioId: swsh7-80
+- enumId: HITMONCHAN_81:EVOLVING_SKIES
+  name: Hitmonchan
+  number: '81'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [FIGHTING]
+  hp: 110
+  moves:
+  - cost: [FIGHTING]
+    name: Clean Hit
+    damage: 20+
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does
+      50 more damage.
+  - cost: [FIGHTING, COLORLESS]
+    name: Bullet Straight Punch
+    damage: '40'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Uta
+  pioId: swsh7-81
+- enumId: GALARIAN_ZAPDOS_82:EVOLVING_SKIES
+  name: Galarian Zapdos
+  number: '82'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 110
+  abilities:
+  - type: Ability
+    name: Strong Legs Charge
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may attach up to 2 [F] Energy cards from your hand to this Pokémon.
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Zapper Kick
+    damage: '70'
+    text: You may discard all Energy from this Pokémon. If you do, your opponent's
+      Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: kodama
+  pioId: swsh7-82
+- enumId: MEDICHAM_V_83:EVOLVING_SKIES
+  name: Medicham V
+  number: '83'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [FIGHTING]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Yoga Loop
+    text: Put 2 damage counters on 1 of your opponent's Pokémon. If your opponent's
+      Pokémon is Knocked Out by this attack, take another turn after this one. (Skip
+      Pokémon Checkup.) If 1 of your Pokémon used Yoga Loop during your last turn,
+      this attack can't be used.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Smash Uppercut
+    damage: '100'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Satoshi Shirai
+  pioId: swsh7-83
+- enumId: HIPPOPOTAS_84:EVOLVING_SKIES
+  name: Hippopotas
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 100
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Tackle
+    damage: '30'
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Mud Shot
+    damage: '50'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Common
+  artist: Yuya Oka
+  pioId: swsh7-84
+- enumId: HIPPOWDON_85:EVOLVING_SKIES
+  name: Hippowdon
+  number: '85'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [FIGHTING]
+  evolvesFrom: [Hippopotas]
+  hp: 150
+  moves:
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Hammer In
+    damage: '120'
+  - cost: [FIGHTING, FIGHTING, FIGHTING, COLORLESS]
+    name: Sand Press
+    damage: '220'
+    text: Discard 2 Energy from this Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Uncommon
+  artist: Eri Yamaki
+  pioId: swsh7-85
+- enumId: ROGGENROLA_86:EVOLVING_SKIES
+  name: Roggenrola
+  number: '86'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [FIGHTING]
+    name: Mud-Slap
+    damage: '10'
+  - cost: [FIGHTING, COLORLESS]
+    name: Rolling Tackle
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: swsh7-86
+- enumId: BOLDORE_87:EVOLVING_SKIES
+  name: Boldore
+  number: '87'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [FIGHTING]
+  evolvesFrom: [Roggenrola]
+  hp: 110
+  moves:
+  - cost: [FIGHTING]
+    name: Protect
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage
+      from and effects of attacks done to this Pokémon.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Boulder Crush
+    damage: '60'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Uncommon
+  artist: otumami
+  pioId: swsh7-87
+- enumId: GIGALITH_88:EVOLVING_SKIES
+  name: Gigalith
+  number: '88'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [FIGHTING]
+  evolvesFrom: [Boldore]
+  hp: 180
+  moves:
+  - cost: [FIGHTING]
+    name: Guard Press
+    damage: '50'
+    text: During your opponent's next turn, this Pokémon takes 50 less damage from
+      attacks (after applying Weakness and Resistance).
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Pressure Shot
+    damage: '180'
+    text: This Pokémon also does 10 damage to itself for each damage counter on it.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 4
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: swsh7-88
+- enumId: PALPITOAD_89:EVOLVING_SKIES
+  name: Palpitoad
+  number: '89'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [FIGHTING]
+  evolvesFrom: [Tympole]
+  hp: 100
+  moves:
+  - cost: [FIGHTING]
+    name: Stampede
+    damage: '20'
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Tongue Slap
+    damage: '50'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: tetsuya koizumi
+  pioId: swsh7-89
+- enumId: SEISMITOAD_90:EVOLVING_SKIES
+  name: Seismitoad
+  number: '90'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [FIGHTING]
+  evolvesFrom: [Palpitoad]
+  hp: 170
+  moves:
+  - cost: [FIGHTING]
+    name: Shaky Wave
+    damage: '60'
+    text: During your opponent's next turn, the Defending Pokémon's attacks cost [C]
+      more, and its Retreat Cost is [C] more.
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Hyper Voice
+    damage: '160'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Pani Kobayashi
+  pioId: swsh7-90
+- enumId: LYCANROC_V_91:EVOLVING_SKIES
+  name: Lycanroc V
+  number: '91'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 200
+  moves:
+  - cost: [FIGHTING]
+    name: Rock Throw
+    damage: '40'
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Crashing Fangs
+    damage: '200'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-91
+- enumId: LYCANROC_VMAX_92:EVOLVING_SKIES
+  name: Lycanroc VMAX
+  number: '92'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [FIGHTING]
+  evolvesFrom: [Lycanroc V]
+  hp: 320
+  moves:
+  - cost: [FIGHTING]
+    name: Hunting Claw
+    text: Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Max Edge
+    damage: '190'
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Mitsuhiro Arita
+  pioId: swsh7-92
+- enumId: GALARIAN_MOLTRES_93:EVOLVING_SKIES
+  name: Galarian Moltres
+  number: '93'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Malevolent Charge
+    text: When you play this Pokémon from your hand onto your Bench during your turn,
+      you may attach up to 2 [D] Energy cards from your hand to this Pokémon.
+  moves:
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Fiery Wrath
+    damage: 20+
+    text: This attack does 50 more damage for each Prize card your opponent has taken.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kazuma Koda
+  pioId: swsh7-93
+- enumId: UMBREON_V_94:EVOLVING_SKIES
+  name: Umbreon V
+  number: '94'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DARKNESS]
+  hp: 200
+  moves:
+  - cost: [DARKNESS]
+    name: Mean Look
+    damage: '30'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Moonlight Blade
+    damage: 80+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-94
+- enumId: UMBREON_VMAX_95:EVOLVING_SKIES
+  name: Umbreon VMAX
+  number: '95'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DARKNESS]
+  evolvesFrom: [Umbreon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Dark Signal
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Max Darkness
+    damage: '160'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: AKIRA EGAWA
+  pioId: swsh7-95
+- enumId: NUZLEAF_96:EVOLVING_SKIES
+  name: Nuzleaf
+  number: '96'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DARKNESS]
+  evolvesFrom: [Seedot]
+  hp: 80
+  moves:
+  - cost: [DARKNESS]
+    name: Fake Out
+    damage: '20'
+    text: Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: swsh7-96
+- enumId: SHIFTRY_97:EVOLVING_SKIES
+  name: Shiftry
+  number: '97'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [DARKNESS]
+  evolvesFrom: [Nuzleaf]
+  hp: 150
+  moves:
+  - cost: [DARKNESS]
+    name: Shiftadieu
+    text: If your opponent's Active Pokémon has any damage counters on it, put it
+      and all attached cards into your opponent's hand.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Nipping Cyclone
+    damage: '130'
+    text: Discard a random card from your opponent's hand.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: swsh7-97
+- enumId: SCRAGGY_98:EVOLVING_SKIES
+  name: Scraggy
+  number: '98'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [DARKNESS]
+    name: Hard Head
+    damage: '10'
+    text: During your opponent's next turn, this Pokémon takes 10 less damage from
+      attacks (after applying Weakness and Resistance).
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: swsh7-98
+- enumId: SCRAFTY_99:EVOLVING_SKIES
+  name: Scrafty
+  number: '99'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DARKNESS]
+  evolvesFrom: [Scraggy]
+  hp: 120
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Headbutt
+    damage: '40'
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Shakedown
+    damage: '90'
+    text: Discard a random card from your opponent's hand.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Yukiko Baba
+  pioId: swsh7-99
+- enumId: GARBODOR_V_100:EVOLVING_SKIES
+  name: Garbodor V
+  number: '100'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Trash Stench
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next
+      turn, that Pokémon can't retreat.
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Sludge Bomb
+    damage: '130'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Uta
+  pioId: swsh7-100
+- enumId: GARBODOR_VMAX_101:EVOLVING_SKIES
+  name: Garbodor VMAX
+  number: '101'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [DARKNESS]
+  evolvesFrom: [Garbodor V]
+  hp: 330
+  abilities:
+  - type: Ability
+    name: Rubbish Collecting
+    text: This Pokémon may have up to 2 Pokémon Tools attached to it. If it loses
+      this Ability, discard Pokémon Tools from it until only 1 remains.
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: G-Max Malodor
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next
+      turn, that Pokémon can't retreat.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-101
+- enumId: ZORUA_102:EVOLVING_SKIES
+  name: Zorua
+  number: '102'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Rear Kick
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: ryoma uratsuka
+  pioId: swsh7-102
+- enumId: ZOROARK_103:EVOLVING_SKIES
+  name: Zoroark
+  number: '103'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DARKNESS]
+  evolvesFrom: [Zorua]
+  hp: 120
+  abilities:
+  - type: Ability
+    name: Phantom Transformation
+    text: Once during your turn, you may choose a Stage 1 Pokémon, except any Zoroark,
+      from your discard pile. If you do, discard this Pokémon and all attached cards,
+      and put the chosen Pokémon in its place.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Night Daze
+    damage: '70'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Souichirou Gunjima
+  pioId: swsh7-103
+- enumId: NICKIT_104:EVOLVING_SKIES
+  name: Nickit
+  number: '104'
+  cardTypes: [POKEMON, BASIC]
+  types: [DARKNESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tail Whap
+    damage: '30'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hasegawa Saki
+  pioId: swsh7-104
+- enumId: THIEVUL_105:EVOLVING_SKIES
+  name: Thievul
+  number: '105'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DARKNESS]
+  evolvesFrom: [Nickit]
+  hp: 100
+  abilities:
+  - type: Ability
+    name: Fumbling Hands
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may have each player shuffle their hand and put it on the bottom
+      of their deck. If either player put any cards on the bottom of their deck in
+      this way, each player draws 4 cards.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tail Smack
+    damage: '60'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kyoko Umemoto
+  pioId: swsh7-105
+- enumId: ALTARIA_106:EVOLVING_SKIES
+  name: Altaria
+  number: '106'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Swablu]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Tempting Tune
+    text: Once during your turn, you may search your deck for a Supporter card, reveal
+      it, shuffle your deck, then put that card on top of it.
+  moves:
+  - cost: [WATER, METAL]
+    name: Glide
+    damage: '60'
+  retreatCost: 0
+  rarity: Rare
+  artist: Misa Tsutsui
+  pioId: swsh7-106
+- enumId: BAGON_107:EVOLVING_SKIES
+  name: Bagon
+  number: '107'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Gnaw
+    damage: '10'
+  - cost: [FIRE, WATER]
+    name: Headbutt
+    damage: '30'
+  retreatCost: 2
+  rarity: Common
+  artist: ryoma uratsuka
+  pioId: swsh7-107
+- enumId: SHELGON_108:EVOLVING_SKIES
+  name: Shelgon
+  number: '108'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Bagon]
+  hp: 90
+  moves:
+  - cost: [FIRE, WATER]
+    name: Hard Roll
+    damage: '50'
+    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage
+      from and effects of attacks done to this Pokémon.
+  retreatCost: 3
+  rarity: Uncommon
+  artist: tetsuya koizumi
+  pioId: swsh7-108
+- enumId: SALAMENCE_109:EVOLVING_SKIES
+  name: Salamence
+  number: '109'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Shelgon]
+  hp: 170
+  abilities:
+  - type: Ability
+    name: Intimidating Roar
+    text: Once during your turn, you may have your opponent switch their Active Pokémon
+      with 1 of their Benched Pokémon.
+  moves:
+  - cost: [FIRE, WATER]
+    name: Fierce Dragon
+    damage: 100+
+    text: If your opponent's Active Pokémon already has any damage counters on it,
+      this attack does 120 more damage.
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: kodama
+  pioId: swsh7-109
+- enumId: RAYQUAZA_V_110:EVOLVING_SKIES
+  name: Rayquaza V
+  number: '110'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [DRAGON]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING]
+    name: Dragon Pulse
+    damage: '40'
+    text: Discard the top 2 cards of your deck.
+  - cost: [FIRE, LIGHTNING]
+    name: Spiral Burst
+    damage: 20+
+    text: You may discard up to 2 basic [R] Energy or up to 2 basic [L] Energy from
+      this Pokémon. This attack does 80 more damage for each card you discarded in
+      this way.
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-110
+- enumId: RAYQUAZA_VMAX_111:EVOLVING_SKIES
+  name: Rayquaza VMAX
+  number: '111'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Rayquaza V]
+  hp: 320
+  abilities:
+  - type: Ability
+    name: Azure Pulse
+    text: Once during your turn, you may discard your hand and draw 3 cards.
+  moves:
+  - cost: [FIRE, LIGHTNING]
+    name: Max Burst
+    damage: 20+
+    text: You may discard any amount of basic [R] Energy or any amount of basic [L]
+      Energy from this Pokémon. This attack does 80 more damage for each card you
+      discarded in this way.
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-111
+- enumId: DIALGA_112:EVOLVING_SKIES
+  name: Dialga
+  number: '112'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Chrono Wind
+    damage: '80'
+    text: If the Defending Pokémon is a Pokémon V, it can't attack during your opponent's
+      next turn.
+  - cost: [PSYCHIC, METAL, METAL, COLORLESS]
+    name: Heavy Impact
+    damage: '210'
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Ryuta Fuse
+  pioId: swsh7-112
+- enumId: DEINO_113:EVOLVING_SKIES
+  name: Deino
+  number: '113'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 60
+  moves:
+  - cost: [DARKNESS]
+    name: Call for Family
+    text: Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle
+      your deck.
+  - cost: [PSYCHIC, DARKNESS]
+    name: Bite
+    damage: '30'
+  retreatCost: 1
+  rarity: Common
+  artist: HYOGONOSUKE
+  pioId: swsh7-113
+- enumId: ZWEILOUS_114:EVOLVING_SKIES
+  name: Zweilous
+  number: '114'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Deino]
+  hp: 100
+  moves:
+  - cost: [PSYCHIC, DARKNESS]
+    name: Bite
+    damage: '40'
+  - cost: [PSYCHIC, DARKNESS, COLORLESS, COLORLESS]
+    name: Dragon Headbutt
+    damage: '100'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Akira Komayama
+  pioId: swsh7-114
+- enumId: HYDREIGON_115:EVOLVING_SKIES
+  name: Hydreigon
+  number: '115'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Zweilous]
+  hp: 170
+  moves:
+  - cost: [PSYCHIC, DARKNESS]
+    name: Dragon Counter
+    damage: 20+
+    text: This attack does 100 more damage for each Prize card your opponent took
+      during their last turn.
+  - cost: [PSYCHIC, DARKNESS, COLORLESS, COLORLESS]
+    name: Pitch-Black Fangs
+    damage: '210'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: hatachu
+  pioId: swsh7-115
+- enumId: KYUREM_116:EVOLVING_SKIES
+  name: Kyurem
+  number: '116'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 120
+  moves:
+  - cost: [WATER, WATER, METAL]
+    name: Extreme Freeze
+    damage: 60x
+    text: Discard any amount of [W] Energy from your Pokémon. This attack does 60
+      damage for each card you discarded in this way.
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Souichirou Gunjima
+  pioId: swsh7-116
+- enumId: NOIVERN_V_117:EVOLVING_SKIES
+  name: Noivern V
+  number: '117'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DRAGON]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Boomburst
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, DARKNESS]
+    name: Synchro Loud
+    damage: 60+
+    text: If you have the same number of cards in your hand as your opponent, this
+      attack does 120 more damage.
+  retreatCost: 0
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ayaka Yoshida
+  pioId: swsh7-117
+- enumId: ZYGARDE_118:EVOLVING_SKIES
+  name: Zygarde
+  number: '118'
+  cardTypes: [POKEMON, BASIC, RAPID_STRIKE]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '30'
+  - cost: [GRASS, FIGHTING, COLORLESS]
+    name: Judgment Surge
+    text: This attack does 40 damage to 1 of your opponent's Pokémon for each Prize
+      card your opponent has taken. (Don't apply Weakness and Resistance for Benched
+      Pokémon.)
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: otumami
+  pioId: swsh7-118
+- enumId: DRAMPA_119:EVOLVING_SKIES
+  name: Drampa
+  number: '119'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 120
+  moves:
+  - cost: [COLORLESS]
+    name: Corkscrew Punch
+    damage: '30'
+  - cost: [WATER, FIGHTING]
+    name: Berserk
+    damage: 70+
+    text: If your Benched Pokémon have any damage counters on them, this attack does
+      90 more damage.
+  retreatCost: 2
+  rarity: Rare
+  artist: Tomokazu Komiya
+  pioId: swsh7-119
+- enumId: FLAPPLE_120:EVOLVING_SKIES
+  name: Flapple
+  number: '120'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Applin]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Acidic Mucus
+    damage: 50x
+    text: This attack does 50 damage for each of your opponent's Pokémon in play that
+      has an Ability.
+  - cost: [GRASS, FIRE]
+    name: Fighting Tackle
+    damage: 80+
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more
+      damage.
+  retreatCost: 1
+  rarity: Rare
+  artist: Anesaki Dynamic
+  pioId: swsh7-120
+- enumId: APPLETUN_121:EVOLVING_SKIES
+  name: Appletun
+  number: '121'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [DRAGON]
+  evolvesFrom: [Applin]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Thick Mucus
+    damage: 70x
+    text: This attack does 70 damage for each Special Energy card attached to your
+      opponent's Pokémon.
+  - cost: [GRASS, FIRE]
+    name: Fighting Tackle
+    damage: 80+
+    text: If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more
+      damage.
+  retreatCost: 3
+  rarity: Rare
+  artist: Yuya Oka
+  pioId: swsh7-121
+- enumId: DURALUDON_V_122:EVOLVING_SKIES
+  name: Duraludon V
+  number: '122'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DRAGON]
+  hp: 220
+  moves:
+  - cost: [FIGHTING, METAL]
+    name: Metal Claw
+    damage: '70'
+  - cost: [FIGHTING, METAL, METAL]
+    name: Breaking Swipe
+    damage: '140'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  retreatCost: 2
+  rarity: Rare Holo
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-122
+- enumId: DURALUDON_VMAX_123:EVOLVING_SKIES
+  name: Duraludon VMAX
+  number: '123'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Duraludon V]
+  hp: 330
+  abilities:
+  - type: Ability
+    name: Skyscraper
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have Special Energy attached.
+  moves:
+  - cost: [FIGHTING, METAL, METAL]
+    name: G-Max Pulverization
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  retreatCost: 3
+  rarity: Rare Holo
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-123
+- enumId: REGIDRAGO_124:EVOLVING_SKIES
+  name: Regidrago
+  number: '124'
+  cardTypes: [POKEMON, BASIC]
+  types: [DRAGON]
+  hp: 130
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hammer In
+    damage: '30'
+  - cost: [GRASS, GRASS, FIRE]
+    name: Dragon Energy
+    damage: 240-
+    text: This attack does 20 less damage for each damage counter on this Pokémon.
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: swsh7-124
+- enumId: EEVEE_125:EVOLVING_SKIES
+  name: Eevee
+  number: '125'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Vee-Search
+    text: Search your deck for up to 3 Pokémon V, reveal them, and put them into your
+      hand. Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Stampede
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsushi Furusawa
+  pioId: swsh7-125
+- enumId: TEDDIURSA_126:EVOLVING_SKIES
+  name: Teddiursa
+  number: '126'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Mizue
+  pioId: swsh7-126
+- enumId: URSARING_127:EVOLVING_SKIES
+  name: Ursaring
+  number: '127'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Teddiursa]
+  hp: 140
+  moves:
+  - cost: [COLORLESS]
+    name: Slash
+    damage: '40'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Whap Down
+    damage: '110'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Hasegawa Saki
+  pioId: swsh7-127
+- enumId: SMEARGLE_128:EVOLVING_SKIES
+  name: Smeargle
+  number: '128'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Live Painting
+    damage: 30+
+    text: Reveal any number of basic Energy cards from your hand. This attack does
+      30 more damage for each type of basic Energy you revealed in this way.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kouki Saitou
+  pioId: swsh7-128
+- enumId: SLAKOTH_129:EVOLVING_SKIES
+  name: Slakoth
+  number: '129'
+  cardTypes: [POKEMON, BASIC, SINGLE_STRIKE]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Smack 'n' Slack
+    damage: '30'
+    text: This Pokémon is now Asleep.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: OKACHEKE
+  pioId: swsh7-129
+- enumId: VIGOROTH_130:EVOLVING_SKIES
+  name: Vigoroth
+  number: '130'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION, SINGLE_STRIKE]
+  types: [COLORLESS]
+  evolvesFrom: [Slakoth]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Shatter
+    damage: '20'
+    text: Discard a Stadium in play.
+  - cost: [COLORLESS, COLORLESS]
+    name: Slash
+    damage: '50'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: nagimiso
+  pioId: swsh7-130
+- enumId: SLAKING_131:EVOLVING_SKIES
+  name: Slaking
+  number: '131'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION, SINGLE_STRIKE]
+  types: [COLORLESS]
+  evolvesFrom: [Vigoroth]
+  hp: 180
+  abilities:
+  - type: Ability
+    name: Act Freely
+    text: If a Stadium is in play, this Pokémon can't attack.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Rout
+    damage: 120+
+    text: This attack does 30 more damage for each of your opponent's Benched Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 4
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: swsh7-131
+- enumId: SWABLU_132:EVOLVING_SKIES
+  name: Swablu
+  number: '132'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Surprise Attack
+    damage: '30'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Lee HyunJung
+  pioId: swsh7-132
+- enumId: LILLIPUP_133:EVOLVING_SKIES
+  name: Lillipup
+  number: '133'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Lead
+    text: Search your deck for a Supporter card, reveal it, and put it into your hand.
+      Then, shuffle your deck.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Naoyo Kimura
+  pioId: swsh7-133
+- enumId: HERDIER_134:EVOLVING_SKIES
+  name: Herdier
+  number: '134'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Lillipup]
+  hp: 100
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '30'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Take Down
+    damage: '80'
+    text: This Pokémon also does 20 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kirisAki
+  pioId: swsh7-134
+- enumId: STOUTLAND_135:EVOLVING_SKIES
+  name: Stoutland
+  number: '135'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Herdier]
+  hp: 160
+  abilities:
+  - type: Ability
+    name: Intimidating Fang
+    text: As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's
+      attacks do 30 less damage (before applying Weakness and Resistance).
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Knock Away
+    damage: 120+
+    text: Flip a coin. If heads, this attack does 100 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Naoki Saito
+  pioId: swsh7-135
+- enumId: RUFFLET_136:EVOLVING_SKIES
+  name: Rufflet
+  number: '136'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Whirlwind
+    damage: '10'
+    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: '0313'
+  pioId: swsh7-136
+- enumId: BRAVIARY_137:EVOLVING_SKIES
+  name: Braviary
+  number: '137'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Rufflet]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Valiant Talons
+    damage: 30+
+    text: If your opponent's Active Pokémon is an Evolution Pokémon, this attack does
+      60 more damage.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Brave Bird
+    damage: '150'
+    text: This Pokémon also does 50 damage to itself.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: SATOSHI NAKAI
+  pioId: swsh7-137
+- enumId: FLETCHLING_138:EVOLVING_SKIES
+  name: Fletchling
+  number: '138'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Tailwind Draw
+    text: Draw a card. If you go second and it's your first turn, draw 3 more cards.
+  - cost: [COLORLESS]
+    name: Surprise Attack
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: swsh7-138
+- enumId: FLETCHINDER_139:EVOLVING_SKIES
+  name: Fletchinder
+  number: '139'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Fletchling]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Quick Attack
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Yuya Oka
+  pioId: swsh7-139
+- enumId: TALONFLAME_140:EVOLVING_SKIES
+  name: Talonflame
+  number: '140'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION]
+  types: [COLORLESS]
+  evolvesFrom: [Fletchinder]
+  hp: 140
+  moves:
+  - cost: [COLORLESS]
+    name: Clutch
+    damage: '40'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - cost: [COLORLESS, COLORLESS]
+    name: Nitro Dive
+    damage: 80+
+    text: If this Pokémon has any [R] Energy attached, this attack does 80 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 0
+  rarity: Rare
+  artist: Tika Matsuno
+  pioId: swsh7-140
+- enumId: AROMA_LADY_141:EVOLVING_SKIES
+  name: Aroma Lady
+  number: '141'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: 'Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Megumi Mizutani
+  pioId: swsh7-141
+- enumId: BOOST_SHAKE_142:EVOLVING_SKIES
+  name: Boost Shake
+  number: '142'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Search your deck for a card that evolves from 1 of your Pokémon and put it
+    onto that Pokémon to evolve it. Then, shuffle your deck. You can use this card
+    during your first turn or on a Pokémon that was put into play this turn. Your
+    turn ends.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: sadaji
+  pioId: swsh7-142
+- enumId: COPYCAT_143:EVOLVING_SKIES
+  name: Copycat
+  number: '143'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: 'Shuffle your hand into your deck. Then, draw a card for each card in your
+    opponent''s hand.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Sanosuke Sakuma
+  pioId: swsh7-143
+- enumId: CRYSTAL_CAVE_144:EVOLVING_SKIES
+  name: Crystal Cave
+  number: '144'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player's turn, that player may heal 30 damage from each of
+    their [M] Pokémon and [N] Pokémon.
+  artist: Toyste Beach
+  pioId: swsh7-144
+- enumId: DIGGING_GLOVES_145:EVOLVING_SKIES
+  name: Digging Gloves
+  number: '145'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'The attacks of the Pokémon this card is attached to do 30 more damage to
+    your opponent''s Active [F] Pokémon (before applying Weakness and Resistance).
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Toyste Beach
+  pioId: swsh7-145
+- enumId: DREAM_BALL_146:EVOLVING_SKIES
+  name: Dream Ball
+  number: '146'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'You can play this card only if you took it as a face-down Prize card, before
+    you put it into your hand. Search your deck for a Pokémon and put it onto your
+    Bench. Then, shuffle your deck.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: Ryo Ueda
+  pioId: swsh7-146
+- enumId: ELEMENTAL_BADGE_147:EVOLVING_SKIES
+  name: Elemental Badge
+  number: '147'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon V this card is attached to has "Vaporeon," "Jolteon," or "Flareon"
+    in its name, its attacks cost [C] less.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Studio Bora Inc.
+  pioId: swsh7-147
+- enumId: FULL_FACE_GUARD_148:EVOLVING_SKIES
+  name: Full Face Guard
+  number: '148'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon this card is attached to has no Abilities, it takes 20 less
+    damage from attacks from your opponent''s Pokémon (after applying Weakness and
+    Resistance).
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: AYUMI ODASHIMA
+  pioId: swsh7-148
+- enumId: GORDIE_149:EVOLVING_SKIES
+  name: Gordie
+  number: '149'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: 'Look at the top 7 cards of your deck. You may reveal any number of Energy
+    cards you find there and put them into your hand. Shuffle the other cards back
+    into your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: take
+  pioId: swsh7-149
+- enumId: LUCKY_ICE_POP_150:EVOLVING_SKIES
+  name: Lucky Ice Pop
+  number: '150'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Heal 20 damage from your Active Pokémon. If you healed any damage in this
+    way, flip a coin. If heads, put this Lucky Ice Pop into your hand instead of the
+    discard pile.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: inose yukie
+  pioId: swsh7-150
+- enumId: MOON_SUN_BADGE_151:EVOLVING_SKIES
+  name: Moon & Sun Badge
+  number: '151'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon V this card is attached to has "Espeon" or "Umbreon" in its
+    name, whenever your opponent plays a Supporter card from their hand, prevent all
+    effects of that card done to that Pokémon.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Studio Bora Inc.
+  pioId: swsh7-151
+- enumId: RAIHAN_152:EVOLVING_SKIES
+  name: Raihan
+  number: '152'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: 'You can play this card only if any of your Pokémon were Knocked Out during
+    your opponent''s last turn. Attach a basic Energy card from your discard pile
+    to 1 of your Pokémon. If you do, search your deck for a card and put it into your
+    hand. Then, shuffle your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: take
+  pioId: swsh7-152
+- enumId: RAPID_STRIKE_SCROLL_OF_THE_FLYING_DRAGON_153:EVOLVING_SKIES
+  name: Rapid Strike Scroll of the Flying Dragon
+  number: '153'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL, RAPID_STRIKE]
+  rarity: Uncommon
+  text: 'The Rapid Strike Pokémon this card is attached to can use the attack on this
+    card. (You still need the necessary Energy to use this attack.) FireLightning
+    Meteor Discard 2 Energy from this Pokémon. This attack does 90 damage to 1 of
+    your opponent''s Pokémon. (Don''t apply Weakness and Resistance for Benched Pokémon.)
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: 5ban Graphics
+  pioId: swsh7-153
+- enumId: RESCUE_CARRIER_154:EVOLVING_SKIES
+  name: Rescue Carrier
+  number: '154'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Put up to 2 Pokémon, each with 90 HP or less, from your discard pile into
+    your hand.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: Ryo Ueda
+  pioId: swsh7-154
+- enumId: RIBBON_BADGE_155:EVOLVING_SKIES
+  name: Ribbon Badge
+  number: '155'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon V this card is attached to has "Sylveon" in its name and is
+    Knocked Out by damage from an attack from your opponent''s Pokémon, that player
+    takes 1 fewer Prize card.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Studio Bora Inc.
+  pioId: swsh7-155
+- enumId: RUBBER_GLOVES_156:EVOLVING_SKIES
+  name: Rubber Gloves
+  number: '156'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'The attacks of the Pokémon this card is attached to do 30 more damage to
+    your opponent''s Active [L] Pokémon (before applying Weakness and Resistance).
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Toyste Beach
+  pioId: swsh7-156
+- enumId: SHOPPING_CENTER_157:EVOLVING_SKIES
+  name: Shopping Center
+  number: '157'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player's turn, that player may put a Pokémon Tool attached
+    to 1 of their Pokémon into their hand.
+  artist: Oswaldo KATO
+  pioId: swsh7-157
+- enumId: SINGLE_STRIKE_SCROLL_OF_THE_FANGED_DRAGON_158:EVOLVING_SKIES
+  name: Single Strike Scroll of the Fanged Dragon
+  number: '158'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL, SINGLE_STRIKE]
+  rarity: Uncommon
+  text: 'The Single Strike Pokémon this card is attached to can use the attack on
+    this card. (You still need the necessary Energy to use this attack.) FightingMetalMetal[C][C]
+    Superstrong Slash 300 Discard all Energy from this Pokémon.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: 5ban Graphics
+  pioId: swsh7-158
+- enumId: SNOW_LEAF_BADGE_159:EVOLVING_SKIES
+  name: Snow Leaf Badge
+  number: '159'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon V this card is attached to has "Leafeon" or "Glaceon" in its
+    name, it has no Retreat Cost and no Weakness.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: Studio Bora Inc.
+  pioId: swsh7-159
+- enumId: SPIRIT_MASK_160:EVOLVING_SKIES
+  name: Spirit Mask
+  number: '160'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Uncommon
+  text: 'If the Pokémon this card is attached to is in the Active Spot and is damaged
+    by an attack from your opponent''s Pokémon (even if it is Knocked Out), your opponent
+    discards a card from their hand.
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: AYUMI ODASHIMA
+  pioId: swsh7-160
+- enumId: STORMY_MOUNTAINS_161:EVOLVING_SKIES
+  name: Stormy Mountains
+  number: '161'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Uncommon
+  text: Once during each player's turn, that player may search their deck for a Basic
+    [L] Pokémon or Basic [N] Pokémon and put it onto their Bench. Then, that player
+    shuffles their deck.
+  artist: Toyste Beach
+  pioId: swsh7-161
+- enumId: SWITCHING_CUPS_162:EVOLVING_SKIES
+  name: Switching Cups
+  number: '162'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Switch a card from your hand with the top card of your deck.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: Ryo Ueda
+  pioId: swsh7-162
+- enumId: TOY_CATCHER_163:EVOLVING_SKIES
+  name: Toy Catcher
+  number: '163'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: 'Switch 1 of your opponent''s Benched Pokémon that has 50 HP or less remaining
+    with your opponent''s Active Pokémon.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: sadaji
+  pioId: swsh7-163
+- enumId: ZINNIA_S_RESOLVE_164:EVOLVING_SKIES
+  name: Zinnia's Resolve
+  number: '164'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: 'You can play this card only if you discard 2 other cards from your hand.
+    Draw a card for each of your opponent''s Pokémon in play.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Taira Akitsu
+  pioId: swsh7-164
+- enumId: TREASURE_ENERGY_165:EVOLVING_SKIES
+  name: Treasure Energy
+  number: '165'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: As long as this card is attached to a Pokémon, it provides [C] Energy. If
+    you took this card as a face-down Prize card during your turn, before you put
+    it into your hand, you may attach this card to 1 of your Pokémon.
+  artist: n/a
+  pioId: swsh7-165
+- enumId: LEAFEON_V_166:EVOLVING_SKIES
+  variantOf: LEAFEON_V_7:EVOLVING_SKIES
+  variantType: Full Art
+  name: Leafeon V
+  number: '166'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Greening Cells
+    text: Once during your turn, you may search your deck for a [G] Energy card and
+      attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Leaf Blade
+    damage: 90+
+    text: Flip a coin. If heads, this attack does 60 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-166
+- enumId: LEAFEON_V_167:EVOLVING_SKIES
+  variantOf: LEAFEON_V_7:EVOLVING_SKIES
+  variantType: Full Art
+  name: Leafeon V
+  number: '167'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Greening Cells
+    text: Once during your turn, you may search your deck for a [G] Energy card and
+      attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Leaf Blade
+    damage: 90+
+    text: Flip a coin. If heads, this attack does 60 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: You Iribi
+  pioId: swsh7-167
+- enumId: TREVENANT_V_168:EVOLVING_SKIES
+  variantOf: TREVENANT_V_13:EVOLVING_SKIES
+  variantType: Full Art
+  name: Trevenant V
+  number: '168'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [GRASS]
+  hp: 210
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Absorb Life
+    damage: '30'
+    text: Heal 30 damage from this Pokémon.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Shadow Claw
+    damage: '120'
+    text: Discard a random card from your opponent's hand.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: MUGENUP
+  pioId: swsh7-168
+- enumId: FLAREON_V_169:EVOLVING_SKIES
+  name: Flareon V
+  number: '169'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [FIRE]
+  hp: 210
+  moves:
+  - cost: [COLORLESS]
+    name: Flaming Breath
+    damage: '20'
+    text: Search your deck for a [R] Energy card and attach it to this Pokémon. Then,
+      shuffle your deck.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Scorching Column
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Burned.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-169
+- enumId: VOLCARONA_V_170:EVOLVING_SKIES
+  variantOf: VOLCARONA_V_21:EVOLVING_SKIES
+  variantType: Full Art
+  name: Volcarona V
+  number: '170'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIRE]
+  hp: 210
+  moves:
+  - cost: [FIRE]
+    name: Surging Flames
+    damage: 20+
+    text: This attack does 20 more damage for each basic Energy card in your discard
+      pile. Then, shuffle those Energy cards into your deck.
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Blast
+    damage: '160'
+    text: Discard an Energy from this Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Eske Yoshinob
+  pioId: swsh7-170
+- enumId: GYARADOS_V_171:EVOLVING_SKIES
+  variantOf: GYARADOS_V_28:EVOLVING_SKIES
+  variantType: Full Art
+  name: Gyarados V
+  number: '171'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 220
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Get Angry
+    damage: 20x
+    text: This attack does 20 damage for each damage counter on this Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Heavy Storm
+    damage: '180'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-171
+- enumId: VAPOREON_V_172:EVOLVING_SKIES
+  name: Vaporeon V
+  number: '172'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [COLORLESS]
+    name: Triple Draw
+    text: Draw 3 cards.
+  - cost: [WATER, WATER, COLORLESS]
+    name: Splash Jump
+    damage: '90'
+    text: Switch this Pokémon with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-172
+- enumId: SUICUNE_V_173:EVOLVING_SKIES
+  variantOf: SUICUNE_V_31:EVOLVING_SKIES
+  variantType: Full Art
+  name: Suicune V
+  number: '173'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  abilities:
+  - type: Ability
+    name: Fleet-Footed
+    text: Once during your turn, if this Pokémon is in the Active Spot, you may draw
+      a card.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Blizzard Rondo
+    damage: 20+
+    text: This attack does 20 more damage for each Benched Pokémon (both yours and
+      your opponent's).
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ayaka Yoshida
+  pioId: swsh7-173
+- enumId: GLACEON_V_174:EVOLVING_SKIES
+  variantOf: GLACEON_V_40:EVOLVING_SKIES
+  variantType: Full Art
+  name: Glaceon V
+  number: '174'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Frozen Awakening
+    text: Search your deck for a card that evolves from this Pokémon and put it onto
+      this Pokémon to evolve it. Then, shuffle your deck.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Heavy Snow
+    damage: '120'
+    text: Discard a Stadium in play.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-174
+- enumId: GLACEON_V_175:EVOLVING_SKIES
+  variantOf: GLACEON_V_40:EVOLVING_SKIES
+  variantType: Full Art
+  name: Glaceon V
+  number: '175'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 210
+  moves:
+  - cost: [WATER]
+    name: Frozen Awakening
+    text: Search your deck for a card that evolves from this Pokémon and put it onto
+      this Pokémon to evolve it. Then, shuffle your deck.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Heavy Snow
+    damage: '120'
+    text: Discard a Stadium in play.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Narumi Sato
+  pioId: swsh7-175
+- enumId: ARCTOVISH_V_176:EVOLVING_SKIES
+  variantOf: ARCTOVISH_V_48:EVOLVING_SKIES
+  variantType: Full Art
+  name: Arctovish V
+  number: '176'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [WATER]
+  hp: 220
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Ancient Freeze
+    damage: '80'
+    text: If the Defending Pokémon is a Pokémon V or a Pokémon-GX, it can't attack
+      during your opponent's next turn.
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Giga Impact
+    damage: '220'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Eske Yoshinob
+  pioId: swsh7-176
+- enumId: JOLTEON_V_177:EVOLVING_SKIES
+  name: Jolteon V
+  number: '177'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 190
+  moves:
+  - cost: [COLORLESS]
+    name: Thunder Spear
+    text: This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Pin Missile
+    damage: 60x
+    text: Flip 4 coins. This attack does 60 damage for each heads.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-177
+- enumId: DRACOZOLT_V_178:EVOLVING_SKIES
+  variantOf: DRACOZOLT_V_58:EVOLVING_SKIES
+  variantType: Full Art
+  name: Dracozolt V
+  number: '178'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [LIGHTNING]
+  hp: 220
+  moves:
+  - cost: [LIGHTNING]
+    name: Primeval Beak
+    damage: '30'
+    text: During your opponent's next turn, Energy cards can't be attached from your
+      opponent's hand to the Defending Pokémon.
+  - cost: [LIGHTNING, LIGHTNING, COLORLESS]
+    name: Mountain Swing
+    damage: '180'
+    text: Discard the top 3 cards of your deck.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-178
+- enumId: ESPEON_V_179:EVOLVING_SKIES
+  variantOf: ESPEON_V_64:EVOLVING_SKIES
+  variantType: Full Art
+  name: Espeon V
+  number: '179'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Zen Shot
+    text: This attack does 60 damage to 1 of your opponent's Pokémon V. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Super Psy Bolt
+    damage: '120'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-179
+- enumId: ESPEON_V_180:EVOLVING_SKIES
+  variantOf: ESPEON_V_64:EVOLVING_SKIES
+  variantType: Full Art
+  name: Espeon V
+  number: '180'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [PSYCHIC]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Zen Shot
+    text: This attack does 60 damage to 1 of your opponent's Pokémon V. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Super Psy Bolt
+    damage: '120'
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: sowsow
+  pioId: swsh7-180
+- enumId: GOLURK_V_181:EVOLVING_SKIES
+  variantOf: GOLURK_V_70:EVOLVING_SKIES
+  variantType: Full Art
+  name: Golurk V
+  number: '181'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [PSYCHIC]
+  hp: 220
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Mega Punch
+    damage: '80'
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS, COLORLESS]
+    name: Rewind Beam
+    damage: '180'
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting
+      the highest Stage Evolution card on it into your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Eske Yoshinob
+  pioId: swsh7-181
+- enumId: GOLURK_V_182:EVOLVING_SKIES
+  variantOf: GOLURK_V_70:EVOLVING_SKIES
+  variantType: Full Art
+  name: Golurk V
+  number: '182'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [PSYCHIC]
+  hp: 220
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Mega Punch
+    damage: '80'
+  - cost: [PSYCHIC, PSYCHIC, COLORLESS, COLORLESS]
+    name: Rewind Beam
+    damage: '180'
+    text: If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting
+      the highest Stage Evolution card on it into your opponent's hand.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Oswaldo KATO
+  pioId: swsh7-182
+- enumId: SYLVEON_V_183:EVOLVING_SKIES
+  variantOf: SYLVEON_V_74:EVOLVING_SKIES
+  variantType: Full Art
+  name: Sylveon V
+  number: '183'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [PSYCHIC]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Dream Gift
+    text: Once during your turn, you may search your deck for an Item card, reveal
+      it, and put it into your hand. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Magical Shot
+    damage: '60'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: aky CG Works
+  pioId: swsh7-183
+- enumId: SYLVEON_V_184:EVOLVING_SKIES
+  variantOf: SYLVEON_V_74:EVOLVING_SKIES
+  variantType: Full Art
+  name: Sylveon V
+  number: '184'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [PSYCHIC]
+  hp: 200
+  abilities:
+  - type: Ability
+    name: Dream Gift
+    text: Once during your turn, you may search your deck for an Item card, reveal
+      it, and put it into your hand. Then, shuffle your deck. If you use this Ability,
+      your turn ends.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Magical Shot
+    damage: '60'
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Yuu Nishida
+  pioId: swsh7-184
+- enumId: MEDICHAM_V_185:EVOLVING_SKIES
+  variantOf: MEDICHAM_V_83:EVOLVING_SKIES
+  variantType: Full Art
+  name: Medicham V
+  number: '185'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [FIGHTING]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Yoga Loop
+    text: Put 2 damage counters on 1 of your opponent's Pokémon. If your opponent's
+      Pokémon is Knocked Out by this attack, take another turn after this one. (Skip
+      Pokémon Checkup.) If 1 of your Pokémon used Yoga Loop during your last turn,
+      this attack can't be used.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Smash Uppercut
+    damage: '100'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Satoshi Shirai
+  pioId: swsh7-185
+- enumId: MEDICHAM_V_186:EVOLVING_SKIES
+  variantOf: MEDICHAM_V_83:EVOLVING_SKIES
+  variantType: Full Art
+  name: Medicham V
+  number: '186'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [FIGHTING]
+  hp: 210
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Yoga Loop
+    text: Put 2 damage counters on 1 of your opponent's Pokémon. If your opponent's
+      Pokémon is Knocked Out by this attack, take another turn after this one. (Skip
+      Pokémon Checkup.) If 1 of your Pokémon used Yoga Loop during your last turn,
+      this attack can't be used.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Smash Uppercut
+    damage: '100'
+    text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: KIYOTAKA OSHIYAMA
+  pioId: swsh7-186
+- enumId: LYCANROC_V_187:EVOLVING_SKIES
+  variantOf: LYCANROC_V_91:EVOLVING_SKIES
+  variantType: Full Art
+  name: Lycanroc V
+  number: '187'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [FIGHTING]
+  hp: 200
+  moves:
+  - cost: [FIGHTING]
+    name: Rock Throw
+    damage: '40'
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Crashing Fangs
+    damage: '200'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-187
+- enumId: UMBREON_V_188:EVOLVING_SKIES
+  variantOf: UMBREON_V_94:EVOLVING_SKIES
+  variantType: Full Art
+  name: Umbreon V
+  number: '188'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DARKNESS]
+  hp: 200
+  moves:
+  - cost: [DARKNESS]
+    name: Mean Look
+    damage: '30'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Moonlight Blade
+    damage: 80+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-188
+- enumId: UMBREON_V_189:EVOLVING_SKIES
+  variantOf: UMBREON_V_94:EVOLVING_SKIES
+  variantType: Full Art
+  name: Umbreon V
+  number: '189'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DARKNESS]
+  hp: 200
+  moves:
+  - cost: [DARKNESS]
+    name: Mean Look
+    damage: '30'
+    text: During your opponent's next turn, the Defending Pokémon can't retreat.
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Moonlight Blade
+    damage: 80+
+    text: If this Pokémon has any damage counters on it, this attack does 80 more
+      damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Teeziro
+  pioId: swsh7-189
+- enumId: GARBODOR_V_190:EVOLVING_SKIES
+  variantOf: GARBODOR_V_100:EVOLVING_SKIES
+  variantType: Full Art
+  name: Garbodor V
+  number: '190'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DARKNESS]
+  hp: 210
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: Trash Stench
+    damage: '40'
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next
+      turn, that Pokémon can't retreat.
+  - cost: [DARKNESS, DARKNESS, COLORLESS]
+    name: Sludge Bomb
+    damage: '130'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: aky CG Works
+  pioId: swsh7-190
+- enumId: DRAGONITE_V_191:EVOLVING_SKIES
+  name: Dragonite V
+  number: '191'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DRAGON]
+  hp: 230
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shred
+    damage: '50'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [WATER, WATER, LIGHTNING]
+    name: Dragon Gale
+    damage: '250'
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Saki Hayashiro
+  pioId: swsh7-191
+- enumId: DRAGONITE_V_192:EVOLVING_SKIES
+  variantOf: DRAGONITE_V_191:EVOLVING_SKIES
+  variantType: Full Art
+  name: Dragonite V
+  number: '192'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DRAGON]
+  hp: 230
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Shred
+    damage: '50'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  - cost: [WATER, WATER, LIGHTNING]
+    name: Dragon Gale
+    damage: '250'
+    text: This attack also does 20 damage to each of your Benched Pokémon. (Don't
+      apply Weakness and Resistance for Benched Pokémon.)
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Atsushi Furusawa
+  pioId: swsh7-192
+- enumId: RAYQUAZA_V_193:EVOLVING_SKIES
+  variantOf: RAYQUAZA_V_110:EVOLVING_SKIES
+  variantType: Full Art
+  name: Rayquaza V
+  number: '193'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [DRAGON]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING]
+    name: Dragon Pulse
+    damage: '40'
+    text: Discard the top 2 cards of your deck.
+  - cost: [FIRE, LIGHTNING]
+    name: Spiral Burst
+    damage: 20+
+    text: You may discard up to 2 basic [R] Energy or up to 2 basic [L] Energy from
+      this Pokémon. This attack does 80 more damage for each card you discarded in
+      this way.
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-193
+- enumId: RAYQUAZA_V_194:EVOLVING_SKIES
+  variantOf: RAYQUAZA_V_110:EVOLVING_SKIES
+  variantType: Full Art
+  name: Rayquaza V
+  number: '194'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, RAPID_STRIKE]
+  types: [DRAGON]
+  hp: 210
+  moves:
+  - cost: [LIGHTNING]
+    name: Dragon Pulse
+    damage: '40'
+    text: Discard the top 2 cards of your deck.
+  - cost: [FIRE, LIGHTNING]
+    name: Spiral Burst
+    damage: 20+
+    text: You may discard up to 2 basic [R] Energy or up to 2 basic [L] Energy from
+      this Pokémon. This attack does 80 more damage for each card you discarded in
+      this way.
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ryuta Fuse
+  pioId: swsh7-194
+- enumId: NOIVERN_V_195:EVOLVING_SKIES
+  variantOf: NOIVERN_V_117:EVOLVING_SKIES
+  variantType: Full Art
+  name: Noivern V
+  number: '195'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DRAGON]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Boomburst
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, DARKNESS]
+    name: Synchro Loud
+    damage: 60+
+    text: If you have the same number of cards in your hand as your opponent, this
+      attack does 120 more damage.
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Ayaka Yoshida
+  pioId: swsh7-195
+- enumId: NOIVERN_V_196:EVOLVING_SKIES
+  variantOf: NOIVERN_V_117:EVOLVING_SKIES
+  variantType: Full Art
+  name: Noivern V
+  number: '196'
+  cardTypes: [POKEMON, BASIC, POKEMON_V]
+  types: [DRAGON]
+  hp: 200
+  moves:
+  - cost: [PSYCHIC]
+    name: Boomburst
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [PSYCHIC, DARKNESS]
+    name: Synchro Loud
+    damage: 60+
+    text: If you have the same number of cards in your hand as your opponent, this
+      attack does 120 more damage.
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Mitsuhiro Arita
+  pioId: swsh7-196
+- enumId: DURALUDON_V_197:EVOLVING_SKIES
+  variantOf: DURALUDON_V_122:EVOLVING_SKIES
+  variantType: Full Art
+  name: Duraludon V
+  number: '197'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DRAGON]
+  hp: 220
+  moves:
+  - cost: [FIGHTING, METAL]
+    name: Metal Claw
+    damage: '70'
+  - cost: [FIGHTING, METAL, METAL]
+    name: Breaking Swipe
+    damage: '140'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-197
+- enumId: DURALUDON_V_198:EVOLVING_SKIES
+  variantOf: DURALUDON_V_122:EVOLVING_SKIES
+  variantType: Full Art
+  name: Duraludon V
+  number: '198'
+  cardTypes: [POKEMON, BASIC, POKEMON_V, SINGLE_STRIKE]
+  types: [DRAGON]
+  hp: 220
+  moves:
+  - cost: [FIGHTING, METAL]
+    name: Metal Claw
+    damage: '70'
+  - cost: [FIGHTING, METAL, METAL]
+    name: Breaking Swipe
+    damage: '140'
+    text: During your opponent's next turn, the Defending Pokémon's attacks do 30
+      less damage (before applying Weakness and Resistance).
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.'
+  artist: Naoki Saito
+  pioId: swsh7-198
+- enumId: AROMA_LADY_199:EVOLVING_SKIES
+  variantOf: AROMA_LADY_141:EVOLVING_SKIES
+  variantType: Full Art
+  name: Aroma Lady
+  number: '199'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: En Morikura
+  pioId: swsh7-199
+- enumId: COPYCAT_200:EVOLVING_SKIES
+  variantOf: COPYCAT_143:EVOLVING_SKIES
+  variantType: Full Art
+  name: Copycat
+  number: '200'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Shuffle your hand into your deck. Then, draw a card for each card in your
+    opponent''s hand.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Sanosuke Sakuma
+  pioId: swsh7-200
+- enumId: GORDIE_201:EVOLVING_SKIES
+  variantOf: GORDIE_149:EVOLVING_SKIES
+  variantType: Full Art
+  name: Gordie
+  number: '201'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Look at the top 7 cards of your deck. You may reveal any number of Energy
+    cards you find there and put them into your hand. Shuffle the other cards back
+    into your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Hitoshi Ariga
+  pioId: swsh7-201
+- enumId: RAIHAN_202:EVOLVING_SKIES
+  variantOf: RAIHAN_152:EVOLVING_SKIES
+  variantType: Full Art
+  name: Raihan
+  number: '202'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'You can play this card only if any of your Pokémon were Knocked Out during
+    your opponent''s last turn. Attach a basic Energy card from your discard pile
+    to 1 of your Pokémon. If you do, search your deck for a card and put it into your
+    hand. Then, shuffle your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: kirisAki
+  pioId: swsh7-202
+- enumId: ZINNIA_S_RESOLVE_203:EVOLVING_SKIES
+  variantOf: ZINNIA_S_RESOLVE_164:EVOLVING_SKIES
+  variantType: Full Art
+  name: Zinnia's Resolve
+  number: '203'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'You can play this card only if you discard 2 other cards from your hand.
+    Draw a card for each of your opponent''s Pokémon in play.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Taira Akitsu
+  pioId: swsh7-203
+- enumId: LEAFEON_VMAX_204:EVOLVING_SKIES
+  variantOf: LEAFEON_VMAX_8:EVOLVING_SKIES
+  variantType: Full Art
+  name: Leafeon VMAX
+  number: '204'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Leafeon V]
+  hp: 310
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Grass Knot
+    damage: 60x
+    text: This attack does 60 damage for each [C] in your opponent's Active Pokémon's
+      Retreat Cost.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Max Leaf
+    damage: '170'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-204
+- enumId: LEAFEON_VMAX_205:EVOLVING_SKIES
+  variantOf: LEAFEON_VMAX_8:EVOLVING_SKIES
+  variantType: Full Art
+  name: Leafeon VMAX
+  number: '205'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Leafeon V]
+  hp: 310
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Grass Knot
+    damage: 60x
+    text: This attack does 60 damage for each [C] in your opponent's Active Pokémon's
+      Retreat Cost.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Max Leaf
+    damage: '170'
+    text: Heal 30 damage from this Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: HYOGONOSUKE
+  pioId: swsh7-205
+- enumId: TREVENANT_VMAX_206:EVOLVING_SKIES
+  variantOf: TREVENANT_VMAX_14:EVOLVING_SKIES
+  variantType: Full Art
+  name: Trevenant VMAX
+  number: '206'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [GRASS]
+  evolvesFrom: [Trevenant V]
+  hp: 320
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Missing in the Forest
+    damage: 40x
+    text: This attack does 40 damage for each Supporter card in your opponent's discard
+      pile.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Max Tree
+    damage: '180'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: MUGENUP
+  pioId: swsh7-206
+- enumId: GYARADOS_VMAX_207:EVOLVING_SKIES
+  variantOf: GYARADOS_VMAX_29:EVOLVING_SKIES
+  variantType: Full Art
+  name: Gyarados VMAX
+  number: '207'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Gyarados V]
+  hp: 330
+  moves:
+  - cost: [WATER, WATER, COLORLESS]
+    name: Hyper Beam
+    damage: '120'
+    text: Discard an Energy from your opponent's Active Pokémon.
+  - cost: [WATER, WATER, WATER, COLORLESS]
+    name: Max Tyrant
+    damage: '240'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 4
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Shin Nagasawa
+  pioId: swsh7-207
+- enumId: GLACEON_VMAX_208:EVOLVING_SKIES
+  variantOf: GLACEON_VMAX_41:EVOLVING_SKIES
+  variantType: Full Art
+  name: Glaceon VMAX
+  number: '208'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Glaceon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Crystal Veil
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon VMAX, except any Glaceon VMAX.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Max Icicle
+    damage: '150'
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Tsuji
+  pioId: swsh7-208
+- enumId: GLACEON_VMAX_209:EVOLVING_SKIES
+  variantOf: GLACEON_VMAX_41:EVOLVING_SKIES
+  variantType: Full Art
+  name: Glaceon VMAX
+  number: '209'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [WATER]
+  evolvesFrom: [Glaceon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Crystal Veil
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon VMAX, except any Glaceon VMAX.
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Max Icicle
+    damage: '150'
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: kirisAki
+  pioId: swsh7-209
+- enumId: DRACOZOLT_VMAX_210:EVOLVING_SKIES
+  variantOf: DRACOZOLT_VMAX_59:EVOLVING_SKIES
+  variantType: Full Art
+  name: Dracozolt VMAX
+  number: '210'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [LIGHTNING]
+  evolvesFrom: [Dracozolt V]
+  hp: 330
+  moves:
+  - cost: [LIGHTNING]
+    name: Spark Trap
+    damage: '60'
+    text: During your opponent's next turn, if this Pokémon is damaged by an attack
+      (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS, COLORLESS]
+    name: Max Impact
+    damage: '200'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-210
+- enumId: SYLVEON_VMAX_211:EVOLVING_SKIES
+  variantOf: SYLVEON_VMAX_75:EVOLVING_SKIES
+  variantType: Full Art
+  name: Sylveon VMAX
+  number: '211'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [PSYCHIC]
+  evolvesFrom: [Sylveon V]
+  hp: 310
+  moves:
+  - cost: [PSYCHIC]
+    name: Precious Touch
+    text: Attach an Energy card from your hand to 1 of your Benched Pokémon. If you
+      do, heal 120 damage from that Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Max Harmony
+    damage: 70+
+    text: This attack does 30 more damage for each different type of Pokémon on your
+      Bench.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Ryota Murayama
+  pioId: swsh7-211
+- enumId: SYLVEON_VMAX_212:EVOLVING_SKIES
+  variantOf: SYLVEON_VMAX_75:EVOLVING_SKIES
+  variantType: Full Art
+  name: Sylveon VMAX
+  number: '212'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [PSYCHIC]
+  evolvesFrom: [Sylveon V]
+  hp: 310
+  moves:
+  - cost: [PSYCHIC]
+    name: Precious Touch
+    text: Attach an Energy card from your hand to 1 of your Benched Pokémon. If you
+      do, heal 120 damage from that Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Max Harmony
+    damage: 70+
+    text: This attack does 30 more damage for each different type of Pokémon on your
+      Bench.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Taira Akitsu
+  pioId: swsh7-212
+- enumId: LYCANROC_VMAX_213:EVOLVING_SKIES
+  variantOf: LYCANROC_VMAX_92:EVOLVING_SKIES
+  variantType: Full Art
+  name: Lycanroc VMAX
+  number: '213'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [FIGHTING]
+  evolvesFrom: [Lycanroc V]
+  hp: 320
+  moves:
+  - cost: [FIGHTING]
+    name: Hunting Claw
+    text: Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.
+  - cost: [FIGHTING, FIGHTING, COLORLESS]
+    name: Max Edge
+    damage: '190'
+    text: This attack also does 30 damage to 1 of your opponent's Benched Pokémon.
+      (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Mitsuhiro Arita
+  pioId: swsh7-213
+- enumId: UMBREON_VMAX_214:EVOLVING_SKIES
+  variantOf: UMBREON_VMAX_95:EVOLVING_SKIES
+  variantType: Full Art
+  name: Umbreon VMAX
+  number: '214'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DARKNESS]
+  evolvesFrom: [Umbreon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Dark Signal
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Max Darkness
+    damage: '160'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: AKIRA EGAWA
+  pioId: swsh7-214
+- enumId: UMBREON_VMAX_215:EVOLVING_SKIES
+  variantOf: UMBREON_VMAX_95:EVOLVING_SKIES
+  variantType: Full Art
+  name: Umbreon VMAX
+  number: '215'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DARKNESS]
+  evolvesFrom: [Umbreon V]
+  hp: 310
+  abilities:
+  - type: Ability
+    name: Dark Signal
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may switch 1 of your opponent's Benched Pokémon with their Active
+      Pokémon.
+  moves:
+  - cost: [DARKNESS, COLORLESS, COLORLESS]
+    name: Max Darkness
+    damage: '160'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: KEIICHIRO ITO
+  pioId: swsh7-215
+- enumId: GARBODOR_VMAX_216:EVOLVING_SKIES
+  variantOf: GARBODOR_VMAX_101:EVOLVING_SKIES
+  variantType: Full Art
+  name: Garbodor VMAX
+  number: '216'
+  cardTypes: [POKEMON, EVOLUTION, VMAX]
+  types: [DARKNESS]
+  evolvesFrom: [Garbodor V]
+  hp: 330
+  abilities:
+  - type: Ability
+    name: Rubbish Collecting
+    text: This Pokémon may have up to 2 Pokémon Tools attached to it. If it loses
+      this Ability, discard Pokémon Tools from it until only 1 remains.
+  moves:
+  - cost: [DARKNESS, COLORLESS]
+    name: G-Max Malodor
+    damage: '120'
+    text: Your opponent's Active Pokémon is now Poisoned. During your opponent's next
+      turn, that Pokémon can't retreat.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: 5ban Graphics
+  pioId: swsh7-216
+- enumId: RAYQUAZA_VMAX_217:EVOLVING_SKIES
+  variantOf: RAYQUAZA_VMAX_111:EVOLVING_SKIES
+  variantType: Full Art
+  name: Rayquaza VMAX
+  number: '217'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Rayquaza V]
+  hp: 320
+  abilities:
+  - type: Ability
+    name: Azure Pulse
+    text: Once during your turn, you may discard your hand and draw 3 cards.
+  moves:
+  - cost: [FIRE, LIGHTNING]
+    name: Max Burst
+    damage: 20+
+    text: You may discard any amount of basic [R] Energy or any amount of basic [L]
+      Energy from this Pokémon. This attack does 80 more damage for each card you
+      discarded in this way.
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-217
+- enumId: RAYQUAZA_VMAX_218:EVOLVING_SKIES
+  variantOf: RAYQUAZA_VMAX_111:EVOLVING_SKIES
+  variantType: Full Art
+  name: Rayquaza VMAX
+  number: '218'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, RAPID_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Rayquaza V]
+  hp: 320
+  abilities:
+  - type: Ability
+    name: Azure Pulse
+    text: Once during your turn, you may discard your hand and draw 3 cards.
+  moves:
+  - cost: [FIRE, LIGHTNING]
+    name: Max Burst
+    damage: 20+
+    text: You may discard any amount of basic [R] Energy or any amount of basic [L]
+      Energy from this Pokémon. This attack does 80 more damage for each card you
+      discarded in this way.
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Anesaki Dynamic
+  pioId: swsh7-218
+- enumId: DURALUDON_VMAX_219:EVOLVING_SKIES
+  variantOf: DURALUDON_VMAX_123:EVOLVING_SKIES
+  variantType: Full Art
+  name: Duraludon VMAX
+  number: '219'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Duraludon V]
+  hp: 330
+  abilities:
+  - type: Ability
+    name: Skyscraper
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have Special Energy attached.
+  moves:
+  - cost: [FIGHTING, METAL, METAL]
+    name: G-Max Pulverization
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: PLANETA Mochizuki
+  pioId: swsh7-219
+- enumId: DURALUDON_VMAX_220:EVOLVING_SKIES
+  variantOf: DURALUDON_VMAX_123:EVOLVING_SKIES
+  variantType: Full Art
+  name: Duraludon VMAX
+  number: '220'
+  cardTypes: [POKEMON, EVOLUTION, VMAX, SINGLE_STRIKE]
+  types: [DRAGON]
+  evolvesFrom: [Duraludon V]
+  hp: 330
+  abilities:
+  - type: Ability
+    name: Skyscraper
+    text: Prevent all damage done to this Pokémon by attacks from your opponent's
+      Pokémon that have Special Energy attached.
+  moves:
+  - cost: [FIGHTING, METAL, METAL]
+    name: G-Max Pulverization
+    damage: '220'
+    text: This attack's damage isn't affected by any effects on your opponent's Active
+      Pokémon.
+  retreatCost: 3
+  rarity: Ultra Rare
+  text: 'VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize
+    cards.'
+  artist: Saki Hayashiro
+  pioId: swsh7-220
+- enumId: AROMA_LADY_221:EVOLVING_SKIES
+  variantOf: AROMA_LADY_141:EVOLVING_SKIES
+  variantType: Full Art
+  name: Aroma Lady
+  number: '221'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: En Morikura
+  pioId: swsh7-221
+- enumId: COPYCAT_222:EVOLVING_SKIES
+  variantOf: COPYCAT_143:EVOLVING_SKIES
+  variantType: Full Art
+  name: Copycat
+  number: '222'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Shuffle your hand into your deck. Then, draw a card for each card in your
+    opponent''s hand.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Sanosuke Sakuma
+  pioId: swsh7-222
+- enumId: GORDIE_223:EVOLVING_SKIES
+  variantOf: GORDIE_149:EVOLVING_SKIES
+  variantType: Full Art
+  name: Gordie
+  number: '223'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'Look at the top 7 cards of your deck. You may reveal any number of Energy
+    cards you find there and put them into your hand. Shuffle the other cards back
+    into your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Hitoshi Ariga
+  pioId: swsh7-223
+- enumId: RAIHAN_224:EVOLVING_SKIES
+  variantOf: RAIHAN_152:EVOLVING_SKIES
+  variantType: Full Art
+  name: Raihan
+  number: '224'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'You can play this card only if any of your Pokémon were Knocked Out during
+    your opponent''s last turn. Attach a basic Energy card from your discard pile
+    to 1 of your Pokémon. If you do, search your deck for a card and put it into your
+    hand. Then, shuffle your deck.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: kirisAki
+  pioId: swsh7-224
+- enumId: ZINNIA_S_RESOLVE_225:EVOLVING_SKIES
+  variantOf: ZINNIA_S_RESOLVE_164:EVOLVING_SKIES
+  variantType: Full Art
+  name: Zinnia's Resolve
+  number: '225'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Ultra Rare
+  text: 'You can play this card only if you discard 2 other cards from your hand.
+    Draw a card for each of your opponent''s Pokémon in play.
+
+    Supporter rule: You may play only 1 Supporter card during your turn.'
+  artist: Taira Akitsu
+  pioId: swsh7-225
+- enumId: FROSLASS_226:EVOLVING_SKIES
+  variantOf: FROSLASS_36:CHILLING_REIGN
+  variantType: Reprint
+  name: Froslass
+  number: '226'
+  cardTypes: [POKEMON, STAGE1, EVOLUTION]
+  types: [WATER]
+  evolvesFrom: [Snorunt]
+  hp: 90
+  abilities:
+  - type: Ability
+    name: Frost Over
+    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
+      your turn, you may attach a [W] Energy card from your discard pile to 1 of your
+      Pokémon.
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Crystal Breath
+    damage: '90'
+    text: During your next turn, this Pokémon can't attack.
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  artist: Studio Bora Inc.
+  pioId: swsh7-226
+- enumId: INTELEON_227:EVOLVING_SKIES
+  variantOf: INTELEON_43:CHILLING_REIGN
+  variantType: Reprint
+  name: Inteleon
+  number: '227'
+  cardTypes: [POKEMON, STAGE2, EVOLUTION, RAPID_STRIKE]
+  types: [WATER]
+  evolvesFrom: [Drizzile]
+  hp: 150
+  abilities:
+  - type: Ability
+    name: Quick Shooting
+    text: Once during your turn, you may put 2 damage counters on 1 of your opponent's
+      Pokémon.
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Waterfall
+    damage: '70'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Secret
+  artist: Saki Hayashiro
+  pioId: swsh7-227
+- enumId: CRESSELIA_228:EVOLVING_SKIES
+  variantOf: CRESSELIA_64:CHILLING_REIGN
+  variantType: Reprint
+  name: Cresselia
+  number: '228'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 120
+  moves:
+  - cost: [PSYCHIC]
+    name: Crescent Glow
+    text: Search your deck for a [P] Energy card and attach it to 1 of your Pokémon.
+      If you go second and it's your first turn, instead search for up to 3 [P] Energy
+      cards and attach them to 1 of your Pokémon. Then, shuffle your deck.
+  - cost: [PSYCHIC, PSYCHIC]
+    name: Photon Laser
+    damage: 30+
+    text: If you have at least 5 Energy in play, this attack does 90 more damage.
+  weaknesses:
+  - type: DARKNESS
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-30'
+  retreatCost: 1
+  rarity: Secret
+  artist: Toyste Beach
+  pioId: swsh7-228
+- enumId: BOOST_SHAKE_229:EVOLVING_SKIES
+  variantOf: BOOST_SHAKE_142:EVOLVING_SKIES
+  variantType: Secret Art
+  name: Boost Shake
+  number: '229'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: 'Search your deck for a card that evolves from 1 of your Pokémon and put it
+    onto that Pokémon to evolve it. Then, shuffle your deck. You can use this card
+    during your first turn or on a Pokémon that was put into play this turn. Your
+    turn ends.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: sadaji
+  pioId: swsh7-229
+- enumId: CRYSTAL_CAVE_230:EVOLVING_SKIES
+  variantOf: CRYSTAL_CAVE_144:EVOLVING_SKIES
+  variantType: Secret Art
+  name: Crystal Cave
+  number: '230'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Secret
+  text: Once during each player's turn, that player may heal 30 damage from each of
+    their [M] Pokémon and [N] Pokémon.
+  artist: Toyste Beach
+  pioId: swsh7-230
+- enumId: FULL_FACE_GUARD_231:EVOLVING_SKIES
+  variantOf: FULL_FACE_GUARD_148:EVOLVING_SKIES
+  variantType: Secret Art
+  name: Full Face Guard
+  number: '231'
+  cardTypes: [TRAINER, ITEM, ITEM, POKEMON_TOOL]
+  rarity: Secret
+  text: 'If the Pokémon this card is attached to has no Abilities, it takes 20 less
+    damage from attacks from your opponent''s Pokémon (after applying Weakness and
+    Resistance).
+
+    Item rule: You may play any number of Item cards during your turn.
+
+    Pokémon Tool rule: Attach a Pokémon Tool to 1 of your Pokémon that doesn’t already
+    have a Pokémon Tool attached.'
+  artist: AYUMI ODASHIMA
+  pioId: swsh7-231
+- enumId: STORMY_MOUNTAINS_232:EVOLVING_SKIES
+  variantOf: STORMY_MOUNTAINS_161:EVOLVING_SKIES
+  variantType: Secret Art
+  name: Stormy Mountains
+  number: '232'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Secret
+  text: Once during each player's turn, that player may search their deck for a Basic
+    [L] Pokémon or Basic [N] Pokémon and put it onto their Bench. Then, that player
+    shuffles their deck.
+  artist: Toyste Beach
+  pioId: swsh7-232
+- enumId: TOY_CATCHER_233:EVOLVING_SKIES
+  variantOf: TOY_CATCHER_163:EVOLVING_SKIES
+  variantType: Secret Art
+  name: Toy Catcher
+  number: '233'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Secret
+  text: 'Switch 1 of your opponent''s Benched Pokémon that has 50 HP or less remaining
+    with your opponent''s Active Pokémon.
+
+    Item rule: You may play any number of Item cards during your turn.'
+  artist: sadaji
+  pioId: swsh7-233
+- enumId: TURFFIELD_STADIUM_234:EVOLVING_SKIES
+  name: Turffield Stadium
+  number: '234'
+  cardTypes: [TRAINER, STADIUM]
+  rarity: Secret
+  text: Once during each player's turn, that player may search their deck for an Evolution
+    [G] Pokémon, reveal it, and put it into their hand. Then, that player shuffles
+    their deck.
+  artist: aky CG Works
+  pioId: swsh7-234
+- enumId: LIGHTNING_ENERGY_235:EVOLVING_SKIES
+  variantOf: LIGHTNING_ENERGY:BASE_SET
+  variantType: Reprint
+  name: Lightning Energy
+  number: '235'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[LIGHTNING]]
+  artist: n/a
+  pioId: swsh7-235
+- enumId: DARKNESS_ENERGY_236:EVOLVING_SKIES
+  variantOf: DARKNESS_ENERGY_111:BLACK_WHITE
+  variantType: Reprint
+  name: Darkness Energy
+  number: '236'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[DARKNESS]]
+  artist: n/a
+  pioId: swsh7-236
+- enumId: METAL_ENERGY_237:EVOLVING_SKIES
+  variantOf: METAL_ENERGY_112:BLACK_WHITE
+  variantType: Reprint
+  name: Metal Energy
+  number: '237'
+  cardTypes: [ENERGY, BASIC_ENERGY]
+  rarity: Secret
+  energy: [[METAL]]
+  artist: n/a
+  pioId: swsh7-237

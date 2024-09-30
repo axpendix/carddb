@@ -1,0 +1,2571 @@
+schema: E3
+expansion:
+  orderId: '271'
+  name: HeartGold & SoulSilver
+  enumId: HEARTGOLD_SOULSILVER
+  shortName: HGSS
+cards:
+- enumId: ARCANINE_1:HEARTGOLD_SOULSILVER
+  name: Arcanine
+  number: '1'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Growlithe]
+  hp: 110
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Sharp Fang
+    damage: '50'
+  - cost: [FIRE, COLORLESS, COLORLESS, COLORLESS]
+    name: Fire Mane
+    damage: '90'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Naoki Saito
+  pioId: hgss1-1
+  nationalPokedexNumber: 59
+- enumId: AZUMARILL_2:HEARTGOLD_SOULSILVER
+  name: Azumarill
+  number: '2'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Marill]
+  hp: 90
+  moves:
+  - cost: [WATER, WATER]
+    name: Waterfall
+    damage: '40'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Bubblebeam
+    damage: '60'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Kouki Saitou
+  pioId: hgss1-2
+  nationalPokedexNumber: 184
+- enumId: CLEFABLE_3:HEARTGOLD_SOULSILVER
+  name: Clefable
+  number: '3'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Clefairy]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Fairy Power
+    text: Return 1 of your Pokémon and all cards attached to it to your hand.
+  - cost: [COLORLESS, COLORLESS]
+    name: Moon Impact
+    damage: '40'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Masakazu Fukuda
+  pioId: hgss1-3
+  nationalPokedexNumber: 36
+- enumId: GYARADOS_4:HEARTGOLD_SOULSILVER
+  name: Gyarados
+  number: '4'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 130
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Hydro Splash
+    damage: '50'
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Hyper Beam
+    damage: '80'
+    text: Discard an Energy card attached to the Defending Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Mitsuhiro Arita
+  pioId: hgss1-4
+  nationalPokedexNumber: 130
+- enumId: HITMONTOP_5:HEARTGOLD_SOULSILVER
+  name: Hitmontop
+  number: '5'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [FIGHTING]
+    name: Triple Kick
+    damage: 20x
+    text: Flip 3 coins. This attack does 20 damage times the number of heads.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Close Combat
+    damage: '60'
+    text: During your opponent's next turn, any damage done to Hitmontop by attacks
+      is increased by 20 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Ken Sugimori
+  pioId: hgss1-5
+  nationalPokedexNumber: 237
+- enumId: JUMPLUFF_6:HEARTGOLD_SOULSILVER
+  name: Jumpluff
+  number: '6'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Skiploom]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Mass Attack
+    damage: 10x
+    text: Does 10 damage times the number of Pokémon in play (both yours and your
+      opponent's).
+  - cost: [GRASS]
+    name: Leaf Guard
+    damage: '30'
+    text: During your opponent's next turn, any damage done to Jumpluff by attacks
+      is reduced by 30 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: sui
+  pioId: hgss1-6
+  nationalPokedexNumber: 189
+- enumId: NINETALES_7:HEARTGOLD_SOULSILVER
+  name: Ninetales
+  number: '7'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Vulpix]
+  hp: 90
+  abilities:
+  - type: Poké-Power
+    name: Roast Reveal
+    text: Once during your turn (before your attack), you may discard a [R] Energy
+      card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales
+      is affected by a Special Condition.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Will-o'-the-wisp
+    damage: '60'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: TOKIYA
+  pioId: hgss1-7
+  nationalPokedexNumber: 38
+- enumId: NOCTOWL_8:HEARTGOLD_SOULSILVER
+  name: Noctowl
+  number: '8'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Hoothoot]
+  hp: 90
+  abilities:
+  - type: Poké-Power
+    name: Night Sight
+    text: Once during your turn (before your attack), you may draw a card. This power
+      can't be used if Noctowl is affected by a Special Condition.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Extrasensory
+    damage: 40+
+    text: If you have the same number of cards in your hand as your opponent, this
+      attack does 40 damage plus 40 more damage.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Suwama Chiaki
+  pioId: hgss1-8
+  nationalPokedexNumber: 164
+- enumId: QUAGSIRE_9:HEARTGOLD_SOULSILVER
+  name: Quagsire
+  number: '9'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Wooper]
+  hp: 100
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Muddy Water
+    damage: '40'
+    text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, COLORLESS, COLORLESS, COLORLESS]
+    name: Mud Shot
+    damage: '60'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: match
+  pioId: hgss1-9
+  nationalPokedexNumber: 195
+- enumId: RAICHU_10:HEARTGOLD_SOULSILVER
+  name: Raichu
+  number: '10'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Pikachu]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Iron Tail
+    damage: 30x
+    text: Flip a coin until you get tails. This attack does 30 damage times the number
+      of heads.
+  - cost: [LIGHTNING, LIGHTNING]
+    name: Thunderbolt
+    damage: '100'
+    text: Discard all Energy attached to Raichu.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare Holo
+  artist: match
+  pioId: hgss1-10
+  nationalPokedexNumber: 26
+- enumId: SHUCKLE_11:HEARTGOLD_SOULSILVER
+  name: Shuckle
+  number: '11'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [FIGHTING, FIGHTING]
+    name: Poison Jab
+    damage: '30'
+    text: The Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare Holo
+  artist: Sumiyoshi Kizuki
+  pioId: hgss1-11
+  nationalPokedexNumber: 213
+- enumId: SLOWKING_12:HEARTGOLD_SOULSILVER
+  name: Slowking
+  number: '12'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Slowpoke]
+  hp: 80
+  abilities:
+  - type: Poké-Power
+    name: Second Sight
+    text: Once during your turn (before your attack), you may look at the top 3 cards
+      of either player's deck and put them back on top of that player's deck in any
+      order. This power can't be used if Slowking is affected by a Special Condition.
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Psyshock
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Sumiyoshi Kizuki
+  pioId: hgss1-12
+  nationalPokedexNumber: 199
+- enumId: WOBBUFFET_13:HEARTGOLD_SOULSILVER
+  name: Wobbuffet
+  number: '13'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 90
+  moves:
+  - cost: [PSYCHIC, COLORLESS]
+    name: Double Return
+    damage: 20x
+    text: Flip a coin. If heads, this attack does 20 damage times the number of damage
+      counters on Wobbuffet.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare Holo
+  artist: Yuka Morii
+  pioId: hgss1-13
+  nationalPokedexNumber: 202
+- enumId: AMPHAROS_14:HEARTGOLD_SOULSILVER
+  name: Ampharos
+  number: '14'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Flaaffy]
+  hp: 120
+  moves:
+  - cost: [LIGHTNING]
+    name: Acceleration Bolt
+    damage: '30'
+    text: Search your deck for up to 2 basic Energy cards and attach them to 1 of
+      your Pokémon. Shuffle your deck afterward.
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thunder
+    damage: '80'
+    text: Flip a coin. If tails, Ampharos does 20 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: hgss1-14
+  nationalPokedexNumber: 181
+- enumId: ARIADOS_15:HEARTGOLD_SOULSILVER
+  name: Ariados
+  number: '15'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Spinarak]
+  hp: 80
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Leech Life
+    damage: '30'
+    text: Remove from Ariados the number of damage counters equal to the damage you
+      did to the Defending Pokémon.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Poisonous Saliva
+    damage: '50'
+    text: The Defending Pokémon is now Poisoned.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: hgss1-15
+  nationalPokedexNumber: 168
+- enumId: BUTTERFREE_16:HEARTGOLD_SOULSILVER
+  name: Butterfree
+  number: '16'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Metapod]
+  hp: 120
+  moves:
+  - cost: [GRASS]
+    name: Cure Powder
+    text: Remove 3 damage counters from each of your Pokémon.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Whirlwind
+    damage: '60'
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Tomokazu Komiya
+  pioId: hgss1-16
+  nationalPokedexNumber: 12
+- enumId: CLEFFA_17:HEARTGOLD_SOULSILVER
+  name: Cleffa
+  number: '17'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 30
+  abilities:
+  - type: Poké-Body
+    name: Sweet Sleeping Face
+    text: As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.
+  moves:
+  - cost: []
+    name: Eeeeeeek
+    text: Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep.
+  retreatCost: 0
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: hgss1-17
+  nationalPokedexNumber: 173
+- enumId: EXEGGUTOR_18:HEARTGOLD_SOULSILVER
+  name: Exeggutor
+  number: '18'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Exeggcute]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Absorption
+    text: Search your discard pile for up to 2 Energy cards and attach them to Exeggutor.
+  - cost: [PSYCHIC]
+    name: Big Eggsplosion
+    damage: 40x
+    text: Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage
+      times the number of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Miki Tanaka
+  pioId: hgss1-18
+  nationalPokedexNumber: 103
+- enumId: FARFETCH_D_19:HEARTGOLD_SOULSILVER
+  name: Farfetch'd
+  number: '19'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Collect
+    text: Draw 2 cards.
+  - cost: [COLORLESS]
+    name: Spin Turn
+    damage: '20'
+    text: Switch Farfetch'd with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Aya Kusube
+  pioId: hgss1-19
+  nationalPokedexNumber: 83
+- enumId: FERALIGATR_20:HEARTGOLD_SOULSILVER
+  name: Feraligatr
+  number: '20'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Croconaw]
+  hp: 130
+  moves:
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Spinning Tail
+    text: This attack does 20 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  - cost: [WATER, WATER, COLORLESS, COLORLESS]
+    name: Surf
+    damage: '80'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: kawayoo
+  pioId: hgss1-20
+  nationalPokedexNumber: 160
+- enumId: FURRET_21:HEARTGOLD_SOULSILVER
+  name: Furret
+  number: '21'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Sentret]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Find a Friend
+    text: Search your deck for a Pokémon, show it to your opponent, and put it into
+      your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Quick Blow
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 20 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: MAHOU
+  pioId: hgss1-21
+  nationalPokedexNumber: 162
+- enumId: GRANBULL_22:HEARTGOLD_SOULSILVER
+  name: Granbull
+  number: '22'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Snubbull]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Timid Tackle
+    damage: '50'
+    text: Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS, COLORLESS, COLORLESS]
+    name: Chomp
+    damage: 40+
+    text: Does 40 damage plus 10 more damage for each damage counter on Granbull.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: hgss1-22
+  nationalPokedexNumber: 210
+- enumId: HYPNO_23:HEARTGOLD_SOULSILVER
+  name: Hypno
+  number: '23'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Drowzee]
+  hp: 90
+  abilities:
+  - type: Poké-Power
+    name: Sleep Pendulum
+    text: Once during your turn (before your attack), you may flip a coin. If heads,
+      the Defending Pokémon is now Asleep. This power can't be used if Hypno is affected
+      by a Special Condition.
+  moves:
+  - cost: [PSYCHIC, COLORLESS, COLORLESS]
+    name: Psychic Shot
+    damage: '30'
+    text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness
+      and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Masakazu Fukuda
+  pioId: hgss1-23
+  nationalPokedexNumber: 97
+- enumId: LAPRAS_24:HEARTGOLD_SOULSILVER
+  name: Lapras
+  number: '24'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Ice Beam
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [WATER, WATER]
+    name: Ice Blade
+    text: Choose 1 of your opponent's Pokémon. This attack does 30 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Suwama Chiaki
+  pioId: hgss1-24
+  nationalPokedexNumber: 131
+- enumId: LEDIAN_25:HEARTGOLD_SOULSILVER
+  name: Ledian
+  number: '25'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Ledyba]
+  hp: 80
+  moves:
+  - cost: [GRASS]
+    name: Quick Draw
+    damage: '10'
+    text: Draw 3 cards.
+  - cost: [COLORLESS, COLORLESS]
+    name: Swift
+    damage: '40'
+    text: This attack's damage isn't affected by Weakness, Resistance, Poké-Powers,
+      Poké-Bodies, or any other effects on the Defending Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Yuka Morii
+  pioId: hgss1-25
+  nationalPokedexNumber: 166
+- enumId: MEGANIUM_26:HEARTGOLD_SOULSILVER
+  name: Meganium
+  number: '26'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Bayleef]
+  hp: 130
+  moves:
+  - cost: [GRASS]
+    name: Sleep Powder
+    damage: '30'
+    text: The Defending Pokémon is now Asleep.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Giant Bloom
+    damage: '60'
+    text: Remove 2 damage counters from Meganium.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Shin Nagasawa
+  pioId: hgss1-26
+  nationalPokedexNumber: 154
+- enumId: PERSIAN_27:HEARTGOLD_SOULSILVER
+  name: Persian
+  number: '27'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Meowth]
+  hp: 80
+  moves:
+  - cost: [COLORLESS]
+    name: Sharpen Claws
+    text: Flip 3 coins. For each heads, discard a card from your opponent's hand without
+      looking.
+  - cost: [COLORLESS, COLORLESS]
+    name: Sneaky Attack
+    damage: 30+
+    text: If Persian has any [D] Energy attached to it, this attack does 30 damage
+      plus 30 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: hgss1-27
+  nationalPokedexNumber: 53
+- enumId: PICHU_28:HEARTGOLD_SOULSILVER
+  name: Pichu
+  number: '28'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 30
+  abilities:
+  - type: Poké-Body
+    name: Sweet Sleeping Face
+    text: As long as Pichu is Asleep, prevent all damage done to Pichu by attacks.
+  moves:
+  - cost: []
+    name: Playground
+    text: Each player may search his or her deck for as many Basic Pokémon as he or
+      she likes, put them onto his or her Bench, and shuffle his or her deck afterward.
+      (You put your Pokémon on the Bench first.) Pichu is now Asleep.
+  retreatCost: 0
+  rarity: Rare
+  artist: match
+  pioId: hgss1-28
+  nationalPokedexNumber: 172
+- enumId: SANDSLASH_29:HEARTGOLD_SOULSILVER
+  name: Sandslash
+  number: '29'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Sandshrew]
+  hp: 80
+  moves:
+  - cost: [FIGHTING, COLORLESS]
+    name: Poison Sting
+    damage: '30'
+    text: The Defending Pokémon is now Poisoned.
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Fury Swipes
+    damage: 30x
+    text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 0
+  rarity: Rare
+  artist: Yukiko Baba
+  pioId: hgss1-29
+  nationalPokedexNumber: 28
+- enumId: SMOOCHUM_30:HEARTGOLD_SOULSILVER
+  name: Smoochum
+  number: '30'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 30
+  moves:
+  - cost: []
+    name: Energy Antics
+    text: Move an Energy card attached to 1 of your opponent's Pokémon to another
+      of your opponent's Pokémon. Smoochum is now Asleep.
+  retreatCost: 0
+  rarity: Rare
+  artist: Midori Harada
+  pioId: hgss1-30
+  nationalPokedexNumber: 238
+- enumId: SUNFLORA_31:HEARTGOLD_SOULSILVER
+  name: Sunflora
+  number: '31'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Sunkern]
+  hp: 80
+  abilities:
+  - type: Poké-Power
+    name: Sunshine Grace
+    text: Once during your turn (before your attack), you may search your deck for
+      a [G] Pokémon, show it to your opponent, and put it into your hand. Shuffle
+      your deck afterward. This power can't be used if Sunflora is affected by a Special
+      Condition.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Blade Arms
+    damage: '40'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Rare
+  artist: Yuka Morii
+  pioId: hgss1-31
+  nationalPokedexNumber: 192
+- enumId: TYPHLOSION_32:HEARTGOLD_SOULSILVER
+  name: Typhlosion
+  number: '32'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Quilava]
+  hp: 130
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Magma Punch
+    damage: '50'
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Fire Spin
+    damage: '120'
+    text: Discard 2 Energy attached to Typhlosion.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Rare
+  artist: Kagemaru Himeno
+  pioId: hgss1-32
+  nationalPokedexNumber: 157
+- enumId: TYROGUE_33:HEARTGOLD_SOULSILVER
+  name: Tyrogue
+  number: '33'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 30
+  abilities:
+  - type: Poké-Body
+    name: Sweet Sleeping Face
+    text: As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks.
+  moves:
+  - cost: []
+    name: Mischievous Punch
+    damage: '30'
+    text: This attack's damage isn't affected by Weakness or Resistance. Tyrogue is
+      now Asleep.
+  retreatCost: 0
+  rarity: Rare
+  artist: Ken Sugimori
+  pioId: hgss1-33
+  nationalPokedexNumber: 236
+- enumId: WEEZING_34:HEARTGOLD_SOULSILVER
+  name: Weezing
+  number: '34'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [PSYCHIC]
+  evolvesFrom: [Koffing]
+  hp: 90
+  moves:
+  - cost: [PSYCHIC]
+    name: Super Poison Breath
+    text: The Defending Pokémon is now Poisoned.
+  - cost: [COLORLESS, COLORLESS]
+    name: Super Explosion
+    damage: '90'
+    text: Weezing does 90 damage to itself, and don't apply Weakness to this damage.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Hajime Kusajima
+  pioId: hgss1-34
+  nationalPokedexNumber: 110
+- enumId: BAYLEEF_35:HEARTGOLD_SOULSILVER
+  name: Bayleef
+  number: '35'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Chikorita]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Hammer In
+    damage: '20'
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Razor Leaf
+    damage: '50'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Shin Nagasawa
+  pioId: hgss1-35
+  nationalPokedexNumber: 153
+- enumId: BLISSEY_36:HEARTGOLD_SOULSILVER
+  name: Blissey
+  number: '36'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Chansey]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Energy Link
+    damage: '10'
+    text: Search your discard pile for an Energy card and attach it to Blissey.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Double-edge
+    damage: '80'
+    text: Blissey does 40 damage to itself.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Kanako Eo
+  pioId: hgss1-36
+  nationalPokedexNumber: 242
+- enumId: CORSOLA_37:HEARTGOLD_SOULSILVER
+  name: Corsola
+  number: '37'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Recover
+    text: Discard a [W] Energy attached to Corsola and remove all damage counters
+      from Corsola.
+  - cost: [WATER, COLORLESS]
+    name: Hyper Cannon
+    damage: 20+
+    text: Flip 2 coins. If both of them are heads, this attack does 20 damage plus
+      50 more damage.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: TOKIYA
+  pioId: hgss1-37
+  nationalPokedexNumber: 222
+- enumId: CROCONAW_38:HEARTGOLD_SOULSILVER
+  name: Croconaw
+  number: '38'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Totodile]
+  hp: 80
+  moves:
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '30'
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Big Bite
+    damage: '50'
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: kawayoo
+  pioId: hgss1-38
+  nationalPokedexNumber: 159
+- enumId: DELIBIRD_39:HEARTGOLD_SOULSILVER
+  name: Delibird
+  number: '39'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER]
+    name: Snowy Present
+    text: Draw a card for each [W] Energy attached to all of your Pokémon.
+  - cost: [WATER, COLORLESS]
+    name: Hail
+    text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply
+      Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+  - type: METAL
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: sui
+  pioId: hgss1-39
+  nationalPokedexNumber: 225
+- enumId: DONPHAN_40:HEARTGOLD_SOULSILVER
+  name: Donphan
+  number: '40'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 100
+  moves:
+  - cost: [FIGHTING, COLORLESS, COLORLESS]
+    name: Rock Hurl
+    damage: '50'
+    text: This attack's damage isn't affected by Resistance.
+  - cost: [FIGHTING, FIGHTING, COLORLESS, COLORLESS]
+    name: Double Spin
+    damage: 70x
+    text: Flip 2 coins. This attack does 70 damage times the number of heads.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: hgss1-40
+  nationalPokedexNumber: 232
+- enumId: DUNSPARCE_41:HEARTGOLD_SOULSILVER
+  name: Dunsparce
+  number: '41'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Glare
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  - cost: [COLORLESS]
+    name: Fade Out
+    damage: '20'
+    text: Return Dunsparce and all cards attached to it to your hand.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: hgss1-41
+  nationalPokedexNumber: 206
+- enumId: FLAAFFY_42:HEARTGOLD_SOULSILVER
+  name: Flaaffy
+  number: '42'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [LIGHTNING]
+  evolvesFrom: [Mareep]
+  hp: 80
+  moves:
+  - cost: [LIGHTNING]
+    name: Thunder Spear
+    text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that
+      Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Thundershock
+    damage: '40'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Masakazu Fukuda
+  pioId: hgss1-42
+  nationalPokedexNumber: 180
+- enumId: HERACROSS_43:HEARTGOLD_SOULSILVER
+  name: Heracross
+  number: '43'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 80
+  moves:
+  - cost: [GRASS, COLORLESS]
+    name: Green Draw
+    text: Draw a card for each of your [G] Pokémon in play.
+  - cost: [GRASS, COLORLESS, COLORLESS]
+    name: Double Headbutt
+    damage: 30+
+    text: Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Sachiko Adachi
+  pioId: hgss1-43
+  nationalPokedexNumber: 214
+- enumId: IGGLYBUFF_44:HEARTGOLD_SOULSILVER
+  name: Igglybuff
+  number: '44'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 30
+  moves:
+  - cost: []
+    name: Graffiti
+    text: Igglybuff is now Asleep. During your opponent's next turn, the attack cost
+      of each of the Defending Pokémon's attacks is [C] more.
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: hgss1-44
+  nationalPokedexNumber: 174
+- enumId: MANTINE_45:HEARTGOLD_SOULSILVER
+  name: Mantine
+  number: '45'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 80
+  moves:
+  - cost: [WATER]
+    name: Group Swim
+    text: Search your deck for a [W] Pokémon, show it to your opponent, and put it
+      into your hand. Shuffle your deck afterward.
+  - cost: [WATER, WATER]
+    name: Aqua Slash
+    damage: '40'
+    text: Mantine can't attack during your next turn.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Naoyo Kimura
+  pioId: hgss1-45
+  nationalPokedexNumber: 226
+- enumId: METAPOD_46:HEARTGOLD_SOULSILVER
+  name: Metapod
+  number: '46'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Caterpie]
+  hp: 80
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharpen
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Tomokazu Komiya
+  pioId: hgss1-46
+  nationalPokedexNumber: 11
+- enumId: MILTANK_47:HEARTGOLD_SOULSILVER
+  name: Miltank
+  number: '47'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS]
+    name: Moomoo Squeeze
+    text: Search your deck for a Moomoo Milk card, show it to your opponent, and put
+      it into your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Body Slam
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 3
+  rarity: Uncommon
+  artist: Miki Tanaka
+  pioId: hgss1-47
+  nationalPokedexNumber: 241
+- enumId: PARASECT_48:HEARTGOLD_SOULSILVER
+  name: Parasect
+  number: '48'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Paras]
+  hp: 90
+  moves:
+  - cost: [GRASS]
+    name: Sleep Drain
+    text: The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.
+  - cost: [GRASS, GRASS, COLORLESS]
+    name: Slash
+    damage: '60'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Midori Harada
+  pioId: hgss1-48
+  nationalPokedexNumber: 47
+- enumId: QUILAVA_49:HEARTGOLD_SOULSILVER
+  name: Quilava
+  number: '49'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIRE]
+  evolvesFrom: [Cyndaquil]
+  hp: 80
+  moves:
+  - cost: [FIRE, COLORLESS]
+    name: Flare
+    damage: '30'
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Flamethrower
+    damage: '60'
+    text: Discard an Energy attached to Quilava.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: hgss1-49
+  nationalPokedexNumber: 156
+- enumId: QWILFISH_50:HEARTGOLD_SOULSILVER
+  name: Qwilfish
+  number: '50'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 70
+  moves:
+  - cost: [WATER, WATER]
+    name: Offensive Needle
+    damage: '30'
+    text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails,
+      the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Ken Sugimori
+  pioId: hgss1-50
+  nationalPokedexNumber: 211
+- enumId: SKIPLOOM_51:HEARTGOLD_SOULSILVER
+  name: Skiploom
+  number: '51'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [GRASS]
+  evolvesFrom: [Hoppip]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Knock Away
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 0
+  rarity: Uncommon
+  artist: sui
+  pioId: hgss1-51
+  nationalPokedexNumber: 188
+- enumId: SLOWBRO_52:HEARTGOLD_SOULSILVER
+  name: Slowbro
+  number: '52'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Slowpoke]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Big Yawn
+    damage: '30'
+    text: Both Slowbro and the Defending Pokémon are now Asleep.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Madkinesis
+    damage: 30+
+    text: Does 30 damage plus 20 more damage for each [P] Energy attached to Slowbro.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Sumiyoshi Kizuki
+  pioId: hgss1-52
+  nationalPokedexNumber: 80
+- enumId: STARMIE_53:HEARTGOLD_SOULSILVER
+  name: Starmie
+  number: '53'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Staryu]
+  hp: 90
+  moves:
+  - cost: [WATER]
+    name: Cosmic Cyclone
+    damage: 20x
+    text: Choose as many [W] Energy attached to your Pokémon as you like. This attack
+      does 20 damage times the amount of Energy you chose. Shuffle those cards back
+      into your deck.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 0
+  rarity: Uncommon
+  artist: Kagemaru Himeno
+  pioId: hgss1-53
+  nationalPokedexNumber: 121
+- enumId: UNOWN_54:HEARTGOLD_SOULSILVER
+  name: Unown
+  number: '54'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  abilities:
+  - type: Poké-Power
+    name: RETURN
+    text: Once during your turn, when you put Unown from your hand onto your Bench,
+      you may return all Energy attached to 1 of your Pokémon to your hand.
+  moves:
+  - cost: [PSYCHIC]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hideaki Hakozaki
+  pioId: hgss1-54
+  nationalPokedexNumber: 201
+- enumId: UNOWN_55:HEARTGOLD_SOULSILVER
+  name: Unown
+  number: '55'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  abilities:
+  - type: Poké-Power
+    name: FLASH
+    text: Once during your turn, when you put Unown from your hand onto your Bench,
+      you may look at the top 5 cards of your deck and put them back on top of your
+      deck in any order.
+  moves:
+  - cost: [PSYCHIC]
+    name: Hidden Power
+    damage: '10'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Uncommon
+  artist: Hideaki Hakozaki
+  pioId: hgss1-55
+  nationalPokedexNumber: 201
+- enumId: WIGGLYTUFF_56:HEARTGOLD_SOULSILVER
+  name: Wigglytuff
+  number: '56'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Jigglypuff]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Double Slap
+    damage: 40x
+    text: Flip 2 coins. This attack does 40 damage times the number of heads.
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Expand
+    damage: '50'
+    text: During your opponent's next turn, any damage done to Wigglytuff by attacks
+      is reduced by 10 (after applying Weakness and Resistance).
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Uncommon
+  artist: Atsuko Nishida
+  pioId: hgss1-56
+  nationalPokedexNumber: 40
+- enumId: CATERPIE_57:HEARTGOLD_SOULSILVER
+  name: Caterpie
+  number: '57'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Tomokazu Komiya
+  pioId: hgss1-57
+  nationalPokedexNumber: 10
+- enumId: CHANSEY_58:HEARTGOLD_SOULSILVER
+  name: Chansey
+  number: '58'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 90
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Pound
+    damage: '20'
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Happy Punch
+    damage: '30'
+    text: Flip a coin. If heads, remove 3 damage counters from Chansey.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Kanako Eo
+  pioId: hgss1-58
+  nationalPokedexNumber: 113
+- enumId: CHIKORITA_59:HEARTGOLD_SOULSILVER
+  name: Chikorita
+  number: '59'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 60
+  moves:
+  - cost: [GRASS]
+    name: Tackle
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Razor Leaf
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Shin Nagasawa
+  pioId: hgss1-59
+  nationalPokedexNumber: 152
+- enumId: CLEFAIRY_60:HEARTGOLD_SOULSILVER
+  name: Clefairy
+  number: '60'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Minimize
+    text: During your opponent's next turn, any damage done to Clefairy by attacks
+      is reduced by 20 (after applying Weakness and Resistance).
+  - cost: [COLORLESS]
+    name: Slap
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: hgss1-60
+  nationalPokedexNumber: 35
+- enumId: CYNDAQUIL_61:HEARTGOLD_SOULSILVER
+  name: Cyndaquil
+  number: '61'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 60
+  moves:
+  - cost: [FIRE]
+    name: Beat
+    damage: '10'
+  - cost: [FIRE, COLORLESS]
+    name: Flare
+    damage: '20'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: hgss1-61
+  nationalPokedexNumber: 155
+- enumId: DROWZEE_62:HEARTGOLD_SOULSILVER
+  name: Drowzee
+  number: '62'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 60
+  moves:
+  - cost: [PSYCHIC]
+    name: Sleep Inducer
+    text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+      The new Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS]
+    name: Gentle Slap
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: hgss1-62
+  nationalPokedexNumber: 96
+- enumId: EXEGGCUTE_63:HEARTGOLD_SOULSILVER
+  name: Exeggcute
+  number: '63'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Continuous Eggsplosion
+    damage: 10x
+    text: Flip a coin until you get tails. This attack does 10 damage times the number
+      of heads.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: hgss1-63
+  nationalPokedexNumber: 102
+- enumId: GIRAFARIG_64:HEARTGOLD_SOULSILVER
+  name: Girafarig
+  number: '64'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Show Off
+    text: Search your deck for up to 2 basic Energy cards, show them to your opponent,
+      and put them into your hand. Shuffle your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Psyshot
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Miki Tanaka
+  pioId: hgss1-64
+  nationalPokedexNumber: 203
+- enumId: GROWLITHE_65:HEARTGOLD_SOULSILVER
+  name: Growlithe
+  number: '65'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Bite
+    damage: '10'
+  - cost: [FIRE, COLORLESS, COLORLESS]
+    name: Combustion
+    damage: '40'
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Naoki Saito
+  pioId: hgss1-65
+  nationalPokedexNumber: 58
+- enumId: HOOTHOOT_66:HEARTGOLD_SOULSILVER
+  name: Hoothoot
+  number: '66'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hypnosis
+    text: The Defending Pokémon is now Asleep.
+  - cost: [COLORLESS, COLORLESS]
+    name: Tackle
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Suwama Chiaki
+  pioId: hgss1-66
+  nationalPokedexNumber: 163
+- enumId: HOPPIP_67:HEARTGOLD_SOULSILVER
+  name: Hoppip
+  number: '67'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 30
+  moves:
+  - cost: [GRASS]
+    name: Bounce
+    damage: '10'
+    text: You may switch Hoppip with 1 of your Benched Pokémon.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: sui
+  pioId: hgss1-67
+  nationalPokedexNumber: 187
+- enumId: JIGGLYPUFF_68:HEARTGOLD_SOULSILVER
+  name: Jigglypuff
+  number: '68'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS, COLORLESS]
+    name: Hypnoblast
+    damage: '20'
+    text: The Defending Pokémon is now Asleep.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Atsuko Nishida
+  pioId: hgss1-68
+  nationalPokedexNumber: 39
+- enumId: JYNX_69:HEARTGOLD_SOULSILVER
+  name: Jynx
+  number: '69'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Mimic
+    text: Shuffle your hand into your deck. Then, draw a number of cards equal to
+      the number of cards in your opponent's hand.
+  - cost: [PSYCHIC, COLORLESS]
+    name: Lick
+    damage: '20'
+    text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: hgss1-69
+  nationalPokedexNumber: 124
+- enumId: KOFFING_70:HEARTGOLD_SOULSILVER
+  name: Koffing
+  number: '70'
+  cardTypes: [POKEMON, BASIC]
+  types: [PSYCHIC]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Smokescreen
+    damage: '10'
+    text: If the Defending Pokémon tries to attack during your opponent's next turn,
+      your opponent flips a coin. If tails, that attack does nothing.
+  - cost: [COLORLESS, COLORLESS]
+    name: Suffocating Gas
+    damage: '20'
+  weaknesses:
+  - type: PSYCHIC
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Hajime Kusajima
+  pioId: hgss1-70
+  nationalPokedexNumber: 109
+- enumId: LEDYBA_71:HEARTGOLD_SOULSILVER
+  name: Ledyba
+  number: '71'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [GRASS]
+    name: Ram
+    damage: '10'
+  - cost: [COLORLESS, COLORLESS]
+    name: Comet Punch
+    damage: 10x
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: hgss1-71
+  nationalPokedexNumber: 165
+- enumId: MAGIKARP_72:HEARTGOLD_SOULSILVER
+  name: Magikarp
+  number: '72'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 30
+  moves:
+  - cost: [COLORLESS]
+    name: Splash
+    damage: '10'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Mitsuhiro Arita
+  pioId: hgss1-72
+  nationalPokedexNumber: 129
+- enumId: MAREEP_73:HEARTGOLD_SOULSILVER
+  name: Mareep
+  number: '73'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Static Electricity
+    text: Search your deck for a number of [L] Energy cards up to the number of Mareep
+      in play (both yours and your opponent's) and attach them to Mareep. Shuffle
+      your deck afterward.
+  - cost: [COLORLESS, COLORLESS]
+    name: Ram
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Masakazu Fukuda
+  pioId: hgss1-73
+  nationalPokedexNumber: 179
+- enumId: MARILL_74:HEARTGOLD_SOULSILVER
+  name: Marill
+  number: '74'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Water Splash
+    damage: 10+
+    text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+  - cost: [WATER, COLORLESS, COLORLESS]
+    name: Tail Slap
+    damage: '30'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kouki Saitou
+  pioId: hgss1-74
+  nationalPokedexNumber: 183
+- enumId: MEOWTH_75:HEARTGOLD_SOULSILVER
+  name: Meowth
+  number: '75'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Pay Day
+    damage: '10'
+    text: Draw a card.
+  - cost: [COLORLESS, COLORLESS]
+    name: Dig Claws
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: hgss1-75
+  nationalPokedexNumber: 52
+- enumId: PARAS_76:HEARTGOLD_SOULSILVER
+  name: Paras
+  number: '76'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  - cost: [GRASS, COLORLESS]
+    name: Double-edge Claw
+    damage: '30'
+    text: Paras does 10 damage to itself.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Midori Harada
+  pioId: hgss1-76
+  nationalPokedexNumber: 46
+- enumId: PHANPY_77:HEARTGOLD_SOULSILVER
+  name: Phanpy
+  number: '77'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 70
+  moves:
+  - cost: [COLORLESS]
+    name: Flail
+    damage: 10x
+    text: Does 10 damage times the number of damage counters on Phanpy.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 2
+  rarity: Common
+  artist: Midori Harada
+  pioId: hgss1-77
+  nationalPokedexNumber: 231
+- enumId: PIKACHU_78:HEARTGOLD_SOULSILVER
+  name: Pikachu
+  number: '78'
+  cardTypes: [POKEMON, BASIC]
+  types: [LIGHTNING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Tail Slap
+    damage: '10'
+  - cost: [LIGHTNING, COLORLESS]
+    name: Quick Attack
+    damage: 20+
+    text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: match
+  pioId: hgss1-78
+  nationalPokedexNumber: 25
+- enumId: SANDSHREW_79:HEARTGOLD_SOULSILVER
+  name: Sandshrew
+  number: '79'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIGHTING]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Defense Curl
+    text: Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during
+      your opponent's next turn.
+  - cost: [FIGHTING]
+    name: Rollout
+    damage: '10'
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yukiko Baba
+  pioId: hgss1-79
+  nationalPokedexNumber: 27
+- enumId: SENTRET_80:HEARTGOLD_SOULSILVER
+  name: Sentret
+  number: '80'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Scout
+    text: Look at your opponent's hand.
+  - cost: [COLORLESS]
+    name: Scratch
+    damage: '10'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: MAHOU
+  pioId: hgss1-80
+  nationalPokedexNumber: 161
+- enumId: SLOWPOKE_81:HEARTGOLD_SOULSILVER
+  name: Slowpoke
+  number: '81'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [COLORLESS]
+    name: Whimsy Tackle
+    damage: '20'
+    text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Sumiyoshi Kizuki
+  pioId: hgss1-81
+  nationalPokedexNumber: 79
+- enumId: SNUBBULL_82:HEARTGOLD_SOULSILVER
+  name: Snubbull
+  number: '82'
+  cardTypes: [POKEMON, BASIC]
+  types: [COLORLESS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Roar
+    text: Your opponent switches the Defending Pokémon with 1 of his or her Benched
+      Pokémon.
+  - cost: [COLORLESS, COLORLESS]
+    name: Sharp Fang
+    damage: '20'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: hgss1-82
+  nationalPokedexNumber: 209
+- enumId: SPINARAK_83:HEARTGOLD_SOULSILVER
+  name: Spinarak
+  number: '83'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Hang Down
+    damage: '10'
+  - cost: [GRASS]
+    name: Spider Web
+    text: The Defending Pokémon can't retreat during your opponent's next turn.
+  weaknesses:
+  - type: FIRE
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Ken Sugimori
+  pioId: hgss1-83
+  nationalPokedexNumber: 167
+- enumId: STARYU_84:HEARTGOLD_SOULSILVER
+  name: Staryu
+  number: '84'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [WATER]
+    name: Spinning Attack
+    damage: '20'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: Kagemaru Himeno
+  pioId: hgss1-84
+  nationalPokedexNumber: 120
+- enumId: SUNKERN_85:HEARTGOLD_SOULSILVER
+  name: Sunkern
+  number: '85'
+  cardTypes: [POKEMON, BASIC]
+  types: [GRASS]
+  hp: 40
+  moves:
+  - cost: [COLORLESS]
+    name: Cure Kernels
+    text: Remove 2 damage counters from 1 of your Pokémon.
+  - cost: [GRASS, COLORLESS]
+    name: Seed Bomb
+    damage: '20'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: Yuka Morii
+  pioId: hgss1-85
+  nationalPokedexNumber: 191
+- enumId: TOTODILE_86:HEARTGOLD_SOULSILVER
+  name: Totodile
+  number: '86'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 60
+  moves:
+  - cost: [WATER]
+    name: Gnaw
+    damage: '10'
+  - cost: [WATER, COLORLESS]
+    name: Wave Splash
+    damage: '20'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: kawayoo
+  pioId: hgss1-86
+  nationalPokedexNumber: 158
+- enumId: VULPIX_87:HEARTGOLD_SOULSILVER
+  name: Vulpix
+  number: '87'
+  cardTypes: [POKEMON, BASIC]
+  types: [FIRE]
+  hp: 50
+  moves:
+  - cost: [FIRE]
+    name: Singe
+    text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  - cost: [FIRE, COLORLESS]
+    name: Ember
+    damage: '30'
+    text: Flip a coin. If tails, discard a [R] Energy attached to Vulpix.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 1
+  rarity: Common
+  artist: TOKIYA
+  pioId: hgss1-87
+  nationalPokedexNumber: 37
+- enumId: WOOPER_88:HEARTGOLD_SOULSILVER
+  name: Wooper
+  number: '88'
+  cardTypes: [POKEMON, BASIC]
+  types: [WATER]
+  hp: 50
+  moves:
+  - cost: [COLORLESS]
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's
+      next turn.
+  - cost: [WATER]
+    name: Watering
+    damage: '10'
+  weaknesses:
+  - type: GRASS
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 1
+  rarity: Common
+  artist: match
+  pioId: hgss1-88
+  nationalPokedexNumber: 194
+- enumId: BILL_89:HEARTGOLD_SOULSILVER
+  name: Bill
+  number: '89'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Draw 2 cards.
+  artist: Ken Sugimori
+  pioId: hgss1-89
+- enumId: COPYCAT_90:HEARTGOLD_SOULSILVER
+  name: Copycat
+  number: '90'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.
+  artist: Kanako Eo
+  pioId: hgss1-90
+- enumId: ENERGY_SWITCH_91:HEARTGOLD_SOULSILVER
+  variantOf: ENERGY_SWITCH_120:AQUAPOLIS
+  variantType: Reprint
+  name: Energy Switch
+  number: '91'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Move a basic Energy card attached to 1 of your Pokémon to another of your
+    Pokémon.
+  artist: Wataru Kawahara
+  pioId: hgss1-91
+- enumId: FISHERMAN_92:HEARTGOLD_SOULSILVER
+  name: Fisherman
+  number: '92'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Search your discard pile for 4 basic Energy cards, show them to your opponent, and put them into your hand.
+  artist: Kanako Eo
+  pioId: hgss1-92
+- enumId: FULL_HEAL_93:HEARTGOLD_SOULSILVER
+  variantOf: FULL_HEAL_154:EXPEDITION
+  variantType: Reprint
+  name: Full Heal
+  number: '93'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Remove all Special Conditions from your Active Pokémon.
+  artist: Takashi Yamaguchi
+  pioId: hgss1-93
+- enumId: MOOMOO_MILK_94:HEARTGOLD_SOULSILVER
+  name: Moomoo Milk
+  number: '94'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose 1 of your Pokémon. Flip 2 coins. For each heads, remove 3 damage counters
+    from that Pokémon.
+  artist: Noriko Hotta
+  pioId: hgss1-94
+- enumId: POKE_BALL_95:HEARTGOLD_SOULSILVER
+  variantOf: POKE_BALL_110:DIAMOND_PEARL
+  variantType: Reprint
+  name: Poké Ball
+  number: '95'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent,
+    and put it into your hand. Shuffle your deck afterward.
+  artist: Hideaki Hakozaki
+  pioId: hgss1-95
+- enumId: POKEGEAR3_0_96:HEARTGOLD_SOULSILVER
+  name: Pokégear3.0
+  number: '96'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Look at the top 7 cards of your deck. Choose a Supporter card you find there,
+    show it to your opponent, and put it into your hand. Shuffle the other cards back
+    into your deck.
+  artist: Noriko Hotta
+  pioId: hgss1-96
+- enumId: POKEMON_COLLECTOR_97:HEARTGOLD_SOULSILVER
+  name: Pokémon Collector
+  number: '97'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Search your deck for up to 3 Basic Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+  artist: Masakazu Fukuda
+  pioId: hgss1-97
+- enumId: POKEMON_COMMUNICATION_98:HEARTGOLD_SOULSILVER
+  name: Pokémon Communication
+  number: '98'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Choose 1 Pokémon in your hand, show it to your opponent, and put it on top
+    of your deck. If you do, search your deck for a Pokémon, show it to your opponent,
+    and put it into your hand. Shuffle your deck afterward.
+  artist: Takashi Yamaguchi
+  pioId: hgss1-98
+- enumId: POKEMON_REVERSAL_99:HEARTGOLD_SOULSILVER
+  name: Pokémon Reversal
+  number: '99'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch
+    it with your opponent's Active Pokémon.
+  artist: Wataru Kawahara
+  pioId: hgss1-99
+- enumId: PROFESSOR_ELM_S_TRAINING_METHOD_100:HEARTGOLD_SOULSILVER
+  variantOf: PROFESSOR_ELM_S_TRAINING_METHOD_89:UNSEEN_FORCES
+  variantType: Reprint
+  name: Professor Elm's Training Method
+  number: '100'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+  artist: Ken Sugimori
+  pioId: hgss1-100
+- enumId: PROFESSOR_OAK_S_NEW_THEORY_101:HEARTGOLD_SOULSILVER
+  name: Professor Oak's New Theory
+  number: '101'
+  cardTypes: [TRAINER, SUPPORTER]
+  rarity: Uncommon
+  text: |-
+    You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    Shuffle your hand into your deck. Then, draw 6 cards.
+  artist: Ken Sugimori
+  pioId: hgss1-101
+- enumId: SWITCH_102:HEARTGOLD_SOULSILVER
+  variantOf: SWITCH_92:RUBY_SAPPHIRE
+  variantType: Reprint
+  name: Switch
+  number: '102'
+  cardTypes: [TRAINER, ITEM]
+  rarity: Uncommon
+  text: Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
+  artist: Hideaki Hakozaki
+  pioId: hgss1-102
+- enumId: DOUBLE_COLORLESS_ENERGY_103:HEARTGOLD_SOULSILVER
+  name: Double Colorless Energy
+  number: '103'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: Double [C] Energy provides 2 [C] Energy.
+  artist: Kent Kanetsuna
+  pioId: hgss1-103
+- enumId: RAINBOW_ENERGY_104:HEARTGOLD_SOULSILVER
+  name: Rainbow Energy
+  number: '104'
+  cardTypes: [ENERGY, SPECIAL_ENERGY]
+  rarity: Uncommon
+  text: Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy
+    provides every type of Energy but provides only 1 Energy at a time. (Has no effect
+    other than providing Energy.) When you attach this card from your hand to 1 of
+    your Pokémon, put 1 damage counter on that Pokémon. (While not in play, Rainbow
+    Energy counts as [C] Energy.)
+  artist: Kent Kanetsuna
+  pioId: hgss1-104
+- enumId: AMPHAROS_105:HEARTGOLD_SOULSILVER
+  name: Ampharos
+  number: '105'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [LIGHTNING]
+  evolvesFrom: [Flaaffy]
+  hp: 140
+  abilities:
+  - type: Poké-Body
+    name: Conductivity
+    text: Whenever your opponent attaches an Energy card from his or her hand to 1
+      of his or her Pokémon, put 1 damage counter on that Pokémon.
+  moves:
+  - cost: [LIGHTNING, COLORLESS, COLORLESS]
+    name: Lightning Crush
+    damage: 40+
+    text: Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If
+      tails, discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  resistances:
+  - type: METAL
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Kent Kanetsuna
+  pioId: hgss1-105
+  nationalPokedexNumber: 181
+- enumId: BLISSEY_106:HEARTGOLD_SOULSILVER
+  name: Blissey
+  number: '106'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [COLORLESS]
+  evolvesFrom: [Chansey]
+  hp: 130
+  abilities:
+  - type: Poké-Power
+    name: Blissful Nurse
+    text: Once during your turn, when you play Blissey from your hand to evolve 1
+      of your Pokémon, you may remove all damage counters from all of your Pokémon.
+      If you do, discard all Energy attached to those Pokémon that had any damage
+      counters on them.
+  moves:
+  - cost: [COLORLESS, COLORLESS, COLORLESS]
+    name: Strength
+    damage: '60'
+  weaknesses:
+  - type: FIGHTING
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Noriko Hotta
+  pioId: hgss1-106
+  nationalPokedexNumber: 242
+- enumId: DONPHAN_107:HEARTGOLD_SOULSILVER
+  name: Donphan
+  number: '107'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [FIGHTING]
+  evolvesFrom: [Phanpy]
+  hp: 120
+  abilities:
+  - type: Poké-Body
+    name: Exoskeleton
+    text: Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness
+      and Resistance).
+  moves:
+  - cost: [FIGHTING]
+    name: Earthquake
+    damage: '60'
+    text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and
+      Resistance for Benched Pokémon.)
+  - cost: [FIGHTING, FIGHTING, FIGHTING]
+    name: Heavy Impact
+    damage: '90'
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: LIGHTNING
+    value: '-20'
+  retreatCost: 4
+  rarity: Rare
+  artist: Kent Kanetsuna
+  pioId: hgss1-107
+  nationalPokedexNumber: 232
+- enumId: FERALIGATR_108:HEARTGOLD_SOULSILVER
+  name: Feraligatr
+  number: '108'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [WATER]
+  evolvesFrom: [Croconaw]
+  hp: 140
+  abilities:
+  - type: Poké-Power
+    name: Rain Dance
+    text: As often as you like during your turn (before your attack), you may attach
+      a [W] Energy card from your hand to 1 of your [W] Pokémon. This power can't
+      be used if Feraligatr is affected by a Special Condition.
+  moves:
+  - cost: [WATER, WATER, WATER, WATER]
+    name: Hydro Crunch
+    damage: 60+
+    text: Does 60 damage plus 10 more damage for each damage counter on the Defending
+      Pokémon.
+  weaknesses:
+  - type: GRASS
+    value: x2
+  retreatCost: 3
+  rarity: Rare
+  artist: Kent Kanetsuna
+  pioId: hgss1-108
+  nationalPokedexNumber: 160
+- enumId: MEGANIUM_109:HEARTGOLD_SOULSILVER
+  name: Meganium
+  number: '109'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [GRASS]
+  evolvesFrom: [Bayleef]
+  hp: 150
+  abilities:
+  - type: Poké-Power
+    name: Leaf Trans
+    text: As often as you like during your turn (before your attack), you may move
+      a [G] Energy attached to 1 of your Pokémon to another of your Pokémon. This
+      power can't be used if Meganium is affected by a Special Condition.
+  moves:
+  - cost: [GRASS, GRASS, COLORLESS, COLORLESS]
+    name: Solarbeam
+    damage: '80'
+  weaknesses:
+  - type: FIRE
+    value: x2
+  resistances:
+  - type: WATER
+    value: '-20'
+  retreatCost: 2
+  rarity: Rare
+  artist: Takashi Yamaguchi
+  pioId: hgss1-109
+  nationalPokedexNumber: 154
+- enumId: TYPHLOSION_110:HEARTGOLD_SOULSILVER
+  name: Typhlosion
+  number: '110'
+  cardTypes: [POKEMON, EVOLUTION, STAGE2]
+  types: [FIRE]
+  evolvesFrom: [Quilava]
+  hp: 140
+  abilities:
+  - type: Poké-Power
+    name: Afterburner
+    text: Once during your turn (before your attack), you may search your discard
+      pile for a [R] Energy card and attach it to 1 of your Pokémon. If you do, put
+      1 damage counter on that Pokémon. This power can't be used if Typhlosion is
+      affected by a Special Condition.
+  moves:
+  - cost: [FIRE, FIRE, COLORLESS]
+    name: Flare Destroy
+    damage: '70'
+    text: Discard an Energy card attached to Typhlosion and discard an Energy card
+      attached to the Defending Pokémon.
+  weaknesses:
+  - type: WATER
+    value: x2
+  retreatCost: 2
+  rarity: Rare
+  artist: Wataru Kawahara
+  pioId: hgss1-110
+  nationalPokedexNumber: 157
+- enumId: HO_OH_LEGEND_111:HEARTGOLD_SOULSILVER
+  name: Ho-Oh LEGEND
+  number: '111'
+  cardTypes: [POKEMON, LEGEND]
+  types: [FIRE]
+  hp: 140
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: Put this card from your hand onto your Bench only with the other half of Ho-Oh
+    LEGEND.
+  artist: Shinji Higuchi
+  pioId: hgss1-111
+  nationalPokedexNumber: 250
+- enumId: HO_OH_LEGEND_112:HEARTGOLD_SOULSILVER
+  name: Ho-Oh LEGEND
+  number: '112'
+  cardTypes: [POKEMON, LEGEND]
+  types: [FIRE]
+  abilities:
+  - type: Poké-Body
+    name: Sacred Rainbow
+    text: All energy attached to Ho-Oh LEGEND are [R] Energy instead of their usual
+      type.
+  moves:
+  - cost: [FIRE, FIRE, FIRE, FIRE]
+    name: Bright Wing
+    damage: '100'
+    text: Discard an Energy attached to Ho-Oh LEGEND.
+  weaknesses:
+  - type: WATER
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 2
+  rarity: Ultra Rare
+  text: Put this card from your hand onto your Bench only with the other half of Ho-Oh
+    LEGEND.
+  artist: ''
+  pioId: hgss1-112
+  nationalPokedexNumber: 250
+- enumId: LUGIA_LEGEND_113:HEARTGOLD_SOULSILVER
+  name: Lugia LEGEND
+  number: '113'
+  cardTypes: [POKEMON, LEGEND]
+  types: [WATER]
+  hp: 130
+  retreatCost: 0
+  rarity: Ultra Rare
+  text: Put this card from your hand onto your Bench only with the other half of Lugia
+    LEGEND.
+  artist: Shinji Higuchi
+  pioId: hgss1-113
+  nationalPokedexNumber: 249
+- enumId: LUGIA_LEGEND_114:HEARTGOLD_SOULSILVER
+  name: Lugia LEGEND
+  number: '114'
+  cardTypes: [POKEMON, LEGEND]
+  types: [WATER]
+  abilities:
+  - type: Poké-Power
+    name: Ocean Grow
+    text: Once during your turn, when you put Lugia LEGEND into play, you may look
+      at the top 5 cards of your deck and attach all Energy cards you find there to
+      Lugia LEGEND. Discard the other cards.
+  moves:
+  - cost: [FIRE, WATER, LIGHTNING]
+    name: Elemental Blast
+    damage: '200'
+    text: Discard a [R] Energy, [W] Energy, and [L] Energy attached to Lugia LEGEND.
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 1
+  rarity: Ultra Rare
+  text: Put this card from your hand onto your Bench only with the other half of Lugia
+    LEGEND.
+  artist: Shinji Higuchi
+  pioId: hgss1-114
+  nationalPokedexNumber: 249
+- enumId: GRASS_ENERGY_115:HEARTGOLD_SOULSILVER
+  variantOf: GRASS_ENERGY_101:EMERALD
+  variantType: Reprint
+  name: Grass Energy
+  number: '115'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-115
+- enumId: FIRE_ENERGY_116:HEARTGOLD_SOULSILVER
+  variantOf: FIRE_ENERGY_102:EMERALD
+  variantType: Reprint
+  name: Fire Energy
+  number: '116'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-116
+- enumId: WATER_ENERGY_117:HEARTGOLD_SOULSILVER
+  variantOf: WATER_ENERGY_103:EMERALD
+  variantType: Reprint
+  name: Water Energy
+  number: '117'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-117
+- enumId: LIGHTNING_ENERGY_118:HEARTGOLD_SOULSILVER
+  variantOf: LIGHTNING_ENERGY_104:EMERALD
+  variantType: Reprint
+  name: Lightning Energy
+  number: '118'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-118
+- enumId: PSYCHIC_ENERGY_119:HEARTGOLD_SOULSILVER
+  variantOf: PSYCHIC_ENERGY_105:EMERALD
+  variantType: Reprint
+  name: Psychic Energy
+  number: '119'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-119
+- enumId: FIGHTING_ENERGY_120:HEARTGOLD_SOULSILVER
+  variantOf: FIGHTING_ENERGY_106:EMERALD
+  variantType: Reprint
+  name: Fighting Energy
+  number: '120'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-120
+- enumId: DARKNESS_ENERGY_121:HEARTGOLD_SOULSILVER
+  variantOf: DARKNESS_ENERGY_129:DIAMOND_PEARL
+  variantType: Reprint
+  name: Darkness Energy
+  number: '121'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-121
+- enumId: METAL_ENERGY_122:HEARTGOLD_SOULSILVER
+  variantOf: METAL_ENERGY_130:DIAMOND_PEARL
+  variantType: Reprint
+  name: Metal Energy
+  number: '122'
+  cardTypes: [ENERGY, BASIC]
+  rarity: Common
+  artist: ''
+  pioId: hgss1-122
+- enumId: GYARADOS_123:HEARTGOLD_SOULSILVER
+  name: Gyarados
+  number: '123'
+  cardTypes: [POKEMON, EVOLUTION, STAGE1]
+  types: [WATER]
+  evolvesFrom: [Magikarp]
+  hp: 130
+  moves:
+  - cost: [COLORLESS]
+    name: Thrash
+    damage: 30+
+    text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If
+      tails, Gyarados does 20 damage to itself.
+  - cost: [WATER, COLORLESS, COLORLESS, COLORLESS]
+    name: Heavy Storm
+    damage: '70'
+  weaknesses:
+  - type: LIGHTNING
+    value: x2
+  resistances:
+  - type: FIGHTING
+    value: '-20'
+  retreatCost: 3
+  rarity: Rare Holo
+  artist: Wataru Kawahara
+  pioId: hgss1-123
+  nationalPokedexNumber: 130
+- enumId: ALPH_LITHOGRAPH_ONE:HEARTGOLD_SOULSILVER
+  name: Alph Lithograph
+  number: ONE
+  cardTypes: [TRAINER, ITEM]
+  rarity: Rare Holo
+  text: Look at your opponent's hand!
+  artist: Milky Isobe
+  pioId: hgss1-ONE
