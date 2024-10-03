@@ -63,6 +63,7 @@ public enum CardType {
   SINGLE_STRIKE(115, "Single Strike", "single-strike"),
   VSTAR(116, "VSTAR", "vstar"),
   V_UNION(117, "V-UNION", "v-union"),
+  VS(120, "VS", "vs"),
 
   NOT_IMPLEMENTED(201, "Not Implemented", "not-implemented"),
 
